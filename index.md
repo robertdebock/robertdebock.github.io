@@ -37,5 +37,34 @@ Here is a list of Ansible roles that have been designed to work together.
 - [robertdebock.zabbix](https://galaxy.ansible.com/robertdebock/zabbix/) ([source](https://github.com/robertdebock/ansible-role-zabbix).)
 
 ## Dependencies
+Here is an overview of the dependencies between the roles. These dependencies are set in `meta/main.yml` on each Ansible role. This means that `ansible-galaxy install` will install all required roles.
+
 ![Overview of dependencies](https://robertdebock.github.io/images/dependencies.png "Dependecy overview")
 
+## Distributions
+The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. By default these Linux distributions are included in the tests:
+
+| Distribution | Version(s)  |
+|--------------|-------------|
+| Archlinux    | latest      |
+| Alpine       | 3.6 & 3.7   |
+| CentOS       | 6 & 7       |
+| Debian       | 7, 8 & 9    |
+| Fedora       | 26 & 27     |
+| OpenSUSE     | 42.2 & 42.3 | 
+| Ubuntu       | 14, 16 & 17 |
+
+These are the exceptions and the reason why the role does not work on a Linux distribution.
+| Ansible role | Excepted Linux distribution(s) | Reasoning |
+|--------------|--------------------------------|-----------|
+| robertdebock.xinetd | Alpine | The package "xinetd" is not available. |
+| robertdebock.tftpd | Alpine | Depends on Ansible role robertdebock.xinetd. |
+| robertdebock.tftpd | Archlinux | The package "tftpd" is not available. |
+| robertdebock.python-pip | Centos 6 | Python is outdated. |
+| robertdebock.rsyslog | ArchLinux | Package is only available in AUR. |
+| robertdebock.spamassassin | Archlinux | Depends on Ansible role robertdebock.rsyslog. |
+| robertdebock.docker | Debian 10 | Not supported by [Docker Project](https://apt.dockerproject.org/repo/dists/). |
+| robertdebock.tomcat | Debian 8 & Ubuntu 14 | Java 8 is not available. |
+| robertdebock.rundeck | Debian 8 & Ubuntu 14 | Java 8 is not available. |
+| robertdebock.rundeck | Alpine | Package "bash" is not installed. |
+| robertdebock.phpmyadmin | Centos 6 & Ubuntu 14 | Python is outdated. |
