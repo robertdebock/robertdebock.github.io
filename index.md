@@ -1,7 +1,3 @@
-# Robert de Bock
-
-Since I write Ansible roles, there are a few details you need to know.
-
 ## Ansible Roles
 Here is a list of Ansible roles that have been designed to work together.
 - [robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) ([source](https://github.com/robertdebock/ansible-role-bootstrap)).
