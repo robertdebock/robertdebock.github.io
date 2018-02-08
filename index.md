@@ -50,7 +50,8 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 | OpenSUSE     | 42.2 & 42.3 | 
 | Ubuntu       | 14, 16 & 17 |
 
-These are the exceptions and the reason why the role does not work on a Linux distribution.
+### Exceptions in distributions
+Some Ansible roles do not work on all distributions. This table lists why.
 
 | Ansible role | Excepted Linux distribution(s) | Reasoning |
 |--------------|--------------------------------|-----------|
@@ -65,3 +66,20 @@ These are the exceptions and the reason why the role does not work on a Linux di
 | robertdebock.rundeck | Debian 8 & Ubuntu 14 | Java 8 is not available. |
 | robertdebock.rundeck | Alpine | Package "bash" is not installed. |
 | robertdebock.phpmyadmin | Centos 6 & Ubuntu 14 | Python is outdated. |
+
+## Ansible version
+The goal is to let all roles work on these Ansible version:
+- Ansible 2.2
+- Ansible 2.3
+- Ansible 2.4
+
+### Exceptions in Ansible version
+This table lists the exceptions in Ansible version and the reason why.
+
+| Ansible role | Excepted Ansible version | Resoning |
+|---|---|---|
+| robertdebock.buildtools | 2.2 | DNF groups are not suppported |
+| robertdebock.python-pip | 2.2 | Depends on Ansible role robertdebock.buildtools |
+| robertdebock.docker | 2.2 | Depends on Ansible role robertdebock.buildtools | 
+| robertdebock.release | 2.2 | A tasks uses the Ansible module `wait_for_connection` only available in 2.3 and above. |
+| robertdebock.phpmyadmin | 2.2 | Got an error: `write() argument must be str, not bytes`. |
