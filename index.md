@@ -55,16 +55,16 @@ Some Ansible roles do not work on all distributions. This table lists why.
 
 | Ansible role | Excepted Linux distribution(s) | Reasoning |
 |--------------|--------------------------------|-----------|
-| robertdebock.xinetd | Alpine | The package "xinetd" is not available. |
+| robertdebock.xinetd | Alpine | The package `xinetd` is not available. |
 | robertdebock.tftpd | Alpine | Depends on Ansible role robertdebock.xinetd. |
-| robertdebock.tftpd | Archlinux | The package "tftpd" is not available. |
+| robertdebock.tftpd | Archlinux | The package `tftpd` is not available. |
 | robertdebock.python-pip | Centos 6 | Python is outdated. |
 | robertdebock.rsyslog | ArchLinux | Package is only available in AUR. |
 | robertdebock.spamassassin | Archlinux | Depends on Ansible role robertdebock.rsyslog. |
 | robertdebock.docker | Debian 10 | Not supported by [Docker Project](https://apt.dockerproject.org/repo/dists/). |
 | robertdebock.tomcat | Debian 8 & Ubuntu 14 | Java 8 is not available. |
 | robertdebock.rundeck | Debian 8 & Ubuntu 14 | Java 8 is not available. |
-| robertdebock.rundeck | Alpine | Package "bash" is not installed. |
+| robertdebock.rundeck | Alpine | Package `bash` is not installed. |
 | robertdebock.phpmyadmin | Centos 6 & Ubuntu 14 | Python is outdated. |
 
 ## Ansible version
