@@ -1,4 +1,6 @@
-## Ansible Roles
+I've written Ansible roles, there are a few things you should know about them.
+
+## Ansible roles
 Here is a list of Ansible roles that have been designed to work together.
 - [robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) ([source](https://github.com/robertdebock/ansible-role-bootstrap)).
 - [robertdebock.dhcpd](https://galaxy.ansible.com/robertdebock/dhcpd/) ([source](https://github.com/robertdebock/ansible-role-dhcpd)).
