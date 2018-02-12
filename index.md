@@ -75,6 +75,13 @@ The goal is to let all roles work on these Ansible version:
 - Ansible 2.3
 - Ansible 2.4
 
+For each version, the latest within the 2.2, 2.3 and 2.4 are used, see .travis.yml
+```
+  - ansible_version=">=2.2,<2.3"
+  - ansible_version=">=2.3,<2.4"
+  - ansible_version=">=2.4,<2.5"
+```
+
 ### Exceptions in Ansible version
 This table lists the exceptions in Ansible version and the reason why.
 
