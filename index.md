@@ -71,11 +71,6 @@ Some Ansible roles do not work on all distributions. This table lists why.
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
-- Ansible 2.2
-- Ansible 2.3
-- Ansible 2.4
-
-For each version, the latest within the 2.2, 2.3 and 2.4 are used, see .travis.yml
 ```
   - ansible_version=">=2.2,<2.3"
   - ansible_version=">=2.3,<2.4"
