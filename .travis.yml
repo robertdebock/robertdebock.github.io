@@ -5,7 +5,7 @@ before_install:
   - mkdir output
 
 script:
-  - neato -Tpng dependencies.dot -o output/dependencies.png
+  - neato -Tpng -Gdpi=300 dependencies.dot -o output/dependencies.png
 
 deploy:
   provider: pages
