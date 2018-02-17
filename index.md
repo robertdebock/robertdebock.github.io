@@ -2,37 +2,37 @@ I've written Ansible roles, there are a few things you should know about them.
 
 ## Ansible roles
 Here is a list of Ansible roles that have been designed to work together.
-- [robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) ([source](https://github.com/robertdebock/ansible-role-bootstrap)).
-- [robertdebock.dhcpd](https://galaxy.ansible.com/robertdebock/dhcpd/) ([source](https://github.com/robertdebock/ansible-role-dhcpd)).
-- [robertdebock.dns](https://galaxy.ansible.com/robertdebock/dns/) ([source](https://github.com/robertdebock/ansible-role-dns)).
-- [robertdebock.dovecot](https://galaxy.ansible.com/robertdebock/dovecot/) ([source](https://github.com/robertdebock/ansible-role-dovecot)).
-- [robertdebock.epel](https://galaxy.ansible.com/robertdebock/epel/) ([source](https://github.com/robertdebock/ansible-role-epel)).
-- [robertdebock.fail2ban](https://galaxy.ansible.com/robertdebock/fail2ban/) ([source](https://github.com/robertdebock/ansible-role-fail2ban)).
-- [robertdebock.haveged](https://galaxy.ansible.com/robertdebock/haveged/) ([source](https://github.com/robertdebock/ansible-role-haveged)).
-- [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd/) ([source](https://github.com/robertdebock/ansible-role-httpd)).
-- [robertdebock.iptables](https://galaxy.ansible.com/robertdebock/iptables/) ([source](https://github.com/robertdebock/ansible-role-iptables)).
-- [robertdebock.java](https://galaxy.ansible.com/robertdebock/java/) ([source](https://github.com/robertdebock/ansible-role-java)).
-- [robertdebock.ruby](https://galaxy.ansible.com/robertdebock/ruby/) ([source](https://github.com/robertdebock/ansible-role-ruby)).
-- [robertdebock.scl](https://galaxy.ansible.com/robertdebock/scl/) ([source](https://github.com/robertdebock/ansible-role-scl)).
-- [robertdebock.update](https://galaxy.ansible.com/robertdebock/update/) ([source](https://github.com/robertdebock/ansible-role-update)).
-- [robertdebock.xinetd](https://galaxy.ansible.com/robertdebock/xinetd/) ([source](https://github.com/robertdebock/ansible-role-xinetd)).
-- [robertdebock.buildtools](https://galaxy.ansible.com/robertdebock/buildtools/) ([source](https://github.com/robertdebock/ansible-role-buildtools)).
-- [robertdebock.nginx](https://galaxy.ansible.com/robertdebock/nginx/) ([source](https://github.com/robertdebock/ansible-role-nginx)).
-- [robertdebock.python-pip](https://galaxy.ansible.com/robertdebock/python-pip/) ([source](https://github.com/robertdebock/ansible-role-python-pip)).
-- [robertdebock.postfix](https://galaxy.ansible.com/robertdebock/postfix/) ([source](https://github.com/robertdebock/ansible-role-postfix)).
-- [robertdebock.rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/) ([source](https://github.com/robertdebock/ansible-role-rsyslog)).
-- [robertdebock.spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin/) ([source](https://github.com/robertdebock/ansible-role-spamassassin)).
-- [robertdebock.docker](https://galaxy.ansible.com/robertdebock/docker/) ([source](https://github.com/robertdebock/ansible-role-docker)).
-- [robertdebock.mysql](https://galaxy.ansible.com/robertdebock/mysql/) ([source](https://github.com/robertdebock/ansible-role-mysql)).
-- [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm/) ([source](https://github.com/robertdebock/ansible-role-npm)).
-- [robertdebock.natrouter](https://galaxy.ansible.com/robertdebock/natrouter/) ([source](https://github.com/robertdebock/ansible-role-natrouter)).
-- [robertdebock.php](https://galaxy.ansible.com/robertdebock/php/) ([source](https://github.com/robertdebock/ansible-role-php)).
-- [robertdebock.phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin/) ([source](https://github.com/robertdebock/ansible-role-phpmyadmin)).
-- [robertdebock.revealmd](https://galaxy.ansible.com/robertdebock/revealmd/) ([source](https://github.com/robertdebock/ansible-role-revealmd)).
-- [robertdebock.rundeck](https://galaxy.ansible.com/robertdebock/rundeck/) ([source](https://github.com/robertdebock/ansible-role-rundeck)).
-- [robertdebock.tftpd](https://galaxy.ansible.com/robertdebock/tftpd/) ([source](https://github.com/robertdebock/ansible-role-tftpd)).
-- [robertdebock.tomcat](https://galaxy.ansible.com/robertdebock/tomcat/) ([source](https://github.com/robertdebock/ansible-role-tomcat)).
-- [robertdebock.zabbix](https://galaxy.ansible.com/robertdebock/zabbix/) ([source](https://github.com/robertdebock/ansible-role-zabbix)).
+- [robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) ([source](https://github.com/robertdebock/ansible-role-bootstrap) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-bootstrap/master)).
+- [robertdebock.dhcpd](https://galaxy.ansible.com/robertdebock/dhcpd/) ([source](https://github.com/robertdebock/ansible-role-dhcpd) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-dhcpd/master)).
+- [robertdebock.dns](https://galaxy.ansible.com/robertdebock/dns/) ([source](https://github.com/robertdebock/ansible-role-dns) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-dns/master)).
+- [robertdebock.dovecot](https://galaxy.ansible.com/robertdebock/dovecot/) ([source](https://github.com/robertdebock/ansible-role-dovecot) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-dovecot/master)).
+- [robertdebock.epel](https://galaxy.ansible.com/robertdebock/epel/) ([source](https://github.com/robertdebock/ansible-role-epel) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-epel/master)).
+- [robertdebock.fail2ban](https://galaxy.ansible.com/robertdebock/fail2ban/) ([source](https://github.com/robertdebock/ansible-role-fail2ban) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-fail2ban/master)).
+- [robertdebock.haveged](https://galaxy.ansible.com/robertdebock/haveged/) ([source](https://github.com/robertdebock/ansible-role-haveged) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-haveged/master)).
+- [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd/) ([source](https://github.com/robertdebock/ansible-role-httpd) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-httpd/master)).
+- [robertdebock.iptables](https://galaxy.ansible.com/robertdebock/iptables/) ([source](https://github.com/robertdebock/ansible-role-iptables) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-iptables/master)).
+- [robertdebock.java](https://galaxy.ansible.com/robertdebock/java/) ([source](https://github.com/robertdebock/ansible-role-java) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-java/master)).
+- [robertdebock.ruby](https://galaxy.ansible.com/robertdebock/ruby/) ([source](https://github.com/robertdebock/ansible-role-ruby) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-ruby/master)).
+- [robertdebock.scl](https://galaxy.ansible.com/robertdebock/scl/) ([source](https://github.com/robertdebock/ansible-role-scl) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-scl/master)).
+- [robertdebock.update](https://galaxy.ansible.com/robertdebock/update/) ([source](https://github.com/robertdebock/ansible-role-update) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-update/master)).
+- [robertdebock.xinetd](https://galaxy.ansible.com/robertdebock/xinetd/) ([source](https://github.com/robertdebock/ansible-role-xinetd) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-xinetd/master)).
+- [robertdebock.buildtools](https://galaxy.ansible.com/robertdebock/buildtools/) ([source](https://github.com/robertdebock/ansible-role-buildtools) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-buildtools/master)).
+- [robertdebock.nginx](https://galaxy.ansible.com/robertdebock/nginx/) ([source](https://github.com/robertdebock/ansible-role-nginx) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-nginx/master)).
+- [robertdebock.python-pip](https://galaxy.ansible.com/robertdebock/python-pip/) ([source](https://github.com/robertdebock/ansible-role-python-pip) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-python-pip/master)).
+- [robertdebock.postfix](https://galaxy.ansible.com/robertdebock/postfix/) ([source](https://github.com/robertdebock/ansible-role-postfix) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-postfix/master)).
+- [robertdebock.rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/) ([source](https://github.com/robertdebock/ansible-role-rsyslog) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-rsyslog/master)).
+- [robertdebock.spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin/) ([source](https://github.com/robertdebock/ansible-role-spamassassin) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-spamassassin/master)).
+- [robertdebock.docker](https://galaxy.ansible.com/robertdebock/docker/) ([source](https://github.com/robertdebock/ansible-role-docker) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-docker/master)).
+- [robertdebock.mysql](https://galaxy.ansible.com/robertdebock/mysql/) ([source](https://github.com/robertdebock/ansible-role-mysql) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-mysql/master)).
+- [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm/) ([source](https://github.com/robertdebock/ansible-role-npm) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-npm/master)).
+- [robertdebock.natrouter](https://galaxy.ansible.com/robertdebock/natrouter/) ([source](https://github.com/robertdebock/ansible-role-natrouter) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-natrouter/master)).
+- [robertdebock.php](https://galaxy.ansible.com/robertdebock/php/) ([source](https://github.com/robertdebock/ansible-role-php) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-php/master)).
+- [robertdebock.phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin/) ([source](https://github.com/robertdebock/ansible-role-phpmyadmin) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-phpmyadmin/master)).
+- [robertdebock.revealmd](https://galaxy.ansible.com/robertdebock/revealmd/) ([source](https://github.com/robertdebock/ansible-role-revealmd) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-revealmd/master)).
+- [robertdebock.rundeck](https://galaxy.ansible.com/robertdebock/rundeck/) ([source](https://github.com/robertdebock/ansible-role-rundeck) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-rundeck/master)).
+- [robertdebock.tftpd](https://galaxy.ansible.com/robertdebock/tftpd/) ([source](https://github.com/robertdebock/ansible-role-tftpd) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-tftpd/master)).
+- [robertdebock.tomcat](https://galaxy.ansible.com/robertdebock/tomcat/) ([source](https://github.com/robertdebock/ansible-role-tomcat) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-tomcat/master)).
+- [robertdebock.zabbix](https://galaxy.ansible.com/robertdebock/zabbix/) ([source](https://github.com/robertdebock/ansible-role-zabbix) ([buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-zabbix/master)).
 
 ## Dependencies
 Here is an overview of the dependencies between the roles. These dependencies are set in `meta/main.yml` on each Ansible role. This means that `ansible-galaxy install` will install all required roles.
