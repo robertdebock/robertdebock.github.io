@@ -1,0 +1,48 @@
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    bootstrap [fillcolor=green style=filled]
+    clamav [fillcolor=orange style=filled]
+    dhcpd [fillcolor=yellow style=filled]
+    dns [fillcolor=yellow style=filled]
+    dovecot [fillcolor=yellow style=filled]
+    epel [fillcolor=yellow style=filled]
+    fail2ban [fillcolor=orange style=filled]
+    haveged [fillcolor=yellow style=filled]
+    httpd [fillcolor=yellow style=filled]
+    iptables [fillcolor=yellow style=filled]
+    java [fillcolor=yellow style=filled]
+    ruby [fillcolor=yellow style=filled]
+    scl [fillcolor=yellow style=filled]
+    update [fillcolor=yellow style=filled]
+    xinetd [fillcolor=yellow style=filled]
+    buildtools [fillcolor=yellow style=filled]
+    nginx [fillcolor=orange style=filled]
+    "python-pip" [fillcolor=orange style=filled]
+    postfix [fillcolor=yellow style=filled]
+    rsyslog [fillcolor=yellow style=filled]
+    spamassassin [fillcolor=yellow style=filled]
+    docker [fillcolor=red style=filled]
+    mysql [fillcolor=yellow style=filled]
+    npm [fillcolor=orange style=filled]
+    natrouter [fillcolor=orange style=filled]
+    php [fillcolor=yellow style=filled]
+    phpmyadmin [fillcolor=orange style=filled]
+    revealmd [fillcolor=red style=filled]
+    rundeck [fillcolor=orange style=filled]
+    tftpd [fillcolor=orange style=filled]
+    tomcat [fillcolor=orange style=filled]
+    zabbix [fillcolor=orange style=filled]
+  }
+  {"buildtools" "dhcpd" "dns" "dovecot" "epel" "haveged" "httpd" "iptables" "java" "mysql" "php" "postfix" "rsyslog" "ruby" "scl" "spamassassin" "update" "xinetd"} -> bootstrap
+  {"clamav" "fail2ban" "nginx" "npm" "python-pip" "zabbix"} -> "epel"
+  {"docker"} -> "python-pip"
+  "revealmd" -> "npm"
+  "natrouter" -> "iptables"
+  "tftpd" -> "xinetd" 
+  "phpmyadmin" -> {"php" "httpd" "mysql"}
+  "python-pip" -> {"buildtools" "scl"}
+  {"rundeck" "tomcat"} -> java
+  {"tomcat"} -> haveged
+}
