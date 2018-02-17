@@ -1,7 +1,7 @@
 language: python
 
 before_install:
-  - apt-get install graphviz
+  - sudo apt-get install graphviz
   - mkdir output
 
 script:
@@ -12,7 +12,7 @@ deploy:
   local-dir: output
   target-branch: artifacts
   skip-cleanup: true
-  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  github-token: $GITHUB_TOKEN
   keep-history: true
   on:
     branch: master
