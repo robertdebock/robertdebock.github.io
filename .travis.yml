@@ -1,5 +1,9 @@
 language: python
 
+branches:
+  only:
+  - master
+
 before_install:
   - sudo apt-get install graphviz
   - mkdir output
