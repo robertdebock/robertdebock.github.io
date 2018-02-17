@@ -5,7 +5,7 @@ before_install:
   - mkdir output
 
 script:
-  - neato -Tpng -Nfontname=Helvetica -Efontname=Helvetica -Gdpi=300 dependencies.dot -o output/dependencies.png
+  - neato -Tpng -Nfontname=Helvetica -Nfontsize=16 -Efontname=Helvetica -Efontsize=16 -Gdpi=300 dependencies.dot -o output/dependencies.png
 
 deploy:
   provider: pages
