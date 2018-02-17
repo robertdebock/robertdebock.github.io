@@ -2,6 +2,17 @@ language: python
 
 before_install:
   - apt-get install graphviz
+  - mkdir output
 
 script:
-  - neato -Tpng dependencies.dot -o dependencies.png
+  - neato -Tpng dependencies.dot -o output/dependencies.png
+
+deploy:
+  provider: pages
+  local-dir: output
+  target-branch: artifacts
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard, marked secure
+  keep-history: true
+  on:
+    branch: master
