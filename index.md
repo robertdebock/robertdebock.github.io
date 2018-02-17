@@ -37,7 +37,7 @@ Here is a list of Ansible roles that have been designed to work together.
 ## Dependencies
 Here is an overview of the dependencies between the roles. These dependencies are set in `meta/main.yml` on each Ansible role. This means that `ansible-galaxy install` will install all required roles.
 
-![Overview of dependencies](https://robertdebock.github.io/images/dependencies.png "Dependecy overview")
+![Overview of dependencies](https://raw.githubusercontent.com/robertdebock/robertdebock.github.io/artifacts/dependencies.png "Dependecy overview")
 
 ## Distributions
 The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. By default these Linux distributions are included in the tests:
