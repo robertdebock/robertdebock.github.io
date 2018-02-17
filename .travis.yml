@@ -1,0 +1,7 @@
+language: python
+
+before_install:
+  - apt-get install graphviz
+
+script:
+  - neato -Tpng dependencies.dot -o dependencies.png
