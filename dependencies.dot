@@ -13,6 +13,7 @@ digraph PhiloDilemma {
     httpd [fillcolor=yellow style=filled]
     iptables [fillcolor=yellow style=filled]
     java [fillcolor=yellow style=filled]
+    ntp [fillcolor=yellow style=filled]
     ruby [fillcolor=yellow style=filled]
     scl [fillcolor=yellow style=filled]
     update [fillcolor=yellow style=filled]
