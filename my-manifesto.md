@@ -10,16 +10,16 @@ Solve bugs and dependencies in the lowest level possible. From low to high:
 
 ## Packages
 A package should be autonomously:
-- Installable
-- updateable
-- Removable
-- Reinstallable
+- Installable.
+- updateable.
+- Removable.
+- Reinstallable.
 
 ## Configuration management
 A configuration management contains:
-- References to files
-- configuration files
-- Commands for configuration
+- References to files.
+- configuration files.
+- Commands for configuration.
 
 ## Simplicity
 - Code should be understandable by anybody. If it's to difficult to draw on a single piece of paper, simplify it.
