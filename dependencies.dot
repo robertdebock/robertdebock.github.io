@@ -36,7 +36,7 @@ digraph PhiloDilemma {
     tomcat [fillcolor=orange style=filled]
     zabbix [fillcolor=orange style=filled]
   }
-  {"buildtools" "dhcpd" "dns" "dovecot" "epel" "haveged" "httpd" "iptables" "java" "mysql" "php" "postfix" "rsyslog" "ruby" "scl" "spamassassin" "update" "xinetd"} -> bootstrap
+  {"buildtools" "dhcpd" "dns" "dovecot" "epel" "haveged" "httpd" "iptables" "java" "mysql" "ntp" "php" "postfix" "rsyslog" "ruby" "scl" "spamassassin" "update" "xinetd"} -> bootstrap
   {"clamav" "fail2ban" "nginx" "npm" "python-pip" "zabbix"} -> "epel"
   {"docker"} -> "python-pip"
   "revealmd" -> "npm"
