@@ -2,7 +2,7 @@ I've written Ansible roles, there are a few things you should know about them.
 
 ## Ansible roles
 Here is a list of Ansible roles that have been designed to work together.
-- [robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) - [source](https://github.com/robertdebock/ansible-role-bootstrap) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-bootstrap/master).
+- [![Build Status](https://travis-ci.org/robertdebock/ansible-role-bootstrap.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-bootstrap) [robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) - [source](https://github.com/robertdebock/ansible-role-bootstrap) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-bootstrap/master).
 - [robertdebock.dhcpd](https://galaxy.ansible.com/robertdebock/dhcpd/) - [source](https://github.com/robertdebock/ansible-role-dhcpd) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-dhcpd/master).
 - [robertdebock.dns](https://galaxy.ansible.com/robertdebock/dns/) - [source](https://github.com/robertdebock/ansible-role-dns) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-dns/master).
 - [robertdebock.dovecot](https://galaxy.ansible.com/robertdebock/dovecot/) - [source](https://github.com/robertdebock/ansible-role-dovecot) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-dovecot/master).
