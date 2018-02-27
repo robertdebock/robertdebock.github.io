@@ -23,6 +23,7 @@ Here is a list of Ansible roles that have been designed to work together.
 - [robertdebock.rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/) - [source](https://github.com/robertdebock/ansible-role-rsyslog) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-rsyslog/master).
 - [robertdebock.spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin/) - [source](https://github.com/robertdebock/ansible-role-spamassassin) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-spamassassin/master).
 - [robertdebock.docker](https://galaxy.ansible.com/robertdebock/docker/) - [source](https://github.com/robertdebock/ansible-role-docker) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-docker/master).
+- [robertdebock.mssql](https://galaxy.ansible.com/robertdebock/mssql/) - [source](https://github.com/robertdebock/ansible-role-mssql) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-mssql/master).
 - [robertdebock.mysql](https://galaxy.ansible.com/robertdebock/mysql/) - [source](https://github.com/robertdebock/ansible-role-mysql) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-mysql/master).
 - [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm/) - [source](https://github.com/robertdebock/ansible-role-npm) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-npm/master).
 - [robertdebock.ntp](https://galaxy.ansible.com/robertdebock/ntp/) - [source](https://github.com/robertdebock/ansible-role-ntp) - [buildstats](http://scribu.net/travis-stats/#robertdebock/ansible-role-ntp/master).
@@ -70,6 +71,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.rundeck | Alpine | Package `bash` is not installed. |
 | robertdebock.phpmyadmin | Centos & Ubuntu 14 | Python is outdated, PHP is outdated. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
+| robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
