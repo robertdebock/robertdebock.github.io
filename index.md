@@ -91,3 +91,5 @@ This table lists the exceptions in Ansible version and the reason why.
 | robertdebock.docker | 2.2 | Depends on Ansible role robertdebock.buildtools | 
 | robertdebock.release | 2.2 | A tasks uses the Ansible module `wait_for_connection` only available in 2.3 and above. |
 | robertdebock.phpmyadmin | 2.2 | Got an error: `write() argument must be str, not bytes`. |
+
+See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
