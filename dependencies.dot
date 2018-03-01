@@ -44,6 +44,7 @@ digraph PhiloDilemma {
   "natrouter" -> "iptables"
   "tftpd" -> "xinetd" 
   "phpmyadmin" -> {"php" "httpd" "mysql"}
+  "zabbix" -> "httpd" [style=dashed]
   "python-pip" -> {"buildtools" "scl"}
   {"rundeck" "tomcat"} -> java
   {"tomcat"} -> haveged
