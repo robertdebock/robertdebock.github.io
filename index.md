@@ -50,10 +50,10 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 | Archlinux    | latest      |
 | Alpine       | 3.6 & 3.7   |
 | CentOS       | 6 & 7       |
-| Debian       | 7, 8 & 9    |
+| Debian       | 7 (wheezy), 8 (jessie), 9 (stretch) & 10 (buster) |
 | Fedora       | 26 & 27     |
 | OpenSUSE     | 42.2 & 42.3 | 
-| Ubuntu       | 14, 16 & 17 |
+| Ubuntu       | 14 (trusty), 16 (xenial) & 17 (artful)|
 
 ### Exceptions in distributions
 Some Ansible roles do not work on all distributions. This table lists why.
@@ -73,6 +73,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.phpmyadmin | Centos & Ubuntu 14 | Python is outdated, PHP is outdated. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
+| robertdebock.npm | Debian 7, 9 & 10 | Unable to locate package npm. |
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
