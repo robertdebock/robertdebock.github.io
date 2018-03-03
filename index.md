@@ -74,7 +74,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
 | robertdebock.npm | Debian 7, 9 & 10 | Unable to locate package npm. |
-| robertdebock.revealmd | Debian 7, 9 & 19 | Depends on Ansible role robertdebock.npm. |
+| robertdebock.revealmd | Debian | Depends on Ansible role robertdebock.npm. |
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
