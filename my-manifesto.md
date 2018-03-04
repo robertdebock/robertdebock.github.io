@@ -10,26 +10,30 @@ When working on code, these are priorities:
 
 ## Where to fix
 Solve bugs and dependencies in the lowest level possible. From low to high:
-- Package management.
-- Configuration management.
-- Application.
+1. Package management.
+2. Configuration management.
+3. Application.
 
 ## Packages
 A package should be autonomously:
 - Installable.
-- updateable.
+- Updateable.
 - Removable.
 - Reinstallable.
 
 ## Configuration management
 A configuration management contains:
-- References to files.
-- configuration files.
-- Commands for configuration.
+- References to packages.
+- Configuration files.
+- Commands to activate configuration.
 
 ## Simplicity
 - Code should be understandable by anybody. If it's to difficult to draw on a single piece of paper, simplify it.
 - Code (RPM, playbook, etc) serves the smallest functionallity possible.
+
+## Dependencies
+Tight dependencies explicitly define dependencies, loose dependecies indicate what the requirements are (for example in documentation) but do not include the dependecies by default.
+Popular software typically use loose dependencies.
 
 ## Testability
 Keep the smallest (testable) related code in a repository. This ensures autonomous development, most independant testing and easy collaboration.
