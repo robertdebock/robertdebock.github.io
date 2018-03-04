@@ -2,7 +2,13 @@
 
 The keep a sharp eye on what is "right" in software development, here are a few rules I agree with.
 
-## Priority
+## Priorities
+When working on code, these are priorities:
+1. User reported bugs.
+2. CI/CD reported bugs.
+3. Features.
+
+## Where to fix
 Solve bugs and dependencies in the lowest level possible. From low to high:
 - Package management.
 - Configuration management.
