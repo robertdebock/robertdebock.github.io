@@ -9,7 +9,7 @@ digraph PhiloDilemma {
     dovecot [fillcolor=yellow style=filled]
     epel [fillcolor=yellow style=filled]
     fail2ban [fillcolor=orange style=filled]
-    haveged [fillcolor=yellow style=filled]
+    haveged [fillcolor=orange style=filled]
     httpd [fillcolor=yellow style=filled]
     iptables [fillcolor=yellow style=filled]
     java [fillcolor=yellow style=filled]
@@ -34,11 +34,11 @@ digraph PhiloDilemma {
     revealmd [fillcolor=red style=filled]
     rundeck [fillcolor=orange style=filled]
     tftpd [fillcolor=orange style=filled]
-    tomcat [fillcolor=orange style=filled]
+    tomcat [fillcolor=red style=filled]
     zabbix [fillcolor=orange style=filled]
   }
-  {"buildtools" "dhcpd" "dns" "dovecot" "epel" "haveged" "httpd" "iptables" "java" "mysql" "ntp" "php" "postfix" "rsyslog" "ruby" "scl" "spamassassin" "update" "xinetd"} -> bootstrap
-  {"clamav" "fail2ban" "nginx" "npm" "python-pip" "zabbix"} -> "epel"
+  {"buildtools" "dhcpd" "dns" "dovecot" "epel" "httpd" "iptables" "java" "mysql" "ntp" "php" "postfix" "rsyslog" "ruby" "scl" "spamassassin" "update" "xinetd"} -> bootstrap
+  {"clamav" "fail2ban" "haveged" "nginx" "npm" "python-pip" "zabbix"} -> "epel"
   {"docker" "mssql"} -> "python-pip"
   "revealmd" -> "npm"
   "natrouter" -> "iptables"
@@ -47,5 +47,6 @@ digraph PhiloDilemma {
   "zabbix" -> "httpd" [style=dashed]
   "python-pip" -> {"buildtools" "scl"}
   {"rundeck" "tomcat"} -> java
-  {"tomcat"} -> haveged
+  "tomcat" -> haveged
+  
 }
