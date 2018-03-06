@@ -38,8 +38,12 @@ Here is a list of Ansible roles that have been designed to work together.
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-zabbix.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-zabbix) [robertdebock.zabbix](https://galaxy.ansible.com/robertdebock/zabbix/) - [source](https://github.com/robertdebock/ansible-role-zabbix).
 
 ## Dependencies
-Here is an overview of the dependencies between the roles. These dependecies are "soft" or "implicit", meaning you *may* depend on the roles as described here, but are not required to.
+Here is an overview of the dependencies between the roles. These dependecies are "soft", "loose" or "implicit", meaning you *may* depend on the roles as described here, but are not required to.
 Each role has a description of the intended use in the `README.md`, and a list of the required packages in `requirements.yml`.
+The dependencies are soft for these reasons:
+- Better reusability.
+- Easier to fork.
+- Let implementor assume a start-state of a machine.
 
 ![Overview of dependencies](https://raw.githubusercontent.com/robertdebock/robertdebock.github.io/artifacts/dependencies.png "Dependecy overview")
 
