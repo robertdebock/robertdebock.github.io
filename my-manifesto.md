@@ -1,6 +1,6 @@
 # My Manifesto
 
-The keep a sharp eye on what is "right" in software development, here are a few rules I agree with.
+To keep a sharp eye on what is "right" in software development, here are a few rules I agree with.
 
 ## Priorities
 When working on code, these are priorities:
@@ -26,15 +26,18 @@ A configuration management contains:
 - References to packages.
 - Configuration files.
 - Commands to activate configuration.
+- A method to persistently enable software.
 
 ## Simplicity
 - Code should be understandable by anybody. If it's to difficult to draw on a single piece of paper, simplify it.
 - Code (RPM, playbook, etc) serves the smallest functionallity possible.
 
 ## Dependencies
-Tight dependencies explicitly define dependencies, loose dependecies indicate what the requirements are (for example in documentation) but do not include the dependecies by default.
-Popular software typically use loose dependencies.
-
+Use dependencies when absolutely required, in other words: only use dependecies when two entities have no value without eachother. This ensures:
+- Code can be reused maximally.
+- Code can be forked.
+- Assumptions are left over to the integrator.
+ 
 ## Testability
 Keep the smallest (testable) related code in a repository. This ensures autonomous development, most independant testing and easy collaboration.
  
