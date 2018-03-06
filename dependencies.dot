@@ -23,7 +23,7 @@ digraph PhiloDilemma {
     "python-pip" [fillcolor=orange style=filled]
     postfix [fillcolor=yellow style=filled]
     rsyslog [fillcolor=yellow style=filled]
-    spamassassin [fillcolor=yellow style=filled]
+    spamassassin [fillcolor=orange style=filled]
     docker [fillcolor=red style=filled]
     mysql [fillcolor=yellow style=filled]
     mssql [fillcolor=red style=filled]
@@ -37,16 +37,16 @@ digraph PhiloDilemma {
     tomcat [fillcolor=red style=filled]
     zabbix [fillcolor=orange style=filled]
   }
-  {"buildtools" "dhcpd" "dns" "dovecot" "epel" "httpd" "iptables" "java" "mysql" "ntp" "php" "postfix" "rsyslog" "ruby" "scl" "spamassassin" "update" "xinetd"} -> bootstrap
-  {"clamav" "fail2ban" "haveged" "nginx" "npm" "python-pip" "zabbix"} -> "epel"
-  {"docker" "mssql"} -> "python-pip"
-  "revealmd" -> "npm"
-  "natrouter" -> "iptables"
-  "tftpd" -> "xinetd" 
-  "phpmyadmin" -> {"php" "httpd" "mysql"}
-  "zabbix" -> "httpd" [style=dashed]
-  "python-pip" -> {"buildtools" "scl"}
-  {"rundeck" "tomcat"} -> java
-  "tomcat" -> haveged
-  
+  {buildtools dhcpd dns dovecot epel httpd iptables java mysql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
+  {clamav fail2ban haveged nginx npm "python-pip" zabbix} -> epel
+  {docker mssql} -> "python-pip"
+  revealmd -> npm
+  natrouter -> iptables
+  tftpd -> xinetd 
+  phpmyadmin -> {php httpd mysql}
+  zabbix -> httpd [style=dashed]
+  "python-pip" -> {buildtools scl}
+  {rundeck tomcat} -> java
+  tomcat -> haveged
+  spamassassin -> rsyslog
 }
