@@ -26,7 +26,7 @@ digraph PhiloDilemma {
     spamassassin [fillcolor=orange style=filled]
     docker [fillcolor=red style=filled]
     mysql [fillcolor=yellow style=filled]
-    mssql [fillcolor=red style=filled]
+    mssql [fillcolor=yellow style=filled]
     npm [fillcolor=orange style=filled]
     natrouter [fillcolor=orange style=filled]
     php [fillcolor=yellow style=filled]
@@ -37,9 +37,9 @@ digraph PhiloDilemma {
     tomcat [fillcolor=red style=filled]
     zabbix [fillcolor=orange style=filled]
   }
-  {buildtools dhcpd dns dovecot epel httpd iptables java mysql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
+  {buildtools dhcpd dns dovecot epel httpd iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
   {clamav fail2ban haveged nginx npm "python-pip" zabbix} -> epel
-  {docker mssql} -> "python-pip"
+  {docker} -> "python-pip"
   revealmd -> npm
   natrouter -> iptables
   tftpd -> xinetd 
