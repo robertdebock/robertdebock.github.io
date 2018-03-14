@@ -5,7 +5,7 @@ before_install:
   - mkdir output
 
 script:
-  - neato -Tpng -Nfontname="Open Sans" -Nfontsize=24 -Efontname="Open Sans" -Efontsize=24 -Gdpi=300 dependencies.dot -o output/dependencies.png
+  - for file in $(ls *.dot) ; doneato -Tpng -Nfontname="Open Sans" -Nfontsize=24 -Efontname="Open Sans" -Efontsize=24 -Gdpi=300 "${file}" -o output/"${file%.*}".png ; done
 
 deploy:
   provider: pages
