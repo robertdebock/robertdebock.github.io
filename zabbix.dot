@@ -5,7 +5,7 @@ digraph PhiloDilemma {
     bootstrap [fillcolor=green style=filled]
     epel [fillcolor=yellow style=filled]
     httpd [fillcolor=yellow style=filled]
-    zabbix [fillcolor=orange style=filled]
+    zabbix [fillcolor=orange style=filled penwidth=3]
   }
   {epel httpd} -> bootstrap
   zabbix -> epel

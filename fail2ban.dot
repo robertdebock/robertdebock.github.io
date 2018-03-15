@@ -4,7 +4,7 @@ digraph PhiloDilemma {
   {
     bootstrap [fillcolor=green style=filled]
     epel [fillcolor=yellow style=filled]
-    fail2ban [fillcolor=orange style=filled penwidt=3]
+    fail2ban [fillcolor=orange style=filled penwidth=3]
   }
   fail2ban -> epel
   epel -> bootstrap

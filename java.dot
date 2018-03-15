@@ -3,7 +3,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    java [fillcolor=yellow style=filled]
+    java [fillcolor=yellow style=filled penwidth=3]
     rundeck [fillcolor=orange style=filled]
     tomcat [fillcolor=red style=filled]
   }

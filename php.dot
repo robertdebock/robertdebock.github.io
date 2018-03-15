@@ -3,7 +3,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    php [fillcolor=yellow style=filled]
+    php [fillcolor=yellow style=filled penwidth=3]
     phpmyadmin [fillcolor=orange style=filled]
   }
   php -> bootstrap

@@ -3,7 +3,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    iptables [fillcolor=yellow style=filled]
+    iptables [fillcolor=yellow style=filled penwidth=3]
     natrouter [fillcolor=orange style=filled]
   }
   iptables -> bootstrap

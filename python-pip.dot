@@ -6,7 +6,7 @@ digraph PhiloDilemma {
     epel [fillcolor=yellow style=filled]
     scl [fillcolor=yellow style=filled]
     buildtools [fillcolor=yellow style=filled]
-    "python-pip" [fillcolor=orange style=filled]
+    "python-pip" [fillcolor=orange style=filled penwidth=3]
     docker [fillcolor=red style=filled]
   }
   {buildtools epel scl} -> bootstrap

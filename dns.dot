@@ -3,7 +3,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    dns [fillcolor=yellow style=filled]
+    dns [fillcolor=yellow style=filled penwidth=3]
   }
   dns -> bootstrap
 }

@@ -3,7 +3,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    ntp [fillcolor=yellow style=filled]
+    ntp [fillcolor=yellow style=filled penwidth=3]
   }
   ntp -> bootstrap
 }

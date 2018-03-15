@@ -3,7 +3,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    clamav [fillcolor=orange style=filled]
+    clamav [fillcolor=orange style=filled penwidth=3]
     epel [fillcolor=yellow style=filled]
   }
   epel -> bootstrap

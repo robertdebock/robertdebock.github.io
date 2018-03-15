@@ -4,7 +4,7 @@ digraph PhiloDilemma {
   {
     bootstrap [fillcolor=green style=filled]
     xinetd [fillcolor=yellow style=filled]
-    tftpd [fillcolor=orange style=filled]
+    tftpd [fillcolor=orange style=filled penwidth=3]
   }
   xinetd -> bootstrap
   tftpd -> xinetd 

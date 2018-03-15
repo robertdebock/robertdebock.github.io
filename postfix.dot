@@ -3,7 +3,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    postfix [fillcolor=yellow style=filled]
+    postfix [fillcolor=yellow style=filled penwidth=3]
   }
   postfix -> bootstrap
 }

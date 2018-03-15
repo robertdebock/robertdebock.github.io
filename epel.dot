@@ -4,7 +4,7 @@ digraph PhiloDilemma {
   {
     bootstrap [fillcolor=green style=filled]
     clamav [fillcolor=orange style=filled]
-    epel [fillcolor=yellow style=filled]
+    epel [fillcolor=yellow style=filled penwidth=3]
     fail2ban [fillcolor=orange style=filled]
     haveged [fillcolor=orange style=filled]
     nginx [fillcolor=orange style=filled]

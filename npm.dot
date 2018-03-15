@@ -4,7 +4,7 @@ digraph PhiloDilemma {
   {
     bootstrap [fillcolor=green style=filled]
     epel [fillcolor=yellow style=filled]
-    npm [fillcolor=orange style=filled]
+    npm [fillcolor=orange style=filled penwidth=3]
     revealmd [fillcolor=red style=filled]
   }
   epel -> bootstrap

@@ -3,7 +3,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    xinetd [fillcolor=yellow style=filled]
+    xinetd [fillcolor=yellow style=filled penwidth=3]
     tftpd [fillcolor=orange style=filled]
   }
   xinetd -> bootstrap

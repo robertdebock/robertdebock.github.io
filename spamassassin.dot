@@ -4,7 +4,7 @@ digraph PhiloDilemma {
   {
     bootstrap [fillcolor=green style=filled]
     rsyslog [fillcolor=yellow style=filled]
-    spamassassin [fillcolor=orange style=filled]
+    spamassassin [fillcolor=orange style=filled penwidth=3]
   }
   rsyslog -> bootstrap
   spamassassin -> rsyslog
