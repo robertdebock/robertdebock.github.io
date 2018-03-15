@@ -8,6 +8,6 @@ digraph PhiloDilemma {
     php [fillcolor=yellow style=filled]
     phpmyadmin [fillcolor=orange style=filled]
   }
-  httpd mysql php -> bootstrap
-  phpmyadmin -> {php httpd mysql}
+  phpmyadmin -> {httpd mysql php}
+  {httpd mysql php} -> bootstrap
 }
