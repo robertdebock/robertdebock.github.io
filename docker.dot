@@ -3,11 +3,13 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
+    buildtools [fillcolor=yellow style=filled]
+    epel [fillcolor=yellow style=filled]
     scl [fillcolor=yellow style=filled]
     "python-pip" [fillcolor=orange style=filled]
-    docker [fillcolor=red style=filled]
+    docker [fillcolor=red style=filled penwidth=3]
   }
-  scl -> bootstrap
-  "python-pip" -> scl
   docker -> "python-pip"
+  "python-pip" -> {buildtools epel scl}
+  {buildtools epel scl} -> bootstrap
 }
