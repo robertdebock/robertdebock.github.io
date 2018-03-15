@@ -6,10 +6,10 @@ digraph PhiloDilemma {
     epel [fillcolor=yellow style=filled]
     haveged [fillcolor=orange style=filled]
     java [fillcolor=yellow style=filled]
-    tomcat [fillcolor=red style=filled]
+    tomcat [fillcolor=red style=filled penwidth=3]
   }
-  {epel java} -> bootstrap
-  haveged -> epel
   tomcat -> java
   tomcat -> haveged [style=dashed]
+  haveged -> epel
+  {epel java} -> bootstrap
 }
