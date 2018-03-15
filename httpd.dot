@@ -3,6 +3,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
+    httpd [fillcolor=yellow style=filled penwidth=3]
     phpmyadmin [fillcolor=orange style=filled]
     zabbix [fillcolor=orange style=filled]
   }
