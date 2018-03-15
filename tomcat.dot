@@ -5,6 +5,7 @@ digraph PhiloDilemma {
     bootstrap [fillcolor=green style=filled]
     epel [fillcolor=yellow style=filled]
     haveged [fillcolor=orange style=filled]
+    java [fillcolor=yellow style=filled]
     tomcat [fillcolor=red style=filled]
   }
   {epel java} -> bootstrap
