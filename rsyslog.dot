@@ -1,0 +1,31 @@
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    bootstrap [fillcolor=green style=filled]
+    clamav [fillcolor=orange style=filled]
+    dhcpd [fillcolor=yellow style=filled]
+    dns [fillcolor=yellow style=filled]
+    dovecot [fillcolor=yellow style=filled]
+    epel [fillcolor=yellow style=filled]
+    fail2ban [fillcolor=orange style=filled]
+    haveged [fillcolor=orange style=filled]
+    httpd [fillcolor=yellow style=filled]
+    iptables [fillcolor=yellow style=filled]
+    java [fillcolor=yellow style=filled]
+    ntp [fillcolor=yellow style=filled]
+    ruby [fillcolor=yellow style=filled]
+    scl [fillcolor=yellow style=filled]
+    update [fillcolor=yellow style=filled]
+    xinetd [fillcolor=yellow style=filled]
+    buildtools [fillcolor=yellow style=filled]
+    nginx [fillcolor=orange style=filled]
+    "python-pip" [fillcolor=orange style=filled]
+    postfix [fillcolor=yellow style=filled]
+    rsyslog [fillcolor=yellow style=filled]
+    spamassassin [fillcolor=orange style=filled]
+  }
+  rsyslog -> bootstrap
+  revealmd -> npm
+  spamassassin -> rsyslog
+}
