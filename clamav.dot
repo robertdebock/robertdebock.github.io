@@ -1,0 +1,9 @@
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    clamav [fillcolor=orange style=filled]
+    epel [fillcolor=yellow style=filled]
+  }
+  clamav -> epel
+}

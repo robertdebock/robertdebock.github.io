@@ -1,0 +1,10 @@
+
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    "python-pip" [fillcolor=orange style=filled]
+    docker [fillcolor=red style=filled]
+  }
+  docker -> "python-pip"
+}
