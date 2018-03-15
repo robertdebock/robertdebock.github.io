@@ -1,4 +1,5 @@
 digraph PhiloDilemma {
+  node [width=0.4];
   label = "Robert de Bock" ;
   overlap=false
   {
