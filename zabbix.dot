@@ -10,8 +10,8 @@ digraph PhiloDilemma {
     httpd [fillcolor=red style=filled]
     zabbix [fillcolor=purple style=filled penwidth=3]
   }
-  {buildtools epel scp} -> bootstrap
-  "python-pip" -> {buildtools epel scp}
+  {buildtools epel scl} -> bootstrap
+  "python-pip" -> {buildtools epel scl}
   httpd -> "python-pip"
   zabbix -> epel
   zabbix -> httpd [style=dashed]
