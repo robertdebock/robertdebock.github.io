@@ -37,9 +37,9 @@ digraph PhiloDilemma {
     xinetd [fillcolor=yellow style=filled]
     zabbix [fillcolor=orange style=filled]
   }
-  {buildtools dhcpd dns dovecot epel httpd iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
+  {buildtools dhcpd dns dovecot epel iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
   {clamav fail2ban haveged nginx npm "python-pip" zabbix} -> epel
-  docker -> "python-pip"
+  {docker httpd} -> "python-pip"
   revealmd -> npm
   natrouter -> iptables
   tftpd -> xinetd 
