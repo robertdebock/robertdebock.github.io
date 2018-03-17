@@ -3,11 +3,16 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
+    buildtools [fillcolor=yellow style=filled]
     epel [fillcolor=yellow style=filled]
-    httpd [fillcolor=yellow style=filled]
-    zabbix [fillcolor=orange style=filled penwidth=3]
+    scl [fillcolor=yellow style=filled]
+    "python-pip" [fillcolor=orange style=filled]
+    httpd [fillcolor=red style=filled]
+    zabbix [fillcolor=purple style=filled penwidth=3]
   }
-  {epel httpd} -> bootstrap
+  {buildtools epel scp} -> bootstrap
+  "python-pip" -> {buildtools epel scp}
+  httpd -> python-pip
   zabbix -> epel
   zabbix -> httpd [style=dashed]
 }
