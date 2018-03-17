@@ -80,7 +80,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
 | robertdebock.npm | Debian 7, 9 & 10 | Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role robertdebock.npm. |
-| robertdebock.httpd | CentOS 6 | Depends on Ansible role robertdebock.python-pip. |
+| robertdebock.httpd | Debian Jessie & CentOS 6 | Debian: pyopenssl is old, Centos: depends on robertdebock.python-pip. |
 
 
 ## Ansible version
