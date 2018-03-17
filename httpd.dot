@@ -3,11 +3,15 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    httpd [fillcolor=yellow style=filled penwidth=3]
-    phpmyadmin [fillcolor=orange style=filled]
-    zabbix [fillcolor=orange style=filled]
+    buildtools [fillcolor=yellow style=filled penwidth=3]
+    epel [fillcolor=yellow style=filled penwidth=3]
+    scl [fillcolor=yellow style=filled penwidth=3]
+    httpd [fillcolor=orange style=filled penwidth=3]
+    phpmyadmin [fillcolor=red style=filled]
+    zabbix [fillcolor=red style=filled]
   }
-  httpd -> bootstrap
+  {buildtools epel scl} -> bootstrap
+  httpd -> {buildtools epel scl}
   phpmyadmin -> httpd
   zabbix -> httpd [style=dashed]
 }
