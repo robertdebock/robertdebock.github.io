@@ -12,7 +12,7 @@ digraph PhiloDilemma {
   }
   {buildtools epel scp} -> bootstrap
   "python-pip" -> {buildtools epel scp}
-  httpd -> python-pip
+  httpd -> "python-pip"
   zabbix -> epel
   zabbix -> httpd [style=dashed]
 }
