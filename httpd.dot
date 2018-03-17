@@ -6,12 +6,14 @@ digraph PhiloDilemma {
     buildtools [fillcolor=yellow style=filled penwidth=3]
     epel [fillcolor=yellow style=filled penwidth=3]
     scl [fillcolor=yellow style=filled penwidth=3]
-    httpd [fillcolor=orange style=filled penwidth=3]
-    phpmyadmin [fillcolor=red style=filled]
-    zabbix [fillcolor=red style=filled]
+    "python-pip" [fillcolor=orange style=filled penwidth=3]
+    httpd [fillcolor=red style=filled penwidth=3]
+    phpmyadmin [fillcolor=purple style=filled]
+    zabbix [fillcolor=purple style=filled]
   }
   {buildtools epel scl} -> bootstrap
-  httpd -> {buildtools epel scl}
+  "python-pip" -> {buildtools epel scl}
+  httpd -> "python-pip"
   phpmyadmin -> httpd
   zabbix -> httpd [style=dashed]
 }
