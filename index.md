@@ -80,6 +80,8 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
 | robertdebock.npm | Debian 7, 9 & 10 | Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role robertdebock.npm. |
+| robertdebock.httpd | CentOS 6 | Depends on Ansible role robertdebock.python-pip. |
+
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
@@ -99,5 +101,6 @@ This table lists the exceptions in Ansible version and the reason why.
 | robertdebock.docker | 2.2 | Depends on Ansible role robertdebock.buildtools | 
 | robertdebock.release | 2.2 | A tasks uses the Ansible module `wait_for_connection` only available in 2.3 and above. |
 | robertdebock.phpmyadmin | 2.2 | Got an error: `write() argument must be str, not bytes`. |
+| robertdebock.httpd | 2.2 & 2.3 | Uses *_certificate modules only supported in Ansible 2.4. |
 
 See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
