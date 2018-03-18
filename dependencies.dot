@@ -1,6 +1,5 @@
-digraph PhiloDilemma {
+digraph hierarchy {
   label = "Robert de Bock" ;
-  overlap=false
   {
     bootstrap [fillcolor=green style=filled]
     buildtools [fillcolor=yellow style=filled]
