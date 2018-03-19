@@ -5,7 +5,7 @@ before_install:
   - mkdir output
 
 script:
-  - for file in $(ls *.dot) ; do neato -Tpng -Nfontname="Open Sans" -Efontname="Open Sans" -o output/"${file%.*}".png ; done
+  - for file in $(ls *.dot) ; do neato "${file}" -Tpng -Nfontname="Open Sans" -Efontname="Open Sans" -o output/"${file%.*}".png ; done
 
 deploy:
   provider: pages
