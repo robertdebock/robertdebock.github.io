@@ -11,7 +11,7 @@ digraph hierarchy {
     epel [fillcolor=yellow style=filled]
     fail2ban [fillcolor=orange style=filled]
     haveged [fillcolor=orange style=filled]
-    httpd [fillcolor=yellow style=filled]
+    httpd [fillcolor=red style=filled]
     iptables [fillcolor=yellow style=filled]
     java [fillcolor=yellow style=filled]
     mssql [fillcolor=yellow style=filled]
@@ -21,7 +21,7 @@ digraph hierarchy {
     npm [fillcolor=orange style=filled]
     ntp [fillcolor=yellow style=filled]
     php [fillcolor=yellow style=filled]
-    phpmyadmin [fillcolor=orange style=filled]
+    phpmyadmin [fillcolor=purple style=filled]
     postfix [fillcolor=yellow style=filled]
     "python-pip" [fillcolor=orange style=filled]
     revealmd [fillcolor=red style=filled]
@@ -34,7 +34,7 @@ digraph hierarchy {
     tomcat [fillcolor=red style=filled]
     update [fillcolor=yellow style=filled]
     xinetd [fillcolor=yellow style=filled]
-    zabbix [fillcolor=orange style=filled]
+    zabbix [fillcolor=purple style=filled]
   }
   {buildtools dhcpd dns dovecot epel iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
   {clamav fail2ban haveged nginx npm "python-pip" zabbix} -> epel
