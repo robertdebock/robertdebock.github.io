@@ -38,6 +38,7 @@ digraph hierarchy {
   }
   {buildtools dhcpd dns dovecot epel iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
   {clamav fail2ban haveged nginx npm "python-pip" zabbix} -> epel
+  postfix -> {spamassassin clamav} [style=dashed]
   {docker httpd} -> "python-pip"
   revealmd -> npm
   natrouter -> iptables
