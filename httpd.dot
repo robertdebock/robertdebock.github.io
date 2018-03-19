@@ -3,10 +3,10 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    buildtools [fillcolor=yellow style=filled penwidth=3]
-    epel [fillcolor=yellow style=filled penwidth=3]
-    scl [fillcolor=yellow style=filled penwidth=3]
-    "python-pip" [fillcolor=orange style=filled penwidth=3]
+    buildtools [fillcolor=yellow style=filled]
+    epel [fillcolor=yellow style=filled]
+    scl [fillcolor=yellow style=filled]
+    "python-pip" [fillcolor=orange style=filled]
     httpd [fillcolor=red style=filled penwidth=3]
     phpmyadmin [fillcolor=purple style=filled]
     zabbix [fillcolor=purple style=filled]
