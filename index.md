@@ -72,6 +72,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.rsyslog | ArchLinux | Package is only available in AUR. |
 | robertdebock.spamassassin | Archlinux | Depends on Ansible role robertdebock.rsyslog. |
 | robertdebock.docker | Debian 10 | Not supported by [Docker Project](https://apt.dockerproject.org/repo/dists/). |
+| robertdebock.docker | Centos 6 | Depends on Ansible role robertdebock.python-pip. |
 | robertdebock.tomcat | Debian 8 & Ubuntu 14 | Java 8 is not available. |
 | robertdebock.rundeck | Debian 8 & Ubuntu 14 | Java 8 is not available. |
 | robertdebock.rundeck | Alpine | Package `bash` is not installed. |
