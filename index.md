@@ -101,7 +101,8 @@ This table lists the exceptions in Ansible version and the reason why.
 | robertdebock.python-pip | 2.2 | Depends on Ansible role robertdebock.buildtools |
 | robertdebock.docker | 2.2 | Depends on Ansible role robertdebock.buildtools | 
 | robertdebock.release | 2.2 | A tasks uses the Ansible module `wait_for_connection` only available in 2.3 and above. |
-| robertdebock.phpmyadmin | 2.2 | Got an error: `write() argument must be str, not bytes`. |
+| robertdebock.phpmyadmin | 2.2 & 2.4 | Depends on robertdebock.httpd. |
 | robertdebock.httpd | 2.2 & 2.3 | Uses *_certificate modules only supported in Ansible 2.4. |
+| robertdebock.zabbix | 2.2 & 2.4 | Depends on robertdebock.httpd. |
 
 See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
