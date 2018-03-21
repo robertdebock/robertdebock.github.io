@@ -1,0 +1,13 @@
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    bootstrap [fillcolor=green style=filled]
+    mysql [fillcolor=yellow style=filled penwidth=3]
+    phpmyadmin [fillcolor=purple style=filled]
+    zabbix [fillcolor=purple style=filled]
+  }
+  mysql -> bootstrap
+  phpmyadmin -> mysql
+  zabbix -> mysql [style=dashed]
+}
