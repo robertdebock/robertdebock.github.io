@@ -78,6 +78,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.rundeck | Alpine | Package `bash` is not installed. |
 | robertdebock.phpmyadmin | Centos & Ubuntu 14 | Python is outdated, PHP is outdated. |
 | robertdebock.phpmyadmin | Debian Jessie | Depends on Ansible role robertdebock.httpd. |
+| robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
 | robertdebock.npm | Debian 7, 9 & 10 | Unable to locate package npm. |
