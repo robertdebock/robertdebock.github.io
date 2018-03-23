@@ -89,9 +89,9 @@ Some Ansible roles do not work on all distributions. This table lists why.
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
 ```
-  - ansible_version=">=2.2,<2.3"
   - ansible_version=">=2.3,<2.4"
   - ansible_version=">=2.4,<2.5"
+  - ansible_version=">=2.5,<2.6"
 ```
 
 ### Exceptions in Ansible version
@@ -103,8 +103,8 @@ This table lists the exceptions in Ansible version and the reason why.
 | robertdebock.python-pip | 2.2 | Depends on Ansible role robertdebock.buildtools |
 | robertdebock.docker | 2.2 | Depends on Ansible role robertdebock.buildtools | 
 | robertdebock.release | 2.2 | A tasks uses the Ansible module `wait_for_connection` only available in 2.3 and above. |
-| robertdebock.phpmyadmin | 2.2 & 2.4 | Depends on robertdebock.httpd. |
+| robertdebock.phpmyadmin | 2.2 & 2.3 | Depends on robertdebock.httpd. |
 | robertdebock.httpd | 2.2 & 2.3 | Uses *_certificate modules only supported in Ansible 2.4. |
-| robertdebock.zabbix | 2.2 & 2.4 | Depends on robertdebock.httpd. |
+| robertdebock.zabbix | 2.2 & 2.3 | Depends on robertdebock.httpd. |
 
 See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
