@@ -99,12 +99,8 @@ This table lists the exceptions in Ansible version and the reason why.
 
 | Ansible role | Excepted Ansible version | Resoning |
 |---|---|---|
-| robertdebock.buildtools | 2.2 | DNF groups are not suppported |
-| robertdebock.python-pip | 2.2 | Depends on Ansible role robertdebock.buildtools |
-| robertdebock.docker | 2.2 | Depends on Ansible role robertdebock.buildtools | 
-| robertdebock.release | 2.2 | A tasks uses the Ansible module `wait_for_connection` only available in 2.3 and above. |
-| robertdebock.phpmyadmin | 2.2 & 2.3 | Depends on robertdebock.httpd. |
-| robertdebock.httpd | 2.2 & 2.3 | Uses *_certificate modules only supported in Ansible 2.4. |
-| robertdebock.zabbix | 2.2 & 2.3 | Depends on robertdebock.httpd. |
+| robertdebock.httpd | 2.3 | Uses `*_certificate` modules only supported in Ansible 2.4 and up. |
+| robertdebock.phpmyadmin | 2.3 | Depends on robertdebock.httpd. |
+| robertdebock.zabbix | 2.3 | Depends on robertdebock.httpd. |
 
 See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
