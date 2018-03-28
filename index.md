@@ -78,13 +78,13 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.rundeck | Debian 8 & Ubuntu 14 | Java 8 is not available. |
 | robertdebock.rundeck | Alpine | Package `bash` is not installed. |
 | robertdebock.phpmyadmin | Centos & Ubuntu 14 | Python is outdated, PHP is outdated. |
-| robertdebock.phpmyadmin | Debian Jessie | Depends on Ansible role robertdebock.httpd. |
+| robertdebock.phpmyadmin | Debian Jessie & Wheezy | Depends on Ansible role robertdebock.httpd. |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
 | robertdebock.npm | Debian 7, 9 & 10 | Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role robertdebock.npm. |
-| robertdebock.httpd | Debian Jessie & CentOS 6 | Debian: pyopenssl is old, Centos: depends on robertdebock.python-pip. |
+| robertdebock.httpd | Debian Jessie, Wheezy & CentOS 6 | Debian: pyopenssl is old, Centos: depends on robertdebock.python-pip. |
 
 
 ## Ansible version
