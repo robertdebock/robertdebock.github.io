@@ -82,7 +82,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
-| robertdebock.npm | Debian 7, 9 & 10 | Unable to locate package npm. |
+| robertdebock.npm | Debian 7, 9 & 10, CentOS 6| Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role robertdebock.npm. |
 | robertdebock.httpd | Debian Jessie, Wheezy & CentOS 6 | Debian: pyopenssl is old, Centos: depends on robertdebock.python-pip. |
 
