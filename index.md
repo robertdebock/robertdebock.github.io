@@ -77,7 +77,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.tomcat | Debian 8 & Ubuntu 14 | Java 8 is not available. |
 | robertdebock.rundeck | Debian 8 & Ubuntu 14 | Java 8 is not available. |
 | robertdebock.rundeck | Alpine | Package `bash` is not installed. |
-| robertdebock.phpmyadmin | Centos & Ubuntu 14 | Python is outdated, PHP is outdated. |
+| robertdebock.phpmyadmin | Centos-6 & Ubuntu 14 | Python is outdated, PHP is outdated. |
 | robertdebock.phpmyadmin | Debian Jessie & Wheezy | Depends on Ansible role robertdebock.httpd. |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
