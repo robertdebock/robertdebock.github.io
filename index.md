@@ -2,6 +2,7 @@ I've written Ansible roles, there are a few things you should know about them.
 
 ## Ansible roles
 Here is a list of Ansible roles that have been designed to work together.
+- [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-ara.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ara) [robertdebock.ara](https://galaxy.ansible.com/robertdebock/ara/) - [source](https://github.com/robertdebock/ansible-role-ara).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-bootstrap.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-bootstrap) [robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) - [source](https://github.com/robertdebock/ansible-role-bootstrap).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-clamav.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-clamav) [robertdebock.clamav](https://galaxy.ansible.com/robertdebock/clamav/) - [source](https://github.com/robertdebock/ansible-role-clamav).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-dhcpd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-dhcpd) [robertdebock.dhcpd](https://galaxy.ansible.com/robertdebock/dhcpd/) - [source](https://github.com/robertdebock/ansible-role-dhcpd).
@@ -65,6 +66,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 
 | Ansible role | Excepted Linux distribution(s) | Reasoning |
 |--------------|--------------------------------|-----------|
+| robertdebock.ara | Depends on Ansible role robertdebock.python-pip. |
 | robertdebock.xinetd | Alpine | The package `xinetd` is not available. |
 | robertdebock.tftpd | Alpine | Depends on Ansible role robertdebock.xinetd. |
 | robertdebock.tftpd | Archlinux | The package `tftpd` is not available. |
