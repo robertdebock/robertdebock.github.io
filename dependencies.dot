@@ -1,6 +1,7 @@
 digraph hierarchy {
   label = "Robert de Bock" ;
   {
+    ara [fillcolor=red style=filled]
     bootstrap [fillcolor=green style=filled]
     buildtools [fillcolor=yellow style=filled]
     clamav [fillcolor=orange style=filled]
@@ -39,7 +40,7 @@ digraph hierarchy {
   {buildtools dhcpd dns dovecot epel iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
   {clamav fail2ban haveged nginx npm "python-pip" zabbix} -> epel
   postfix -> {spamassassin clamav} [style=dashed]
-  {docker httpd} -> "python-pip"
+  {ara docker httpd} -> "python-pip"
   revealmd -> npm
   natrouter -> iptables
   tftpd -> xinetd 
