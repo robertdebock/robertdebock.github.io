@@ -66,27 +66,27 @@ Some Ansible roles do not work on all distributions. This table lists why.
 
 | Ansible role | Excepted Linux distribution(s) | Reasoning |
 |--------------|--------------------------------|-----------|
-| robertdebock.ara | Depends on Ansible role robertdebock.python-pip. |
+| robertdebock.ara | CentOS 6 | Depends on Ansible role [robertdebock.python-pip](https://galaxy.ansible.com/robertdebock/python-pip/)). |
 | robertdebock.xinetd | Alpine | The package `xinetd` is not available. |
-| robertdebock.tftpd | Alpine | Depends on Ansible role robertdebock.xinetd. |
+| robertdebock.tftpd | Alpine | Depends on Ansible role [robertdebock.xinetd](https://galaxy.ansible.com/robertdebock/xinetd/). |
 | robertdebock.tftpd | Archlinux | The package `tftpd` is not available. |
 | robertdebock.python-pip | Centos 6 | Python is outdated. |
 | robertdebock.rsyslog | ArchLinux | Package is only available in AUR. |
-| robertdebock.spamassassin | Archlinux | Depends on Ansible role robertdebock.rsyslog. |
+| robertdebock.spamassassin | Archlinux | Depends on Ansible role [robertdebock.rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
 | robertdebock.docker | Debian 10 | Not supported by [Docker Project](https://apt.dockerproject.org/repo/dists/). |
 | robertdebock.docker | Debian 7 | Can't update pip. |
-| robertdebock.docker | Centos 6 | Depends on Ansible role robertdebock.python-pip. |
+| robertdebock.docker | Centos 6 | Depends on Ansible role [robertdebock.python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
 | robertdebock.tomcat | Debian 8 & Ubuntu 14 | Java 8 is not available. |
 | robertdebock.rundeck | Debian 8 & Ubuntu 14 | Java 8 is not available. |
 | robertdebock.rundeck | Alpine | Package `bash` is not installed. |
 | robertdebock.phpmyadmin | Centos-6 & Ubuntu 14 | Python is outdated, PHP is outdated. |
-| robertdebock.phpmyadmin | Debian Jessie & Wheezy | Depends on Ansible role robertdebock.httpd. |
+| robertdebock.phpmyadmin | Debian Jessie & Wheezy | Depends on Ansible role [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
 | robertdebock.npm | Debian 7, 9 & 10, CentOS 6| Unable to locate package npm. |
-| robertdebock.revealmd | Debian | Depends on Ansible role robertdebock.npm. |
-| robertdebock.httpd | Debian Jessie, Wheezy & CentOS 6 | Debian: pyopenssl is old, Centos: depends on robertdebock.python-pip. |
+| robertdebock.revealmd | Debian | Depends on Ansible role [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm/). |
+| robertdebock.httpd | Debian Jessie, Wheezy & CentOS 6 | Debian: pyopenssl is old, Centos: depends on [robertdebock.python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
 
 
 ## Ansible version
@@ -103,7 +103,7 @@ This table lists the exceptions in Ansible version and the reason why.
 | Ansible role | Excepted Ansible version | Resoning |
 |---|---|---|
 | robertdebock.httpd | 2.3 | Uses `*_certificate` modules only supported in Ansible 2.4 and up. |
-| robertdebock.phpmyadmin | 2.3 | Depends on robertdebock.httpd. |
-| robertdebock.zabbix | 2.3 | Depends on robertdebock.httpd. |
+| robertdebock.phpmyadmin | 2.3 | Depends on [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
+| robertdebock.zabbix | 2.3 | Depends on [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 
 See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
