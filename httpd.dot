@@ -9,11 +9,12 @@ digraph PhiloDilemma {
     "python-pip" [fillcolor=orange style=filled]
     httpd [fillcolor=red style=filled penwidth=3]
     phpmyadmin [fillcolor=purple style=filled]
+    roundcube [fillcolor=purple style=filled]
     zabbix [fillcolor=purple style=filled]
   }
   {buildtools epel scl} -> bootstrap
   "python-pip" -> {buildtools epel scl}
   httpd -> "python-pip"
-  phpmyadmin -> httpd
+  {phpmyadmin roundcube} -> httpd
   zabbix -> httpd [style=dashed]
 }
