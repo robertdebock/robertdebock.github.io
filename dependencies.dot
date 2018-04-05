@@ -26,7 +26,7 @@ digraph hierarchy {
     postfix [fillcolor=yellow style=filled]
     "python-pip" [fillcolor=orange style=filled]
     revealmd [fillcolor=red style=filled]
-    roundecubemail [fillcolor=purple style=filled]
+    roundcubemail [fillcolor=purple style=filled]
     rsyslog [fillcolor=yellow style=filled]
     ruby [fillcolor=yellow style=filled]
     rundeck [fillcolor=orange style=filled]
