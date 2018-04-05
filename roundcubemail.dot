@@ -1,0 +1,20 @@
+digraph PhiloDilemma {
+  label = "Robert de Bock" ;
+  overlap=false
+  {
+    bootstrap [fillcolor=green style=filled]
+    buildtools [fillcolor=yellow style=filled]
+    epel [fillcolor=yellow style=filled]
+    php [fillcolor=yellow style=filled]
+    scl [fillcolor=yellow style=filled]
+    "python-pip" [fillcolor=orange style=filled]
+    httpd [fillcolor=red style=filled]
+    roundcubemail [fillcolor=purple style=filled penwidth=3]
+  }
+  {buildtools epel scl} -> bootstrap
+  "python-pip" -> {buildtools epel scl}
+  httpd -> "python-pip"
+  roundcubemail -> epel
+  roundcubemail -> httpd
+  roundcubemail -> php
+}
