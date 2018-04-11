@@ -1,5 +1,30 @@
 # Tests
 
+The filosofy to test is:
+- Test multiple distributions
+- Of each distribution, test the current and previous version
+- Test 3 version of Ansible, current, previous and next previous.
+
+In Travis CI these combinations are called a `matrix`. You can consider this overview per role:
+
+| Distribution   | Ansible 2.3 | Ansible 2.4 | Ansible 2.5 |
+|----------------|-------------|-------------|-------------|
+| Alpine 3.6     | yes         | yes         | yes         |
+| Alpine 3.7     | yes         | yes         | yes         |
+| Archlinux      | yes         | yes         | yes         |
+| Centos 6       | yes         | yes         | yes         |
+| Centos 6       | yes         | yes         | yes         |
+| Debian Jessie  | yes         | yes         | yes         |
+| Debian Stretch | yes         | yes         | yes         |
+| Fedora 26      | yes         | yes         | yes         |
+| Fedora 27      | yes         | yes         | yes         |
+| OpenSuse 42.2  | yes         | yes         | yes         |
+| OpenSuse 42.3  | yes         | yes         | yes         |
+
+This matrix runs 11 (distributions) times 3 (Ansible versions) equals 33 build.
+
+If a distribution of ansible version is not supported, the strategy is to also test that, but ensure if fails.
+
 There are multiple tests configured, here is how they relate
 
 ## Unit tests
