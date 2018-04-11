@@ -11,6 +11,7 @@ To test an Ansible role, Travis CI run molecule on a commit.
 To test a combination of Ansible roles, Travis CI runs terraform and a complex playbook.
 
 ## Travis CI
+
 ```
 script:
 # This is the unit test
@@ -29,4 +30,4 @@ after_script
 notifications:
 # On success, publish the role to Ansible Galaxy
   webhooks: https://galaxy.ansible.com/api/v1/notifications/
-
+```
