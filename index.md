@@ -50,6 +50,9 @@ The dependencies are soft for these reasons:
 
 ![Overview of dependencies](https://raw.githubusercontent.com/robertdebock/robertdebock.github.io/artifacts/dependencies.png "Dependency overview")
 
+## Tests
+Multiple tests exist, read [more about testing](testing.html)
+
 ## Distributions
 The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. By default these Linux distributions are included in the tests:
 
