@@ -1,5 +1,8 @@
 I've written Ansible roles, there are a few things you should know about them.
 
+## Style
+These roles are written in a [simple style](style.html).
+
 ## Ansible roles
 Here is a list of Ansible roles that have been designed to work together.
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-ara.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ara) [robertdebock.ara](https://galaxy.ansible.com/robertdebock/ara/) - [source](https://github.com/robertdebock/ansible-role-ara).
@@ -38,7 +41,6 @@ Here is a list of Ansible roles that have been designed to work together.
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-update.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-update) [robertdebock.update](https://galaxy.ansible.com/robertdebock/update/) - [source](https://github.com/robertdebock/ansible-role-update).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-xinetd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-xinetd) [robertdebock.xinetd](https://galaxy.ansible.com/robertdebock/xinetd/) - [source](https://github.com/robertdebock/ansible-role-xinetd).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-zabbix.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-zabbix) [robertdebock.zabbix](https://galaxy.ansible.com/robertdebock/zabbix/) - [source](https://github.com/robertdebock/ansible-role-zabbix).
-
 
 ## Dependencies
 Here is an overview of the dependencies between the roles. These dependecies are "soft", "loose" or "implicit", meaning you *may* depend on the roles as described here, but are not required to.
