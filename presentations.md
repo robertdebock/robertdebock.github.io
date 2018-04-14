@@ -4,3 +4,4 @@ Here are some presentations:
 - [Ansible Testing](/presentations/ansible-testing/)
 - [Photography Basics](/presentations/photography-basics/)
 - [Perfect Ansible](/presentations/perfect-ansible/)
+- [Components in Ansible roles](/presentations/component-to-role/)
