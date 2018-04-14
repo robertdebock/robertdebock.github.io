@@ -13,15 +13,21 @@ In Travis CI these combinations are called a `matrix`. You can consider this ove
 | Alpine 3.7     | yes         | yes         | yes         |
 | Archlinux      | yes         | yes         | yes         |
 | Centos 6       | yes         | yes         | yes         |
-| Centos 6       | yes         | yes         | yes         |
+| Centos 7       | yes         | yes         | yes         |
+| Debian Buster  | yes         | yes         | yes         |
 | Debian Jessie  | yes         | yes         | yes         |
 | Debian Stretch | yes         | yes         | yes         |
+| Debian Wheezy  | yes         | yes         | yes         |
 | Fedora 26      | yes         | yes         | yes         |
 | Fedora 27      | yes         | yes         | yes         |
 | OpenSuse 42.2  | yes         | yes         | yes         |
 | OpenSuse 42.3  | yes         | yes         | yes         |
+| Ubuntu Artful  | yes         | yes         | yes         |
+| Ubuntu Bionic  | yes         | yes         | yes         |
+| Ubuntu Trusty  | yes         | yes         | yes         |
+| Ubuntu Xenial  | yes         | yes         | yes         |
 
-This matrix runs 11 (distributions) times 3 (Ansible versions) equals 33 build.
+This matrix runs 17 (distributions) times 3 (Ansible versions) equals 51 build.
 
 If a distribution of ansible version is not supported, the strategy is to also test that, but ensure if fails.
 
