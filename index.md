@@ -63,10 +63,10 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 | Archlinux    | latest      |
 | Alpine       | 3.6 & 3.7   |
 | CentOS       | 6 & 7       |
-| Debian       | 7 (wheezy), 8 (jessie), 9 (stretch) & 10 (buster) |
+| Debian       | 8 (jessie), 9 (stretch) & 10 (buster) |
 | Fedora       | 26 & 27     |
 | OpenSUSE     | 42.2 & 42.3 | 
-| Ubuntu       | 14 (trusty), 16 (xenial), 17 (artful) & 18 (bionic |
+| Ubuntu       | 16 (xenial), 17 (artful) & 18 (bionic) |
 
 ### Exceptions in distributions
 Some Ansible roles do not work on all distributions. This table lists why.
