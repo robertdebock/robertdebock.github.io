@@ -27,7 +27,7 @@ In Travis CI these combinations are called a `matrix`. You can consider this ove
 
 This matrix runs 15 (distributions) times 3 (Ansible versions) equals 45 build.
 
-If a distribution of ansible version is not supported, the strategy is to also test that, but ensure if fails.
+If a distribution or ansible version is not supported, the strategy is to also test that, and ensure if fails.
 
 There are multiple tests configured, here is how they relate
 
@@ -35,7 +35,7 @@ There are multiple tests configured, here is how they relate
 
 To test an Ansible role, Travis CI run molecule on a commit.
 
-## Integration
+## Integration (Work in Progress)
 
 To test a combination of Ansible roles, Travis CI runs terraform and a complex playbook.
 
