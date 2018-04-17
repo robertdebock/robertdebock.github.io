@@ -1,4 +1,4 @@
-I've written Ansible roles, there are a few things you should know about them.
+Ansible roles that typically work on many distributions and ansible versions.
 
 ## Style
 These roles are written in a [simple style](style.html).
