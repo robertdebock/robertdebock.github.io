@@ -1,5 +1,5 @@
 ## Ansible roles
-Here is a list of Ansible roles written in a [simple style](style.html) that have been designed to work together.
+Here is a list of Ansible roles that have been designed to work together.
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-ara.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ara) [robertdebock.ara](https://galaxy.ansible.com/robertdebock/ara/) - [source](https://github.com/robertdebock/ansible-role-ara).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-bootstrap.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-bootstrap) [robertdebock.bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) - [source](https://github.com/robertdebock/ansible-role-bootstrap).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-buildtools.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-buildtools) [robertdebock.buildtools](https://galaxy.ansible.com/robertdebock/buildtools/) - [source](https://github.com/robertdebock/ansible-role-buildtools).
