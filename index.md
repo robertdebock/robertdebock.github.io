@@ -1,7 +1,4 @@
-Ansible roles that typically work on many distributions and ansible versions.
-
-## Style
-These roles are written in a [simple style](style.html).
+[Ansible](https://www.ansible.com/) roles written in a [simple style](style.html) that typically work on many distributions and Ansible versions.
 
 ## Ansible roles
 Here is a list of Ansible roles that have been designed to work together.
@@ -51,6 +48,19 @@ The dependencies are soft for these reasons:
 - Let implementor assume a start-state of a machine.
 
 ![Overview of dependencies](https://raw.githubusercontent.com/robertdebock/robertdebock.github.io/artifacts/dependencies.png "Dependency overview")
+
+Because these dependecies are loose, you have to include them in your playbook yourself:
+
+```yaml
+- name: make the best machine ever
+  hosts: all
+  become: yes
+
+  roles:
+    - role: robertdebock.bootstrap
+    - role: robertdebock.java
+    - role: robertdebock.tomcat
+```
 
 ## Tests
 Multiple tests exist, read [more about testing](testing.html)
