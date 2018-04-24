@@ -29,34 +29,16 @@ This matrix runs 15 (distributions) times 3 (Ansible versions) equals 45 build.
 
 If a distribution or ansible version is not supported, the strategy is to also test that, and ensure if fails.
 
-There are multiple tests configured, here is how they relate
+There are multiple tests configured, here is how they relate.
 
 ## Unit tests
 
-To test an Ansible role, Travis CI run molecule on a commit.
+To test an Ansible role, Travis CI runs molecule on a commit. This verifies that the role does it's job, but does not ensure that it works in combination with other roles.
 
-## Integration (Work in Progress)
+An [example for the unit test for the Ansible role java](https://travis-ci.org/robertdebock/ansible-role-java).
+
+## Integration
 
 To test a combination of Ansible roles, Travis CI runs terraform and a complex playbook.
 
-## Travis CI
-
-```
-script:
-# This is the unit test
-  - molecule test
-# This is the integration test
-  - if [ "$TRAVIS_BRANCH" = "master" ]; then \
-      terraform apply
-      sleep 30
-      ansible-playbook -i integration integration.yml
-    fi
- 
-after_script
-# Always (success or failure) clean up the machines
-  - terraform destroy
-
-notifications:
-# On success, publish the role to Ansible Galaxy
-  webhooks: https://galaxy.ansible.com/api/v1/notifications/
-```
+There is currently one [integration test](https://travis-ci.org/robertdebock/ansible-integration).
