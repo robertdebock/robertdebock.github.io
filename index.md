@@ -97,8 +97,8 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.phpmyadmin | Centos-6 | Python is outdated, PHP is outdated. |
 | robertdebock.phpmyadmin | Debian 8 | Depends on Ansible role [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
-| robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
-| robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
+| robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has [limited OS support](https://www.zabbix.com/documentation/3.4/manual/installation/requirements). |
+| robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | robertdebock.npm | Debian 7, 9 & 10, CentOS 6| Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm/). |
 | robertdebock.httpd | Debian 8 | The package pyopenssl is old. |
