@@ -6,7 +6,7 @@ digraph hierarchy {
     buildtools [fillcolor=yellow style=filled]
     clamav [fillcolor=orange style=filled]
     dhcpd [fillcolor=yellow style=filled]
-    digitalocean-agent [fillcolor=yellow style=filled]
+    "digitalocean-agent" [fillcolor=yellow style=filled]
     dns [fillcolor=yellow style=filled]
     docker [fillcolor=red style=filled]
     dovecot [fillcolor=yellow style=filled]
@@ -39,7 +39,7 @@ digraph hierarchy {
     xinetd [fillcolor=yellow style=filled]
     zabbix [fillcolor=purple style=filled]
   }
-  {buildtools dhcpd digitalocean-agent dns dovecot epel iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
+  {buildtools dhcpd "digitalocean-agent" dns dovecot epel iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
   {clamav fail2ban haveged nginx npm "python-pip" zabbix} -> epel
   postfix -> {spamassassin clamav} [style=dashed]
   {ara docker httpd} -> "python-pip"
