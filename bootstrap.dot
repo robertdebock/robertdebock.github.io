@@ -5,6 +5,7 @@ digraph PhiloDilemma {
   {
     bootstrap [fillcolor=green style=filled penwidth=3]
     dhcpd [fillcolor=yellow style=filled]
+    digitalocean-agent [fillcolor=yellow style=filled]
     dns [fillcolor=yellow style=filled]
     dovecot [fillcolor=yellow style=filled]
     epel [fillcolor=yellow style=filled]    
@@ -23,5 +24,5 @@ digraph PhiloDilemma {
     mssql [fillcolor=yellow style=filled]
     php [fillcolor=yellow style=filled]
   }
-  {buildtools dhcpd dns dovecot epel httpd iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
+  {buildtools dhcpd digitalocean-agent dns dovecot epel httpd iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
 }

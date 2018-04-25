@@ -5,6 +5,7 @@ These [Ansible](https://www.ansible.com/) roles are [simple](style.html) and wor
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-buildtools.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-buildtools) [robertdebock.buildtools](https://galaxy.ansible.com/robertdebock/buildtools/) - [source](https://github.com/robertdebock/ansible-role-buildtools).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-clamav.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-clamav) [robertdebock.clamav](https://galaxy.ansible.com/robertdebock/clamav/) - [source](https://github.com/robertdebock/ansible-role-clamav).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-dhcpd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-dhcpd) [robertdebock.dhcpd](https://galaxy.ansible.com/robertdebock/dhcpd/) - [source](https://github.com/robertdebock/ansible-role-dhcpd).
+- [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-digitalocean-agent.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-digitalocean-agent) [robertdebock.digitalocean-agent](https://galaxy.ansible.com/robertdebock/digitalocean-agent/) - [source](https://github.com/robertdebock/ansible-role-digitalocean-agent).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-dns.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-dns) [robertdebock.dns](https://galaxy.ansible.com/robertdebock/dns/) - [source](https://github.com/robertdebock/ansible-role-dns).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-docker.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-docker) [robertdebock.docker](https://galaxy.ansible.com/robertdebock/docker/) - [source](https://github.com/robertdebock/ansible-role-docker).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-dovecot.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-dovecot) [robertdebock.dovecot](https://galaxy.ansible.com/robertdebock/dovecot/) - [source](https://github.com/robertdebock/ansible-role-dovecot).
@@ -101,7 +102,8 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.npm | Debian 7, 9 & 10, CentOS 6| Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm/). |
 | robertdebock.httpd | Debian Jessie & CentOS 6 | Debian: pyopenssl is old, Centos: depends on [robertdebock.python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
-
+| robertdebock.digitalocean-agent | Alpine, ArchLinux, OpenSUSE  | Not supported by DigitalOcean. |
+| robertdebock.digitalocean-agent | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
