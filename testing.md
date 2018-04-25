@@ -41,4 +41,4 @@ An [example for the unit test for the Ansible role java](https://travis-ci.org/r
 
 To test a combination of Ansible roles, Travis CI runs terraform and a complex playbook.
 
-There is currently one [integration test](https://travis-ci.org/robertdebock/ansible-integration).
+There is currently one [integration test](https://travis-ci.org/robertdebock/ansible-integration). A [report](https://robertdebock.nl/ansible-integration/) is saved every run.
