@@ -95,14 +95,15 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.rundeck | Debian 8 | Java 8 is not available. |
 | robertdebock.rundeck | Alpine | Package `bash` is not installed. |
 | robertdebock.phpmyadmin | Centos-6 | Python is outdated, PHP is outdated. |
-| robertdebock.phpmyadmin | Debian Jessie | Depends on Ansible role [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
+| robertdebock.phpmyadmin | Debian 8 | Depends on Ansible role [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has limited OS support. |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | Not supported by Microsoft. |
 | robertdebock.npm | Debian 7, 9 & 10, CentOS 6| Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm/). |
-| robertdebock.httpd | Debian Jessie & CentOS 6 | Debian: pyopenssl is old, Centos: depends on [robertdebock.python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
-| robertdebock.digitalocean-agent | Alpine, ArchLinux, OpenSUSE  | Not supported by DigitalOcean. |
+| robertdebock.httpd | Debian 8 | The package pyopenssl is old. |
+| robertdebock.httpd | CentOS 6 | Depends on [robertdebock.python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
+| robertdebock.digitalocean-agent | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
 | robertdebock.digitalocean-agent | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
 
 ## Ansible version
