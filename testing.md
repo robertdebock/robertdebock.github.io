@@ -23,9 +23,8 @@ In Travis CI these combinations are called a `matrix`. You can consider this ove
 | OpenSuse 42.3  | yes         | yes         | yes         |
 | Ubuntu Artful  | yes         | yes         | yes         |
 | Ubuntu Bionic  | yes         | yes         | yes         |
-| Ubuntu Xenial  | yes         | yes         | yes         |
 
-This matrix runs 15 (distributions) times 3 (Ansible versions) equals 45 build.
+This matrix runs 14 (distributions) times 3 (Ansible versions) quals 42 build.
 
 If a distribution or ansible version is not supported, the strategy is to also test that, and ensure if fails.
 
