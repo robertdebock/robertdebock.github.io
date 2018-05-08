@@ -68,10 +68,10 @@ Because these dependecies are loose, you have to include them in your playbook y
 ```
 
 ## Tests
-Multiple tests exist, read [more about testing](testing.html)
+Unit tests and integration tests are use to verify the quality of the roles, read [more about testing](testing.html)
 
 ## Distributions
-The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. By default these Linux distributions are included in the tests:
+The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. For each distribution, the current and previous release is tested. A role may work on diferent distributions, like Red Hat Enterprise Linux (RHEL), but it's not tested against it. By default these Linux distributions are included in the tests:
 
 | Distribution | Version(s)  |
 |--------------|-------------|
@@ -97,17 +97,13 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.spamassassin | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
 | robertdebock.docker | Debian 10 | Not supported by [Docker Project](https://apt.dockerproject.org/repo/dists/). |
 | robertdebock.docker | Centos 6 | Depends on Ansible role [python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
-| robertdebock.tomcat | Debian 8 | Java 8 is not available. |
-| robertdebock.rundeck | Debian 8 | Java 8 is not available. |
 | robertdebock.rundeck | Alpine | Package `bash` is not installed. |
 | robertdebock.phpmyadmin | Centos-6 | Python is outdated, PHP is outdated. |
-| robertdebock.phpmyadmin | Debian 8 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has [limited OS support](https://www.zabbix.com/documentation/3.4/manual/installation/requirements). |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
-| robertdebock.npm | Debian 7, 9 & 10, CentOS 6| Unable to locate package npm. |
+| robertdebock.npm | Debian 9 & 10, CentOS 6| Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role [npm](https://galaxy.ansible.com/robertdebock/npm/). |
-| robertdebock.httpd | Debian 8 | The package pyopenssl is old. |
 | robertdebock.httpd | CentOS 6 | Depends on [python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
 | robertdebock.digitalocean-agent | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
 | robertdebock.digitalocean-agent | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
