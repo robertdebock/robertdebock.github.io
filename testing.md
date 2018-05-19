@@ -16,8 +16,8 @@ In Travis CI these combinations are called a `matrix`. You can consider this ove
 | Centos 7           | yes         | yes         | yes         |
 | Debian Buster (10) | yes         | yes         | yes         |
 | Debian Stretch (9) | yes         | yes         | yes         |
-| Fedora 26          | yes         | yes         | yes         |
 | Fedora 27          | yes         | yes         | yes         |
+| Fedora 28          | yes         | yes         | yes         |
 | OpenSuse 42.2      | yes         | yes         | yes         |
 | OpenSuse 42.3      | yes         | yes         | yes         |
 | Ubuntu Artful (17) | yes         | yes         | yes         |
@@ -73,6 +73,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |18|r|[ansible-role-rundeck](https://travis-ci.org/robertdebock/ansible-role-rundeck)|
 |19|s|[ansible-role-scl](https://travis-ci.org/robertdebock/ansible-role-scl)|
 |19|s|[ansible-role-spamassassin](https://travis-ci.org/robertdebock/ansible-role-spamassassin)|
+|19|s|[ansible-role-sudo-pair](https://travis-ci.org/robertdebock/ansible-role-sudo-pair)|
 |20|t|[ansible-role-tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd)|
 |20|t|[ansible-role-tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat)|
 |21|u|[ansible-role-update](https://travis-ci.org/robertdebock/ansible-role-update)|
