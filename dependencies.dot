@@ -51,7 +51,7 @@ digraph hierarchy {
   phpmyadmin -> {php httpd mysql}
   roundcubemail -> {php httpd}
   zabbix -> httpd [style=dashed]
-  {"python-pip" "sudo-pair" -> {buildtools scl}
+  {"python-pip" "sudo-pair"} -> {buildtools scl}
   {rundeck tomcat} -> java
   tomcat -> haveged
   spamassassin -> rsyslog
