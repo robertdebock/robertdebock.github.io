@@ -4,10 +4,9 @@ digraph PhiloDilemma {
   {
     bootstrap [fillcolor=green style=filled]
     epel [fillcolor=yellow style=filled]
-    scl [fillcolor=yellow style=filled]
     buildtools [fillcolor=yellow style=filled]
     "sudo-pair" [fillcolor=orange style=filled]
   }
-  {buildtools epel scl} -> bootstrap
-  "sudo-pair" -> {buildtools epel scl}
+  {buildtools epel} -> bootstrap
+  "sudo-pair" -> {buildtools epel}
 }
