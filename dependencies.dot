@@ -35,13 +35,14 @@ digraph hierarchy {
     scl [fillcolor=yellow style=filled]
     spamassassin [fillcolor=orange style=filled]
     "sudo-pair" [fillcolor=orange style=filled]
+    terraform [fillcolor=yellow style=filled]
     tftpd [fillcolor=orange style=filled]
     tomcat [fillcolor=red style=filled]
     update [fillcolor=yellow style=filled]
     xinetd [fillcolor=yellow style=filled]
     zabbix [fillcolor=purple style=filled]
   }
-  {buildtools cntlm dhcpd "digitalocean-agent" dns dovecot epel iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
+  {buildtools cntlm dhcpd "digitalocean-agent" dns dovecot epel iptables java mysql mssql ntp php postfix rsyslog ruby scl terraform update xinetd} -> bootstrap
   {clamav fail2ban haveged nginx npm "python-pip" "sudo-pair" zabbix} -> epel
   postfix -> {spamassassin clamav} [style=dashed]
   {ara docker httpd} -> "python-pip"

@@ -74,6 +74,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |19|s|[ansible-role-scl](https://travis-ci.org/robertdebock/ansible-role-scl)|
 |19|s|[ansible-role-spamassassin](https://travis-ci.org/robertdebock/ansible-role-spamassassin)|
 |19|s|[ansible-role-sudo-pair](https://travis-ci.org/robertdebock/ansible-role-sudo-pair)|
+|20|t|[ansible-role-terraform](https://travis-ci.org/robertdebock/ansible-role-terraform)|
 |20|t|[ansible-role-tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd)|
 |20|t|[ansible-role-tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat)|
 |21|u|[ansible-role-update](https://travis-ci.org/robertdebock/ansible-role-update)|
