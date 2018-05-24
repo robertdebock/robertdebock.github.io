@@ -4,6 +4,7 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled penwidth=3]
+    ara [fillcolor=yellow style=filled]
     dhcpd [fillcolor=yellow style=filled]
     "digitalocean-agent" [fillcolor=yellow style=filled]
     dns [fillcolor=yellow style=filled]
@@ -20,9 +21,10 @@ digraph PhiloDilemma {
     buildtools [fillcolor=yellow style=filled]
     postfix [fillcolor=yellow style=filled]
     rsyslog [fillcolor=yellow style=filled]
+    "sudo-pair" [fillcolor=yellow style=filled]
     mysql [fillcolor=yellow style=filled]
     mssql [fillcolor=yellow style=filled]
     php [fillcolor=yellow style=filled]
   }
-  {buildtools dhcpd "digitalocean-agent" dns dovecot epel httpd iptables java mysql mssql ntp php postfix rsyslog ruby scl update xinetd} -> bootstrap
+  {ara buildtools dhcpd "digitalocean-agent" dns dovecot epel httpd iptables java mysql mssql ntp php postfix rsyslog ruby scl "sudo-pair" update xinetd} -> bootstrap
 }
