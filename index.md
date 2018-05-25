@@ -99,7 +99,6 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.spamassassin | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
 | robertdebock.docker | Debian 10 | Not supported by [Docker Project](https://apt.dockerproject.org/repo/dists/). |
 | robertdebock.docker | Centos 6 | Depends on Ansible role [python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
-| robertdebock.rundeck | Alpine | Package `bash` is not installed. |
 | robertdebock.phpmyadmin | Centos-6 | Python is outdated, PHP is outdated. |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has [limited OS support](https://www.zabbix.com/documentation/3.4/manual/installation/requirements). |
