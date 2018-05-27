@@ -69,6 +69,8 @@ Because these dependecies are loose, you have to include them in your playbook y
     - role: robertdebock.tomcat
 ```
 
+There is now one exception in tftpd, it depends on xinetd. A handler defined in xinetd is used in tftpd.
+
 ## Tests
 Unit tests and integration tests are use to verify the quality of the roles, read [more about testing](testing.html)
 

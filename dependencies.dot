@@ -48,7 +48,7 @@ digraph hierarchy {
   {ara docker httpd} -> "python-pip"
   revealmd -> npm
   natrouter -> iptables
-  tftpd -> xinetd 
+  tftpd -> xinetd  [penwidth=3]
   phpmyadmin -> {php httpd mysql}
   roundcubemail -> {php httpd}
   zabbix -> httpd [style=dashed]
