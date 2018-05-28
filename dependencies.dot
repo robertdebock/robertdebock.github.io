@@ -55,5 +55,5 @@ digraph hierarchy {
   {"python-pip" "sudo-pair"} -> {buildtools}
   {rundeck tomcat} -> java
   tomcat -> haveged
-  spamassassin -> rsyslog
+  spamassassin -> rsyslog [penwidth=3]
 }
