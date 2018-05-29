@@ -14,7 +14,6 @@ digraph PhiloDilemma {
   {buildtools epel scl} -> bootstrap
   "python-pip" -> {buildtools epel scl}
   httpd -> "python-pip"
-  roundcubemail -> epel
-  roundcubemail -> httpd
-  roundcubemail -> php
+  roundcubemail -> {epel php}
+  roundcubemail -> httpd [penwidth=3]
 }

@@ -71,10 +71,14 @@ Because these dependecies are loose, you have to include them in your playbook y
 
 Some roles do have a "hard requirement" on another role, mainy for a shared handler.
 
-| Role         | Depends on |
-|--------------|------------|
-| tftpd        | xinetd     |
-| spamassassin | rsyslog    |
+| Role          | Depends on |
+|---------------|------------|
+| tftpd         | xinetd     |
+| php           | httpd      |
+| phpmyadmin    | httpd      |
+| roundcubemail | httpd      |
+| spamassassin  | rsyslog    |
+| zabbix        | httpd      |
 
 ## Tests
 Unit tests and integration tests are use to verify the quality of the roles, read [more about testing](testing.html)

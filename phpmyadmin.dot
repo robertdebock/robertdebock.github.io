@@ -14,5 +14,6 @@ digraph PhiloDilemma {
   {buildtools epel mysql php scl} -> bootstrap
   "python-pip" -> {buildtools epel scl}
   httpd -> "python-pip"
-  phpmyadmin -> {httpd mysql php}
+  phpmyadmin -> {mysql php}
+  phpmyadmin -> httpd [penwidth=3]
 }

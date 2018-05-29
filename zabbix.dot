@@ -14,5 +14,5 @@ digraph PhiloDilemma {
   "python-pip" -> {buildtools epel scl}
   httpd -> "python-pip"
   zabbix -> epel
-  zabbix -> httpd [style=dashed]
+  zabbix -> httpd [style=dashed penwidth=3]
 }

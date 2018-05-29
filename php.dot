@@ -7,5 +7,6 @@ digraph PhiloDilemma {
     phpmyadmin [fillcolor=orange style=filled]
   }
   php -> bootstrap
+  php -> httpd [penwidth=3]
   phpmyadmin -> php
 }

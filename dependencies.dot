@@ -49,9 +49,9 @@ digraph hierarchy {
   revealmd -> npm
   natrouter -> iptables
   tftpd -> xinetd  [penwidth=3]
-  phpmyadmin -> {php httpd mysql}
-  roundcubemail -> {php httpd}
-  zabbix -> httpd [style=dashed]
+  phpmyadmin -> {php mysql}
+  {php phpmyadmin roundcubemail zabbix} -> httpd [style=dashed penwidth=3]
+  roundcubemail -> php
   {"python-pip" "sudo-pair"} -> {buildtools}
   {rundeck tomcat} -> java
   tomcat -> haveged
