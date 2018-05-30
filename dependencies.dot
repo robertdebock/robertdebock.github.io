@@ -23,7 +23,7 @@ digraph hierarchy {
     nginx [fillcolor=orange style=filled]
     npm [fillcolor=orange style=filled]
     ntp [fillcolor=yellow style=filled]
-    php [fillcolor=yellow style=filled]
+    php [fillcolor=orange style=filled]
     phpmyadmin [fillcolor=purple style=filled]
     postfix [fillcolor=yellow style=filled]
     "python-pip" [fillcolor=orange style=filled]
@@ -42,7 +42,7 @@ digraph hierarchy {
     xinetd [fillcolor=yellow style=filled]
     zabbix [fillcolor=purple style=filled]
   }
-  {buildtools cntlm dhcpd "digitalocean-agent" dns dovecot epel iptables java mysql mssql ntp php postfix rsyslog ruby scl terraform update xinetd} -> bootstrap
+  {buildtools cntlm dhcpd "digitalocean-agent" dns dovecot epel iptables java mysql mssql ntp postfix rsyslog ruby scl terraform update xinetd} -> bootstrap
   {clamav fail2ban haveged nginx npm "python-pip" "sudo-pair" zabbix} -> epel
   postfix -> {spamassassin clamav} [style=dashed]
   {ara docker httpd} -> "python-pip"

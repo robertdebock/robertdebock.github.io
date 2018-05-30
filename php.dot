@@ -3,10 +3,9 @@ digraph PhiloDilemma {
   overlap=false
   {
     bootstrap [fillcolor=green style=filled]
-    php [fillcolor=yellow style=filled penwidth=3]
-    phpmyadmin [fillcolor=orange style=filled]
+    httpd [fillcolor=yellow style=filled penwidth=3]
+    php [fillcolor=orange style=filled]
   }
-  php -> bootstrap
   php -> httpd [penwidth=3]
-  phpmyadmin -> php
+  httpd -> bootstrap
 }
