@@ -5,6 +5,7 @@ These [Ansible](https://www.ansible.com/) roles are [simple](style.html) and wor
 [![Build Status](https://travis-ci.org/robertdebock/ansible-integration.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-integration)
 
 ## Unit tests
+- [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-at.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-at) [at](https://galaxy.ansible.com/robertdebock/at/) - [source](https://github.com/robertdebock/ansible-role-at).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-ara.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ara) [ara](https://galaxy.ansible.com/robertdebock/ara/) - [source](https://github.com/robertdebock/ansible-role-ara).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-bootstrap.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-bootstrap) [bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) - [source](https://github.com/robertdebock/ansible-role-bootstrap).
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-buildtools.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-buildtools) [buildtools](https://galaxy.ansible.com/robertdebock/buildtools/) - [source](https://github.com/robertdebock/ansible-role-buildtools).
