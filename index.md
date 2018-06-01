@@ -2,7 +2,7 @@
 These [Ansible](https://www.ansible.com/) roles are [simple](style.html) and work well together on many distributions and many Ansible version.
 
 ## Integration tests
-[![Build Status](https://travis-ci.org/robertdebock/ansible-integration.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-integration)
+[![Build Status](https://travis-ci.org/robertdebock/ansible-integration.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-integration) [ARA report](https://robertdebock.nl/ansible-integration/).
 
 ## Unit tests
 - [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-at.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-at) [at](https://galaxy.ansible.com/robertdebock/at/) - [source](https://github.com/robertdebock/ansible-role-at).
