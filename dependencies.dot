@@ -24,6 +24,7 @@ digraph hierarchy {
     nginx [fillcolor=orange style=filled]
     npm [fillcolor=orange style=filled]
     ntp [fillcolor=yellow style=filled]
+    owncloud [fillcolor=purple style=filled]
     php [fillcolor=orange style=filled]
     phpmyadmin [fillcolor=purple style=filled]
     postfix [fillcolor=yellow style=filled]
@@ -50,7 +51,7 @@ digraph hierarchy {
   revealmd -> npm
   natrouter -> iptables
   tftpd -> xinetd  [penwidth=3]
-  phpmyadmin -> {php mysql}
+  {owncloud phpmyadmin} -> {php mysql}
   {php phpmyadmin roundcubemail zabbix} -> httpd [style=dashed penwidth=3]
   roundcubemail -> php
   {"python-pip" "sudo-pair"} -> {buildtools}
