@@ -53,9 +53,9 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |5|e|[ansible-role-epel](https://travis-ci.org/robertdebock/ansible-role-epel)|
 |6|f|[ansible-role-fail2ban](https://travis-ci.org/robertdebock/ansible-role-fail2ban)|
 |8|h|[ansible-role-haveged](https://travis-ci.org/robertdebock/ansible-role-haveged)|
-|9|h|[ansible-role-httpd](https://travis-ci.org/robertdebock/ansible-role-httpd)|
-|10|i|[ansible-role-iptables](https://travis-ci.org/robertdebock/ansible-role-iptables)|
-|11|h|[ansible-role-java](https://travis-ci.org/robertdebock/ansible-role-java)|
+|8|h|[ansible-role-httpd](https://travis-ci.org/robertdebock/ansible-role-httpd)|
+|9|i|[ansible-role-iptables](https://travis-ci.org/robertdebock/ansible-role-iptables)|
+|10|h|[ansible-role-java](https://travis-ci.org/robertdebock/ansible-role-java)|
 |13|m|[ansible-role-mssql](https://travis-ci.org/robertdebock/ansible-role-mssql)|
 |13|m|[ansible-role-mysql](https://travis-ci.org/robertdebock/ansible-role-mysql)|
 |14|n|[ansible-role-natrouter](https://travis-ci.org/robertdebock/ansible-role-natrouter)|
