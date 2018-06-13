@@ -56,7 +56,7 @@ The dependencies are soft for these reasons:
 - Easier to fork.
 - Let implementor assume a start-state of a machine.
 
-[![Overview of dependencies](https://raw.githubusercontent.com/robertdebock/robertdebock.github.io/artifacts/dependencies.png "Dependency overview")](https://raw.githubusercontent.com/robertdebock/robertdebock.github.io/artifacts/dependencies.png)
+[![Overview of dependencies](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/dependencies.png "Dependency overview")](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/dependencies.png)
 
 Because these dependecies are loose, you have to include them in your playbook yourself:
 
