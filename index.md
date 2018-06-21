@@ -75,12 +75,12 @@ Some roles do have a "hard requirement" on another role, mainy for a shared hand
 
 | Role          | Depends on |
 |---------------|------------|
-| tftpd         | xinetd     |
-| php           | httpd      |
-| phpmyadmin    | httpd      |
-| roundcubemail | httpd      |
-| spamassassin  | rsyslog    |
-| zabbix        | httpd      |
+| [tftpd](https://galaxy.ansible.com/robertdebock/tftpd/) | [xinetd](https://galaxy.ansible.com/robertdebock/xinetd/) |
+| [php](https://galaxy.ansible.com/robertdebock/php/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) |
+| [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) |
+| [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) |
+| [spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin/) | [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/) |
+| [zabbix](https://galaxy.ansible.com/robertdebock/zabbix/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) |
 
 ## Tests
 Unit tests and integration tests are use to verify the quality of the roles, read [more about testing](testing.html)
@@ -88,15 +88,15 @@ Unit tests and integration tests are use to verify the quality of the roles, rea
 ## Distributions
 The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. For each distribution, the current and previous release is tested. A role may work on diferent distributions, like Red Hat Enterprise Linux (RHEL), but it's not tested against it. By default these Linux distributions are included in the tests:
 
-| Distribution | Version(s)  |
-|--------------|-------------|
-| Archlinux    | latest      |
-| Alpine       | 3.6 & 3.7   |
-| CentOS       | 6 & 7       |
-| Debian       | 9 (stretch) & 10 (buster) |
-| Fedora       | 26 & 27     |
-| OpenSUSE     | 42.2 & 42.3 | 
-| Ubuntu       | 17 (artful) & 18 (bionic) |
+| Distribution | Version(s)           |
+|--------------|----------------------|
+| Archlinux    | latest               |
+| Alpine       | latest & edge        |
+| CentOS       | 6 & latest           |
+| Debian       | stable & latest      |
+| Fedora       | latest & rawhide     |
+| OpenSUSE     | leap & tumbleweed    | 
+| Ubuntu       | 17 (artful) & latest |
 
 ### Exceptions in distributions
 Some Ansible roles do not work on all distributions. This table lists why.
@@ -110,13 +110,13 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.python-pip | Centos 6 | Python is outdated. |
 | robertdebock.rsyslog | ArchLinux | Package is only available in AUR. |
 | robertdebock.spamassassin | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
-| robertdebock.docker | Debian 10 | Not supported by [Docker Project](https://apt.dockerproject.org/repo/dists/). |
+| robertdebock.docker | Debian latest | Not supported by [Docker Project](https://apt.dockerproject.org/repo/dists/). |
 | robertdebock.docker | Centos 6 | Depends on Ansible role [python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
 | robertdebock.phpmyadmin | Centos-6 | Python is outdated, PHP is outdated. |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has [limited OS support](https://www.zabbix.com/documentation/3.4/manual/installation/requirements). |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
-| robertdebock.npm | Debian 9 & 10, CentOS 6| Unable to locate package npm. |
+| robertdebock.npm | Debian stable & latest, CentOS 6| Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role [npm](https://galaxy.ansible.com/robertdebock/npm/). |
 | robertdebock.httpd | CentOS 6 | Depends on [python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
 | robertdebock.digitalocean-agent | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |

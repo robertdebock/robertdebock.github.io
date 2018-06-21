@@ -7,21 +7,21 @@ The filosofy to test is:
 
 In Travis CI these combinations are called a `matrix`. You can consider this overview per role:
 
-| Distribution       | Ansible 2.3 | Ansible 2.4 | Ansible 2.5 |
-|--------------------|-------------|-------------|-------------|
-| Alpine 3.6         | yes         | yes         | yes         |
-| Alpine 3.7         | yes         | yes         | yes         |
-| Archlinux (base)   | yes         | yes         | yes         |
-| Centos 6           | yes         | yes         | yes         |
-| Centos 7           | yes         | yes         | yes         |
-| Debian Buster (10) | yes         | yes         | yes         |
-| Debian Stretch (9) | yes         | yes         | yes         |
-| Fedora 27          | yes         | yes         | yes         |
-| Fedora 28          | yes         | yes         | yes         |
-| OpenSuse 42.2      | yes         | yes         | yes         |
-| OpenSuse 42.3      | yes         | yes         | yes         |
-| Ubuntu Artful (17) | yes         | yes         | yes         |
-| Ubuntu Bionic (18) | yes         | yes         | yes         |
+| Distribution        | Ansible 2.3 | Ansible 2.4 | Ansible 2.5 |
+|---------------------|-------------|-------------|-------------|
+| Alpine latest       | yes         | yes         | yes         |
+| Alpine edge         | yes         | yes         | yes         |
+| Archlinux (base)    | yes         | yes         | yes         |
+| Centos 6            | yes         | yes         | yes         |
+| Centos latest       | yes         | yes         | yes         |
+| Debian stable       | yes         | yes         | yes         |
+| Debian latest       | yes         | yes         | yes         |
+| Fedora latest       | yes         | yes         | yes         |
+| Fedora rawhide      | yes         | yes         | yes         |
+| OpenSuse Leap       | yes         | yes         | yes         |
+| OpenSuse Tumbleweed | yes         | yes         | yes         |
+| Ubuntu Artful (17)  | yes         | yes         | yes         |
+| Ubuntu latest       | yes         | yes         | yes         |
 
 This matrix runs 13 (distributions) times 3 (Ansible versions) equals 39 build.
 
