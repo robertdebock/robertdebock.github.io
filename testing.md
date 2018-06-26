@@ -52,6 +52,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |4|d|[ansible-role-dovecot](https://travis-ci.org/robertdebock/ansible-role-dovecot)|
 |5|e|[ansible-role-epel](https://travis-ci.org/robertdebock/ansible-role-epel)|
 |6|f|[ansible-role-fail2ban](https://travis-ci.org/robertdebock/ansible-role-fail2ban)|
+|7|f|[ansible-role-gotop](https://travis-ci.org/robertdebock/ansible-role-gotop)|
 |8|h|[ansible-role-haveged](https://travis-ci.org/robertdebock/ansible-role-haveged)|
 |8|h|[ansible-role-httpd](https://travis-ci.org/robertdebock/ansible-role-httpd)|
 |9|i|[ansible-role-iptables](https://travis-ci.org/robertdebock/ansible-role-iptables)|
