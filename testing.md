@@ -39,50 +39,52 @@ An [example for the unit test for the Ansible role java](https://travis-ci.org/r
 
 Because distriutions, molecule, ansible and goss change over time, a monthly test is done to all roles using this schedule:
 
-|------------|------|------------|
-|Day of month|Letter|Ansible Role|
-|1|a|[ansible-role-at](https://travis-ci.org/robertdebock/ansible-role-at)|
-|1|a|[ansible-role-ara](https://travis-ci.org/robertdebock/ansible-role-ara)|
-|2|b|[ansible-role-bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap)|
-|2|b|[ansible-role-buildtools](https://travis-ci.org/robertdebock/ansible-role-buildtools)|
-|3|c|[ansible-role-clamav](https://travis-ci.org/robertdebock/ansible-role-clamav)|
-|4|d|[ansible-role-dhcpd](https://travis-ci.org/robertdebock/ansible-role-dhcpd)|
-|4|d|[ansible-role-dns](https://travis-ci.org/robertdebock/ansible-role-dns)|
-|4|d|[ansible-role-docker](https://travis-ci.org/robertdebock/ansible-role-docker)|
-|4|d|[ansible-role-dovecot](https://travis-ci.org/robertdebock/ansible-role-dovecot)|
-|5|e|[ansible-role-epel](https://travis-ci.org/robertdebock/ansible-role-epel)|
-|6|f|[ansible-role-fail2ban](https://travis-ci.org/robertdebock/ansible-role-fail2ban)|
-|7|f|[ansible-role-gotop](https://travis-ci.org/robertdebock/ansible-role-gotop)|
-|8|h|[ansible-role-haveged](https://travis-ci.org/robertdebock/ansible-role-haveged)|
-|8|h|[ansible-role-httpd](https://travis-ci.org/robertdebock/ansible-role-httpd)|
-|9|i|[ansible-role-iptables](https://travis-ci.org/robertdebock/ansible-role-iptables)|
-|10|h|[ansible-role-java](https://travis-ci.org/robertdebock/ansible-role-java)|
-|13|m|[ansible-role-mssql](https://travis-ci.org/robertdebock/ansible-role-mssql)|
-|13|m|[ansible-role-mysql](https://travis-ci.org/robertdebock/ansible-role-mysql)|
-|14|n|[ansible-role-natrouter](https://travis-ci.org/robertdebock/ansible-role-natrouter)|
-|14|n|[ansible-role-nginx](https://travis-ci.org/robertdebock/ansible-role-nginx)|
-|14|n|[ansible-role-npm](https://travis-ci.org/robertdebock/ansible-role-npm)|
-|14|n|[ansible-role-ntp](https://travis-ci.org/robertdebock/ansible-role-ntp)|
-|15|o|[ansible-role-owncloud](https://travis-ci.org/robertdebock/ansible-role-owncloud)|
-|16|p|[ansible-role-php](https://travis-ci.org/robertdebock/ansible-role-php)|
-|16|p|[ansible-role-phpmyadmin](https://travis-ci.org/robertdebock/ansible-role-phpmyadmin)|
-|16|p|[ansible-role-postfix](https://travis-ci.org/robertdebock/ansible-role-postfix)|
-|16|p|[ansible-role-python-pip](https://travis-ci.org/robertdebock/ansible-role-python-pip)|
-|18|r|[ansible-role-release](https://travis-ci.org/robertdebock/ansible-role-release)|
-|18|r|[ansible-role-revealmd](https://travis-ci.org/robertdebock/ansible-role-revealmd)|
-|18|r|[ansible-role-roundcubemail](https://travis-ci.org/robertdebock/ansible-role-roundcubemail)|
-|18|r|[ansible-role-rsyslog](https://travis-ci.org/robertdebock/ansible-role-rsyslog)|
-|18|r|[ansible-role-ruby](https://travis-ci.org/robertdebock/ansible-role-ruby)|
-|18|r|[ansible-role-rundeck](https://travis-ci.org/robertdebock/ansible-role-rundeck)|
-|19|s|[ansible-role-scl](https://travis-ci.org/robertdebock/ansible-role-scl)|
-|19|s|[ansible-role-spamassassin](https://travis-ci.org/robertdebock/ansible-role-spamassassin)|
-|19|s|[ansible-role-sudo-pair](https://travis-ci.org/robertdebock/ansible-role-sudo-pair)|
-|20|t|[ansible-role-terraform](https://travis-ci.org/robertdebock/ansible-role-terraform)|
-|20|t|[ansible-role-tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd)|
-|20|t|[ansible-role-tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat)|
-|21|u|[ansible-role-update](https://travis-ci.org/robertdebock/ansible-role-update)|
-|24|x|[ansible-role-xinetd](https://travis-ci.org/robertdebock/ansible-role-xinetd)|
-|26|z|[ansible-role-zabbix](https://travis-ci.org/robertdebock/ansible-role-zabbix)|
+|------------|------------|
+|Day of month|Ansible Role|
+|1|[ansible-role-at](https://travis-ci.org/robertdebock/ansible-role-at)|
+|1|[ansible-role-ara](https://travis-ci.org/robertdebock/ansible-role-ara)|
+|2|[ansible-role-bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap)|
+|2|[ansible-role-buildtools](https://travis-ci.org/robertdebock/ansible-role-buildtools)|
+|3|[ansible-role-cargo](https://travis-ci.org/robertdebock/ansible-role-cargo)|
+|3|[ansible-role-clamav](https://travis-ci.org/robertdebock/ansible-role-clamav)|
+|4|[ansible-role-dhcpd](https://travis-ci.org/robertdebock/ansible-role-dhcpd)|
+|4|[ansible-role-dns](https://travis-ci.org/robertdebock/ansible-role-dns)|
+|4|[ansible-role-docker](https://travis-ci.org/robertdebock/ansible-role-docker)|
+|4|[ansible-role-dovecot](https://travis-ci.org/robertdebock/ansible-role-dovecot)|
+|5|[ansible-role-epel](https://travis-ci.org/robertdebock/ansible-role-epel)|
+|6|[ansible-role-fail2ban](https://travis-ci.org/robertdebock/ansible-role-fail2ban)|
+|7|[ansible-role-gotop](https://travis-ci.org/robertdebock/ansible-role-gotop)|
+|8|[ansible-role-haveged](https://travis-ci.org/robertdebock/ansible-role-haveged)|
+|8|[ansible-role-httpd](https://travis-ci.org/robertdebock/ansible-role-httpd)|
+|9|[ansible-role-iptables](https://travis-ci.org/robertdebock/ansible-role-iptables)|
+|10|[ansible-role-java](https://travis-ci.org/robertdebock/ansible-role-java)|
+|13|[ansible-role-mitogen](https://travis-ci.org/robertdebock/ansible-role-mitogen)|
+|13|[ansible-role-mssql](https://travis-ci.org/robertdebock/ansible-role-mssql)|
+|13|[ansible-role-mysql](https://travis-ci.org/robertdebock/ansible-role-mysql)|
+|14|[ansible-role-natrouter](https://travis-ci.org/robertdebock/ansible-role-natrouter)|
+|14|[ansible-role-nginx](https://travis-ci.org/robertdebock/ansible-role-nginx)|
+|14|[ansible-role-npm](https://travis-ci.org/robertdebock/ansible-role-npm)|
+|14|[ansible-role-ntp](https://travis-ci.org/robertdebock/ansible-role-ntp)|
+|15|[ansible-role-owncloud](https://travis-ci.org/robertdebock/ansible-role-owncloud)|
+|16|[ansible-role-php](https://travis-ci.org/robertdebock/ansible-role-php)|
+|16|[ansible-role-phpmyadmin](https://travis-ci.org/robertdebock/ansible-role-phpmyadmin)|
+|16|[ansible-role-postfix](https://travis-ci.org/robertdebock/ansible-role-postfix)|
+|16|[ansible-role-python-pip](https://travis-ci.org/robertdebock/ansible-role-python-pip)|
+|18|[ansible-role-release](https://travis-ci.org/robertdebock/ansible-role-release)|
+|18|[ansible-role-revealmd](https://travis-ci.org/robertdebock/ansible-role-revealmd)|
+|18|[ansible-role-roundcubemail](https://travis-ci.org/robertdebock/ansible-role-roundcubemail)|
+|18|[ansible-role-rsyslog](https://travis-ci.org/robertdebock/ansible-role-rsyslog)|
+|18|[ansible-role-ruby](https://travis-ci.org/robertdebock/ansible-role-ruby)|
+|18|[ansible-role-rundeck](https://travis-ci.org/robertdebock/ansible-role-rundeck)|
+|19|[ansible-role-scl](https://travis-ci.org/robertdebock/ansible-role-scl)|
+|19|[ansible-role-spamassassin](https://travis-ci.org/robertdebock/ansible-role-spamassassin)|
+|19|[ansible-role-sudo-pair](https://travis-ci.org/robertdebock/ansible-role-sudo-pair)|
+|20|[ansible-role-terraform](https://travis-ci.org/robertdebock/ansible-role-terraform)|
+|20|[ansible-role-tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd)|
+|20|[ansible-role-tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat)|
+|21|[ansible-role-update](https://travis-ci.org/robertdebock/ansible-role-update)|
+|24|[ansible-role-xinetd](https://travis-ci.org/robertdebock/ansible-role-xinetd)|
+|26|[ansible-role-zabbix](https://travis-ci.org/robertdebock/ansible-role-zabbix)|
 
 ## Integration
 
