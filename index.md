@@ -2,9 +2,15 @@
 These [Ansible](https://www.ansible.com/) roles are [simple](style.html) and work well together on many distributions and many Ansible version.
 
 ## Integration tests
+
+A weekly test to verify if roles work well together.
+
 [![Build Status](https://travis-ci.org/robertdebock/ansible-integration.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-integration) [ARA report](https://robertdebock.nl/ansible-integration/).
 
 ## Unit tests
+
+A monthly test to see of the role still works on the current distributions.
+
 1. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-at.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-at) [at](https://galaxy.ansible.com/robertdebock/at/) - [source](https://github.com/robertdebock/ansible-role-at).
 2. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-ara.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ara) [ara](https://galaxy.ansible.com/robertdebock/ara/) - [source](https://github.com/robertdebock/ansible-role-ara).
 3. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-bootstrap.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-bootstrap) [bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) - [source](https://github.com/robertdebock/ansible-role-bootstrap).
@@ -36,7 +42,7 @@ These [Ansible](https://www.ansible.com/) roles are [simple](style.html) and wor
 29. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-phpmyadmin.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-phpmyadmin) [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin/) - [source](https://github.com/robertdebock/ansible-role-phpmyadmin).
 30. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-php.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-php) [php](https://galaxy.ansible.com/robertdebock/php/) - [source](https://github.com/robertdebock/ansible-role-php).
 31. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-postfix.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-postfix) [postfix](https://galaxy.ansible.com/robertdebock/postfix/) - [source](https://github.com/robertdebock/ansible-role-postfix).
-32. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-python-pip.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-python-pip) [python-pip](https://galaxy.ansible.com/robertdebock/python-pip/) - [source](https://github.com/robertdebock/ansible-role-python-pip).
+32. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-python_pip.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-python_pip) [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/) - [source](https://github.com/robertdebock/ansible-role-python_pip).
 33. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-revealmd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-revealmd) [revealmd](https://galaxy.ansible.com/robertdebock/revealmd/) - [source](https://github.com/robertdebock/ansible-role-revealmd).
 34. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-roundcubemail.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-roundcubemail) [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail/) - [source](https://github.com/robertdebock/ansible-role-roundcubemail).
 35. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-rsyslog.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-rsyslog) [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/) - [source](https://github.com/robertdebock/ansible-role-rsyslog).
@@ -107,22 +113,23 @@ Some Ansible roles do not work on all distributions. This table lists why.
 
 | Ansible role | Excepted Linux distribution(s) | Reasoning |
 |--------------|--------------------------------|-----------|
-| robertdebock.ara | CentOS 6 | Depends on Ansible role [python-pip](https://galaxy.ansible.com/robertdebock/python-pip/)). |
+| robertdebock.ara | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
+| robertdebock.cntlm | Alpine, Archlinux, openSUSE | No distribution package provided. |
+| robertdebock.mitogen | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
 | robertdebock.xinetd | Alpine | The package `xinetd` is not available. |
 | robertdebock.tftpd | Alpine | Depends on Ansible role [xinetd](https://galaxy.ansible.com/robertdebock/xinetd/). |
 | robertdebock.tftpd | Archlinux | The package `tftpd` is not available. |
-| robertdebock.python-pip | Centos 6 | Python is outdated. |
+| robertdebock.python_pip | Centos 6 | Python is outdated. |
 | robertdebock.rsyslog | ArchLinux | Package is only available in AUR. |
 | robertdebock.spamassassin | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
-| robertdebock.docker | Debian latest | Not supported by [Docker Project](https://apt.dockerproject.org/repo/dists/). |
-| robertdebock.docker | Centos 6 | Depends on Ansible role [python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
+| robertdebock.docker | Centos 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | robertdebock.phpmyadmin | Centos-6 | Python is outdated, PHP is outdated. |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has [limited OS support](https://www.zabbix.com/documentation/3.4/manual/installation/requirements). |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | robertdebock.npm | Debian stable & latest, CentOS 6| Unable to locate package npm. |
 | robertdebock.revealmd | Debian | Depends on Ansible role [npm](https://galaxy.ansible.com/robertdebock/npm/). |
-| robertdebock.httpd | CentOS 6 | Depends on [python-pip](https://galaxy.ansible.com/robertdebock/python-pip/). |
+| robertdebock.httpd | CentOS 6 | Depends on [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | robertdebock.digitalocean-agent | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
 | robertdebock.digitalocean-agent | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
 
