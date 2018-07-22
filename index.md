@@ -122,7 +122,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | robertdebock.rsyslog | ArchLinux | Package is only available in AUR. |
 | robertdebock.spamassassin | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
 | robertdebock.docker | Centos 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| robertdebock.phpmyadmin | Centos-6 | Python is outdated, PHP is outdated. |
+| robertdebock.phpmyadmin | Centos-6 | Python and PHP are outdated. |
 | robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
 | robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has [limited OS support](https://www.zabbix.com/documentation/3.4/manual/installation/requirements). |
 | robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
@@ -139,14 +139,5 @@ The goal is to let all roles work on these Ansible version:
   - ansible_version=">=2.4,<2.5"
   - ansible_version=">=2.5,<2.6"
 ```
-
-### Exceptions in Ansible version
-This table lists the exceptions in Ansible version and the reason why.
-
-| Ansible role | Excepted Ansible version | Resoning |
-|---|---|---|
-| robertdebock.httpd | 2.3 | Uses `*_certificate` modules only supported in Ansible 2.4 and up. |
-| robertdebock.phpmyadmin | 2.3 | Depends on [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
-| robertdebock.zabbix | 2.3 | Depends on [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 
 See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
