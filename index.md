@@ -114,7 +114,6 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | Ansible role | Excepted Linux distribution(s) | Reasoning |
 |--------------|--------------------------------|-----------|
 | robertdebock.ara | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
-| robertdebock.cntlm | Alpine, Archlinux, openSUSE | No distribution package provided. |
 | robertdebock.mitogen | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
 | robertdebock.xinetd | Alpine | The package `xinetd` is not available. |
 | robertdebock.tftpd | Alpine | Depends on Ansible role [xinetd](https://galaxy.ansible.com/robertdebock/xinetd/). |
