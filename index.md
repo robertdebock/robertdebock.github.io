@@ -112,7 +112,7 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 Some Ansible roles do not work on all distributions. This table lists why.
 
 | Ansible role | Excepted Linux distribution(s) | Reasoning |
-](https://galaxy.ansible.com/robertdebock/bootstrap)|--------------|--------------------------------|-----------|
+|--------------|--------------------------------|-----------|
 | [robertdebock.ara](https://galaxy.ansible.com/robertdebock/ara) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
 | [robertdebock.cargo](https://galaxy.ansible.com/robertdebock/cargo) | CentOS 6 | Rust is too old. |
 | [robertdebock.clamav](https://galaxy.ansible.com/robertdebock/clamav)* | ArchLinux | Directory structure is different. |
