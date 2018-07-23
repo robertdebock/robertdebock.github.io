@@ -113,19 +113,19 @@ Some Ansible roles do not work on all distributions. This table lists why.
 
 | Ansible role | Excepted Linux distribution(s) | Reasoning |
 |--------------|--------------------------------|-----------|
-| [robertdebock.ara](https://galaxy.ansible.com/robertdebock/ara) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
+| [robertdebock.ara](https://galaxy.ansible.com/robertdebock/ara) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [robertdebock.cargo](https://galaxy.ansible.com/robertdebock/cargo) | CentOS 6 | Rust is too old. |
 | [robertdebock.clamav](https://galaxy.ansible.com/robertdebock/clamav)* | ArchLinux | Directory structure is different. |
 | [robertdebock.digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
 | [robertdebock.digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
 | [robertdebock.docker](https://galaxy.ansible.com/robertdebock/docker) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | Depends on [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [robertdebock.mitogen](https://galaxy.ansible.com/robertdebock/mitogen) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
+| [robertdebock.mitogen](https://galaxy.ansible.com/robertdebock/mitogen) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [robertdebock.mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm) | Debian stable & latest, CentOS 6| Unable to locate package npm. |
 | [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm) | Fedora Rawhide & OpenSUSE Tumbleweed | dont know. |
-| [robertdebock.owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
-| [robertdebock.php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
+| [robertdebock.owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
+| [robertdebock.php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [robertdebock.phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Python and PHP are outdated. |
 | [robertdebock.phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | Alpine | There is no MySQL, only mariadb. |
 | [robertdebock.python_pip](https://galaxy.ansible.com/robertdebock/python_pip) | CentOS 6 | Python is outdated. |
