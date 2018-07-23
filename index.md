@@ -112,33 +112,33 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 Some Ansible roles do not work on all distributions. This table lists why.
 
 | Ansible role | Excepted Linux distribution(s) | Reasoning |
-|--------------|--------------------------------|-----------|
-| robertdebock.ara | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
-| robertdebock.cargo | CentOS 6 | Rust is too old. |
-| robertdebock.clamav | ArchLinux* | Directory structure is different. |
-| robertdebock.digitalocean-agent* | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
-| robertdebock.digitalocean-agent* | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
-| robertdebock.docker | Centos 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| robertdebock.httpd | CentOS 6 | Depends on [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| robertdebock.mitogen | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
-| robertdebock.mssql | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
-| robertdebock.npm | Debian stable & latest, CentOS 6| Unable to locate package npm. |
-| robertdebock.npm | Fedora Rawhide & OpenSUSE Tumbleweed | dont know. |
-| robertdebock.owncloud | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
-| robertdebock.php | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
-| robertdebock.phpmyadmin | CentOS 6 | Python and PHP are outdated. |
-| robertdebock.phpmyadmin | Alpine | There is no MySQL, only mariadb. |
-| robertdebock.python_pip | CentOS 6 | Python is outdated. |
-| robertdebock.revealmd | CentOS 6, Fedora Rawhide, OpenSUSE Tumbleweed | dont know |
-| robertdebock.revealmd | Debian | Depends on Ansible role [npm](https://galaxy.ansible.com/robertdebock/npm/). |
-| robertdebock.roundcubemail | CentOS 6 | dont know. |
-| robertdebock.rsyslog | ArchLinux | Package is only available in AUR. |
-| robertdebock.spamassassin | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
-| robertdebock.sudo_pair | Alpine & CentOS 6 | dont know |
-| robertdebock.tftpd | Alpine | Depends on Ansible role [xinetd](https://galaxy.ansible.com/robertdebock/xinetd/). |
-| robertdebock.tftpd | Archlinux | The package `tftpd` is not available. |
-| robertdebock.xinetd | Alpine | The package `xinetd` is not available. |
-| robertdebock.zabbix | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has [limited OS support](https://www.zabbix.com/documentation/3.4/manual/installation/requirements). |
+](https://galaxy.ansible.com/robertdebock/bootstrap)|--------------|--------------------------------|-----------|
+| [robertdebock.ara](https://galaxy.ansible.com/robertdebock/ara) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
+| [robertdebock.cargo](https://galaxy.ansible.com/robertdebock/cargo) | CentOS 6 | Rust is too old. |
+| [robertdebock.clamav](https://galaxy.ansible.com/robertdebock/clamav)* | ArchLinux | Directory structure is different. |
+| [robertdebock.digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
+| [robertdebock.digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
+| [robertdebock.docker](https://galaxy.ansible.com/robertdebock/docker) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
+| [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | Depends on [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
+| [robertdebock.mitogen](https://galaxy.ansible.com/robertdebock/mitogen) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
+| [robertdebock.mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
+| [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm) | Debian stable & latest, CentOS 6| Unable to locate package npm. |
+| [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm) | Fedora Rawhide & OpenSUSE Tumbleweed | dont know. |
+| [robertdebock.owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
+| [robertdebock.php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/)). |
+| [robertdebock.phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Python and PHP are outdated. |
+| [robertdebock.phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | Alpine | There is no MySQL, only mariadb. |
+| [robertdebock.python_pip](https://galaxy.ansible.com/robertdebock/python_pip) | CentOS 6 | Python is outdated. |
+| [robertdebock.revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | CentOS 6, Fedora Rawhide, OpenSUSE Tumbleweed | dont know |
+| [robertdebock.revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | Debian | Depends on Ansible role [npm](https://galaxy.ansible.com/robertdebock/npm/). |
+| [robertdebock.roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail) | CentOS 6 | dont know. |
+| [robertdebock.rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog) | ArchLinux | Package is only available in AUR. |
+| [robertdebock.spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin) | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
+| [robertdebock.sudo_pair](https://galaxy.ansible.com/robertdebock/sudo_pair) | Alpine & CentOS 6 | dont know |
+| [robertdebock.tftpd](https://galaxy.ansible.com/robertdebock/tftpd) | Alpine | Depends on Ansible role [xinetd](https://galaxy.ansible.com/robertdebock/xinetd/). |
+| [robertdebock.tftpd](https://galaxy.ansible.com/robertdebock/tftpd) | Archlinux | The package `tftpd` is not available. |
+| [robertdebock.xinetd](https://galaxy.ansible.com/robertdebock/xinetd) | Alpine | The package `xinetd` is not available. |
+| [robertdebock.zabbix](https://galaxy.ansible.com/robertdebock/zabbix) | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has [limited OS support](https://www.zabbix.com/documentation/3.4/manual/installation/requirements). |
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
