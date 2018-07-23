@@ -122,8 +122,9 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [robertdebock.httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | Depends on [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [robertdebock.mitogen](https://galaxy.ansible.com/robertdebock/mitogen) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [robertdebock.mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
-| [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm) | Debian stable & latest, CentOS 6| Unable to locate package npm. |
-| [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm) | Fedora Rawhide & OpenSUSE Tumbleweed | dont know. |
+| [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm) | Debian stable & latest| Unable to locate package npm. |
+| [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm) | CentOS 6| Certificate issue. |
+| [robertdebock.npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | dont know. |
 | [robertdebock.owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [robertdebock.php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [robertdebock.phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Python and PHP are outdated. |
