@@ -122,9 +122,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | Depends on [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [mitogen](https://galaxy.ansible.com/robertdebock/mitogen) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
-| [npm](https://galaxy.ansible.com/robertdebock/npm) | Debian stable & latest| Unable to locate package npm. |
-| [npm](https://galaxy.ansible.com/robertdebock/npm) | CentOS 6| Certificate issue. |
-| [npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | dont know. |
+| [npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | "No JSON object could be decoded". |
 | [owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Python and PHP are outdated. |
