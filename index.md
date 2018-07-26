@@ -118,8 +118,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [clamav](https://galaxy.ansible.com/robertdebock/clamav)* | ArchLinux | Directory structure is different. |
 | [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
 | [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
-| [docker](https://galaxy.ansible.com/robertdebock/docker) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | Depends on [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
+| [httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | `the SNI (Subject Name Indication) extension to TLS is not available on this platform`. | 
 | [mitogen](https://galaxy.ansible.com/robertdebock/mitogen) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | [npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | "No JSON object could be decoded". |
@@ -127,7 +126,6 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Python and PHP are outdated. |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | Alpine | There is no MySQL, only mariadb. |
-| [python_pip](https://galaxy.ansible.com/robertdebock/python_pip) | CentOS 6 | Python is outdated. |
 | [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | CentOS 6, Fedora Rawhide, OpenSUSE Tumbleweed | dont know |
 | [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | Debian | Depends on Ansible role [npm](https://galaxy.ansible.com/robertdebock/npm/). |
 | [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail) | CentOS 6 | dont know. |
