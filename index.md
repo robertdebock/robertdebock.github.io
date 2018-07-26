@@ -119,7 +119,6 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
 | [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
 | [httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | `the SNI (Subject Name Indication) extension to TLS is not available on this platform`. | 
-| [mitogen](https://galaxy.ansible.com/robertdebock/mitogen) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | [npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | "No JSON object could be decoded". |
 | [owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
