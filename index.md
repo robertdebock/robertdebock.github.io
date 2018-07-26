@@ -123,8 +123,8 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | [npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | "No JSON object could be decoded". |
 | [owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Python and PHP are outdated. |
+| [php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
+| [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | Alpine | There is no MySQL, only mariadb. |
 | [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | CentOS 6, Fedora Rawhide, OpenSUSE Tumbleweed | dont know |
 | [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | Debian | Depends on Ansible role [npm](https://galaxy.ansible.com/robertdebock/npm/). |
