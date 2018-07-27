@@ -121,7 +121,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | `the SNI (Subject Name Indication) extension to TLS is not available on this platform`. | 
 | [mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | [npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | "No JSON object could be decoded". |
-| [owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
+| [owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | `python setup.py egg_info\" failed with error code 1 in /tmp/pip-build-Dy5JDw/SQLAlchemy`. |
 | [php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | Alpine | There is no MySQL, only mariadb. |
