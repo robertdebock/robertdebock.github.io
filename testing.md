@@ -7,7 +7,7 @@ The filosofy to test is:
 
 In Travis CI these combinations are called a `matrix`. You can consider this overview per role:
 
-| Distribution        | Ansible 2.3 | Ansible 2.4 | Ansible 2.5 |
+| Distribution        | Ansible 2.4 | Ansible 2.5 | Ansible 2.6 |
 |---------------------|-------------|-------------|-------------|
 | Alpine latest       | yes         | yes         | yes         |
 | Alpine edge         | yes         | yes         | yes         |
@@ -46,8 +46,10 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |2|[ansible-role-bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap)|
 |2|[ansible-role-buildtools](https://travis-ci.org/robertdebock/ansible-role-buildtools)|
 |3|[ansible-role-cargo](https://travis-ci.org/robertdebock/ansible-role-cargo)|
+|3|[ansible-role-cntlm](https://travis-ci.org/robertdebock/ansible-role-cntlm)|
 |3|[ansible-role-clamav](https://travis-ci.org/robertdebock/ansible-role-clamav)|
 |4|[ansible-role-dhcpd](https://travis-ci.org/robertdebock/ansible-role-dhcpd)|
+|4|[ansible-role-digital_ocean](https://travis-ci.org/robertdebock/ansible-role-digital_ocean)|
 |4|[ansible-role-dns](https://travis-ci.org/robertdebock/ansible-role-dns)|
 |4|[ansible-role-docker](https://travis-ci.org/robertdebock/ansible-role-docker)|
 |4|[ansible-role-dovecot](https://travis-ci.org/robertdebock/ansible-role-dovecot)|
