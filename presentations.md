@@ -5,4 +5,4 @@ Here are some presentations:
 - [Photography Basics](/presentations/photography-basics/)
 - [Photography Reproductions](/presentations/photography-repro/)
 - [Perfect Ansible](/presentations/perfect-ansible/)
-- [Components in Ansible roles](/presentations/component-to-role/)
+- [Components to Ansible roles](/presentations/component-to-role/)
