@@ -73,7 +73,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |16|[ansible-role-php](https://travis-ci.org/robertdebock/ansible-role-php)|
 |16|[ansible-role-phpmyadmin](https://travis-ci.org/robertdebock/ansible-role-phpmyadmin)|
 |16|[ansible-role-postfix](https://travis-ci.org/robertdebock/ansible-role-postfix)|
-|16|[ansible-role-python_pip](https://travis-ci.org/robertdebock/ansible-role-python_pip)|
+|16|[ansible-role-python_pip](https://travis-ci.org/robertdebock/ansible-role-python-pip)|
 |18|[ansible-role-release](https://travis-ci.org/robertdebock/ansible-role-release)|
 |18|[ansible-role-revealmd](https://travis-ci.org/robertdebock/ansible-role-revealmd)|
 |18|[ansible-role-roundcubemail](https://travis-ci.org/robertdebock/ansible-role-roundcubemail)|
