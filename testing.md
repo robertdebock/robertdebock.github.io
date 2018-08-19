@@ -43,6 +43,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |Day of month|Ansible Role|
 |1|[ansible-role-at](https://travis-ci.org/robertdebock/ansible-role-at)|
 |1|[ansible-role-ara](https://travis-ci.org/robertdebock/ansible-role-ara)|
+|1|[ansible-role-awx](https://travis-ci.org/robertdebock/ansible-role-awx)|
 |2|[ansible-role-bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap)|
 |2|[ansible-role-buildtools](https://travis-ci.org/robertdebock/ansible-role-buildtools)|
 |3|[ansible-role-cargo](https://travis-ci.org/robertdebock/ansible-role-cargo)|
