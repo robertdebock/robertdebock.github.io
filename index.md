@@ -11,7 +11,7 @@ A weekly test to verify if roles work well together.
 
 A monthly test to see of the role still works on the current distributions.
 
-1. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-at.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-at) [![Version](https://img.shields.io/github/release/robertdebock/ansible-role-at.svg)][https://github.com/robertdebock/ansible-role-at/releases] [at](https://galaxy.ansible.com/robertdebock/at/) - [source](https://github.com/robertdebock/ansible-role-at).
+1. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-at.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-at) [![Version](https://img.shields.io/github/release/robertdebock/ansible-role-at.svg)](https://github.com/robertdebock/ansible-role-at/releases) [at](https://galaxy.ansible.com/robertdebock/at/) - [source](https://github.com/robertdebock/ansible-role-at).
 2. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-ara.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-ara) [ara](https://galaxy.ansible.com/robertdebock/ara/) - [source](https://github.com/robertdebock/ansible-role-ara).
 3. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-awx.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-awx) [awx](https://galaxy.ansible.com/robertdebock/awx/) - [source](https://github.com/robertdebock/ansible-role-awx).
 4. [![Build Status](https://api.travis-ci.org/robertdebock/ansible-role-bootstrap.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-bootstrap) [bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap/) - [source](https://github.com/robertdebock/ansible-role-bootstrap).
