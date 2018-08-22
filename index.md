@@ -12,7 +12,7 @@ A weekly test to verify if roles work well together.
 A monthly test to see of the role still works on the current distributions.
 
 <table>
-<tr><th>Number</th><th>Role</th><th>Status</th><th>Version</th></tr>
+<tr><th>#</th><th>Role name</th><th>Build status</th><th>Version</th></tr>
 <tr><td>1</td><td><a href="https://galaxy.ansible.com/robertdebock/ara">ara</a></td><td><a href="https://travis-ci.org/robertdebock/ansible-role-ara"><img src="https://api.travis-ci.org/robertdebock/ansible-role-ara.svg?branch=master"/></a></td><td><a href="https://github.com/robertdebock/ansible-role-ara/releases"><img src="https://img.shields.io/github/release/robertdebock/ansible-role-ara.svg"/></a></td></tr>
 <tr><td>2</td><td><a href="https://galaxy.ansible.com/robertdebock/at">at</a></td><td><a href="https://travis-ci.org/robertdebock/ansible-role-at"><img src="https://api.travis-ci.org/robertdebock/ansible-role-at.svg?branch=master"/></a></td><td><a href="https://github.com/robertdebock/ansible-role-at/releases"><img src="https://img.shields.io/github/release/robertdebock/ansible-role-at.svg"/></a></td></tr>
 <tr><td>3</td><td><a href="https://galaxy.ansible.com/robertdebock/awx">awx</a></td><td><a href="https://travis-ci.org/robertdebock/ansible-role-awx"><img src="https://api.travis-ci.org/robertdebock/ansible-role-awx.svg?branch=master"/></a></td><td><a href="https://github.com/robertdebock/ansible-role-awx/releases"><img src="https://img.shields.io/github/release/robertdebock/ansible-role-awx.svg"/></a></td></tr>
