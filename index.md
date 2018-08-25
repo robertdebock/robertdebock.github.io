@@ -124,9 +124,8 @@ Some Ansible roles do not work on all distributions. This table lists why.
 |--------------|--------------------------------|-----------|
 | [ara](https://galaxy.ansible.com/robertdebock/ara) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [cargo](https://galaxy.ansible.com/robertdebock/cargo) | CentOS 6 | Rust is too old. |
-| [clamav](https://galaxy.ansible.com/robertdebock/clamav)* | ArchLinux | Directory structure is different. |
-| [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
-| [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent)* | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
+| [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent) | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
+| [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent) | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
 | [httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | `the SNI (Subject Name Indication) extension to TLS is not available on this platform`. | 
 | [mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | [npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | "No JSON object could be decoded". |
@@ -134,12 +133,11 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | Alpine | There is no MySQL, only mariadb. |
-| [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | CentOS 6, Fedora Rawhide, OpenSUSE Tumbleweed | dont know |
-| [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | Debian | Depends on Ansible role [npm](https://galaxy.ansible.com/robertdebock/npm/). |
-| [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail) | CentOS 6 | dont know. |
+| [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | OpenSUSE Tumbleweed | `No JSON object could be decoded`. |
+| [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog) | ArchLinux | Package is only available in AUR. |
 | [spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin) | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
-| [sudo_pair](https://galaxy.ansible.com/robertdebock/sudo_pair) | Alpine & CentOS 6 | dont know |
+| [sudo_pair](https://galaxy.ansible.com/robertdebock/sudo_pair) | Alpine & CentOS 6 | Depends on Ansible role [cargo]((https://galaxy.ansible.com/robertdebock/cargo/). |
 | [tftpd](https://galaxy.ansible.com/robertdebock/tftpd) | Alpine | Depends on Ansible role [xinetd](https://galaxy.ansible.com/robertdebock/xinetd/). |
 | [tftpd](https://galaxy.ansible.com/robertdebock/tftpd) | Archlinux | The package `tftpd` is not available. |
 | [xinetd](https://galaxy.ansible.com/robertdebock/xinetd) | Alpine | The package `xinetd` is not available. |
