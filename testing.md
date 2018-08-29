@@ -43,12 +43,12 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |Day of month|Ansible Role|
 |1|[ansible-role-at](https://travis-ci.org/robertdebock/ansible-role-at)|
 |1|[ansible-role-ara](https://travis-ci.org/robertdebock/ansible-role-ara)|
-|1|[ansible-role-awx](https://travis-ci.org/robertdebock/ansible-role-awx)|
+|1|**[ansible-role-awx](https://travis-ci.org/robertdebock/ansible-role-awx)**|
 |2|[ansible-role-bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap)|
 |2|[ansible-role-buildtools](https://travis-ci.org/robertdebock/ansible-role-buildtools)|
 |3|[ansible-role-cargo](https://travis-ci.org/robertdebock/ansible-role-cargo)|
 |3|[ansible-role-cntlm](https://travis-ci.org/robertdebock/ansible-role-cntlm)|
-|3|[ansible-role-common](https://travis-ci.org/robertdebock/ansible-role-common)|
+|3|**[ansible-role-common](https://travis-ci.org/robertdebock/ansible-role-common)**|
 |3|[ansible-role-clamav](https://travis-ci.org/robertdebock/ansible-role-clamav)|
 |4|[ansible-role-dhcpd](https://travis-ci.org/robertdebock/ansible-role-dhcpd)|
 |4|[ansible-role-digital_ocean](https://travis-ci.org/robertdebock/ansible-role-digital_ocean)|
@@ -57,9 +57,9 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |4|[ansible-role-dovecot](https://travis-ci.org/robertdebock/ansible-role-dovecot)|
 |5|[ansible-role-epel](https://travis-ci.org/robertdebock/ansible-role-epel)|
 |6|[ansible-role-fail2ban](https://travis-ci.org/robertdebock/ansible-role-fail2ban)|
-|6|[ansible-role-firewall](https://travis-ci.org/robertdebock/ansible-role-firewall)|
+|6|**[ansible-role-firewall](https://travis-ci.org/robertdebock/ansible-role-firewall)**|
 |7|[ansible-role-gotop](https://travis-ci.org/robertdebock/ansible-role-gotop)|
-|8|[ansible-role-haproxy](https://travis-ci.org/robertdebock/ansible-role-haproxy)|
+|8|**[ansible-role-haproxy](https://travis-ci.org/robertdebock/ansible-role-haproxy)**|
 |8|[ansible-role-haveged](https://travis-ci.org/robertdebock/ansible-role-haveged)|
 |8|[ansible-role-httpd](https://travis-ci.org/robertdebock/ansible-role-httpd)|
 |9|[ansible-role-iptables](https://travis-ci.org/robertdebock/ansible-role-iptables)|
@@ -90,7 +90,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |20|[ansible-role-tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd)|
 |20|[ansible-role-tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat)|
 |21|[ansible-role-update](https://travis-ci.org/robertdebock/ansible-role-update)|
-|21|[ansible-role-users](https://travis-ci.org/robertdebock/ansible-role-users)|
+|21|**[ansible-role-users](https://travis-ci.org/robertdebock/ansible-role-users)**|
 |24|[ansible-role-xinetd](https://travis-ci.org/robertdebock/ansible-role-xinetd)|
 |26|[ansible-role-zabbix](https://travis-ci.org/robertdebock/ansible-role-zabbix)|
 
