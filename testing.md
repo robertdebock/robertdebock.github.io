@@ -62,7 +62,6 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |8|**[ansible-role-haproxy](https://travis-ci.org/robertdebock/ansible-role-haproxy/settings)**|
 |8|[ansible-role-haveged](https://travis-ci.org/robertdebock/ansible-role-haveged/settings)|
 |8|[ansible-role-httpd](https://travis-ci.org/robertdebock/ansible-role-httpd/settings)|
-|9|[ansible-role-iptables](https://travis-ci.org/robertdebock/ansible-role-iptables/settings)|
 |10|[ansible-role-java](https://travis-ci.org/robertdebock/ansible-role-java/settings)|
 |13|[ansible-role-mitogen](https://travis-ci.org/robertdebock/ansible-role-mitogen/settings)|
 |13|[ansible-role-mssql](https://travis-ci.org/robertdebock/ansible-role-mssql/settings)|
