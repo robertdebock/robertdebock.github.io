@@ -129,6 +129,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [cargo](https://galaxy.ansible.com/robertdebock/cargo) | CentOS 6 | Rust is too old. |
 | [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent) | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
 | [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent) | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
+| [glusterfs](https://galaxy.ansible.com/robertdebock/glusterfs) | Alpine | GlusterFS is [not available](https://github.com/gluster/glusterfs/issues/268). | 
 | [httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | `the SNI (Subject Name Indication) extension to TLS is not available on this platform`. | 
 | [mssql](https://galaxy.ansible.com/robertdebock/mssql) | ArchLinux, Alpine, Debian & Fedora | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | [npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | "No JSON object could be decoded". |
