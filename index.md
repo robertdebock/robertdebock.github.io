@@ -112,7 +112,7 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 | Distribution | Version(s)                  |
 |--------------|-----------------------------|
 | Archlinux    | latest                      |
-| Alpine       | latest & edge               |
+| Alpine       | latest & edge*               |
 | CentOS       | 6 & latest                  |
 | Debian       | stable, latest & unstable*  |
 | Fedora       | latest & rawhide*           |
