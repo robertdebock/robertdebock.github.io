@@ -45,6 +45,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |1|**[artifactory](https://travis-ci.org/robertdebock/ansible-role-artifactory/settings)**|
 |1|[at](https://travis-ci.org/robertdebock/ansible-role-at/settings)|
 |1|[awx](https://travis-ci.org/robertdebock/ansible-role-awx/settings)|
+|2|**[backup](https://travis-ci.org/robertdebock/ansible-role-backup/settings)**|
 |2|[bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap/settings)|
 |2|[buildtools](https://travis-ci.org/robertdebock/ansible-role-buildtools/settings)|
 |3|[cargo](https://travis-ci.org/robertdebock/ansible-role-cargo/settings)|
@@ -82,6 +83,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |16|[postfix](https://travis-ci.org/robertdebock/ansible-role-postfix/settings)|
 |16|[python_pip](https://travis-ci.org/robertdebock/ansible-role-python-pip/settings)|
 |18|[release](https://travis-ci.org/robertdebock/ansible-role-release/settings)|
+|18|**[restore](https://travis-ci.org/robertdebock/ansible-role-restore/settings)**|
 |18|[revealmd](https://travis-ci.org/robertdebock/ansible-role-revealmd/settings)|
 |18|[roundcubemail](https://travis-ci.org/robertdebock/ansible-role-roundcubemail/settings)|
 |18|[rsyslog](https://travis-ci.org/robertdebock/ansible-role-rsyslog/settings)|
