@@ -96,7 +96,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |20|[tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd/settings)|
 |20|[tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat/settings)|
 |21|[update](https://travis-ci.org/robertdebock/ansible-role-update/settings)|
-|21|**[users](https://travis-ci.org/robertdebock/ansible-role-users/settings)**|
+|21|[users](https://travis-ci.org/robertdebock/ansible-role-users/settings)|
 |24|[xinetd](https://travis-ci.org/robertdebock/ansible-role-xinetd/settings)|
 |26|[zabbix](https://travis-ci.org/robertdebock/ansible-role-zabbix/settings)|
 
