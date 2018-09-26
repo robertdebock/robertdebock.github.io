@@ -1,5 +1,5 @@
 ## Ansible roles
-These [Ansible](https://www.ansible.com/) roles are [simple](style.html) and work well together on many distributions and many Ansible version.
+These [Ansible](https://www.ansible.com/) roles are [simple in style](style.html) and work well together on many distributions and many Ansible version.
 
 ## Integration tests
 
@@ -118,7 +118,7 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 | Distribution | Version(s)                  |
 |--------------|-----------------------------|
 | Archlinux    | latest                      |
-| Alpine       | latest & edge*               |
+| Alpine       | latest & edge*              |
 | CentOS       | 6 & latest                  |
 | Debian       | stable, latest & unstable*  |
 | Fedora       | latest & rawhide*           |

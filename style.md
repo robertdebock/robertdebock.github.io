@@ -6,3 +6,4 @@ Explicit mentions:
 - Use `name:` where possible.
 - Lowercase the value of the `name:` parameter.
 - Prefer higher readability.
+- Always mention `state:`
