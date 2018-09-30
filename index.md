@@ -153,6 +153,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | Alpine | There is no MySQL, only mariadb. |
 | [python_pip](https://galaxy.ansible.com/robertdebock/python_pip) | CentOS 6 | `No package matching 'python-pip' found available`. |
+| [redis](https://galaxy.ansible.com/robertdebock/redis) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | OpenSUSE Tumbleweed | `No JSON object could be decoded`. |
 | [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog) | ArchLinux | Package is only available in AUR. |
