@@ -52,7 +52,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |3|[cntlm](https://travis-ci.org/robertdebock/ansible-role-cntlm/settings)|
 |3|[common](https://travis-ci.org/robertdebock/ansible-role-common/settings)|
 |3|[clamav](https://travis-ci.org/robertdebock/ansible-role-clamav/settings)|
-|3|**[cloud9](https://travis-ci.org/robertdebock/ansible-role-cloud9/settings)**|
+|3|[cloud9](https://travis-ci.org/robertdebock/ansible-role-cloud9/settings)|
 |4|[dhcpd](https://travis-ci.org/robertdebock/ansible-role-dhcpd/settings)|
 |4|[digitalocean_agent](https://travis-ci.org/robertdebock/ansible-role-digitalocean-agent/settings)|
 |4|[dns](https://travis-ci.org/robertdebock/ansible-role-dns/settings)|
