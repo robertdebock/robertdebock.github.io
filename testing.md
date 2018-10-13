@@ -7,23 +7,27 @@ The filosofy to test is:
 
 In Travis CI these combinations are called a `matrix`. You can consider this overview per role:
 
-| Distribution        | Ansible 2.4 | Ansible 2.5 | Ansible 2.6 |
-|---------------------|-------------|-------------|-------------|
-| Alpine latest       | yes         | yes         | yes         |
-| Alpine edge         | yes         | yes         | yes         |
-| Archlinux (base)    | yes         | yes         | yes         |
-| Centos 6            | yes         | yes         | yes         |
-| Centos latest       | yes         | yes         | yes         |
-| Debian stable       | yes         | yes         | yes         |
-| Debian latest       | yes         | yes         | yes         |
-| Fedora latest       | yes         | yes         | yes         |
-| Fedora rawhide      | yes         | yes         | yes         |
-| OpenSuse Leap       | yes         | yes         | yes         |
-| OpenSuse Tumbleweed | yes         | yes         | yes         |
-| Ubuntu Artful (17)  | yes         | yes         | yes         |
-| Ubuntu latest       | yes         | yes         | yes         |
+| Distribution        | Ansible 2.4 | Ansible 2.5 | Ansible 2.6 | Ansible 2.7 | Ansible devel |
+|---------------------|-------------|-------------|-------------|-------------|---------------|
+| Alpine latest       | yes         | yes         | yes         | yes         | yes *         |
+| Alpine edge         | yes *       | yes *       | yes *       | yes *       | yes *         |
+| Archlinux (base)    | yes         | yes         | yes         | yes         | yes *         |
+| Centos 6            | yes         | yes         | yes         | yes         | yes *         |
+| Centos latest       | yes         | yes         | yes         | yes         | yes *         |
+| Debian stable       | yes         | yes         | yes         | yes         | yes *         |
+| Debian latest       | yes         | yes         | yes         | yes         | yes *         |
+| Debian unstable     | yes *       | yes *       | yes *       | yes *       | yes *         |
+| Fedora latest       | yes         | yes         | yes         | yes         | yes *         |
+| Fedora rawhide      | yes *       | yes *       | yes *       | yes *       | yes *         |
+| OpenSuse Leap       | yes         | yes         | yes         | yes         | yes *         |
+| OpenSuse Tumbleweed | yes         | yes         | yes         | yes         | yes *         |
+| Ubuntu Artful (17)  | yes         | yes         | yes         | yes         | yes *         |
+| Ubuntu latest       | yes         | yes         | yes         | yes         | yes *         |
+| Ubuntu devel        | yes *       | yes *       | yes *       | yes *       | yes *         |
 
-This matrix runs 13 (distributions) times 3 (Ansible versions) equals 39 build.
+This matrix runs 15 (distributions) times 5 (Ansible versions) equals 75 build.
+
+Distributions or Ansible versions marked with an astriks are allowed to fail. This combination is built to prepare for future distributions or releases of Ansible.
 
 If a distribution or ansible version is not supported, the strategy is to also test that, and ensure if fails.
 
@@ -69,8 +73,8 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |9|**[irslackd](https://travis-ci.org/robertdebock/ansible-role-irslackd/settings)**|
 |10|[java](https://travis-ci.org/robertdebock/ansible-role-java/settings)|
 |10|[jenkins](https://travis-ci.org/robertdebock/ansible-role-jenkins/settings)|
-|13|**[memcached](https://travis-ci.org/robertdebock/ansible-role-memcached/settings)**|
-|13|**[mediawiki](https://travis-ci.org/robertdebock/ansible-role-mediawiki/settings)**|
+|13|[memcached](https://travis-ci.org/robertdebock/ansible-role-memcached/settings)|
+|13|[mediawiki](https://travis-ci.org/robertdebock/ansible-role-mediawiki/settings)|
 |13|[mitogen](https://travis-ci.org/robertdebock/ansible-role-mitogen/settings)|
 |13|[mssql](https://travis-ci.org/robertdebock/ansible-role-mssql/settings)|
 |13|[mysql](https://travis-ci.org/robertdebock/ansible-role-mysql/settings)|
