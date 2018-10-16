@@ -167,10 +167,10 @@ Some Ansible roles do not work on all distributions. This table lists why.
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
-```
-  - ansible_version=">=2.4,<2.5"
-  - ansible_version=">=2.5,<2.6"
-  - ansible_version=">=2.6,<2.7"
-```
+- 2.4
+- 2.5
+- 2.6
+- 2.7
+- devel (which may fail)
 
 See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
