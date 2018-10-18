@@ -89,9 +89,9 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |16|[phpmyadmin](https://travis-ci.org/robertdebock/ansible-role-phpmyadmin/settings)|
 |16|[postfix](https://travis-ci.org/robertdebock/ansible-role-postfix/settings)|
 |16|[python_pip](https://travis-ci.org/robertdebock/ansible-role-python-pip/settings)|
-|18|**[redis](https://travis-ci.org/robertdebock/ansible-role-redis/settings)**|
+|18|[redis](https://travis-ci.org/robertdebock/ansible-role-redis/settings)|
 |18|[release](https://travis-ci.org/robertdebock/ansible-role-release/settings)|
-|18|**[restore](https://travis-ci.org/robertdebock/ansible-role-restore/settings)**|
+|18|[restore](https://travis-ci.org/robertdebock/ansible-role-restore/settings)|
 |18|[revealmd](https://travis-ci.org/robertdebock/ansible-role-revealmd/settings)|
 |18|[roundcubemail](https://travis-ci.org/robertdebock/ansible-role-roundcubemail/settings)|
 |18|[rsyslog](https://travis-ci.org/robertdebock/ansible-role-rsyslog/settings)|
