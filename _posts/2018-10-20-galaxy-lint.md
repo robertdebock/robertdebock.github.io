@@ -25,7 +25,7 @@ ansible-lint -r directory/to/save/the/rules/galaxy-lint-rules/rules .
 ```
 
 I've removed quite a few errors by using these rules:
-- Missing spaces after {{ or before }}.
+- Missing spaces after {% raw %}{{{% endraw %} or before {% raw %}}}{% endraw %}.
 - Comparing booleans using `== yes`.
 - meta/main.yml mistakes
 
