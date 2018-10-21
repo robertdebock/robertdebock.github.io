@@ -1,3 +1,5 @@
 theme: jekyll-theme-cayman
 title: Ansible roles
 description: Simple, works on many distributions and Ansible versions
+google_analytics: UA-25229611-5
+
