@@ -4,6 +4,7 @@ Some roles have a reference to a version in them, which means the role determine
 These roles require a bit more attention; every now and then the upstream released version should be cheched.
 
 Here are roles with a version in them and the webpage of the upstream project.
+
 | role | upstream |
 |------|----------|
 |[rundeck](https://github.com/robertdebock/ansible-role-rundeck/blob/master/vars/main.yml|https://rundeck.org/downloads.html|
