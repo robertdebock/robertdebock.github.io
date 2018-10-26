@@ -10,9 +10,9 @@ Here are roles with a version in them and the webpage of the upstream project.
 |[java](https://github.com/robertdebock/ansible-role-java/blob/master/vars/main.yml)|https://www.oracle.com/technetwork/java/javaseproducts/downloads/index.html|
 |[mediawiki](https://github.com/robertdebock/ansible-role-mediawiki/blob/master/defaults/main.yml)|https://www.mediawiki.org/wiki/Download|
 |[zabbix](https://github.com/robertdebock/ansible-role-zabbix/blob/master/defaults/main.yml)|https://www.zabbix.com/download|
-|[cntlm]()|x|
-|[terraform]()|x|
-|[packer]()|x|
+|[cntlm](https://github.com/robertdebock/ansible-role-cntlm/blob/master/defaults/main.yml)|https://sourceforge.net/projects/cntlm/files/|
+|[terraform](https://github.com/robertdebock/ansible-role-terraform/blob/master/defaults/main.yml)|https://www.terraform.io/downloads.html|
+|[packer](https://github.com/robertdebock/ansible-role-packer/blob/master/defaults/main.yml)|https://www.packer.io/|
 |[tomcat]()|x|
 |[artifactory]()|x|
 |[awx]()|x|
