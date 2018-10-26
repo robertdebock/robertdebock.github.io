@@ -7,7 +7,7 @@ Here are roles with a version in them and the webpage of the upstream project.
 
 | role | upstream |
 |------|----------|
-|[rundeck](https://github.com/robertdebock/ansible-role-rundeck/blob/master/vars/main.yml|https://rundeck.org/downloads.html|
+|[rundeck](https://github.com/robertdebock/ansible-role-rundeck/blob/master/vars/main.yml)|https://rundeck.org/downloads.html|
 |[java](https://github.com/robertdebock/ansible-role-java/blob/master/vars/main.yml)|https://www.oracle.com/technetwork/java/javaseproducts/downloads/index.html|
 |[mediawiki](https://github.com/robertdebock/ansible-role-mediawiki/blob/master/defaults/main.yml)|https://www.mediawiki.org/wiki/Download|
 |[zabbix](https://github.com/robertdebock/ansible-role-zabbix/blob/master/defaults/main.yml)|https://www.zabbix.com/download|
