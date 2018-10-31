@@ -2,6 +2,8 @@
 title: Ansible roles for clusters
 ---
 
+# Ansible roles for clusters
+
 Ansible can be used to configure clusters. It's actually quite easy!
 
 Typically a cluster has some master/primary/active node, where stuff needs to be done and other stuff needs to be done on the rest of the nodes.
