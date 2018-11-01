@@ -38,18 +38,18 @@ Sometimes variables can get very long. You can save a longer variable in a short
 For example, too long would be this task in main.yml:
 ```
 - name: unarchive zabbix schema
-  command: gunzip /usr/share/doc/zabbix-server-{{ zabbix_server_type }}-{{ zabbix_version_major }}.{{ zabbix_version_minor }}/create.sql.gz
+  command: gunzip /usr/share/doc/zabbix-server-{% raw %}{{ zabbix_server_type }}{% endraw %}-{% raw %}{{ zabbix_version_major }}{% endraw %}.{% raw %}{{ zabbix_version_minor }}{% endraw %}/create.sql.gz
 ```
 
 Copy-paste that command to vars/main.yml:
 ```
-gunzip_command: "gunzip /usr/share/doc/zabbix-server-{{ zabbix_server_type }}-{{ zabbix_version_major }}.{{ zabbix_version_minor }}/create.sql.gz"
+gunzip_command: "gunzip /usr/share/doc/zabbix-server-{% raw %}{{ zabbix_server_type }}{% endraw %}-{% raw %}{{ zabbix_version_major }}{% endraw %}.{% raw %}{{ zabbix_version_minor }}{% endraw %}/create.sql.gz"
 ```
 
 And change main.yml to simply:
 ```
 - name: unarchive zabbix schema
-  command: "{{ gunzip_command }}"
+  command: "{% raw %}{{ gunzip_command }}{% endraw %}"
 ```
 
 ## Conclusion
