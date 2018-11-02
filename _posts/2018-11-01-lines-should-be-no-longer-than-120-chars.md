@@ -8,7 +8,7 @@ It seems [Galaxy](https://galaxy.ansible.com) is going to use [galaxy-lint-rules
 One of the controls tests the length of the lines. Here are a few way so pass those rules.
 
 ## Spread over lines
-In YAML you can use [multi line[(https://yaml-multiline.info/) to spread long lines.
+In YAML you can use [multi line](https://yaml-multiline.info/) to spread long lines.
 
 ### Without new lines
 The `>` character replaces newlines by spaces.
