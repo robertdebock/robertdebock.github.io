@@ -1,5 +1,5 @@
 ---
-title: [204] Lines should be no longer than 120 chars
+title: Lines should be no longer than 120 chars
 ---
 
 # [204] Lines should be no longer than 120 chars
