@@ -17,6 +17,7 @@ Here are roles with a version in them and the webpage of the upstream project.
 |[packer](https://github.com/robertdebock/ansible-role-packer/blob/master/defaults/main.yml)|[front page](https://www.packer.io/)|
 |[phpmyadmin](https://github.com/robertdebock/ansible-role-phpmyadmin/blob/master/defaults/main.yml)|[download page](https://www.phpmyadmin.net/downloads/)|
 |[rundeck](https://github.com/robertdebock/ansible-role-rundeck/blob/master/vars/main.yml)|[download page](https://rundeck.org/downloads.html)|
+|[snort](https://github.com/robertdebock/ansible-role-snort/blob/master/vars/main.yml)|[download page](https://www.snort.org/downloads)|
 |[sudo_pair](https://github.com/robertdebock/ansible-role-sudo-pair/blob/master/defaults/main.yml)|[github release](https://github.com/square/sudo_pair/releases)|
 |[terraform](https://github.com/robertdebock/ansible-role-terraform/blob/master/defaults/main.yml)|[download page](https://www.terraform.io/downloads.html)|
 |[tomcat](https://github.com/robertdebock/ansible-role-tomcat/blob/master/defaults/main.yml)|[7 branch](https://tomcat.apache.org/download-70.cgi), [8 branch](https://tomcat.apache.org/download-80.cgi) and the [9 branch](https://tomcat.apache.org/download-90.cgi)|
