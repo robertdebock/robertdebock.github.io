@@ -99,6 +99,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |18|[ruby](https://travis-ci.org/robertdebock/ansible-role-ruby/settings)|
 |18|[rundeck](https://travis-ci.org/robertdebock/ansible-role-rundeck/settings)|
 |19|[scl](https://travis-ci.org/robertdebock/ansible-role-scl/settings)|
+|19|[snort](https://travis-ci.org/robertdebock/ansible-role-snort/settings)|
 |19|[spamassassin](https://travis-ci.org/robertdebock/ansible-role-spamassassin/settings)|
 |19|[sudo-pair](https://travis-ci.org/robertdebock/ansible-role-sudo-pair/settings)|
 |20|[terraform](https://travis-ci.org/robertdebock/ansible-role-terraform/settings)|
