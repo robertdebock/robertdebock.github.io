@@ -34,7 +34,7 @@ If you already have a role and want to add a single scenario:
 
 ```
 cd ansible-role-your-role
-molecule init scenario --driver-name ec2 --role-name ansible-role-your-role --scenario-name ec2 --driver-name ec2
+molecule init scenario --driver-name ec2 --role-name ansible-role-your-role --scenario-name ec2
 ```
 
 ## Start testing
