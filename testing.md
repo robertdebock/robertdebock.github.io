@@ -87,6 +87,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |15|[owncloud](https://travis-ci.org/robertdebock/ansible-role-owncloud/settings)|
 |16|[packer](https://travis-ci.org/robertdebock/ansible-role-packer/settings)|
 |16|[php](https://travis-ci.org/robertdebock/ansible-role-php/settings)|
+|16|**[php_fpm](https://travis-ci.org/robertdebock/ansible-role-php_fpm/settings)**|
 |16|[phpmyadmin](https://travis-ci.org/robertdebock/ansible-role-phpmyadmin/settings)|
 |16|[postfix](https://travis-ci.org/robertdebock/ansible-role-postfix/settings)|
 |16|[python_pip](https://travis-ci.org/robertdebock/ansible-role-python-pip/settings)|
