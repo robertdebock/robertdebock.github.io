@@ -14,6 +14,7 @@ Here are roles with a version in them and the webpage of the upstream project.
 |[java](https://github.com/robertdebock/ansible-role-java/blob/master/vars/main.yml)|[download page](https://www.oracle.com/technetwork/java/javaseproducts/downloads/index.html)|
 |[mediawiki](https://github.com/robertdebock/ansible-role-mediawiki/blob/master/defaults/main.yml)|[download page](https://www.mediawiki.org/wiki/Download)|
 |[mssql](https://github.com/robertdebock/ansible-role-mssql/blob/master/vars/main.yml)|[rhel repository](https://packages.microsoft.com/rhel/7/mssql-server-2017/), [ubuntu repository](https://packages.microsoft.com/ubuntu/16.04/mssql-server-2017/pool/main/m/mssql-server/) & [opensuse repository](https://packages.microsoft.com/sles/12/mssql-server-2017/)|
+|[openvas](https://github.com/robertdebock/ansible-role-openvas/blob/master/vars/main.yml)|[download page](http://updates.atomicorp.com/channels/atomic/centos/7/x86_64/RPMS/)|
 |[packer](https://github.com/robertdebock/ansible-role-packer/blob/master/defaults/main.yml)|[front page](https://www.packer.io/)|
 |[phpmyadmin](https://github.com/robertdebock/ansible-role-phpmyadmin/blob/master/defaults/main.yml)|[download page](https://www.phpmyadmin.net/downloads/)|
 |[rundeck](https://github.com/robertdebock/ansible-role-rundeck/blob/master/vars/main.yml)|[download page](https://rundeck.org/downloads.html)|
