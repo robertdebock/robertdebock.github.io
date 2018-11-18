@@ -31,6 +31,7 @@ A configuration management contains:
 ## Simplicity
 - Code should be understandable by anybody. If it's to difficult to draw on a single piece of paper, simplify it.
 - Code (RPM, playbook, etc) serves the smallest functionallity possible.
+- Push complexity to locations that users will not be bothered, keep the "interface" as simple as possible.
 
 ## Dependencies
 Use dependencies when absolutely required, in other words: only use dependecies when two entities have no value without eachother. This ensures:
