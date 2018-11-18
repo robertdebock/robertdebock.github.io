@@ -161,6 +161,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | OpenSUSE Tumbleweed | `No JSON object could be decoded`. |
 | [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog) | ArchLinux | Package is only available in AUR. |
+| [selinux](https://galaxy.ansible.com/robertdebock/selinux) | ArchLinux | Package is only available in AUR. |
 | [spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin) | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
 | [sudo_pair](https://galaxy.ansible.com/robertdebock/sudo_pair) | Alpine & CentOS 6 | Depends on Ansible role [cargo](https://galaxy.ansible.com/robertdebock/cargo/). |
 | [tftpd](https://galaxy.ansible.com/robertdebock/tftpd) | Alpine | Depends on Ansible role [xinetd](https://galaxy.ansible.com/robertdebock/xinetd/). |
