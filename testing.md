@@ -3,7 +3,7 @@
 The filosofy to test is:
 - Test multiple distributions
 - Of each distribution, test the current and previous version
-- Test 3 version of Ansible, current, previous and next previous.
+- Test multiple version of Ansible, current, previous and next previous and future.
 
 In Travis CI these combinations are called a `matrix`. You can consider this overview per role:
 
@@ -32,6 +32,28 @@ Distributions or Ansible versions marked with an astriks are allowed to fail. Th
 If a distribution or ansible version is not supported, the strategy is to also test that, and ensure if fails.
 
 There are multiple tests configured, here is how they relate.
+
+## Full tests
+
+A container does not offer all features that a full virtual machine offers, for example:
+- systemd does not work in many major distributions container.
+- rebooting and containers are not a thing.
+- Some files in /etc are mounted from the host to the guest.
+
+That's why these roles offer two other molecule scenarios:
+- vagrant - to locally start full virtual machines.
+- ec2 - to remotely tests commercial full virtual machines.
+
+An overview of the test strategies and their features.
+
+|-------------|-------------------------|
+|Scenario name|Tests                    |
+|`default`    |Multiple distributions   |
+|`vagrant`    |Full virtual machines    |
+|`ec2`        |Commercial distributions*|
+|travis       |Multiple Ansible versions|
+
+*) The testing of commercial distributions (RHEL & SLES) is not on by default and has to be uncommented.
 
 ## Unit tests
 
