@@ -152,6 +152,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 | [mitogen](https://galaxy.ansible.com/robertdebock/mitogen) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [mssql](https://galaxy.ansible.com/robertdebock/mssql) | Alpine, ArchLinux, CentOS 6, Debian, Fedora, OpenSUSE Tumbleweed & Ubuntu latest | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
 | [npm](https://galaxy.ansible.com/robertdebock/npm) | OpenSUSE Tumbleweed | `No JSON object could be decoded`. |
+| [openvas](https://galaxy.ansible.com/robertdebock/openvas) | Archlinux, CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/) and [selinux](https://galaxy.ansible.com/robertdebock/selinux/). |
 | [owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
