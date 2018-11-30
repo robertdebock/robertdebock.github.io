@@ -8,14 +8,14 @@ These role depend on a role that starts a service:
 
 | role          | dependencies          |
 |---------------|-----------------------|
-| owncloud      | httpd, php_fpm, redis |
-| mediawiki     | httpd                 |
-| openvas       | redis                 |
-| phpmyadmin    | httpd, mysql          |
-| php           | httpd                 |
-| roundcubemail | httpd                 |
-| spamassassin  | rsyslog               |
-| tftpd         | xinetd                |
+| [owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | [httpd](https://galaxy.ansible.com/robertdebock/httpd), [php_fpm](https://galaxy.ansible.com/robertdebock/php_fpm) & [redis](https://galaxy.ansible.com/robertdebock/redis) |
+| [mediawiki](https://galaxy.ansible.com/robertdebock/mediawiki) | [httpd](https://galaxy.ansible.com/robertdebock/httpd) |
+| [openvas](https://galaxy.ansible.com/robertdebock/openvas) | [redis](https://galaxy.ansible.com/robertdebock/redis) |
+| [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | [httpd](https://galaxy.ansible.com/robertdebock/httpd) & [mysql](https://galaxy.ansible.com/robertdebock/mysql) |
+| [php](https://galaxy.ansible.com/robertdebock/php) | [httpd](https://galaxy.ansible.com/robertdebock/httpd) |
+| [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail) | [httpd](https://galaxy.ansible.com/robertdebock/httpd) |
+| [spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin) | [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog) |
+| [tftpd](https://galaxy.ansible.com/robertdebock/tftpd) | [xinetd](https://galaxy.ansible.com/robertdebock/xinetd) |
 
 This list can be (re-)generated using:
 
