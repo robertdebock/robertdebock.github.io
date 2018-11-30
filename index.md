@@ -1,4 +1,5 @@
 ## Ansible roles
+
 These [Ansible](https://www.ansible.com/) roles are [simple in style](style.html) and work well together on many distributions and many Ansible version.
 
 ## Integration tests
@@ -115,6 +116,8 @@ Some roles do have a "hard requirement" on another role, mainy for a shared hand
 | [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) |
 | [spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin/) | [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/) |
 | [zabbix](https://galaxy.ansible.com/robertdebock/zabbix/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) |
+
+A [special treatment for tests](included-roles-that-manage-services.md) is used to work around Docker limitations.
 
 ## Tests
 Unit tests and integration tests are use to verify the quality of the roles, read [more about testing](testing.html)
