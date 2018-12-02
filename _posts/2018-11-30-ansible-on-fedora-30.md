@@ -36,4 +36,6 @@ This means all roles that use distributions that:
 
 will need to be modified... Quite a change.
 
+2 December 2018 update: I've created [pull request 49202](https://github.com/ansible/ansible/pull/49402) to fix [issue 49362](https://github.com/ansible/ansible/issues/49362).
+
 TL;DR On Fedora 30 (and higher) you have to set `ansible_python_interpreter` to `/usr/bin/python3`.
