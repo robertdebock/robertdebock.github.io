@@ -88,6 +88,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |5|[epel](https://travis-ci.org/robertdebock/ansible-role-epel/settings)|
 |6|[fail2ban](https://travis-ci.org/robertdebock/ansible-role-fail2ban/settings)|
 |6|[firewall](https://travis-ci.org/robertdebock/ansible-role-firewall/settings)|
+|7|[git](https://travis-ci.org/robertdebock/ansible-role-git/settings)|
 |7|[glusterfs](https://travis-ci.org/robertdebock/ansible-role-glusterfs/settings)|
 |7|[go](https://travis-ci.org/robertdebock/ansible-role-go/settings)|
 |7|[gotop](https://travis-ci.org/robertdebock/ansible-role-gotop/settings)|
