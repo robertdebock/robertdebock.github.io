@@ -95,7 +95,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |8|[haproxy](https://travis-ci.org/robertdebock/ansible-role-haproxy/settings)|
 |8|[haveged](https://travis-ci.org/robertdebock/ansible-role-haveged/settings)|
 |8|[httpd](https://travis-ci.org/robertdebock/ansible-role-httpd/settings)|
-|9|**[irslackd](https://travis-ci.org/robertdebock/ansible-role-irslackd/settings)**|
+|9|[irslackd](https://travis-ci.org/robertdebock/ansible-role-irslackd/settings)|
 |10|[java](https://travis-ci.org/robertdebock/ansible-role-java/settings)|
 |10|[jenkins](https://travis-ci.org/robertdebock/ansible-role-jenkins/settings)|
 |13|[memcached](https://travis-ci.org/robertdebock/ansible-role-memcached/settings)|
