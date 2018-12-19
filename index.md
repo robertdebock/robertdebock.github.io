@@ -152,7 +152,7 @@ Some Ansible roles do not work on all distributions. This table lists why.
 |--------------|--------------------------------|-----------|
 | [ara](https://galaxy.ansible.com/robertdebock/ara) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
 | [awx](https://galaxy.ansible.com/robertdebock/ara) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [cargo](https://galaxy.ansible.com/robertdebock/cargo) | CentOS 6 | Rust is too old. |
+| [cargo](https://galaxy.ansible.com/robertdebock/cargo) | Alpine & CentOS 6 | Weird error & rust is too old. |
 | [cloud9](https://galaxy.ansible.com/robertdebock/cloud9) | Alpine | `npm: exec: line 2: /home/cloud9/.c9/node/bin/node: not found`. |
 | [cloud9](https://galaxy.ansible.com/robertdebock/cloud9) | ArchLinux, CentOS 6 | `Python version 2.7 is required to install pty.js.`. |
 | [cloud9](https://galaxy.ansible.com/robertdebock/cloud9) | OpenSUSE | `configure: error: "curses not found"`. |
