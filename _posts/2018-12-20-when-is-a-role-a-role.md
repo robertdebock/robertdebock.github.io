@@ -73,19 +73,19 @@ The role can assert variables, for example:
 
 To verify that you've made the right decision:
 
-1. Could you publish this role?
+### Could you publish this role?
 
 That means you did not put data in the role, except sane defaults.
 
-2. Would anybody else be helped with your role?
+### Would anybody else be helped with your role?
 
 That means you thought about the interface (`defaults/main.yml`).
 
-3. Is there a simple way to test your role?
+### Is there a simple way to test your role?
 
 That means the role is focussed and can do just a few things.
 
-4. Was it easy to think of the title?
+### Was it easy to think of the title?
 
 That means you knew what you were building.
 
