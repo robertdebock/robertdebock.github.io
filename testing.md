@@ -140,6 +140,11 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |21|[users](https://travis-ci.org/robertdebock/ansible-role-users/settings)|
 |24|[xinetd](https://travis-ci.org/robertdebock/ansible-role-xinetd/settings)|
 |26|[zabbix](https://travis-ci.org/robertdebock/ansible-role-zabbix/settings)|
+|26|**[zabbix-agent](https://travis-ci.org/robertdebock/ansible-role-zabbix-agent/settings)**|
+|26|**[zabbix-proxy](https://travis-ci.org/robertdebock/ansible-role-zabbix-proxy/settings)**|
+|26|**[zabbix-repository](https://travis-ci.org/robertdebock/ansible-role-zabbix-repository/settings)**|
+|26|**[zabbix-server](https://travis-ci.org/robertdebock/ansible-role-zabbix-server/settings)**|
+|26|**[zabbix-web](https://travis-ci.org/robertdebock/ansible-role-zabbix-web/settings)**|
 
 ## Integration
 
