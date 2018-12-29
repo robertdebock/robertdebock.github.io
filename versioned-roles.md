@@ -8,7 +8,6 @@ Here are roles with a version in them and the webpage of the upstream project.
 | role | upstream |
 |------|----------|
 |[artifactory](https://github.com/robertdebock/ansible-role-artifactory/blob/master/defaults/main.yml)|[download page](https://dl.bintray.com/jfrog/artifactory/)|
-|[awx](https://github.com/robertdebock/ansible-role-awx/blob/master/defaults/main.yml)|[github release](https://github.com/ansible/awx/releases)|
 |[cntlm](https://github.com/robertdebock/ansible-role-cntlm/blob/master/defaults/main.yml)|[sourceforge](https://sourceforge.net/projects/cntlm/files/)|
 |[go](https://github.com/robertdebock/ansible-role-go/blob/master/defaults/main.yml)|[download page](https://golang.org/dl/)|
 |[irslackd](https://github.com/robertdebock/ansible-role-irslackd/blob/master/defaults/main.yml)|[github release](https://github.com/adsr/irslackd/releases)|
