@@ -1,5 +1,6 @@
 theme: jekyll-theme-cayman
 title: R. de Bock
-description: Simple, compatible Ansible roles
+header: Ansible Roles
+description: Simple and compatible on many platforms.
 google_analytics: UA-25229611-5
 
