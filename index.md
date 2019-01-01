@@ -1,4 +1,4 @@
-## Ansible roles
+## Ansible roles.
 
 These [Ansible](https://www.ansible.com/) roles are [simple in style](style.html) and work well together on many distributions and many Ansible version.
 
