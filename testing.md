@@ -140,6 +140,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |20|[terraform](https://travis-ci.org/robertdebock/ansible-role-terraform/settings)|
 |20|[tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd/settings)|
 |20|[tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat/settings)|
+|20|**[travis](https://travis-ci.org/robertdebock/ansible-role-travis/settings)**|
 |21|[update](https://travis-ci.org/robertdebock/ansible-role-update/settings)|
 |21|[users](https://travis-ci.org/robertdebock/ansible-role-users/settings)|
 |24|[xinetd](https://travis-ci.org/robertdebock/ansible-role-xinetd/settings)|
