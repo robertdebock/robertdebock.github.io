@@ -102,6 +102,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |9|[irslackd](https://travis-ci.org/robertdebock/ansible-role-irslackd/settings)|
 |10|[java](https://travis-ci.org/robertdebock/ansible-role-java/settings)|
 |10|[jenkins](https://travis-ci.org/robertdebock/ansible-role-jenkins/settings)|
+|12|**[locale](https://travis-ci.org/robertdebock/ansible-role-locale/settings)**|
 |12|**[lynis](https://travis-ci.org/robertdebock/ansible-role-lynis/settings)**|
 |13|[memcached](https://travis-ci.org/robertdebock/ansible-role-memcached/settings)|
 |13|[mediawiki](https://travis-ci.org/robertdebock/ansible-role-mediawiki/settings)|
