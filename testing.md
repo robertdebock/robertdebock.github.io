@@ -107,7 +107,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |13|[memcached](https://travis-ci.org/robertdebock/ansible-role-memcached/settings)|
 |13|[mediawiki](https://travis-ci.org/robertdebock/ansible-role-mediawiki/settings)|
 |13|[mitogen](https://travis-ci.org/robertdebock/ansible-role-mitogen/settings)|
-|13|**[molecule](https://travis-ci.org/robertdebock/ansible-role-molecule/settings)**|
+|13|[molecule](https://travis-ci.org/robertdebock/ansible-role-molecule/settings)|
 |13|[mssql](https://travis-ci.org/robertdebock/ansible-role-mssql/settings)|
 |13|[mysql](https://travis-ci.org/robertdebock/ansible-role-mysql/settings)|
 |14|[natrouter](https://travis-ci.org/robertdebock/ansible-role-natrouter/settings)|
