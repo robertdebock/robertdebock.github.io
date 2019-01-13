@@ -98,12 +98,12 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |8|[haproxy](https://travis-ci.org/robertdebock/ansible-role-haproxy/settings)|
 |8|[haveged](https://travis-ci.org/robertdebock/ansible-role-haveged/settings)|
 |8|[httpd](https://travis-ci.org/robertdebock/ansible-role-httpd/settings)|
-|9|**[investigate](https://travis-ci.org/robertdebock/ansible-role-investigate/settings)**|
+|9|[investigate](https://travis-ci.org/robertdebock/ansible-role-investigate/settings)|
 |9|[irslackd](https://travis-ci.org/robertdebock/ansible-role-irslackd/settings)|
 |10|[java](https://travis-ci.org/robertdebock/ansible-role-java/settings)|
 |10|[jenkins](https://travis-ci.org/robertdebock/ansible-role-jenkins/settings)|
-|12|**[locale](https://travis-ci.org/robertdebock/ansible-role-locale/settings)**|
-|12|**[lynis](https://travis-ci.org/robertdebock/ansible-role-lynis/settings)**|
+|12|[locale](https://travis-ci.org/robertdebock/ansible-role-locale/settings)|
+|12|[lynis](https://travis-ci.org/robertdebock/ansible-role-lynis/settings)|
 |13|[memcached](https://travis-ci.org/robertdebock/ansible-role-memcached/settings)|
 |13|[mediawiki](https://travis-ci.org/robertdebock/ansible-role-mediawiki/settings)|
 |13|[mitogen](https://travis-ci.org/robertdebock/ansible-role-mitogen/settings)|
@@ -144,6 +144,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |20|**[travis](https://travis-ci.org/robertdebock/ansible-role-travis/settings)**|
 |21|[update](https://travis-ci.org/robertdebock/ansible-role-update/settings)|
 |21|[users](https://travis-ci.org/robertdebock/ansible-role-users/settings)|
+|22|**[vagrant](https://travis-ci.org/robertdebock/ansible-role-vagrant/settings)**|
 |24|[xinetd](https://travis-ci.org/robertdebock/ansible-role-xinetd/settings)|
 |26|[zabbix](https://travis-ci.org/robertdebock/ansible-role-zabbix/settings)|
 |26|[zabbix_agent](https://travis-ci.org/robertdebock/ansible-role-zabbix_agent/settings)|
