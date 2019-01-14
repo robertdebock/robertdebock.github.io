@@ -1,6 +1,6 @@
 ## Ansible roles
 
-These [Ansible](https://www.ansible.com/) roles are [simple in style](style.html) and work well together on many distributions and many Ansible version.
+These [Ansible](https://www.ansible.com/) roles are [simple in style](style.html) and [work well](how-to-use-these-roles.html) together on many distributions and many Ansible version.
 
 ## Integration tests
 
