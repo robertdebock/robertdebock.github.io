@@ -87,6 +87,8 @@ This is a layout of the file and directory structure that I tend to use:
     └── robertdebock.bootstrap
 ```
 
+Also see [best practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#directory-layout).
+
 ### ansible.cfg
 
 ```ini
@@ -96,11 +98,15 @@ retry_files_enabled=no
 inventory=inventory
 ```
 
+Also see [Ansible configuration](https://docs.ansible.com/ansible/latest/installation_guide/intro_configuration.html).
+
 ### inventory/hosts
 
 ```text
 fedora-s-1vcpu-2gb-fra1-01 ansible_host=167.99.141.134
 ```
+
+Also see [working with inventories](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html).
 
 ### inventory/group_vars/all.yml
 
@@ -108,6 +114,8 @@ fedora-s-1vcpu-2gb-fra1-01 ansible_host=167.99.141.134
 ---
 bootstrap_wait_for_host: yes
 ```
+
+Also see [group variables](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#group-variables)
 
 ### playbook.yml
 
@@ -122,12 +130,16 @@ bootstrap_wait_for_host: yes
     - robertdebock.bootstrap
 ```
 
+Also see [working with playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html).
+
 ### roles/requirements.yml
 
 ```yaml
 ---
 - robertdebock.bootstrap
 ```
+
+Also see [installing roles from a file](https://docs.ansible.com/ansible/latest/reference_appendices/galaxy.html#installing-multiple-roles-from-a-file).
 
 ### roles/robertdebock.bootstrap
 
@@ -142,3 +154,5 @@ Although a consumer of the role does not need to look into the role and `ansible
 - `handlers/main.yml` - Tasks that are executed after the play when called from a task in `tasks/main.yml` when the task is changed.
 - `meta/main.yml` - Descriptive information about the role.
 - `README.md` - Documentation how to use the role.
+
+Also see [Ansible roles](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html).
