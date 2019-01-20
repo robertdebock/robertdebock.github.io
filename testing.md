@@ -144,7 +144,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |20|**[travis](https://travis-ci.org/robertdebock/ansible-role-travis/settings)**|
 |21|[update](https://travis-ci.org/robertdebock/ansible-role-update/settings)|
 |21|[users](https://travis-ci.org/robertdebock/ansible-role-users/settings)|
-|22|**[vagrant](https://travis-ci.org/robertdebock/ansible-role-vagrant/settings)**|
+|22|[vagrant](https://travis-ci.org/robertdebock/ansible-role-vagrant/settings)|
 |24|[xinetd](https://travis-ci.org/robertdebock/ansible-role-xinetd/settings)|
 |26|[zabbix](https://travis-ci.org/robertdebock/ansible-role-zabbix/settings)|
 |26|[zabbix_agent](https://travis-ci.org/robertdebock/ansible-role-zabbix_agent/settings)|
