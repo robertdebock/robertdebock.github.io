@@ -125,7 +125,7 @@ Because these dependecies are loose, you have to include them in your playbook y
     - role: robertdebock.tomcat
 ```
 
-Some roles do have a "hard requirement" on another role, mainy for a shared handler or variables set in the parent role, used in the child role.
+Some roles do have a "hard dependecies" on another role, mainy for a shared handler or variables set in the parent role, used in the child role. More details on [how to use these roles](how-to-use-these-roles.html).
 
 | Role          | Depends on | Reason |
 |---------------|------------|--------|
