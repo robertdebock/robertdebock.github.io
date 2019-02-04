@@ -7,6 +7,7 @@ Here are roles with a version in them and the webpage of the upstream project.
 
 | role | upstream |
 |------|----------|
+|[anaconda](https://github.com/robertdebock/ansible-role-anaconda/blob/master/defaults/main.yml)|[download page](https://www.anaconda.com/distribution/)|
 |[artifactory](https://github.com/robertdebock/ansible-role-artifactory/blob/master/defaults/main.yml)|[download page](https://dl.bintray.com/jfrog/artifactory/)|
 |[cntlm](https://github.com/robertdebock/ansible-role-cntlm/blob/master/defaults/main.yml)|[sourceforge](https://sourceforge.net/projects/cntlm/files/)|
 |[go](https://github.com/robertdebock/ansible-role-go/blob/master/defaults/main.yml)|[download page](https://golang.org/dl/)|
