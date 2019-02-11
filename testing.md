@@ -89,6 +89,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |4|[digitalocean_agent](https://travis-ci.org/robertdebock/ansible-role-digitalocean-agent/settings)|
 |4|[dns](https://travis-ci.org/robertdebock/ansible-role-dns/settings)|
 |4|[docker](https://travis-ci.org/robertdebock/ansible-role-docker/settings)|
+|4|**[docker_ce](https://travis-ci.org/robertdebock/ansible-role-docker_ce/settings)**|
 |4|[dovecot](https://travis-ci.org/robertdebock/ansible-role-dovecot/settings)|
 |5|[epel](https://travis-ci.org/robertdebock/ansible-role-epel/settings)|
 |6|[fail2ban](https://travis-ci.org/robertdebock/ansible-role-fail2ban/settings)|
