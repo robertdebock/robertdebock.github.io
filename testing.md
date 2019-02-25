@@ -142,6 +142,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |19|[spamassassin](https://travis-ci.org/robertdebock/ansible-role-spamassassin/settings)|
 |19|[squid](https://travis-ci.org/robertdebock/ansible-role-squid/settings)|
 |19|[sudo-pair](https://travis-ci.org/robertdebock/ansible-role-sudo-pair/settings)|
+|19|**[sysstat](https://travis-ci.org/robertdebock/ansible-role-sysstat/settings)**|
 |20|[terraform](https://travis-ci.org/robertdebock/ansible-role-terraform/settings)|
 |20|[tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd/settings)|
 |20|[tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat/settings)|
