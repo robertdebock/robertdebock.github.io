@@ -140,6 +140,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |19|[selinux](https://travis-ci.org/robertdebock/ansible-role-selinux/settings)|
 |19|**[service](https://travis-ci.org/robertdebock/ansible-role-service/settings)**|
 |19|[snort](https://travis-ci.org/robertdebock/ansible-role-snort/settings)|
+|19|[sosreport](https://travis-ci.org/robertdebock/ansible-role-sosreport/settings)|
 |19|[spamassassin](https://travis-ci.org/robertdebock/ansible-role-spamassassin/settings)|
 |19|[squid](https://travis-ci.org/robertdebock/ansible-role-squid/settings)|
 |19|**[storage](https://travis-ci.org/robertdebock/ansible-role-storage/settings)**|
