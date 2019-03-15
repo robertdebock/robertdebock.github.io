@@ -138,7 +138,6 @@ Some roles have a hard dependecies" on another role, mainy for a shared handler 
 
 | Role          | Depends on | Reason |
 |---------------|------------|--------|
-| **[roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail/)** | [php](https://galaxy.ansible.com/robertdebock/php/) | Specific PHP settigs are required. |
 | [ca](https://galaxy.ansible.com/robertdebock/ca/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | inherited variable |
 | [common](https://galaxy.ansible.com/robertdebock/common/) | [reboot](https://galaxy.ansible.com/robertdebock/reboot/) | A reboot is used in `tasks/main.yml` with `include_role`. |
 | [openvas](https://galaxy.ansible.com/robertdebock/openvas/) | [selinux](https://galaxy.ansible.com/robertdebock/selinux/) | SELinux is configured in `tasks/main.yml` with `include_role`. |
