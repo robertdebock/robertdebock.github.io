@@ -6,3 +6,4 @@ Here are some presentations:
 - [Photography Reproductions](/presentations/photography-repro/)
 - [Perfect Ansible](/presentations/perfect-ansible/)
 - [Components to Ansible roles](/presentations/component-to-role/)
+- [Talentenlab](/presentations/talentenlab/)
