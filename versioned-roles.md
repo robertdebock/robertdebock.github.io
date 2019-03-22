@@ -13,6 +13,7 @@ Here are roles with a version in them and the webpage of the upstream project.
 |[go](https://github.com/robertdebock/ansible-role-go/blob/master/defaults/main.yml)|[download page](https://golang.org/dl/)|
 |[irslackd](https://github.com/robertdebock/ansible-role-irslackd/blob/master/defaults/main.yml)|[github release](https://github.com/adsr/irslackd/releases)|
 |[java](https://github.com/robertdebock/ansible-role-java/blob/master/vars/main.yml)|[download page](https://www.oracle.com/technetwork/java/javaseproducts/downloads/index.html)|
+|[kernel](https://github.com/robertdebock/ansible-role-kernel/blob/master/defaults/main.yml)|[download page](https://www.kernel.org/)|
 |[mediawiki](https://github.com/robertdebock/ansible-role-mediawiki/blob/master/defaults/main.yml)|[download page](https://www.mediawiki.org/wiki/Download)|
 |[mssql](https://github.com/robertdebock/ansible-role-mssql/blob/master/vars/main.yml)|[rhel repository](https://packages.microsoft.com/rhel/7/mssql-server-2017/), [ubuntu repository](https://packages.microsoft.com/ubuntu/16.04/mssql-server-2017/pool/main/m/mssql-server/) & [opensuse repository](https://packages.microsoft.com/sles/12/mssql-server-2017/)|
 |[openvas](https://github.com/robertdebock/ansible-role-openvas/blob/master/vars/main.yml)|[download page](http://updates.atomicorp.com/channels/atomic/centos/7/x86_64/RPMS/)|
