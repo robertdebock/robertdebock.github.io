@@ -107,7 +107,8 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |10|[java](https://travis-ci.org/robertdebock/ansible-role-java/settings)|
 |10|[jenkins](https://travis-ci.org/robertdebock/ansible-role-jenkins/settings)|
 |11|**[kernel](https://travis-ci.org/robertdebock/ansible-role-kernel/settings)**|
-|12|(([logrotate](https://travis-ci.org/robertdebock/ansible-role-logrotate/settings)**|
+|12|**[logrotate](https://travis-ci.org/robertdebock/ansible-role-logrotate/settings)**|
+|12|**[logwatch](https://travis-ci.org/robertdebock/ansible-role-logwatch/settings)**|
 |12|[locale](https://travis-ci.org/robertdebock/ansible-role-locale/settings)|
 |12|[lynis](https://travis-ci.org/robertdebock/ansible-role-lynis/settings)|
 |13|[memcached](https://travis-ci.org/robertdebock/ansible-role-memcached/settings)|
