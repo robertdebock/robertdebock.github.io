@@ -218,10 +218,8 @@ Some Ansible roles do not work on all distributions. This table lists why.
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
-- 2.4
-- 2.5
 - 2.6
 - 2.7
-- devel (which may fail)
+- devel (which is allowed to fail)
 
 See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
