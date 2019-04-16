@@ -131,7 +131,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |16|[php_fpm](https://travis-ci.org/robertdebock/ansible-role-php_fpm/settings)|
 |16|[phpmyadmin](https://travis-ci.org/robertdebock/ansible-role-phpmyadmin/settings)|
 |16|[postfix](https://travis-ci.org/robertdebock/ansible-role-postfix/settings)|
-|16|**[powertop](https://travis-ci.org/robertdebock/ansible-role-powertop/settings)**|
+|16|[powertop](https://travis-ci.org/robertdebock/ansible-role-powertop/settings)|
 |16|[python_pip](https://travis-ci.org/robertdebock/ansible-role-python-pip/settings)|
 |18|[reboot](https://travis-ci.org/robertdebock/ansible-role-reboot/settings)|
 |18|[redis](https://travis-ci.org/robertdebock/ansible-role-redis/settings)|
