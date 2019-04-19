@@ -144,14 +144,14 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |18|[rundeck](https://travis-ci.org/robertdebock/ansible-role-rundeck/settings)|
 |19|[scl](https://travis-ci.org/robertdebock/ansible-role-scl/settings)|
 |19|[selinux](https://travis-ci.org/robertdebock/ansible-role-selinux/settings)|
-|19|**[service](https://travis-ci.org/robertdebock/ansible-role-service/settings)**|
+|19|[service](https://travis-ci.org/robertdebock/ansible-role-service/settings)|
 |19|[snort](https://travis-ci.org/robertdebock/ansible-role-snort/settings)|
 |19|[sosreport](https://travis-ci.org/robertdebock/ansible-role-sosreport/settings)|
 |19|[spamassassin](https://travis-ci.org/robertdebock/ansible-role-spamassassin/settings)|
 |19|[squid](https://travis-ci.org/robertdebock/ansible-role-squid/settings)|
-|19|**[storage](https://travis-ci.org/robertdebock/ansible-role-storage/settings)**|
+|19|[storage](https://travis-ci.org/robertdebock/ansible-role-storage/settings)|
 |19|[sudo-pair](https://travis-ci.org/robertdebock/ansible-role-sudo-pair/settings)|
-|19|**[sysstat](https://travis-ci.org/robertdebock/ansible-role-sysstat/settings)**|
+|19|[sysstat](https://travis-ci.org/robertdebock/ansible-role-sysstat/settings)|
 |20|[terraform](https://travis-ci.org/robertdebock/ansible-role-terraform/settings)|
 |20|[tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd/settings)|
 |20|[tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat/settings)|
