@@ -10,6 +10,7 @@ Here are roles with a version in them and the webpage of the upstream project.
 |[anaconda](https://github.com/robertdebock/ansible-role-anaconda/blob/master/defaults/main.yml)|[download page](https://www.anaconda.com/distribution/)|
 |[artifactory](https://github.com/robertdebock/ansible-role-artifactory/blob/master/defaults/main.yml)|[download page](https://dl.bintray.com/jfrog/artifactory/)|
 |[cntlm](https://github.com/robertdebock/ansible-role-cntlm/blob/master/defaults/main.yml)|[sourceforge](https://sourceforge.net/projects/cntlm/files/)|
+|[earlyoom](https://github.com/robertdebock/ansible-role-earlyoom/blob/master/defaults/main.yml)|[github releases](https://github.com/rfjakob/earlyoom/releases)|
 |[go](https://github.com/robertdebock/ansible-role-go/blob/master/defaults/main.yml)|[download page](https://golang.org/dl/)|
 |[irslackd](https://github.com/robertdebock/ansible-role-irslackd/blob/master/defaults/main.yml)|[github release](https://github.com/adsr/irslackd/releases)|
 |[java](https://github.com/robertdebock/ansible-role-java/blob/master/vars/main.yml)|[download page](https://www.oracle.com/technetwork/java/javaseproducts/downloads/index.html)|
