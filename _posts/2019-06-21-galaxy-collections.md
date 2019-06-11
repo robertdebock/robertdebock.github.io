@@ -26,7 +26,7 @@ The whole process is [documented](https://galaxy.ansible.com/docs/contributing/c
 
 I've published my [development_environment](https://github.com/robertdebock/ansible-development-environment) and only had to change these things:
 
-1. Add `galaxy.yml`
+## 1. Add `galaxy.yml`
 
 ```
 namespace: "robertdebock"
@@ -49,15 +49,15 @@ homepage: "https://robertdebock.nl"
 issues: "https://github.com/robertdebock/ansible-development-environment/issues"
 ```
 
-2. Enable Travis for the repository
+## 2. Enable Travis for the repository
 
 Go to [Travis](https://travis-ci.org/account/repositories) and click `Sync account`. Wait a minute or so and enable the repository containing your collection.
 
-3. Save a hidden variable in Travis
+## 3. Save a hidden variable in Travis
 
 Under `settings` for a repository you can find `Environment Variables`. Add one, I called it `galaxy_api_key`. You'll refer to this variable in `.travis.yml` later.
 
-4. Add `.travis.yml`
+## 4. Add `.travis.yml`
 
 ```yaml
 ---
