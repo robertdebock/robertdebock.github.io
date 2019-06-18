@@ -77,6 +77,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |1|[at](https://travis-ci.org/robertdebock/ansible-role-at/settings)|
 |1|[atom](https://travis-ci.org/robertdebock/ansible-role-atom/settings)|
 |1|[awx](https://travis-ci.org/robertdebock/ansible-role-awx/settings)|
+|1|**[auditd](https://travis-ci.org/robertdebock/ansible-role-awx/settings)**|
 |2|[backup](https://travis-ci.org/robertdebock/ansible-role-backup/settings)|
 |2|[bios_update](https://travis-ci.org/robertdebock/ansible-role-bios_update/settings)|
 |2|[bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap/settings)|
