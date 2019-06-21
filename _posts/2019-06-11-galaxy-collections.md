@@ -1,5 +1,5 @@
 ---
-title: Anisble Galaxy Collections are here!
+title: Ansible Galaxy Collections are here!
 ---
 
 # Ansible Galaxy Collections are here!
