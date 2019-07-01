@@ -8,3 +8,4 @@ Here are some presentations:
 - [Components to Ansible roles](/presentations/component-to-role/)
 - [Mob programming](/presentations/mob-programming/)
 - [Talentenlab](/presentations/talentenlab/)
+- [Understanding Ansible](/presentations/understanding-ansible/)
