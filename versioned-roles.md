@@ -27,3 +27,5 @@ Here are roles with a version in them and the webpage of the upstream project.
 |[terraform](https://github.com/robertdebock/ansible-role-terraform/blob/master/defaults/main.yml)|[download page](https://www.terraform.io/downloads.html)|
 |[tomcat](https://github.com/robertdebock/ansible-role-tomcat/blob/master/defaults/main.yml)|[7 branch](https://tomcat.apache.org/download-70.cgi), [8 branch](https://tomcat.apache.org/download-80.cgi) and the [9 branch](https://tomcat.apache.org/download-90.cgi)|
 |[zabbix](https://github.com/robertdebock/ansible-role-zabbix/blob/master/defaults/main.yml)|[download page](https://www.zabbix.com/download)|
+|[zabbix_repository](https://github.com/robertdebock/ansible-role-zabbix_repository/blob/master/defaults/main.yml)|[download page](https://www.zabbix.com/download)|
+|[zabbix_server](https://github.com/robertdebock/ansible-role-zabbix_server/blob/master/vars/main.yml)|[download page](https://www.zabbix.com/download)|
