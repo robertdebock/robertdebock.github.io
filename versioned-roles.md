@@ -21,6 +21,7 @@ Here are roles with a version in them and the webpage of the upstream project.
 |[packer](https://github.com/robertdebock/ansible-role-packer/blob/master/defaults/main.yml)|[front page](https://www.packer.io/)|
 |[phpmyadmin](https://github.com/robertdebock/ansible-role-phpmyadmin/blob/master/defaults/main.yml)|[download page](https://www.phpmyadmin.net/downloads/)|
 |[python_pip](https://github.com/robertdebock/ansible-role-python_pip/blob/master/defaults/main.yml)|[download page](https://pypi.org/project/pip/)|
+|[remi](https://github.com/robertdebock/ansible-role-remi/blob/master/molecule/resources/playbook.yml)|[overview page](https://blog.remirepo.net/pages/Config-en)|
 |[rundeck](https://github.com/robertdebock/ansible-role-rundeck/blob/master/vars/main.yml)|[download page](https://rundeck.org/downloads.html)|
 |[snort](https://github.com/robertdebock/ansible-role-snort/blob/master/vars/main.yml)|[download page](https://www.snort.org/downloads)|
 |[sudo_pair](https://github.com/robertdebock/ansible-role-sudo-pair/blob/master/defaults/main.yml)|[github release](https://github.com/square/sudo_pair/releases)|
