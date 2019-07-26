@@ -160,6 +160,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |19|[stratis](https://travis-ci.org/robertdebock/ansible-role-stratis/settings)|
 |19|**[subversion](https://travis-ci.org/robertdebock/ansible-role-subversion/settings)**|
 |19|[sudo-pair](https://travis-ci.org/robertdebock/ansible-role-sudo-pair/settings)|
+|19|**[sysctl](https://travis-ci.org/robertdebock/ansible-role-sysctl/settings)**|
 |19|[sysstat](https://travis-ci.org/robertdebock/ansible-role-sysstat/settings)|
 |20|[terraform](https://travis-ci.org/robertdebock/ansible-role-terraform/settings)|
 |20|[tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd/settings)|
