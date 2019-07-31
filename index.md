@@ -181,15 +181,15 @@ Unit tests and integration tests are use to verify the quality of the roles, rea
 ## Distributions
 The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. For each distribution, the current and previous release is tested. A role may work on diferent distributions, like Red Hat Enterprise Linux (RHEL), but it's not tested against it. By default these Linux distributions are included in the tests:
 
-| Distribution | Version(s)                  |
-|--------------|-----------------------------|
-| Archlinux    | latest                      |
-| Alpine       | latest & edge*              |
-| CentOS       | 6 & latest                  |
-| Debian       | stable, latest & unstable*  |
-| Fedora       | latest & rawhide*           |
-| OpenSUSE     | leap & tumbleweed           | 
-| Ubuntu       | 17 (artful), latest, devel* |
+| Distribution | Version(s)               |
+|--------------|--------------------------|
+| Archlinux    | latest                   |
+| Alpine       | latest & edge*           |
+| CentOS       | 6 & latest               |
+| Debian       | stable & unstable*       |
+| Fedora       | latest & rawhide*        |
+| OpenSUSE     | leap & tumbleweed        | 
+| Ubuntu       | latest, devel* & rolling |
 
 * = These are experimental, builds are done for informative purposes and may fail.
 
