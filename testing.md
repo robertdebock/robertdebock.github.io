@@ -95,6 +95,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |4|[docker](https://travis-ci.org/robertdebock/ansible-role-docker/settings)|
 |4|[docker_ce](https://travis-ci.org/robertdebock/ansible-role-docker_ce/settings)|
 |4|[dovecot](https://travis-ci.org/robertdebock/ansible-role-dovecot/settings)|
+|4|**[dsvpn](https://travis-ci.org/robertdebock/ansible-role-dsvpn/settings)**|
 |5|**[earlyoom](https://travis-ci.org/robertdebock/ansible-role-earlyoom/settings)**|
 |5|[environment](https://travis-ci.org/robertdebock/ansible-role-environment/settings)|
 |5|[epel](https://travis-ci.org/robertdebock/ansible-role-epel/settings)|
