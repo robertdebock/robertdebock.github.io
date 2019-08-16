@@ -10,7 +10,7 @@ A weekly test to verify if roles work well together.
 
 ## Unit tests
 
-A monthly test to see of the role still works on the current distributions. Some roles contain [a version](versioned-roles.html) that requires frequent tests.
+A monthly test to see of the role still works on the current distributions. Some roles contain a version that requires frequent changes and tests.
 
 <table>
 <tr><th>#</th><th>Role name</th><th>Build status</th><th>Version</th></tr>
