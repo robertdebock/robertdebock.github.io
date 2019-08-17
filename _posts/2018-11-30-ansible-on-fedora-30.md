@@ -19,7 +19,7 @@ Hm; so I've tried these options to work around the problem:
 - Use [alternatives](https://fedoraproject.org/wiki/Alternatives_system) to set /usr/bin/python to /usr/bin/python3. Does not work, the Ansible module dnf will still try to install python2-dnf.
 - Set `ansible_python_interpreter` for Fedora-30 hosts. Does not work, my [bootstrap](https://galaxy.ansible.com/robertdebock/bootstrap) role does not have any facts, it does not know about `ansible_distribution` (`Fedora`), nor `ansible_distribution_major_version` (`30`).
 
-so far the only reasonable option is to set `ansible_python_interpreter` as [documented by Ansible](ansible_python_interpreter). Hm, so my [molecule.yml](https://github.com/robertdebock/ansible-role-bootstrap/blob/master/molecule/fedora-rawhide/molecule.yml) now contains this code to tell Ansible to use python3:
+so far the only reasonable option is to set `ansible_python_interpreter` as [documented by Ansible](https://docs.ansible.com/ansible/latest/reference_appendices/python_3_support.html). Hm, so my [molecule.yml](https://github.com/robertdebock/ansible-role-bootstrap/blob/master/molecule/fedora-rawhide/molecule.yml) now contains this code to tell Ansible to use python3:
 
 ```
 provisioner:
@@ -32,7 +32,7 @@ provisioner:
 
 This means all roles that use distributions that:
 - use dnf
-- don't have pyton2-dnf
+- don't have python2-dnf
 
 will need to be modified... Quite a change.
 
