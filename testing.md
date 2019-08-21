@@ -131,6 +131,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |14|[nginx](https://travis-ci.org/robertdebock/ansible-role-nginx/settings)|
 |14|[npm](https://travis-ci.org/robertdebock/ansible-role-npm/settings)|
 |14|[ntp](https://travis-ci.org/robertdebock/ansible-role-ntp/settings)|
+|15|**[obsproject](https://travis-ci.org/robertdebock/ansible-role-obsproject/settings)**|
 |15|[openssh](https://travis-ci.org/robertdebock/ansible-role-openssh/settings)|
 |15|[openvas](https://travis-ci.org/robertdebock/ansible-role-openvas/settings)|
 |15|[owncloud](https://travis-ci.org/robertdebock/ansible-role-owncloud/settings)|
@@ -149,6 +150,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |18|[restore](https://travis-ci.org/robertdebock/ansible-role-restore/settings)|
 |18|[revealmd](https://travis-ci.org/robertdebock/ansible-role-revealmd/settings)|
 |18|[roundcubemail](https://travis-ci.org/robertdebock/ansible-role-roundcubemail/settings)|
+|18|**[rpmfusion](https://travis-ci.org/robertdebock/ansible-role-rpmfusion/settings)**|
 |18|[rsyslog](https://travis-ci.org/robertdebock/ansible-role-rsyslog/settings)|
 |18|[ruby](https://travis-ci.org/robertdebock/ansible-role-ruby/settings)|
 |18|[rundeck](https://travis-ci.org/robertdebock/ansible-role-rundeck/settings)|
