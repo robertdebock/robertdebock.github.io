@@ -152,7 +152,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |18|[restore](https://travis-ci.org/robertdebock/ansible-role-restore/settings)|
 |18|[revealmd](https://travis-ci.org/robertdebock/ansible-role-revealmd/settings)|
 |18|[roundcubemail](https://travis-ci.org/robertdebock/ansible-role-roundcubemail/settings)|
-|18|**[rpmfusion](https://travis-ci.org/robertdebock/ansible-role-rpmfusion/settings)**|
+|18|[rpmfusion](https://travis-ci.org/robertdebock/ansible-role-rpmfusion/settings)|
 |18|[rsyslog](https://travis-ci.org/robertdebock/ansible-role-rsyslog/settings)|
 |18|[ruby](https://travis-ci.org/robertdebock/ansible-role-ruby/settings)|
 |18|[rundeck](https://travis-ci.org/robertdebock/ansible-role-rundeck/settings)|
