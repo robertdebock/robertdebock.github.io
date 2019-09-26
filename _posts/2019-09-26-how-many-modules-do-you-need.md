@@ -15,8 +15,15 @@ Thas was not so dificult to estimate: **97 modules**.
 # What 'weird' modules?
 
 A bit more difficult to answer, I've taken two approaches:
-- Take the bottom of the list of "most used modules".
-- Walked throught the 97 modules and discover odd once.
+1. Take the bottom of the list of "most used modules".
+2. Walked throught the 97 modules and discover odd once.
+
+- bigip_*: I've written a role for a workshop.
+- gem: Don't know, weird.
+- debug: What, get it out of there!
+- include_vars: Why would that be?
+- fail: Let's check that later.
+- set_fact: I'm now a big fan of `set_fact`, most facts can be "rendered" in `vars/main.yml`.
 
 # How many 'vendor' modules?
 
