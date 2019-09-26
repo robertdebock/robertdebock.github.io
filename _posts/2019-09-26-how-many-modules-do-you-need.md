@@ -37,10 +37,10 @@ I expect some Ansible Collections will be maintained by the vendors; Google (GCP
 |zabbix_host         |2            |Zabbix               |
 |zabbix_group        |2            |Zabbix               |
 |apk                 |2            |Alpine               |
-|tower_*             |7 (combined) |                     |
-|redhat_subscription |1            |                     |
+|tower_*             |7 (combined) |RedHat               |
+|redhat_subscription |1            |RedHat               |
 |pacman              |1            |ArchLinux            |
-|bigip_*             |6 (combined) |                     |
+|bigip_*             |6 (combined) |F5                   |
 
 # How often do I use what modules?
 
