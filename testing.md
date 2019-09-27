@@ -90,6 +90,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |3|[cron](https://travis-ci.org/robertdebock/ansible-role-cron/settings)|
 |3|[clamav](https://travis-ci.org/robertdebock/ansible-role-clamav/settings)|
 |3|[cloud9](https://travis-ci.org/robertdebock/ansible-role-cloud9/settings)|
+|4|**[debug](https://travis-ci.org/robertdebock/ansible-role-debug/settings)|
 |4|[dhcpd](https://travis-ci.org/robertdebock/ansible-role-dhcpd/settings)|
 |4|[digitalocean_agent](https://travis-ci.org/robertdebock/ansible-role-digitalocean-agent/settings)|
 |4|[dns](https://travis-ci.org/robertdebock/ansible-role-dns/settings)|
