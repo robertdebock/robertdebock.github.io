@@ -2,6 +2,8 @@
 title: What I wish ansible collections would be
 ---
 
+# What I wish ansible collections would be
+
 Ansible Collections is a way of:
 1. Packaging Ansible Content (modules/roles/playbooks).
 2. Distributing Ansible Content through Ansible Galaxy.
