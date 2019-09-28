@@ -40,8 +40,8 @@ There are a few applications to analyse data and give insights on development an
 
 There are many more perspectives, [have a look](https://stats.eng.ansible.com/apps/).
 
-# Next Ansible Fest in Europe
+# Next Ansible Fest not in Europe
 
-[Spain seems to be the largest contributor](https://stats.eng.ansible.com/apps/docs/newmap.html) of Ansible. I'm not sure if that's why the next Ansible Fest will be in Europe, but let me guess:
+[Spain seems to be the largest contributor](https://stats.eng.ansible.com/apps/docs/newmap.html) of Ansible, but next Ansible Fest will be in San Diego.
 
-Next Ansible Fest will be in Barcelona.
+The Contributers Summit will be in europe though.
