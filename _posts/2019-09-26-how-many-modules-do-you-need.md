@@ -54,15 +54,15 @@ I expect some Ansible Collections will be maintained by the vendors; Google (GCP
 |Place |Module     | Times used |
 |------|-----------|------------|
 |1     |package    |138         |
-|1     |service    |137         |
-|1     |command    |73          |
-|1     |template   |64          |
-|1     |file       |62          |
-|1     |meta       |27          |
-|1     |assert     |26          |
-|1     |unarchive  |24          |
-|1     |lineinfile |21          |
-|1     |copy       |20          |
+|2     |service    |137         |
+|3     |command    |73          |
+|4     |template   |64          |
+|5     |file       |62          |
+|6     |meta       |27          |
+|7     |assert     |26          |
+|8     |unarchive  |24          |
+|9     |lineinfile |21          |
+|10    |copy       |20          |
 
 Wow, I'm especially surprised by two modules:
 1. command - I'm going to review if there are modules that I can use instead of `command`. I know very well that command should be used as a last resort, not 73 times... Painful.
