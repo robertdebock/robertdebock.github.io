@@ -135,6 +135,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |14|[npm](https://travis-ci.org/robertdebock/ansible-role-npm/settings)|
 |14|[ntp](https://travis-ci.org/robertdebock/ansible-role-ntp/settings)|
 |15|[obsproject](https://travis-ci.org/robertdebock/ansible-role-obsproject/settings)|
+|15|**[omsagent](https://travis-ci.org/robertdebock/ansible-role-omsagent/settings)**|
 |15|[openssh](https://travis-ci.org/robertdebock/ansible-role-openssh/settings)|
 |15|[openvas](https://travis-ci.org/robertdebock/ansible-role-openvas/settings)|
 |15|[owncloud](https://travis-ci.org/robertdebock/ansible-role-owncloud/settings)|
