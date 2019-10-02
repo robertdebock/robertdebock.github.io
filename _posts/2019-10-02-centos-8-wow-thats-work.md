@@ -1,17 +1,20 @@
 ---
-title: CentOS 8, Wow that work!
+title: Why would you write Ansible roles for multiple distributions?
 ---
 
-# CentOS 8, Wow that work!
+# Why would you write Ansible roles for multiple distributions?
 
-CentOS 8 has been [released](https://wiki.centos.org/About/Building_8). The [Docker image](https://hub.docker.com/_/centos) has also been updated, somewhere on the 2nd of October 2019.
+I got some feedback in a discussion with the audience at [DevOps Amsterdam](https://www.meetup.com/DevOpsAmsterdam/).
 
-That means it's time to update **all** roles. Phew.
+My statement are:
 
-I prepared the bootstrap role earlier so that should be ready soon.
+- "Keep your code as simple as possible"
+- "Write roles for multiple distributions" (To improve logic.)
 
-All other roles have references to CentOS 6 and have specific missing packages for CentOS 8.
+These two contradict eachother: simplicity would mean 1 role for 1 (only my) distribution.
 
-Most roles have Fedora support, so I can probably steal a lot of patterns from the Fedora sections.
+Hm, that's a very fair point. Still I think writing for multiple operating systems is a good thing, for these reasons:
 
-Still, I expect all of October to be fixing stuff.
+1. You get a better understanding of all the operating systems. For example Ubuntu is (nearly) identical to Debian, SUSE is very similar to Red Hat.
+2. By writing for multiple distributions, the logic (in `tasks/main.yml`) becomes more stable.
+3. It's just very useful to be able to switch distributions without switching roles.
