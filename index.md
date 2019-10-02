@@ -194,50 +194,13 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 |--------------|--------------------------|
 | Archlinux    | latest                   |
 | Alpine       | latest & edge*           |
-| CentOS       | 6 & latest               |
+| CentOS       | 7 & latest               |
 | Debian       | stable & unstable*       |
 | Fedora       | latest & rawhide*        |
 | OpenSUSE     | leap & tumbleweed        | 
 | Ubuntu       | latest, devel* & rolling |
 
 * = These are experimental, builds are done for informative purposes and may fail.
-
-### Exceptions in distributions
-Some Ansible roles do not work on all distributions. This table lists why.
-
-| Ansible role | Excepted Linux distribution(s) | Reasoning |
-|--------------|--------------------------------|-----------|
-| [ara](https://galaxy.ansible.com/robertdebock/ara) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [awx](https://galaxy.ansible.com/robertdebock/ara) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [cargo](https://galaxy.ansible.com/robertdebock/cargo) | Alpine & CentOS 6 | Weird error & rust is too old. |
-| [cloud9](https://galaxy.ansible.com/robertdebock/cloud9) | Alpine | `npm: exec: line 2: /home/cloud9/.c9/node/bin/node: not found`. |
-| [cloud9](https://galaxy.ansible.com/robertdebock/cloud9) | ArchLinux, CentOS 6 | `Python version 2.7 is required to install pty.js.`. |
-| [cloud9](https://galaxy.ansible.com/robertdebock/cloud9) | OpenSUSE | `configure: error: "curses not found"`. |
-| [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent) | Alpine, ArchLinux, OpenSUSE  | Not supported by [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-the-digitalocean-agent-for-monitoring). |
-| [digitalocean-agent](https://galaxy.ansible.com/robertdebock/dititalocean_agent) | Debian, Ubuntu | Package attempts to start service which is not possible in Docker. |
-| [docker](https://galaxy.ansible.com/robertdebock/docker) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [docker_ce](https://galaxy.ansible.com/robertdebock/docker_ce) | Many | Docker CE has [limited support for distributions](https://docs.docker.com/install/#supported-platforms). |
-| [glusterfs](https://galaxy.ansible.com/robertdebock/glusterfs) | Alpine | GlusterFS is [not available](https://github.com/gluster/glusterfs/issues/268). | 
-| [httpd](https://galaxy.ansible.com/robertdebock/httpd) | CentOS 6 | `the SNI (Subject Name Indication) extension to TLS is not available on this platform`. | 
-| [mitogen](https://galaxy.ansible.com/robertdebock/mitogen) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [mssql](https://galaxy.ansible.com/robertdebock/mssql) | Alpine, ArchLinux, CentOS 6, Debian, Fedora, OpenSUSE Tumbleweed & Ubuntu latest | [Not supported](https://docs.microsoft.com/en-us/sql/linux/sql-server-linux-setup?view=sql-server-linux-2017) by Microsoft. |
-| [openvas](https://galaxy.ansible.com/robertdebock/openvas) | Archlinux, CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/) and [selinux](https://galaxy.ansible.com/robertdebock/selinux/). |
-| [owncloud](https://galaxy.ansible.com/robertdebock/owncloud) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [php](https://galaxy.ansible.com/robertdebock/php) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
-| [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
-| [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin) | Alpine | There is no MySQL, only mariadb. |
-| [python_pip](https://galaxy.ansible.com/robertdebock/python_pip) | CentOS 6 | `No package matching 'python-pip' found available`. |
-| [redis](https://galaxy.ansible.com/robertdebock/redis) | CentOS 6 | Depends on Ansible role [python_pip](https://galaxy.ansible.com/robertdebock/python_pip/). |
-| [revealmd](https://galaxy.ansible.com/robertdebock/revealmd) | OpenSUSE Tumbleweed | `No JSON object could be decoded`. |
-| [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail) | CentOS 6 | Depends on Ansible role [httpd](https://galaxy.ansible.com/robertdebock/httpd/). |
-| [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog) | ArchLinux | Package is only available in AUR. |
-| [selinux](https://galaxy.ansible.com/robertdebock/selinux) | ArchLinux | Package is only available in AUR. |
-| [spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin) | Archlinux | Depends on Ansible role [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/). |
-| [sudo_pair](https://galaxy.ansible.com/robertdebock/sudo_pair) | Alpine & CentOS 6 | Depends on Ansible role [cargo](https://galaxy.ansible.com/robertdebock/cargo/). |
-| [tftpd](https://galaxy.ansible.com/robertdebock/tftpd) | Alpine | Depends on Ansible role [xinetd](https://galaxy.ansible.com/robertdebock/xinetd/). |
-| [tftpd](https://galaxy.ansible.com/robertdebock/tftpd) | Archlinux | The package `tftpd` is not available. |
-| [xinetd](https://galaxy.ansible.com/robertdebock/xinetd) | Alpine | The package `xinetd` is not available. |
-| [zabbix](https://galaxy.ansible.com/robertdebock/zabbix) | ArchLinux, Alpine, Debian, Fedora & OpenSUSE | Zabbix has [limited OS support](https://www.zabbix.com/documentation/3.4/manual/installation/requirements). |
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:

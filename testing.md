@@ -12,8 +12,8 @@ In Travis CI these combinations are called a `matrix`. You can consider this ove
 | Alpine latest       | yes         | yes         | yes *         |
 | Alpine edge         | yes *       | yes *       | yes *         |
 | Archlinux (base)    | yes         | yes         | yes *         |
-| Centos 6            | yes         | yes         | yes *         |
-| Centos latest       | yes         | yes         | yes *         |
+| CentOS 7            | yes         | yes         | yes *         |
+| CentOS latest       | yes         | yes         | yes *         |
 | Debian stable       | yes         | yes         | yes *         |
 | Debian latest       | yes         | yes         | yes *         |
 | Debian unstable     | yes *       | yes *       | yes *         |
