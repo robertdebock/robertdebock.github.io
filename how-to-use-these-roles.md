@@ -41,7 +41,7 @@ Once the roles are downloaded, you can integrate them into a playbook, for examp
   gather_facts: no
 
   roles:
-    - robertdebock.bootstrap
+    - role: robertdebock.bootstrap
 ```
 
 You can also use `[include_role](https://docs.ansible.com/ansible/latest/modules/include_role_module.html)`.
@@ -57,11 +57,10 @@ Most roles can be controled using [variables](https://docs.ansible.com/ansible/l
   become: yes
   gather_facts: no
 
-  vars:
-    bootstrap_user: root
 
   roles:
-    - robertdebock.bootstrap
+    - role: robertdebock.bootstrap
+      bootstrap_user: root
 ```
 
 Most roles have quite a few variables and the playbook can get long using the example above. Another way to use variables in in the [inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html), specifically in the [group variables](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#group-variables). For example the file `group_vars/all.yml` can contain:
