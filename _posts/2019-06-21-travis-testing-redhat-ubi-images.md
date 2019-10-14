@@ -52,7 +52,7 @@ platforms:
   - name: bootstrap-rhel-latest
     image: ubi8/ubi
     registry:
-      url: registry.access.redhat.com
+      url: registry.redhat.io
       credentials:
         username: $registryredhatiousername
         password: $registryredhatiopassword
