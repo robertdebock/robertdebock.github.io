@@ -26,6 +26,8 @@ In Travis CI these combinations are called a `matrix`. You can consider this ove
 
 Distributions or Ansible versions marked with an astriks are allowed to fail. This combination is built to prepare for future distributions or releases of Ansible.
 
+Read [this page to understand the tools (Travis, Molecule and Tox)](tox-molecule-travis.html] better.
+
 There are multiple tests configured, here is how they relate.
 
 ## Unit tests
