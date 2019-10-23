@@ -1,4 +1,6 @@
-## Ansible roles contributions
+## Ansible roles contributions status
+
+Here is an overview of all issues and pull requests per role.
 
 <table>
 <tr><th>#</th><th>Role name</th><th>Issues</th><th>Pull requests</th></tr>

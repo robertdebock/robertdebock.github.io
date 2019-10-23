@@ -12,6 +12,10 @@ A weekly test to verify if roles work well together.
 
 A monthly test to see of the role still works on the current distributions. Some roles contain a version that requires frequent changes and tests.
 
+## Issues & pull requests
+
+See the [overview of issues and pull requests](contributions.html).
+
 <table>
 <tr><th>#</th><th>Role name</th><th>Build status</th><th>Version</th></tr>
 <tr><td>1</td><td><a href="https://galaxy.ansible.com/robertdebock/alternatives">alternatives</a></td><td><a href="https://travis-ci.org/robertdebock/ansible-role-alternatives"><img src="https://api.travis-ci.org/robertdebock/ansible-role-alternatives.svg?branch=master"/></a></td><td><a href="https://github.com/robertdebock/ansible-role-alternatives/releases"><img src="https://img.shields.io/github/commits-since/robertdebock/ansible-role-alternatives/latest.svg"/></a></td></tr>
