@@ -6,7 +6,7 @@ The filosofy to test is:
 
 In Travis CI these combinations are called a `matrix`. You can consider this overview per role:
 
-| Distribution        | Ansible 2.7 | Ansible 2.8 | Ansible devel |
+| Distribution        | Ansible 2.8 | Ansible 2.9 | Ansible devel |
 |---------------------|-------------|-------------|---------------|
 | Alpine latest       | yes         | yes         | yes           |
 | Alpine edge         | yes *       | yes *       | yes           |
@@ -20,6 +20,8 @@ In Travis CI these combinations are called a `matrix`. You can consider this ove
 | Fedora rawhide      | yes *       | yes         | yes           |
 | OpenSuse Leap       | yes         | yes         | yes           |
 | OpenSuse Tumbleweed | yes         | yes         | yes           |
+| RHEL 7              | yes         | yes         | yes           |
+| RHEL 8              | yes         | yes         | yes           |
 | Ubuntu Artful (17)  | yes         | yes         | yes           |
 | Ubuntu latest       | yes         | yes         | yes           |
 | Ubuntu devel        | yes *       | yes *       | yes           |
