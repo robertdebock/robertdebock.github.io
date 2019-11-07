@@ -189,6 +189,7 @@ Here is an overview of the hard dependencies:
 
 [![Overview of hard dependencies](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/hard-dependencies.png "Hard dependency overview")](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/hard-dependencies.png)
 
+A page [describing how I release](dependencies.html) considering these dependencies.
 ## Tests
 Unit tests and integration tests are use to verify the quality of the roles, read [more about testing](testing.html)
 
