@@ -3,7 +3,7 @@
 Some roles depend on other roles. This post is more a reminder to myself on ordering a big change to all roles.
 
 ## First wave (green)
-- [bootstrap](https://github.com/robertdebock/ansible-role-bootstrap/releases)
+- [bootstrap](https://github.com/robertdebock/ansible-role-bootstrap) - [![build status](https://api.travis-ci.org/robertdebock/ansible-role-bootstrap.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-bootstrap) - [[release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-bootstrap/latest.svg)](https://github.com/robertdebock/ansible-role-bootstrap/releases)
 
 ## Second wave (yellow)
 - [auditd](https://github.com/robertdebock/ansible-role-auditd/releases)
