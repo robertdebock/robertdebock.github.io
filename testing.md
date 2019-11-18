@@ -53,8 +53,9 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |1|[artifactory](https://travis-ci.org/robertdebock/ansible-role-artifactory/settings)|
 |1|[at](https://travis-ci.org/robertdebock/ansible-role-at/settings)|
 |1|[atom](https://travis-ci.org/robertdebock/ansible-role-atom/settings)|
-|1|[awx](https://travis-ci.org/robertdebock/ansible-role-awx/settings)|
 |1|[auditd](https://travis-ci.org/robertdebock/ansible-role-awx/settings)|
+|1|[awx](https://travis-ci.org/robertdebock/ansible-role-awx/settings)|
+|1|**[azure_cli](https://travis-ci.org/robertdebock/ansible-role-azure_cli/settings)**|
 |2|[backup](https://travis-ci.org/robertdebock/ansible-role-backup/settings)|
 |2|[bios_update](https://travis-ci.org/robertdebock/ansible-role-bios_update/settings)|
 |2|[bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap/settings)|
@@ -103,6 +104,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |12|[lynis](https://travis-ci.org/robertdebock/ansible-role-lynis/settings)|
 |13|[memcached](https://travis-ci.org/robertdebock/ansible-role-memcached/settings)|
 |13|[mediawiki](https://travis-ci.org/robertdebock/ansible-role-mediawiki/settings)|
+|13|**[microsoft_repository_keys](https://travis-ci.org/robertdebock/ansible-role-microsoft_repository_keys/settings)**|
 |13|[mitogen](https://travis-ci.org/robertdebock/ansible-role-mitogen/settings)|
 |13|[minikube](https://travis-ci.org/robertdebock/ansible-role-minikube/settings)|
 |13|[molecule](https://travis-ci.org/robertdebock/ansible-role-molecule/settings)|
