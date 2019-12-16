@@ -119,7 +119,6 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |15|[obsproject](https://travis-ci.org/robertdebock/ansible-role-obsproject/settings)|
 |15|[omsagent](https://travis-ci.org/robertdebock/ansible-role-omsagent/settings)|
 |15|[openssh](https://travis-ci.org/robertdebock/ansible-role-openssh/settings)|
-|15|[openvas](https://travis-ci.org/robertdebock/ansible-role-openvas/settings)|
 |15|[owncloud](https://travis-ci.org/robertdebock/ansible-role-owncloud/settings)|
 |16|[packer](https://travis-ci.org/robertdebock/ansible-role-packer/settings)|
 |16|[php](https://travis-ci.org/robertdebock/ansible-role-php/settings)|
@@ -166,7 +165,6 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |22|[vagrant](https://travis-ci.org/robertdebock/ansible-role-vagrant/settings)|
 |24|[xinetd](https://travis-ci.org/robertdebock/ansible-role-xinetd/settings)|
 |25|[y](https://travis-ci.org/robertdebock/ansible-role-y/settings)|
-|26|[zabbix](https://travis-ci.org/robertdebock/ansible-role-zabbix/settings)|
 |26|[zabbix_agent](https://travis-ci.org/robertdebock/ansible-role-zabbix_agent/settings)|
 |26|[zabbix_proxy](https://travis-ci.org/robertdebock/ansible-role-zabbix_proxy/settings)|
 |26|[zabbix_repository](https://travis-ci.org/robertdebock/ansible-role-zabbix_repository/settings)|
