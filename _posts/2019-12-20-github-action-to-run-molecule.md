@@ -28,7 +28,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v2
         with:
-          path: "${{ github.repository }}"
+          path: "$\{\{ github.repository \}\}"
       - name: molecule
         uses: robertdebock/molecule-action@master
 ```
