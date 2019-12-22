@@ -30,7 +30,7 @@ jobs:
       - name: galaxy
         uses: robertdebock/galaxy-action@master
         with:
-          galaxy_api_key: ${{ secrets.galaxy_api_key }}
+          galaxy_api_key: "${{ secrets.galaxy_api_key }}"
 ```
 
 As you can see, 2 actions are used, `checkout` which gets the code and `galaxy-action` to push the role to [Galaxy](https://galaxy.ansible.com/). Galaxy does lint-testing, but not functional testing. You can use the `molecule-action` to do that.
@@ -53,7 +53,7 @@ jobs:
       - name: molecule
         uses: robertdebock/molecule-action@1.0.0
         with:
-          image: ${{ matrix.image }}
+          image: "${{ matrix.image }}"
   release:
     needs:
       - test
