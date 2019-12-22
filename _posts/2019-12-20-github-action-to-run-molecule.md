@@ -16,7 +16,7 @@ Have a look at the [Molecule action](https://github.com/marketplace/actions/mole
 
 It boils down to adding this snippet to `.github/workflows/molecule.yml`:
 
-```
+```yaml
 ---
 on:
   - push
