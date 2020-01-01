@@ -44,7 +44,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 
 |------------|------------|
 |Day of month|Ansible Role|
-|1|**[aide](https://travis-ci.org/robertdebock/ansible-role-aide/settings)**|
+|1|[aide](https://travis-ci.org/robertdebock/ansible-role-aide/settings)|
 |1|[alternatives](https://travis-ci.org/robertdebock/ansible-role-alternatives/settings)|
 |1|[anaconda](https://travis-ci.org/robertdebock/ansible-role-anaconda/settings)|
 |1|[ansible](https://travis-ci.org/robertdebock/ansible-role-ansible/settings)|
@@ -55,9 +55,9 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |1|[at](https://travis-ci.org/robertdebock/ansible-role-at/settings)|
 |1|[atom](https://travis-ci.org/robertdebock/ansible-role-atom/settings)|
 |1|[auditd](https://travis-ci.org/robertdebock/ansible-role-auditd/settings)|
-|1|**[auto_update](https://travis-ci.org/robertdebock/ansible-role-auto_update/settings)**|
+|1|[auto_update](https://travis-ci.org/robertdebock/ansible-role-auto_update/settings)|
 |1|[awx](https://travis-ci.org/robertdebock/ansible-role-awx/settings)|
-|1|**[azure_cli](https://travis-ci.org/robertdebock/ansible-role-azure_cli/settings)**|
+|1|[azure_cli](https://travis-ci.org/robertdebock/ansible-role-azure_cli/settings)|
 |2|[backup](https://travis-ci.org/robertdebock/ansible-role-backup/settings)|
 |2|[bios_update](https://travis-ci.org/robertdebock/ansible-role-bios_update/settings)|
 |2|[bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap/settings)|
