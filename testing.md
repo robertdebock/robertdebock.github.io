@@ -63,12 +63,12 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |2|[bootstrap](https://travis-ci.org/robertdebock/ansible-role-bootstrap/settings)|
 |2|[buildtools](https://travis-ci.org/robertdebock/ansible-role-buildtools/settings)|
 |3|[ca](https://travis-ci.org/robertdebock/ansible-role-ca/settings)|
-|3|**[ca_certificates](https://travis-ci.org/robertdebock/ansible-role-ca_certificates/settings)**|
+|3|[ca_certificates](https://travis-ci.org/robertdebock/ansible-role-ca_certificates/settings)|
 |3|[cargo](https://travis-ci.org/robertdebock/ansible-role-cargo/settings)|
 |3|[cntlm](https://travis-ci.org/robertdebock/ansible-role-cntlm/settings)|
 |3|[common](https://travis-ci.org/robertdebock/ansible-role-common/settings)|
 |3|[container_docs](https://travis-ci.org/robertdebock/ansible-role-container_docs/settings)|
-|3|**[core_dependencies](https://travis-ci.org/robertdebock/ansible-role-core_dependencies/settings)**|
+|3|[core_dependencies](https://travis-ci.org/robertdebock/ansible-role-core_dependencies/settings)|
 |3|[cron](https://travis-ci.org/robertdebock/ansible-role-cron/settings)|
 |3|[clamav](https://travis-ci.org/robertdebock/ansible-role-clamav/settings)|
 |4|**[debug](https://travis-ci.org/robertdebock/ansible-role-debug/settings)|
