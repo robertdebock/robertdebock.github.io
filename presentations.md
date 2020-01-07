@@ -9,3 +9,4 @@ Here are some presentations:
 - [Mob programming](/presentations/mob-programming/)
 - [Talentenlab](/presentations/talentenlab/)
 - [Understanding Ansible](/presentations/understanding-ansible/)
+- [Writing Ansible for multiple distribution](/writing-ansible-for-multiple-distros/)
