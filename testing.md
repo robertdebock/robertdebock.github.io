@@ -80,6 +80,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |4|[dovecot](https://travis-ci.org/robertdebock/ansible-role-dovecot/settings)|
 |4|[dsvpn](https://travis-ci.org/robertdebock/ansible-role-dsvpn/settings)|
 |5|[earlyoom](https://travis-ci.org/robertdebock/ansible-role-earlyoom/settings)|
+|5|**[eclipse](https://travis-ci.org/robertdebock/ansible-role-eclipse/settings)**|
 |5|[environment](https://travis-ci.org/robertdebock/ansible-role-environment/settings)|
 |5|[epel](https://travis-ci.org/robertdebock/ansible-role-epel/settings)|
 |5|[etherpad](https://travis-ci.org/robertdebock/ansible-role-etherpad/settings)|
