@@ -129,6 +129,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |16|[postfix](https://travis-ci.org/robertdebock/ansible-role-postfix/settings)|
 |16|[postgres](https://travis-ci.org/robertdebock/ansible-role-postgres/settings)|
 |16|[powertop](https://travis-ci.org/robertdebock/ansible-role-powertop/settings)|
+|16|**[powertools](https://travis-ci.org/robertdebock/ansible-role-powertools/settings)**|
 |16|[python_pip](https://travis-ci.org/robertdebock/ansible-role-python-pip/settings)|
 |18|[reboot](https://travis-ci.org/robertdebock/ansible-role-reboot/settings)|
 |18|[redis](https://travis-ci.org/robertdebock/ansible-role-redis/settings)|
