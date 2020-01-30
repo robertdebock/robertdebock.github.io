@@ -4,9 +4,10 @@ To keep a sharp eye on what is "right" in software development, here are a few r
 
 ## Priorities
 When working on code, these are priorities:
-1. User reported bugs.
-2. Self reported bugs.
-3. New features.
+1. Failing CI
+2. User reported bugs.
+3. Self reported bugs.
+4. New features.
 
 ## Where to fix
 Solve bugs and dependencies in the lowest level possible. From low to high:
