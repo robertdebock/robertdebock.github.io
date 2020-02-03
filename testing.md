@@ -66,6 +66,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |3|[ca_certificates](https://travis-ci.org/robertdebock/ansible-role-ca_certificates/settings)|
 |3|[cargo](https://travis-ci.org/robertdebock/ansible-role-cargo/settings)|
 |3|[cntlm](https://travis-ci.org/robertdebock/ansible-role-cntlm/settings)|
+|3|[collectd](https://travis-ci.org/robertdebock/ansible-role-collectd/settings)|
 |3|[common](https://travis-ci.org/robertdebock/ansible-role-common/settings)|
 |3|[container_docs](https://travis-ci.org/robertdebock/ansible-role-container_docs/settings)|
 |3|[core_dependencies](https://travis-ci.org/robertdebock/ansible-role-core_dependencies/settings)|
