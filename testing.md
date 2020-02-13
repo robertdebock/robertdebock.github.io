@@ -109,7 +109,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |12|[locale](https://travis-ci.org/robertdebock/ansible-role-locale/settings)|
 |12|[lynis](https://travis-ci.org/robertdebock/ansible-role-lynis/settings)|
 |13|[memcached](https://travis-ci.org/robertdebock/ansible-role-memcached/settings)|
-|13|**[maintenance](https://travis-ci.org/robertdebock/ansible-role-maintenance/settings)**|
+|13|[maintenance](https://travis-ci.org/robertdebock/ansible-role-maintenance/settings)|
 |13|[mediawiki](https://travis-ci.org/robertdebock/ansible-role-mediawiki/settings)|
 |13|[microsoft_repository_keys](https://travis-ci.org/robertdebock/ansible-role-microsoft_repository_keys/settings)|
 |13|[mitogen](https://travis-ci.org/robertdebock/ansible-role-mitogen/settings)|
