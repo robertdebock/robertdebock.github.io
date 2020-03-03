@@ -73,7 +73,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |3|[cron](https://travis-ci.org/robertdebock/ansible-role-cron/settings)|
 |3|[clamav](https://travis-ci.org/robertdebock/ansible-role-clamav/settings)|
 |4|[debug](https://travis-ci.org/robertdebock/ansible-role-debug/settings)|
-|4|[desktop](https://travis-ci.org/robertdebock/ansible-role-desktop/settings)|
+|4|**[desktop](https://travis-ci.org/robertdebock/ansible-role-desktop/settings)**|
 |4|[dhcpd](https://travis-ci.org/robertdebock/ansible-role-dhcpd/settings)|
 |4|[digitalocean_agent](https://travis-ci.org/robertdebock/ansible-role-digitalocean-agent/settings)|
 |4|[dns](https://travis-ci.org/robertdebock/ansible-role-dns/settings)|
@@ -163,7 +163,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |20|[terraform](https://travis-ci.org/robertdebock/ansible-role-terraform/settings)|
 |20|[test_connection](https://travis-ci.org/robertdebock/ansible-role-test_connection/settings)|
 |20|[tftpd](https://travis-ci.org/robertdebock/ansible-role-tftpd/settings)|
-|20|[tigervnc](https://travis-ci.org/robertdebock/ansible-role-tigervnc/settings)|
+|20|**[tigervnc](https://travis-ci.org/robertdebock/ansible-role-tigervnc/settings)**|
 |20|[tomcat](https://travis-ci.org/robertdebock/ansible-role-tomcat/settings)|
 |20|[travis](https://travis-ci.org/robertdebock/ansible-role-travis/settings)|
 |21|[update](https://travis-ci.org/robertdebock/ansible-role-update/settings)|
