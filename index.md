@@ -10,7 +10,7 @@ A weekly test to verify if roles work well together.
 
 ## Unit tests
 
-A monthly test to see of the role still works on the current distributions. Some roles contain a version that requires frequent changes and tests.
+A monthly test to see of the role still works on the current distributions. Some roles contain a version that requires frequent changes and tests. To better understand what distributions and their versions are tested, have a look at the [relations](relations.html) page.
 
 ## Issues & pull requests
 
