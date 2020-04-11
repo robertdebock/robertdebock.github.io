@@ -2,31 +2,9 @@
 
 These [Ansible](https://www.ansible.com/) roles are [simple in style](style.html) and [work well](how-to-use-these-roles.html) together on many distributions and many Ansible version.
 
-## Component builds
-
-Ansible tests are being executed using the following components:
-
-|Component   |Build status|
-|------------|------------|
-|[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/docker-github-action-molecule/)|
-|[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/docker-github-action-galaxy/)|
-|[docker-alpine-openrc](https://github.com/robertdebock/docker-alpine-openrc)|[![alpine build status](https://img.shields.io/docker/cloud/build/robertdebock/alpine.svg)](https://hub.docker.com/repository/docker/robertdebock/alpine)|
-|[docker-amazonlinux-systemd](https://github.com/robertdebock/docker-amazonlinux-systemd)|[![amazonlinux build status](https://img.shields.io/docker/cloud/build/robertdebock/amazonlinux.svg)](https://hub.docker.com/repository/docker/robertdebock/amazonlinux)|
-|[docker-centos-systemd](https://github.com/robertdebock/docker-centos-systemd)|[![centos build status](https://img.shields.io/docker/cloud/build/robertdebock/centos.svg)](https://hub.docker.com/repository/docker/robertdebock/centos)|
-|[docker-debian-systemd](https://github.com/robertdebock/docker-debian-systemd)|[![debian build status](https://img.shields.io/docker/cloud/build/robertdebock/debian.svg)](https://hub.docker.com/repository/docker/robertdebock/debian)|
-|[docker-fedora-systemd](https://github.com/robertdebock/docker-fedora-systemd)|[![fedora build status](https://img.shields.io/docker/cloud/build/robertdebock/fedora.svg)](https://hub.docker.com/repository/docker/robertdebock/fedora)|
-|[docker-opensuse-systemd](https://github.com/robertdebock/docker-opensuse-systemd)|[![opensuse build status](https://img.shields.io/docker/cloud/build/robertdebock/opensuse.svg)](https://hub.docker.com/repository/docker/robertdebock/opensuse)|
-|[docker-oraclelinux-systemd](https://github.com/robertdebock/docker-oraclelinux-systemd)|[![oraclelinux build status](https://img.shields.io/docker/cloud/build/robertdebock/oraclelinux.svg)](https://hub.docker.com/repository/docker/robertdebock/oraclelinux)|
-|[docker-redhat-systemd](https://github.com/robertdebock/docker-redhat-systemd)|[![redhat build status](https://img.shields.io/docker/cloud/build/robertdebock/redhat.svg)](https://hub.docker.com/repository/docker/robertdebock/redhat)|
-|[docker-ubuntu-systemd](https://github.com/robertdebock/docker-ubuntu-systemd)|[![ubuntu build status](https://img.shields.io/docker/cloud/build/robertdebock/ubuntu.svg)](https://hub.docker.com/repository/docker/robertdebock/ubuntu)|
-
 ## Unit tests
 
 A monthly test to see of the role still works on the current distributions. Some roles contain a version that requires frequent changes and tests. To better understand what distributions and their versions are tested, have a look at the [relations](relations.html) page.
-
-## Issues & pull requests
-
-See the [overview of issues and pull requests](contributions.html).
 
 |Role name|Travis|GitHub|Version|
 |---------|------|------|-------|
@@ -218,10 +196,35 @@ Here is an overview of the hard dependencies:
 [![Overview of hard dependencies](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/hard-dependencies.png "Hard dependency overview")](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/hard-dependencies.png)
 
 A page [describing how I release](dependencies.html) considering these dependencies.
+
+## Component builds
+
+Ansible tests are being executed using the following components:
+
+|Component   |Build status|
+|------------|------------|
+|[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/docker-github-action-molecule/)|
+|[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/docker-github-action-galaxy/)|
+|[docker-alpine-openrc](https://github.com/robertdebock/docker-alpine-openrc)|[![alpine build status](https://img.shields.io/docker/cloud/build/robertdebock/alpine.svg)](https://hub.docker.com/repository/docker/robertdebock/alpine)|
+|[docker-amazonlinux-systemd](https://github.com/robertdebock/docker-amazonlinux-systemd)|[![amazonlinux build status](https://img.shields.io/docker/cloud/build/robertdebock/amazonlinux.svg)](https://hub.docker.com/repository/docker/robertdebock/amazonlinux)|
+|[docker-centos-systemd](https://github.com/robertdebock/docker-centos-systemd)|[![centos build status](https://img.shields.io/docker/cloud/build/robertdebock/centos.svg)](https://hub.docker.com/repository/docker/robertdebock/centos)|
+|[docker-debian-systemd](https://github.com/robertdebock/docker-debian-systemd)|[![debian build status](https://img.shields.io/docker/cloud/build/robertdebock/debian.svg)](https://hub.docker.com/repository/docker/robertdebock/debian)|
+|[docker-fedora-systemd](https://github.com/robertdebock/docker-fedora-systemd)|[![fedora build status](https://img.shields.io/docker/cloud/build/robertdebock/fedora.svg)](https://hub.docker.com/repository/docker/robertdebock/fedora)|
+|[docker-opensuse-systemd](https://github.com/robertdebock/docker-opensuse-systemd)|[![opensuse build status](https://img.shields.io/docker/cloud/build/robertdebock/opensuse.svg)](https://hub.docker.com/repository/docker/robertdebock/opensuse)|
+|[docker-oraclelinux-systemd](https://github.com/robertdebock/docker-oraclelinux-systemd)|[![oraclelinux build status](https://img.shields.io/docker/cloud/build/robertdebock/oraclelinux.svg)](https://hub.docker.com/repository/docker/robertdebock/oraclelinux)|
+|[docker-redhat-systemd](https://github.com/robertdebock/docker-redhat-systemd)|[![redhat build status](https://img.shields.io/docker/cloud/build/robertdebock/redhat.svg)](https://hub.docker.com/repository/docker/robertdebock/redhat)|
+|[docker-ubuntu-systemd](https://github.com/robertdebock/docker-ubuntu-systemd)|[![ubuntu build status](https://img.shields.io/docker/cloud/build/robertdebock/ubuntu.svg)](https://hub.docker.com/repository/docker/robertdebock/ubuntu)|
+
 ## Tests
+
 Unit tests and integration tests are use to verify the quality of the roles, read [more about testing](testing.html)
 
+## Issues & pull requests
+
+See the [overview of issues and pull requests](contributions.html).
+
 ## Distributions
+
 The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. For each distribution, the current and previous release is tested. A role may work on diferent distributions, like Red Hat Enterprise Linux (RHEL), but it's not tested against it. By default these Linux distributions are included in the tests:
 
 | Distribution | Version(s)               |
@@ -238,8 +241,8 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 
 ## Ansible version
 The goal is to let all roles work on these Ansible version:
-- 2.7
 - 2.8
+- 2.9
 - devel (which is allowed to fail)
 
 See errors? Please help and [make a merge request on git](https://github.com/robertdebock/robertdebock.github.io/).
