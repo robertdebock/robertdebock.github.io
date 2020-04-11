@@ -2,11 +2,23 @@
 
 These [Ansible](https://www.ansible.com/) roles are [simple in style](style.html) and [work well](how-to-use-these-roles.html) together on many distributions and many Ansible version.
 
-## Integration tests
+## Component builds
 
-A weekly test to verify if roles work well together.
+Ansible tests are being executed using the following components:
 
-[![Build Status](https://travis-ci.org/robertdebock/ansible-integration.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-integration) [ARA report](https://robertdebock.nl/ansible-integration/).
+|Component   |Build status|
+|------------|------------|
+|[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/docker-github-action-molecule/)|
+|[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/docker-github-action-galaxy/)|
+|[docker-alpine-openrc](https://github.com/robertdebock/docker-alpine-openrc)|[![alpine build status](https://img.shields.io/docker/cloud/build/robertdebock/alpine.svg)](https://hub.docker.com/repository/docker/robertdebock/alpine)|
+|[docker-amazonlinux-systemd](https://github.com/robertdebock/docker-amazonlinux-systemd)|[![amazonlinux build status](https://img.shields.io/docker/cloud/build/robertdebock/amazonlinux.svg)](https://hub.docker.com/repository/docker/robertdebock/amazonlinux)|
+|[docker-centos-systemd](https://github.com/robertdebock/docker-centos-systemd)|[![centos build status](https://img.shields.io/docker/cloud/build/robertdebock/centos.svg)](https://hub.docker.com/repository/docker/robertdebock/centos)|
+|[docker-debian-systemd](https://github.com/robertdebock/docker-debian-systemd)|[![debian build status](https://img.shields.io/docker/cloud/build/robertdebock/debian.svg)](https://hub.docker.com/repository/docker/robertdebock/debian)|
+|[docker-fedora-systemd](https://github.com/robertdebock/docker-fedora-systemd)|[![fedora build status](https://img.shields.io/docker/cloud/build/robertdebock/fedora.svg)](https://hub.docker.com/repository/docker/robertdebock/fedora)|
+|[docker-opensuse-systemd](https://github.com/robertdebock/docker-opensuse-systemd)|[![opensuse build status](https://img.shields.io/docker/cloud/build/robertdebock/opensuse.svg)](https://hub.docker.com/repository/docker/robertdebock/opensuse)|
+|[docker-oraclelinux-systemd](https://github.com/robertdebock/docker-oraclelinux-systemd)|[![oraclelinux build status](https://img.shields.io/docker/cloud/build/robertdebock/oraclelinux.svg)](https://hub.docker.com/repository/docker/robertdebock/oraclelinux)|
+|[docker-redhat-systemd](https://github.com/robertdebock/docker-redhat-systemd)|[![redhat build status](https://img.shields.io/docker/cloud/build/robertdebock/redhat.svg)](https://hub.docker.com/repository/docker/robertdebock/redhat)|
+|[docker-ubuntu-systemd](https://github.com/robertdebock/docker-ubuntu-systemd)|[![ubuntu build status](https://img.shields.io/docker/cloud/build/robertdebock/ubuntu.svg)](https://hub.docker.com/repository/docker/robertdebock/ubuntu)|
 
 ## Unit tests
 
