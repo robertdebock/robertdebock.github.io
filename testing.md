@@ -169,6 +169,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |20|[travis](https://travis-ci.org/robertdebock/ansible-role-travis/settings)|
 |21|[update](https://travis-ci.org/robertdebock/ansible-role-update/settings)|
 |21|[update_package_cache](https://travis-ci.org/robertdebock/ansible-role-update_package_cache/settings)|
+|21|[upgrade](https://travis-ci.org/robertdebock/ansible-role-upgrade/settings)|
 |21|[ulimit](https://travis-ci.org/robertdebock/ansible-role-ulimit/settings)|
 |21|[unbound](https://travis-ci.org/robertdebock/ansible-role-unbound/settings)|
 |21|[unowned_files](https://travis-ci.org/robertdebock/ansible-role-unowned_files/settings)|
