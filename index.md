@@ -200,12 +200,12 @@ A page [describing how I release](dependencies.html) considering these dependenc
 
 ## Component builds
 
-Ansible tests are being executed using the following components:
+Ansible tests are being executed using the following components
+
+### Operating specific containers
 
 |Component   |Build status|
 |------------|------------|
-|[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-molecule/)|
-|[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-galaxy/)|
 |[docker-alpine-openrc](https://github.com/robertdebock/docker-alpine-openrc)|[![alpine build status](https://img.shields.io/docker/cloud/build/robertdebock/alpine.svg)](https://hub.docker.com/repository/docker/robertdebock/alpine)|
 |[docker-amazonlinux-systemd](https://github.com/robertdebock/docker-amazonlinux-systemd)|[![amazonlinux build status](https://img.shields.io/docker/cloud/build/robertdebock/amazonlinux.svg)](https://hub.docker.com/repository/docker/robertdebock/amazonlinux)|
 |[docker-centos-systemd](https://github.com/robertdebock/docker-centos-systemd)|[![centos build status](https://img.shields.io/docker/cloud/build/robertdebock/centos.svg)](https://hub.docker.com/repository/docker/robertdebock/centos)|
@@ -215,6 +215,16 @@ Ansible tests are being executed using the following components:
 |[docker-oraclelinux-systemd](https://github.com/robertdebock/docker-oraclelinux-systemd)|[![oraclelinux build status](https://img.shields.io/docker/cloud/build/robertdebock/oraclelinux.svg)](https://hub.docker.com/repository/docker/robertdebock/oraclelinux)|
 |[docker-redhat-systemd](https://github.com/robertdebock/docker-redhat-systemd)|[![redhat build status](https://img.shields.io/docker/cloud/build/robertdebock/redhat.svg)](https://hub.docker.com/repository/docker/robertdebock/redhat)|
 |[docker-ubuntu-systemd](https://github.com/robertdebock/docker-ubuntu-systemd)|[![ubuntu build status](https://img.shields.io/docker/cloud/build/robertdebock/ubuntu.svg)](https://hub.docker.com/repository/docker/robertdebock/ubuntu)|
+
+### Github Actions
+
+|Component   |Status|
+|------------|------------|
+|[Github Action Molecule](https://github.com/marketplace/actions/test-ansible-roles-with-molecule)|Published|
+|[Github Action Galaxy](https://github.com/marketplace/actions/publish-ansible-role-to-galaxy)|Published|
+|[Github Action RPM build](https://github.com/marketplace/actions/build-an-rpm)|Published|
+|[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-molecule/)|
+|[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-galaxy/)|
 
 ## Tests
 
