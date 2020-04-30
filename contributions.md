@@ -3,6 +3,7 @@
 Here is an overview of all issues and pull requests per role.
 
 |Role|Issues|Pull requests|
+|[ad_auth](https://galaxy.ansible.com/robertdebock/ad_auth)|[![issues](https://img.shields.io/github/issues-raw/robertdebock/ansible-role-ad_auth)](https://github.com/robertdebock/ansible-role-ad_auth/issues)|[![pull requests](https://img.shields.io/github/issues-pr/robertdebock/ansible-role-ad_auth)](https://github.com/robertdebock/ansible-role-ad_auth/pulls)|
 |[aide](https://galaxy.ansible.com/robertdebock/aide)|[![issues](https://img.shields.io/github/issues-raw/robertdebock/ansible-role-aide)](https://github.com/robertdebock/ansible-role-aide/issues)|[![pull requests](https://img.shields.io/github/issues-pr/robertdebock/ansible-role-aide)](https://github.com/robertdebock/ansible-role-aide/pulls)|
 |[alternatives](https://galaxy.ansible.com/robertdebock/alternatives)|[![issues](https://img.shields.io/github/issues-raw/robertdebock/ansible-role-alternatives)](https://github.com/robertdebock/ansible-role-alternatives/issues)|[![pull requests](https://img.shields.io/github/issues-pr/robertdebock/ansible-role-alternatives)](https://github.com/robertdebock/ansible-role-alternatives/pulls)|
 |[anaconda](https://galaxy.ansible.com/robertdebock/anaconda)|[![issues](https://img.shields.io/github/issues-raw/robertdebock/ansible-role-anaconda)](https://github.com/robertdebock/ansible-role-anaconda/issues)|[![pull requests](https://img.shields.io/github/issues-pr/robertdebock/ansible-role-anaconda)](https://github.com/robertdebock/ansible-role-anaconda/pulls)|

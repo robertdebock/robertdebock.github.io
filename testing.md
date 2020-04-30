@@ -44,6 +44,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 
 |------------|------------|
 |Day of month|Ansible Role|
+|1|[ad_auth](https://travis-ci.org/robertdebock/ansible-role-ad_auth/settings)|
 |1|[aide](https://travis-ci.org/robertdebock/ansible-role-aide/settings)|
 |1|[alternatives](https://travis-ci.org/robertdebock/ansible-role-alternatives/settings)|
 |1|[anaconda](https://travis-ci.org/robertdebock/ansible-role-anaconda/settings)|
