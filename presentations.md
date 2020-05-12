@@ -10,3 +10,4 @@ Here are some presentations:
 - [Talentenlab](/presentations/talentenlab/)
 - [Understanding Ansible](/presentations/understanding-ansible/)
 - [Writing Ansible for multiple distribution](/presentations//writing-ansible-for-multiple-distros/)
+- [Maintaining many Ansible roles](/presentations/maintaining-many-ansible-roles)
