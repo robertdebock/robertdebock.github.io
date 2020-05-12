@@ -99,7 +99,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |8|[haveged](https://travis-ci.org/robertdebock/ansible-role-haveged/settings)|
 |8|[httpd](https://travis-ci.org/robertdebock/ansible-role-httpd/settings)|
 |8|[hostname](https://travis-ci.org/robertdebock/ansible-role-hostname/settings)|
-|9|[image_builder](https://travis-ci.org/robertdebock/ansible-role-image_builder/settings)|
+|9|**[image_builder](https://travis-ci.org/robertdebock/ansible-role-image_builder/settings)**|
 |9|[investigate](https://travis-ci.org/robertdebock/ansible-role-investigate/settings)|
 |9|[irslackd](https://travis-ci.org/robertdebock/ansible-role-irslackd/settings)|
 |10|[java](https://travis-ci.org/robertdebock/ansible-role-java/settings)|
