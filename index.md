@@ -218,6 +218,11 @@ Ansible tests are being executed using the following components
 |[docker-redhat-systemd](https://github.com/robertdebock/docker-redhat-systemd)|[![redhat build status](https://img.shields.io/docker/cloud/build/robertdebock/redhat.svg)](https://hub.docker.com/repository/docker/robertdebock/redhat)|
 |[docker-ubuntu-systemd](https://github.com/robertdebock/docker-ubuntu-systemd)|[![ubuntu build status](https://img.shields.io/docker/cloud/build/robertdebock/ubuntu.svg)](https://hub.docker.com/repository/docker/robertdebock/ubuntu)|
 
+### Ansible collections
+
+- [development_environment](https://galaxy.ansible.com/robertdebock/development_environment)
+- [rundeck_collection](https://galaxy.ansible.com/robertdebock/rundeck_collection)
+
 ### Github Actions
 
 |Component|Status|
