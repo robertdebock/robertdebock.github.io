@@ -1,8 +1,8 @@
-## Ansible roles
+## [Ansible roles](#ansible-roles)
 
 These [Ansible](https://www.ansible.com/) roles are [simple in style](style.html) and [work well](how-to-use-these-roles.html) together on many distributions and many Ansible version.
 
-## Unit tests
+## [Unit tests](#unit-tests)
 
 A monthly test to see of the role still works on the current distributions. Some roles contain a version that requires frequent changes and tests. To better understand what distributions and their versions are tested, have a look at the [relations](relations.html) page.
 
