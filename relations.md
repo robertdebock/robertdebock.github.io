@@ -1,4 +1,4 @@
-# Distribution relations
+# [Distribution relations](#distribution-relations)
 
 There is a relation between:
 

@@ -1,11 +1,11 @@
-# Dependencies
+# [Dependencies](#dependencies)
 
 Some roles depend on other roles. This post is more a reminder to myself on ordering a big change to all roles.
 
-## First wave (green)
+## [First wave (green)](#first-wave)
 - [bootstrap](https://github.com/robertdebock/ansible-role-bootstrap) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-bootstrap.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-bootstrap) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-bootstrap/latest.svg)](https://github.com/robertdebock/ansible-role-bootstrap/releases)
 
-## Second wave (yellow)
+## [Second wave (yellow)](#second-wave)
 - [auditd](https://github.com/robertdebock/ansible-role-auditd) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-auditd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-auditd) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-auditd/latest.svg)](https://github.com/robertdebock/ansible-role-auditd/releases)
 - [buildtools](https://github.com/robertdebock/ansible-role-buildtools) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-buildtools.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-buildtools) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-buildtools/latest.svg)](https://github.com/robertdebock/ansible-role-buildtools/releases)
 - [core_dependencies](https://github.com/robertdebock/ansible-role-core_dependencies) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-core_dependencies.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-core_dependencies) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-core_dependencies/latest.svg)](https://github.com/robertdebock/ansible-role-core_dependencies/releases)
@@ -24,7 +24,7 @@ Some roles depend on other roles. This post is more a reminder to myself on orde
 - [xinetd](https://github.com/robertdebock/ansible-role-xinetd) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-xinetd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-xinetd) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-xinetd/latest.svg)](https://github.com/robertdebock/ansible-role-xinetd/releases)
 - [zabbix_repository](https://github.com/robertdebock/ansible-role-zabbix_repository) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-zabbix_repository.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-zabbix_repository) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-zabbix_repository/latest.svg)](https://github.com/robertdebock/ansible-role-zabbix_repository/releases)
 
-## Third wave (orange)
+## [Third wave (orange)](#third-wave)
 - [clamav](https://github.com/robertdebock/ansible-role-clamav) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-clamav.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-clamav) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-clamav/latest.svg)](https://github.com/robertdebock/ansible-role-clamav/releases)
 - [npm](https://github.com/robertdebock/ansible-role-npm) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-npm.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-npm) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-npm/latest.svg)](https://github.com/robertdebock/ansible-role-npm/releases)
 - [python_pip](https://github.com/robertdebock/ansible-role-python_pip) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-python_pip.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-python_pip) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-python_pip/latest.svg)](https://github.com/robertdebock/ansible-role-python_pip/releases)
@@ -32,13 +32,13 @@ Some roles depend on other roles. This post is more a reminder to myself on orde
 - [selinux](https://github.com/robertdebock/ansible-role-selinux) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-selinux.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-selinux) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-selinux/latest.svg)](https://github.com/robertdebock/ansible-role-selinux/releases)
 - [spamassassin](https://github.com/robertdebock/ansible-role-spamassassin) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-spamassassin.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-spamassassin) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-spamassassin/latest.svg)](https://github.com/robertdebock/ansible-role-spamassassin/releases)
 
-## Fourth wave (red)
+## [Fourth wave (red)](#fourth-wave)
 - [docker](https://github.com/robertdebock/ansible-role-docker) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-docker.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-docker) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-docker/latest.svg)](https://github.com/robertdebock/ansible-role-docker/releases)
 - [httpd](https://github.com/robertdebock/ansible-role-httpd) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-httpd.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-httpd) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-httpd/latest.svg)](https://github.com/robertdebock/ansible-role-httpd/releases)
 
-## Fifth wave (purple)
+## [Fifth wave (purple)](#fifth-wave)
 - [php](https://github.com/robertdebock/ansible-role-php) [![build status](https://api.travis-ci.org/robertdebock/ansible-role-php.svg?branch=master)](https://travis-ci.org/robertdebock/ansible-role-php) [![release status](https://img.shields.io/github/commits-since/robertdebock/ansible-role-php/latest.svg)](https://github.com/robertdebock/ansible-role-php/releases)
 
-## Tsunami
+## [Tsunami](#tsunami)
 
 After going through the dependencies, the rest can be released.

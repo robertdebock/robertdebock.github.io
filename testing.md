@@ -1,4 +1,4 @@
-# Tests
+# [Tests](#tests)
 
 The filosofy to test is:
 - Test multiple distributions. (see .travis.yml)
@@ -32,13 +32,13 @@ Read [this page to understand the tools (Travis, Molecule and Tox)](tox-molecule
 
 There are multiple tests configured, here is how they relate.
 
-## Unit tests
+## [Unit tests](#unit-tests)
 
 To test an Ansible role, Travis CI runs molecule on a commit. This verifies that the role does it's job, but does not ensure that it works in combination with other roles.
 
 An [example for the unit test for the Ansible role java](https://travis-ci.org/robertdebock/ansible-role-java).
 
-### Time based unit tests
+### [Time based unit tests](#time-based-unit-tests)
 
 Because distriutions, molecule, ansible and goss change over time, a monthly test is done to all roles using this schedule:
 
@@ -188,7 +188,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |26|[zabbix_server](https://travis-ci.org/robertdebock/ansible-role-zabbix_server/settings)|
 |26|[zabbix_web](https://travis-ci.org/robertdebock/ansible-role-zabbix_web/settings)|
 
-## Integration
+## [Integration](#integration)
 
 To test a combination of Ansible roles, Travis CI runs terraform and a complex playbook.
 

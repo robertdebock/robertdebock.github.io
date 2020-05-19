@@ -1,14 +1,14 @@
-## How to use these roles
+## [How to use these roles](#how-to-use-these-roles)
 
 There is [quite](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html) [some](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html) [documentation](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html) available already, but it can't hurt to briefly explain how to use these roles.
 
-## My promise
+## [My promise](#my-promise)
 
 - The roles work on as many distribution as possible. The intent is that you can switch the operating system, without changing your playbook or variables. There are exceptions, for example Zabbix is only provided for a few operating systems.
 - These roles are as simple as possible. There can be cases where complicated stuff happens, but that's required from time to time.
 - These roles are thoroughly tested. On each commit, pull request and release and also on full virtual machines.
 
-## Installing the roles
+## [Installing the roles](#installing the roles)
 
 Before using any role, they need to be installed. There are a few ways to do that:
 
@@ -29,7 +29,7 @@ These roles are typically installed in `~/.ansible/roles/`. You can configure An
 roles_path = roles
 ```
 
-## Including the roles in playbooks
+## [Including the roles in playbooks](#including-the-roles-in-playbooks)
 
 Once the roles are downloaded, you can integrate them into a playbook, for example:
 
@@ -46,7 +46,7 @@ Once the roles are downloaded, you can integrate them into a playbook, for examp
 
 You can also use `[include_role](https://docs.ansible.com/ansible/latest/modules/include_role_module.html)`.
 
-## Using variable
+## [Using variable](#using-variables)
 
 Most roles can be controled using [variables](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html). For example by using the `vars:` statement:
 
@@ -70,7 +70,7 @@ Most roles have quite a few variables and the playbook can get long using the ex
 bootstrap_user: root
 ```
 
-## Full example
+## [Full example](#full-example)
 
 This is a layout of the file and directory structure that I tend to use:
 
@@ -88,7 +88,7 @@ This is a layout of the file and directory structure that I tend to use:
 
 Also see [best practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#directory-layout).
 
-### ansible.cfg
+### [ansible.cfg](#ansible-cfg)
 
 ```ini
 [defaults]
@@ -99,7 +99,7 @@ inventory=inventory
 
 Also see [Ansible configuration](https://docs.ansible.com/ansible/latest/installation_guide/intro_configuration.html).
 
-### inventory/hosts
+### [inventory/hosts](#inventory-hosts)
 
 ```text
 fedora-s-1vcpu-2gb-fra1-01 ansible_host=167.99.141.134
@@ -107,7 +107,7 @@ fedora-s-1vcpu-2gb-fra1-01 ansible_host=167.99.141.134
 
 Also see [working with inventories](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html).
 
-### inventory/group_vars/all.yml
+### [inventory/group_vars/all.yml](#inventory-group-vars-all-yml)
 
 ```yaml
 ---
@@ -116,7 +116,7 @@ bootstrap_wait_for_host: yes
 
 Also see [group variables](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#group-variables)
 
-### playbook.yml
+### [playbook.yml](#playbook-yml)
 
 ```yaml
 ---
@@ -131,7 +131,7 @@ Also see [group variables](https://docs.ansible.com/ansible/latest/user_guide/in
 
 Also see [working with playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html).
 
-### roles/requirements.yml
+### [roles/requirements.yml](#roles-requirements-yml)
 
 ```yaml
 ---
@@ -140,7 +140,7 @@ Also see [working with playbooks](https://docs.ansible.com/ansible/latest/user_g
 
 Also see [installing roles from a file](https://docs.ansible.com/ansible/latest/reference_appendices/galaxy.html#installing-multiple-roles-from-a-file).
 
-### roles/robertdebock.bootstrap
+### [roles/robertdebock.bootstrap](#roles-robertdebock-bootstrap)
 
 Although a consumer of the role does not need to look into the role and `ansible-galaxy install` will manage the contents of these roles, here is a brief explanation what can be found here:
 

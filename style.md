@@ -1,4 +1,4 @@
-# Style guide
+# [Style guide](#style-guide)
 
 In general the [Ansible best practices](http://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html) are used.
 
@@ -8,7 +8,7 @@ Explicit mentions:
 - Prefer higher readability.
 - Always mention `state:`
 
-## Linting
+## [Linting](#linting)
 
 All roles should pass [ansible-galaxy-rules](https://github.com/ansible/galaxy-lint-rules).
 
