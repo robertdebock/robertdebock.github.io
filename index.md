@@ -154,7 +154,7 @@ A monthly test to see of the role still works on the current distributions. Some
 |[zabbix_web](https://galaxy.ansible.com/robertdebock/zabbix_web)|[![travis](https://api.travis-ci.com/robertdebock/ansible-role-zabbix_web.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-zabbix_web)|[![github](https://github.com/robertdebock/ansible-role-zabbix_web/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-zabbix_web/actions)|[![version](https://img.shields.io/github/commits-since/robertdebock/ansible-role-zabbix_web/latest.svg)](https://github.com/robertdebock/ansible-role-zabbix_web/releases)|
 |skeleton|-|-|[![version](https://img.shields.io/github/commits-since/robertdebock/ansible-role-skeleton/latest.svg)](https://github.com/robertdebock/ansible-role-skeleton/releases)|
 
-## Dependencies
+## [Dependencies](#dependecies)
 
 Most roles have a "soft dependency" described in `requirements.yml`. You can choose to use those roles if you like them. Here is an overview of these soft dependencies.
 
@@ -201,11 +201,11 @@ Here is an overview of the hard dependencies:
 
 A page [describing how I release](dependencies.html) considering these dependencies.
 
-## Component builds
+## [Component builds](#component-builds)
 
 Ansible tests are being executed using the following components
 
-### Operating specific containers
+### [Operating specific containers](#operating-specific-containers)
 
 |Component|Build status|
 |---------|------------|
@@ -219,12 +219,12 @@ Ansible tests are being executed using the following components
 |[docker-redhat-systemd](https://github.com/robertdebock/docker-redhat-systemd)|[![redhat build status](https://img.shields.io/docker/cloud/build/robertdebock/redhat.svg)](https://hub.docker.com/repository/docker/robertdebock/redhat)|
 |[docker-ubuntu-systemd](https://github.com/robertdebock/docker-ubuntu-systemd)|[![ubuntu build status](https://img.shields.io/docker/cloud/build/robertdebock/ubuntu.svg)](https://hub.docker.com/repository/docker/robertdebock/ubuntu)|
 
-### Ansible collections
+### [Ansible collections](#ansible-collections)
 
 - [development_environment](https://galaxy.ansible.com/robertdebock/development_environment)
 - [rundeck_collection](https://galaxy.ansible.com/robertdebock/rundeck_collection)
 
-### Github Actions
+### [Github Actions](#github-actions)
 
 |Component|Status|
 |---------|------|
@@ -234,8 +234,7 @@ Ansible tests are being executed using the following components
 |[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-molecule/)|
 |[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-galaxy/)|
 
-
-### Other tools
+### [Other tools](#other-tools)
 
 I use a few tools to maintain the software I create.
 
@@ -245,15 +244,15 @@ I use a few tools to maintain the software I create.
 |[ansible-probe](https://github.com/robertdebock/ansible-probe)|Test ansible roles on different distributions and version.|
 |[ansible-tester](https://github.com/robertdebock/ansible-tester)|Try roles against vagrant machines before pushing or releasing.|
 
-## Tests
+## [Tests](#tests)
 
 Unit tests and integration tests are use to verify the quality of the roles, read [more about testing](testing.html)
 
-## Issues & pull requests
+## [Issues & pull requests](#issues-and-pull-requests)
 
 See the [overview of issues and pull requests](contributions.html).
 
-## Distributions
+## [Distributions](#distributions)
 
 The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. For each distribution, the current and previous release is tested. A role may work on diferent distributions, like Red Hat Enterprise Linux (RHEL), but it's not tested against it. By default these Linux distributions are included in the tests:
 
@@ -269,7 +268,7 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 
 * = These are experimental, builds are done for informative purposes and may fail.
 
-## Ansible version
+## [Ansible versions](#ansible-versions)
 The goal is to let all roles work on these Ansible version:
 - 2.8
 - 2.9
