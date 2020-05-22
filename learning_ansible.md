@@ -93,7 +93,7 @@ This task [copies](https://docs.ansible.com/ansible/latest/modules/copy_module.h
     dest: /etc/foo.conf
 ```
 
-## [Roles](roles)
+## [Roles](#roles)
 
 ## [Playbooks](#playbooks)
 
