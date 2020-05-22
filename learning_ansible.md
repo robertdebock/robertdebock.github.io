@@ -130,6 +130,21 @@ There [order or tasks, roles](https://docs.ansible.com/ansible/latest/user_guide
 
 ## [Facts](#facts)
 
+Ansible can get a lot of details from systems, called `facts`. A few examples of Ansible facts:
+
+- `ansible_os_family: RedHat`
+- `ansible_pkg_mgr: dnf`
+- `ansible_distribution: Fedora`
+- `ansible_distribution_major_version: '32'`
+
+These facts can simply be used as variables in Ansible.
+
+```yaml
+- name: show the distribution
+  debug:
+    msg: "You are running {{ ansible_distribution }} version {{ ansible_distribution_major_version }}."
+```
+
 ## [Handlers](#handlers)
 
 Handlers are tasks that can be called when a parent tasks is changed. I know, it's a lot to take in but an example may help:
@@ -156,6 +171,44 @@ Handlers are tasks that can be called when a parent tasks is changed. I know, it
 ```
 
 Here you see an (incomplete) example of how handlers can be used. The advantage of a handler is that many tasks from the `tasks` list can call handlers, it will only be executed once, at the end of the play or when something calls the [`meta`](https://docs.ansible.com/ansible/latest/modules/meta_module.html) module with `flush_handlers`.
+
+## [when](#when)
+
+You can run jobs [conditionally](https://docs.ansible.com/ansible/latest/user_guide/playbooks_conditionals.html)  using `when`. It's like the `if` of bash.
+
+```yaml
+- name: install ntp on Fedora
+  package:
+    name: ntp
+    state: present
+  when:
+    - ansible_distribution == "Fedora"
+```
+
+The `when` statement can handle a list of conditions, this is and "AND" list. To use "OR" simply write `or`:
+
+```yaml
+- name: install ntp on RedHat and Debian machines
+  package:
+    name: ntp 
+    state: present
+  when:
+    - ansible_os_family == "RedHat" or ansible_os_family == "Debian"
+```
+
+## [loop](#loop)
+
+You can repeat (most) tasks using a [`loop`](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html) statement. This basically repeats the task and changed "{{ item }}" every run.
+
+```yaml
+- name: copy a file
+  copy:
+    src: "{{ item }}"
+    dest: "/tmp/{{ item }}"
+  loop:
+    - my_file_1
+    - my_file_2
+```
 
 ## [Logic and data](#logic_and_data)
 
