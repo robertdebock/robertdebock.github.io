@@ -36,6 +36,13 @@ london
 singapore
 ```
 
+These [variables have a precedence](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#variable-precedence-where-should-i-put-a-variable), for the group_vars:
+
+1. `group_vars/all`
+2. `group_vars/*`
+
+This means more specific variables overwrite `all`.
+
 In [playbooks](#playbooks) you can target [tasks](#tasks) and [roles](#roles) to run on selected hosts. In this case there are multiple groups, [2 are default](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#id6)
 
 - `all` - A default group for any host mentioned in the inventory.
@@ -73,6 +80,21 @@ ntp_servers:
 
 With [inventories](#inventories) and [host & group variables](#host_and_group_variables) you can define all data required by [roles](#roles) to configure a system.
 
+## [Tasks](#tasks)
+
+A task is a statement of what Ansible should to, it's the smallest component in Ansible and you can use tasks in [playbooks](#playbooks), [roles](#roles) and [handlers](#handlers).
+
+This task [copies](https://docs.ansible.com/ansible/latest/modules/copy_module.html) a file from the [Ansible Control node](https://docs.ansible.com/ansible/latest/network/getting_started/basic_concepts.html) to the server the task is targeted to.
+
+```yaml
+- name: Copy file with owner and permissions
+  copy:
+    src: /srv/myfiles/foo.conf
+    dest: /etc/foo.conf
+```
+
+## [Roles](roles)
+
 ## [Playbooks](#playbooks)
 
 A playbook is a list of [tasks](#tasks) and [roles](#roles) and some details to understand how to apply them.
@@ -106,11 +128,34 @@ There [order or tasks, roles](https://docs.ansible.com/ansible/latest/user_guide
 3. `tasks`
 4. `post_tasks`
 
-### [Tasks](#tasks)
+## [Facts](#facts)
 
-## [Roles](roles)
+## [Handlers](#handlers)
 
-## Facts
+Handlers are tasks that can be called when a parent tasks is changed. I know, it's a lot to take in but an example may help:
+
+```yaml
+- name: configure my servers
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  tasks:
+    - name: configure ntp
+      template:
+        src: ntp.conf.j2
+        dest: /etc/ntp.conf
+      notify:
+        - restart ntp
+
+  handlers:
+    - name: restart ntp
+      service:
+        name: ntpd
+        state: restarted
+```
+
+Here you see an (incomplete) example of how handlers can be used. The advantage of a handler is that many tasks from the `tasks` list can call handlers, it will only be executed once, at the end of the play or when something calls the [`meta`](https://docs.ansible.com/ansible/latest/modules/meta_module.html) module with `flush_handlers`.
 
 ## [Logic and data](#logic_and_data)
 
