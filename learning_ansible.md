@@ -142,7 +142,7 @@ These facts can simply be used as variables in Ansible.
 ```yaml
 - name: show the distribution
   debug:
-    msg: "You are running {{ "{{ ansible_distribution }}}} version {{ "{{ ansible_distribution_major_version }}}}
+    msg: "You are running {{{{ ansible_distribution }}}} version {{{{ ansible_distribution_major_version }}}}
 ```
 
 ## [Handlers](#handlers)
@@ -198,13 +198,13 @@ The `when` statement can handle a list of conditions, this is and "AND" list. To
 
 ## [loop](#loop)
 
-You can repeat (most) tasks using a [`loop`](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html) statement. This basically repeats the task and changed "{{ "{{ item }}}} every run.
+You can repeat (most) tasks using a [`loop`](https://docs.ansible.com/ansible/latest/user_guide/playbooks_loops.html) statement. This basically repeats the task and changed "{{{{ item }}}} every run.
 
 ```yaml
 - name: copy a file
   copy:
-    src: "{{ "{{ item }}}}
-    dest: "/tmp/{{ "{{ item }}}}
+    src: "{{{{ item }}}}
+    dest: "/tmp/{{{{ item }}}}
   loop:
     - my_file_1
     - my_file_2
