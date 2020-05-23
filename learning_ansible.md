@@ -8,6 +8,31 @@ This is an as-short-as-possible walk through to learn Ansible. It should help yo
 
 With Ansible you describe what [tasks](#tasks) should be executed on selected remote hosts in the [inventory](#inventory).
 
+```text
++--- command ------------------+
+| ansible-playbook my_play.yml |
++------------------------------+
+   |
+   V
++---- ansible.cfg ----+   +--- my_play.yml ------------------+
+| inventory=inventory |   | - name: configure my hosts       |
++---------------------+   |   hosts: all                     |
+   |                      |   become: yes                    |
+   V                      |   gather_facts: yes              |
++--- inventory ---+       |                                  | 
+| my_host_1       |-----> |   tasks:                         |
+| my_host_2       |       |     - name: show ntp_servers     |
++-----------------+       |       debug:                     |
+                          |         msg: "{{ ntp_servers }}" | 
+                          +----------------------------------+
+                             ^                           |
+                             |                           V
++--- group_vars/all/ntp.yml ---+   +--- my_host_1 ----------+
+| ntp_servers:                 |   | ntp_servers:           |
+|   - name: pool.ntp.org       |   |   - name: pool.ntp.org |
++------------------------------+   +------------------------+
+```
+
 ## [Inventories](#inventories)
 
 An [inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html) is a file that describes what servers should be managed. For example:
