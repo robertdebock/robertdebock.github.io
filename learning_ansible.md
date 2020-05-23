@@ -14,7 +14,7 @@ With Ansible you describe what [tasks](#tasks) should be executed on selected re
 +------------------------------+
    |
    V
-+---- ansible.cfg ----+   +--- my_play.yml ------------------+
++--- ansible.cfg -----+   +--- my_play.yml ------------------+
 | inventory=inventory |   | - name: configure my hosts       |
 +---------------------+   |   hosts: all                     |
    |                      |   become: yes                    |
@@ -119,6 +119,41 @@ This task [copies](https://docs.ansible.com/ansible/latest/modules/copy_module.h
 ```
 
 ## [Roles](#roles)
+
+When you are writing more [playbooks](#playbooks), you'll see that duplicate code creeps in. You may have 2 playbooks that both configure and start ntp.
+
+That's a perfect opportunity to write a `role`. A role is basically a list of tasks that you can pull into a play:
+
+```yaml
+---
+- name: configure my servers
+  hosts: all
+  become: yes
+  gather_facts: yes
+
+  roles:
+    - role: robertdebock.ntp
+```
+
+The role itself has a few files and directories. This is a simplified version of my [ntp role](https://github.com/robertdebock/ansible-role-ntp).
+
+```
+.
+├── defaults
+│   └── main.yml      <- This contains user-overwritable settings, such as `ntp_servers`.
+├── handlers
+│   └── main.yml      <- Handlers are described further below.
+├── meta
+│   └── main.yml      <- Information for Ansible Galaxy, where Ansible roles can be published.
+├── README.md         <- Documentation, give this the right amount of attention.
+├── requirements.yml  <- Depending roles can be downloaded if specified here.
+├── tasks
+│   └── main.yml      <- The logic of the role, a list of tasks.
+├── templates
+│   └── ntp.conf.j2   <- Files that are rendered and placed on the remote system.
+└── vars
+    └── main.yml      <- Variables that are not supposed to be overwritten like `ntp_packages`.
+```
 
 ## [Playbooks](#playbooks)
 
