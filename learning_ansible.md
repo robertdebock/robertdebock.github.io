@@ -240,7 +240,7 @@ dependencies: []
 
 ### [templates/*.j2](#templates_j2)
 
-### [vars/main.yml](vars_main_yml)
+### [vars/main.yml](#vars_main_yml)
 
 ## [Playbooks](#playbooks)
 
