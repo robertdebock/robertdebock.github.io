@@ -141,6 +141,8 @@ The role itself has a few files and directories. This is a simplified version of
 .
 ├── defaults
 │   └── main.yml      <- This contains user-overwritable settings, such as `ntp_servers`.
+├── files
+│   └── ntpd          <- Files that are copied to the remote system.
 ├── handlers
 │   └── main.yml      <- Handlers are described further below.
 ├── meta
@@ -154,6 +156,91 @@ The role itself has a few files and directories. This is a simplified version of
 └── vars
     └── main.yml      <- Variables that are not supposed to be overwritten like `ntp_packages`.
 ```
+
+
+### [defaults/main.yml](#defaults_main_yml)
+
+This file contains variables that a user/[playbook](#playbook) can easily overwrite. Typically this contains settings for a program or role. You need to choose "sane defaults" so that a user that does not overwrite values still has a working application.
+
+```yaml
+---
+ntp_servers:
+  - name: pool.ntp.org
+```
+
+You can use comments here to guide a user of your role on how to use these variables.
+
+## [files/*](#files)
+
+Files in here can be copied to a remote machine. The copying itself needs to be described in [`tasks/main.yml`](#tasks_main_yml).
+
+### [handers/main.yml](#handlers_main_yml)
+
+Handlers contain named tasks that are only started when they are called. I know, it's a lot to take in. Here is an example:
+
+tasks/main.yml
+
+```yaml
+- name: configure ntp
+  template:
+    src: ntp.conf.j2
+    dest: /etc/ntp.conf
+  notify:
+    - restart ntp
+```
+
+handlers/main.yml
+
+```yaml
+---
+- name: restart ntp
+  service:
+    name: ntp
+    state: restarted
+```
+
+So, only if the task `configure ntp` is `changed`, the handler `restart ntp `is called. You can run roles over and over again, only the times where `ntp.conf` is changed, ntp is restarted. Quite logical right?
+
+Handlers run at:
+1. The end of a play.
+2. When `meta: flush_handlers` runs.
+
+The order of handers is as they are ordered in the `handlers/main.yml`, NOT how they are called.
+
+### [meta/main.yml](#meta_main_yml)
+
+This file is used to tell [Ansible Galaxy](https://galaxy.ansible.com/) how to show your role. Some examples of the contens:
+
+```yaml
+galaxy_info:
+  author: Robert de Bock
+  role_name: ntp
+  description: Install and configure ntp on your system.
+  license: Apache-2.0
+  company: none
+  min_ansible_version: 2.8
+
+  platforms:
+    - name: Fedora
+      versions:
+        - 31
+        - 32
+
+  galaxy_tags:
+    - ntp
+
+dependencies: []
+```
+
+### [README.md](#readme_md)
+
+### [requirements.yml](#requirements_yml)
+
+### [tasks/main.yml](#tasks_main_yml)
+
+### [templates/*.j2](#templates_j2)
+
+### [vars/main.yml](vars_main_yml)
 
 ## [Playbooks](#playbooks)
 
