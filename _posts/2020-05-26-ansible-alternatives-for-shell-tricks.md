@@ -92,9 +92,9 @@ With Ansible:
 
     - name: remove files
       file:
-        path: "{{ item.path }}"
+        path: "{% raw %}{{ item.path }}{% endraw %}"
         state: absent
-      loop: "{{ found_files.results }}"
+      loop: "{% raw %}{{ found_files.results }}{% endraw %}"
 ```
 
 ## Conclusion
