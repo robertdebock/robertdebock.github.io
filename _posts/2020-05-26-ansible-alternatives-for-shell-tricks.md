@@ -6,7 +6,7 @@ title: Ansible alternatives for shell tricks
 
 If you're used to shells and their commands like bash, sed  and grep, here are a few alternatives for Ansible.
 
-Using these ~~native~~ alternatives has an advantage, developers maintain the Ansible modules for you, they are idempotent and likely work on more distributions or platforms.
+Using these *native* alternatives has an advantage, developers maintain the Ansible modules for you, they are idempotent and likely work on more distributions or platforms.
 
 ## Grep
 
