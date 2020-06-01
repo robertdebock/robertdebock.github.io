@@ -44,20 +44,20 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 
 |------------|------------|
 |Day of month|Ansible Role|
-|1|**[ad_auth](https://travis-ci.com/robertdebock/ansible-role-ad_auth/settings)**|
-|1|**[aide](https://travis-ci.com/robertdebock/ansible-role-aide/settings)**|
-|1|**[alternatives](https://travis-ci.com/robertdebock/ansible-role-alternatives/settings)**|
-|1|**[anaconda](https://travis-ci.com/robertdebock/ansible-role-anaconda/settings)**|
-|1|**[ansible](https://travis-ci.com/robertdebock/ansible-role-ansible/settings)**|
-|1|**[ansible_lint](https://travis-ci.com/robertdebock/ansible-role-ansible_lint/settings)**|
-|1|**[apt_autostart](https://travis-ci.com/robertdebock/ansible-role-apt_autostart/settings)**|
+|1|[ad_auth](https://travis-ci.com/robertdebock/ansible-role-ad_auth/settings)|
+|1|[aide](https://travis-ci.com/robertdebock/ansible-role-aide/settings)|
+|1|[alternatives](https://travis-ci.com/robertdebock/ansible-role-alternatives/settings)|
+|1|[anaconda](https://travis-ci.com/robertdebock/ansible-role-anaconda/settings)|
+|1|[ansible](https://travis-ci.com/robertdebock/ansible-role-ansible/settings)|
+|1|[ansible_lint](https://travis-ci.com/robertdebock/ansible-role-ansible_lint/settings)|
+|1|[apt_autostart](https://travis-ci.com/robertdebock/ansible-role-apt_autostart/settings)|
 |1|[ara](https://travis-ci.com/robertdebock/ansible-role-ara/settings)|
-|1|**[artifactory](https://travis-ci.com/robertdebock/ansible-role-artifactory/settings)**|
+|1|[artifactory](https://travis-ci.com/robertdebock/ansible-role-artifactory/settings)|
 |1|[at](https://travis-ci.com/robertdebock/ansible-role-at/settings)|
-|1|**[atom](https://travis-ci.com/robertdebock/ansible-role-atom/settings)**|
-|1|**[auditd](https://travis-ci.com/robertdebock/ansible-role-auditd/settings)**|
-|1|**[auto_update](https://travis-ci.com/robertdebock/ansible-role-auto_update/settings)**|
-|1|**[azure_cli](https://travis-ci.com/robertdebock/ansible-role-azure_cli/settings)**|
+|1|[atom](https://travis-ci.com/robertdebock/ansible-role-atom/settings)|
+|1|[auditd](https://travis-ci.com/robertdebock/ansible-role-auditd/settings)|
+|1|[auto_update](https://travis-ci.com/robertdebock/ansible-role-auto_update/settings)|
+|1|[azure_cli](https://travis-ci.com/robertdebock/ansible-role-azure_cli/settings)|
 |2|**[backup](https://travis-ci.com/robertdebock/ansible-role-backup/settings)**|
 |2|**[bios_update](https://travis-ci.com/robertdebock/ansible-role-bios_update/settings)**|
 |2|[bootstrap](https://travis-ci.com/robertdebock/ansible-role-bootstrap/settings)|
