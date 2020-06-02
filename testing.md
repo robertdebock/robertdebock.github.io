@@ -58,8 +58,8 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |1|[auditd](https://travis-ci.com/robertdebock/ansible-role-auditd/settings)|
 |1|[auto_update](https://travis-ci.com/robertdebock/ansible-role-auto_update/settings)|
 |1|[azure_cli](https://travis-ci.com/robertdebock/ansible-role-azure_cli/settings)|
-|2|**[backup](https://travis-ci.com/robertdebock/ansible-role-backup/settings)**|
-|2|**[bios_update](https://travis-ci.com/robertdebock/ansible-role-bios_update/settings)**|
+|2|[backup](https://travis-ci.com/robertdebock/ansible-role-backup/settings)|
+|2|[bios_update](https://travis-ci.com/robertdebock/ansible-role-bios_update/settings)|
 |2|[bootstrap](https://travis-ci.com/robertdebock/ansible-role-bootstrap/settings)|
 |2|[buildtools](https://travis-ci.com/robertdebock/ansible-role-buildtools/settings)|
 |3|**[ca](https://travis-ci.com/robertdebock/ansible-role-ca/settings)**|
