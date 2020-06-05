@@ -11,3 +11,4 @@ Here are some presentations:
 - [Understanding Ansible](/presentations/understanding-ansible/)
 - [Writing Ansible for multiple distribution](/presentations//writing-ansible-for-multiple-distros/)
 - [Maintaining many Ansible roles](/presentations/maintaining-many-ansible-roles)
+- [Terraform](/presentations/terraform)
