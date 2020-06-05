@@ -118,6 +118,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |13|**[mediawiki](https://travis-ci.com/robertdebock/ansible-role-mediawiki/settings)**|
 |13|**[microsoft_repository_keys](https://travis-ci.com/robertdebock/ansible-role-microsoft_repository_keys/settings)**|
 |13|**[mitogen](https://travis-ci.com/robertdebock/ansible-role-mitogen/settings)**|
+|13|**[modprobe](https://travis-ci.com/robertdebock/ansible-role-modprobe/settings)**|
 |13|[minikube](https://travis-ci.com/robertdebock/ansible-role-minikube/settings)|
 |13|**[molecule](https://travis-ci.com/robertdebock/ansible-role-molecule/settings)**|
 |13|[mssql](https://travis-ci.com/robertdebock/ansible-role-mssql/settings)|
