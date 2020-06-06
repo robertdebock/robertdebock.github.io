@@ -85,10 +85,10 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |5|[environment](https://travis-ci.com/robertdebock/ansible-role-environment/settings)|
 |5|[epel](https://travis-ci.com/robertdebock/ansible-role-epel/settings)|
 |5|[etherpad](https://travis-ci.com/robertdebock/ansible-role-etherpad/settings)|
-|6|**[facts](https://travis-ci.com/robertdebock/ansible-role-facts/settings)**|
+|6|[facts](https://travis-ci.com/robertdebock/ansible-role-facts/settings)|
 |6|[fail2ban](https://travis-ci.com/robertdebock/ansible-role-fail2ban/settings)|
 |6|[firewall](https://travis-ci.com/robertdebock/ansible-role-firewall/settings)|
-|6|**[forensics](https://travis-ci.com/robertdebock/ansible-role-forensics/settings)**|
+|6|[forensics](https://travis-ci.com/robertdebock/ansible-role-forensics/settings)|
 |7|**[git](https://travis-ci.com/robertdebock/ansible-role-git/settings)**|
 |7|**[gitlab_runner](https://travis-ci.com/robertdebock/ansible-role-gitlab_runner/settings)**|
 |7|[glusterfs](https://travis-ci.com/robertdebock/ansible-role-glusterfs/settings)|
