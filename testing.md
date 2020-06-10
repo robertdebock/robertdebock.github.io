@@ -104,8 +104,8 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |9|[investigate](https://travis-ci.com/robertdebock/ansible-role-investigate/settings)|
 |9|[irslackd](https://travis-ci.com/robertdebock/ansible-role-irslackd/settings)|
 |10|[java](https://travis-ci.com/robertdebock/ansible-role-java/settings)|
-|10|**[jenkins](https://travis-ci.com/robertdebock/ansible-role-jenkins/settings)**|
-|10|**[jitsi](https://travis-ci.com/robertdebock/ansible-role-jitsi/settings)**|
+|10|[jenkins](https://travis-ci.com/robertdebock/ansible-role-jenkins/settings)|
+|10|[jitsi](https://travis-ci.com/robertdebock/ansible-role-jitsi/settings)|
 |11|**[kernel](https://travis-ci.com/robertdebock/ansible-role-kernel/settings)**|
 |11|**[kubectl](https://travis-ci.com/robertdebock/ansible-role-kubectl/settings)**|
 |12|**[logrotate](https://travis-ci.com/robertdebock/ansible-role-logrotate/settings)**|
