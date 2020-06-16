@@ -134,12 +134,12 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |15|[owncloud](https://travis-ci.com/robertdebock/ansible-role-owncloud/settings)|
 |16|[packer](https://travis-ci.com/robertdebock/ansible-role-packer/settings)|
 |16|[php](https://travis-ci.com/robertdebock/ansible-role-php/settings)|
-|16|**[php_fpm](https://travis-ci.com/robertdebock/ansible-role-php_fpm/settings)**|
+|16|[php_fpm](https://travis-ci.com/robertdebock/ansible-role-php_fpm/settings)|
 |16|[phpmyadmin](https://travis-ci.com/robertdebock/ansible-role-phpmyadmin/settings)|
 |16|[postfix](https://travis-ci.com/robertdebock/ansible-role-postfix/settings)|
-|16|**[postgres](https://travis-ci.com/robertdebock/ansible-role-postgres/settings)**|
-|16|**[powertop](https://travis-ci.com/robertdebock/ansible-role-powertop/settings)**|
-|16|**[powertools](https://travis-ci.com/robertdebock/ansible-role-powertools/settings)**|
+|16|[postgres](https://travis-ci.com/robertdebock/ansible-role-postgres/settings)|
+|16|[powertop](https://travis-ci.com/robertdebock/ansible-role-powertop/settings)|
+|16|[powertools](https://travis-ci.com/robertdebock/ansible-role-powertools/settings)|
 |16|[python_pip](https://travis-ci.com/robertdebock/ansible-role-python_pip/settings)|
 |18|**[reboot](https://travis-ci.com/robertdebock/ansible-role-reboot/settings)**|
 |18|**[redis](https://travis-ci.com/robertdebock/ansible-role-redis/settings)**|
