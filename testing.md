@@ -184,11 +184,11 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |24|[xinetd](https://travis-ci.com/robertdebock/ansible-role-xinetd/settings)|
 |24|[xrdp](https://travis-ci.com/robertdebock/ansible-role-xrdp/settings)|
 |25|[y](https://travis-ci.com/robertdebock/ansible-role-y/settings)|
-|26|**[zabbix_agent](https://travis-ci.com/robertdebock/ansible-role-zabbix_agent/settings)**|
-|26|**[zabbix_proxy](https://travis-ci.com/robertdebock/ansible-role-zabbix_proxy/settings)**|
-|26|**[zabbix_repository](https://travis-ci.com/robertdebock/ansible-role-zabbix_repository/settings)**|
-|26|**[zabbix_server](https://travis-ci.com/robertdebock/ansible-role-zabbix_server/settings)**|
-|26|**[zabbix_web](https://travis-ci.com/robertdebock/ansible-role-zabbix_web/settings)**|
+|26|[zabbix_agent](https://travis-ci.com/robertdebock/ansible-role-zabbix_agent/settings)|
+|26|[zabbix_proxy](https://travis-ci.com/robertdebock/ansible-role-zabbix_proxy/settings)|
+|26|[zabbix_repository](https://travis-ci.com/robertdebock/ansible-role-zabbix_repository/settings)|
+|26|[zabbix_server](https://travis-ci.com/robertdebock/ansible-role-zabbix_server/settings)|
+|26|[zabbix_web](https://travis-ci.com/robertdebock/ansible-role-zabbix_web/settings)|
 
 ## [Integration](#integration)
 
