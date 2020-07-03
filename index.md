@@ -159,7 +159,7 @@ A monthly test to see of the role still works on the current distributions. Some
 
 # [Integration tests](#integration-tests)
 
-To verify that combined roles work, an [integration test](https://github.com/robertdebock/ansible-integration) runs every week.
+To verify that combined roles work, an [integration test](https://github.com/robertdebock/ansible-integration) [![Build Status](https://travis-ci.com/robertdebock/ansible-integration.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-integration) runs every week.
 
 ## [Dependencies](#dependencies)
 
