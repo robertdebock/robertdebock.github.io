@@ -157,6 +157,10 @@ A monthly test to see of the role still works on the current distributions. Some
 |[zabbix_web](https://galaxy.ansible.com/robertdebock/zabbix_web)|[![travis](https://api.travis-ci.com/robertdebock/ansible-role-zabbix_web.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-role-zabbix_web)|[![github](https://github.com/robertdebock/ansible-role-zabbix_web/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-zabbix_web/actions)|[![version](https://img.shields.io/github/commits-since/robertdebock/ansible-role-zabbix_web/latest.svg)](https://github.com/robertdebock/ansible-role-zabbix_web/releases)|
 |[skeleton](https://github.com/robertdebock/ansible-role-skeleton)|-|-|[![version](https://img.shields.io/github/commits-since/robertdebock/ansible-role-skeleton/latest.svg)](https://github.com/robertdebock/ansible-role-skeleton/releases)|
 
+# [Integration tests](#integration-tests)
+
+To verify that combined roles work, an [integration test](https://github.com/robertdebock/ansible-integration) runs every week.
+
 ## [Dependencies](#dependencies)
 
 Most roles have a "soft dependency" described in `requirements.yml`. You can choose to use those roles if you like them. Here is an overview of these soft dependencies.
