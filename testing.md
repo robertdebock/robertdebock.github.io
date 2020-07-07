@@ -92,7 +92,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |6|[functions](https://travis-ci.com/robertdebock/ansible-role-functions/settings)|
 |7|[git](https://travis-ci.com/robertdebock/ansible-role-git/settings)|
 |7|[gitlab_runner](https://travis-ci.com/robertdebock/ansible-role-gitlab_runner/settings)|
-|7|lusterfs](https://travis-ci.com/robertdebock/ansible-role-glusterfs/settings)|
+|7|[glusterfs](https://travis-ci.com/robertdebock/ansible-role-glusterfs/settings)|
 |7|[gnome](https://travis-ci.com/robertdebock/ansible-role-gnome/settings)|
 |7|[grub](https://travis-ci.com/robertdebock/ansible-role-grub/settings)|
 |7|[go](https://travis-ci.com/robertdebock/ansible-role-go/settings)|
@@ -173,7 +173,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |20|[tigervnc](https://travis-ci.com/robertdebock/ansible-role-tigervnc/settings)|
 |20|[tomcat](https://travis-ci.com/robertdebock/ansible-role-tomcat/settings)|
 |20|[travis](https://travis-ci.com/robertdebock/ansible-role-travis/settings)|
-|21|[types](https://travis-ci.com/robertdebock/ansible-role-types/settings)|
+|21|**[types](https://travis-ci.com/robertdebock/ansible-role-types/settings)**|
 |21|[ulimit](https://travis-ci.com/robertdebock/ansible-role-ulimit/settings)|
 |21|[update](https://travis-ci.com/robertdebock/ansible-role-update/settings)|
 |21|[update_package_cache](https://travis-ci.com/robertdebock/ansible-role-update_package_cache/settings)|
