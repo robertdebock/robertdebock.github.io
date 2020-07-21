@@ -174,7 +174,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |20|[tigervnc](https://travis-ci.com/robertdebock/ansible-role-tigervnc/settings)|
 |20|[tomcat](https://travis-ci.com/robertdebock/ansible-role-tomcat/settings)|
 |20|[travis](https://travis-ci.com/robertdebock/ansible-role-travis/settings)|
-|21|**[types](https://travis-ci.com/robertdebock/ansible-role-types/settings)**|
+|21|[types](https://travis-ci.com/robertdebock/ansible-role-types/settings)|
 |21|[ulimit](https://travis-ci.com/robertdebock/ansible-role-ulimit/settings)|
 |21|[update](https://travis-ci.com/robertdebock/ansible-role-update/settings)|
 |21|[update_package_cache](https://travis-ci.com/robertdebock/ansible-role-update_package_cache/settings)|
