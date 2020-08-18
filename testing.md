@@ -186,6 +186,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |21|[unowned_files](https://travis-ci.com/robertdebock/ansible-role-unowned_files/settings)|
 |21|[users](https://travis-ci.com/robertdebock/ansible-role-users/settings)|
 |22|[vagrant](https://travis-ci.com/robertdebock/ansible-role-vagrant/settings)|
+|22|**[vault](https://travis-ci.com/robertdebock/ansible-role-vault/settings)**|
 |22|[vdo](https://travis-ci.com/robertdebock/ansible-role-vdo/settings)|
 |22|[virtualbox](https://travis-ci.com/robertdebock/ansible-role-virtualbox/settings)|
 |24|[xinetd](https://travis-ci.com/robertdebock/ansible-role-xinetd/settings)|
