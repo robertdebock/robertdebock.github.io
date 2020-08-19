@@ -169,7 +169,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |19|[swap](https://travis-ci.com/robertdebock/ansible-role-swap/settings)|
 |19|[sysctl](https://travis-ci.com/robertdebock/ansible-role-sysctl/settings)|
 |19|[sysstat](https://travis-ci.com/robertdebock/ansible-role-sysstat/settings)|
-|19|**[systemd](https://travis-ci.com/robertdebock/ansible-role-systemd/settings)**|
+|19|[systemd](https://travis-ci.com/robertdebock/ansible-role-systemd/settings)|
 |20|[terraform](https://travis-ci.com/robertdebock/ansible-role-terraform/settings)|
 |20|[test_connection](https://travis-ci.com/robertdebock/ansible-role-test_connection/settings)|
 |20|[tftpd](https://travis-ci.com/robertdebock/ansible-role-tftpd/settings)|
