@@ -13,3 +13,4 @@ Here are some presentations:
 - [Maintaining many Ansible roles](/presentations/maintaining-many-ansible-roles)
 - [Terraform](/presentations/terraform)
 - [Automation Journey](/presentations/automation-journey)
+- [Something Daily](/presentations/something-daily)
