@@ -111,6 +111,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |10|[jitsi](https://travis-ci.com/robertdebock/ansible-role-jitsi/settings)|
 |11|[kernel](https://travis-ci.com/robertdebock/ansible-role-kernel/settings)|
 |11|[kubectl](https://travis-ci.com/robertdebock/ansible-role-kubectl/settings)|
+|11|[libvirt](https://travis-ci.com/robertdebock/ansible-role-libvirt/settings)|
 |12|[logrotate](https://travis-ci.com/robertdebock/ansible-role-logrotate/settings)|
 |12|[logwatch](https://travis-ci.com/robertdebock/ansible-role-logwatch/settings)|
 |12|[locale](https://travis-ci.com/robertdebock/ansible-role-locale/settings)|
