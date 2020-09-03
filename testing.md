@@ -129,6 +129,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |13|[mysql](https://travis-ci.com/robertdebock/ansible-role-mysql/settings)|
 |14|[natrouter](https://travis-ci.com/robertdebock/ansible-role-natrouter/settings)|
 |14|[nginx](https://travis-ci.com/robertdebock/ansible-role-nginx/settings)|
+|14|[node_red](https://travis-ci.com/robertdebock/ansible-role-node_red/settings)|
 |14|[npm](https://travis-ci.com/robertdebock/ansible-role-npm/settings)|
 |14|[ntp](https://travis-ci.com/robertdebock/ansible-role-ntp/settings)|
 |15|[obsproject](https://travis-ci.com/robertdebock/ansible-role-obsproject/settings)|
