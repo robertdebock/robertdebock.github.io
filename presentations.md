@@ -1,4 +1,10 @@
-Here are some presentations:
+If you want to request me to present on of the topics below, please let me know:
+
+```yaml
+- name: Robert de Bock
+  email: robert@meinit.nl
+  phone: +31 6 14 39 58 72
+```
 
 - [Ansible Roles](/presentations/ansible-roles/)
 - [Ansible Testing](/presentations/ansible-testing/)
