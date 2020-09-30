@@ -16,11 +16,11 @@ Solve bugs and dependencies in the lowest level possible. From low to high:
 3. Application.
 
 ## [Packages](#packages)
-A package should be autonomously:
-- Installable.
-- Updateable.
-- Removable.
-- Reinstallable.
+A package should be able to autonomously:
+- Install.
+- Update.
+- Remove.
+- Re-install.
 
 ## [Configuration management](#configuration-management)
 A configuration management contains:
@@ -36,13 +36,13 @@ A configuration management contains:
 - Start with code that *barely* works. That means some assumptions will be made.
 
 ## [Dependencies](#dependencies)
-Use dependencies when absolutely required, in other words: only use dependecies when two entities have no value without eachother. This ensures:
+Use dependencies when absolutely required, in other words: only use dependencies when two entities have no value without each other. This ensures:
 - Code can be reused maximally.
 - Code can be forked.
 - Assumptions are left over to the integrator.
  
 ## [Testability](#testability)
-Keep the smallest (testable) related code in a repository. This ensures autonomous development, most independant testing and easy collaboration.
+Keep the smallest (testable) related code in a repository. This ensures autonomous development, most independent testing and easy collaboration.
  
 There are multiple types of code:
 - The code for the application - Typically Python, C, PHP, etc.

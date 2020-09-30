@@ -6,27 +6,23 @@ The filosofy to test is:
 
 In Travis CI these combinations are called a `matrix`. You can consider this overview per role:
 
-| Distribution        | Ansible 2.8 | Ansible 2.9 | Ansible devel |
-|---------------------|-------------|-------------|---------------|
-| Alpine latest       | yes         | yes         | yes           |
-| Alpine edge         | yes *       | yes *       | yes           |
-| Archlinux (base)    | yes         | yes         | yes           |
-| CentOS 7            | yes         | yes         | yes           |
-| CentOS latest       | yes         | yes         | yes           |
-| Debian stable       | yes         | yes         | yes           |
-| Debian latest       | yes         | yes         | yes           |
-| Debian unstable     | yes *       | yes *       | yes           |
-| Fedora latest       | yes         | yes         | yes           |
-| Fedora rawhide      | yes *       | yes         | yes           |
-| OpenSuse Leap       | yes         | yes         | yes           |
-| OpenSuse Tumbleweed | yes         | yes         | yes           |
-| RHEL 7              | yes         | yes         | yes           |
-| RHEL 8              | yes         | yes         | yes           |
-| Ubuntu Artful (17)  | yes         | yes         | yes           |
-| Ubuntu latest       | yes         | yes         | yes           |
-| Ubuntu devel        | yes *       | yes *       | yes           |
-
-Distributions or Ansible versions marked with an astriks are allowed to fail. This combination is built to prepare for future distributions or releases of Ansible.
+| Distribution        | Ansible 2.9 | Ansible 2.10 | Ansible devel |
+|---------------------|-------------|--------------|---------------|
+| Alpine latest       | yes         | yes          | yes           |
+| Alpine edge         | yes         | yes          | yes           |
+| Archlinux (base)    | yes         | yes          | yes           |
+| CentOS 7            | yes         | yes          | yes           |
+| CentOS latest       | yes         | yes          | yes           |
+| Debian stable       | yes         | yes          | yes           |
+| Debian latest       | yes         | yes          | yes           |
+| Debian unstable     | yes         | yes          | yes           |
+| Fedora latest       | yes         | yes          | yes           |
+| Fedora rawhide      | yes         | yes          | yes           |
+| OpenSuse Leap       | yes         | yes          | yes           |
+| OpenSuse Tumbleweed | yes         | yes          | yes           |
+| Ubuntu Artful (17)  | yes         | yes          | yes           |
+| Ubuntu latest       | yes         | yes          | yes           |
+| Ubuntu devel        | yes         | yes          | yes           |
 
 Read [this page to understand the tools (Travis, Molecule and Tox)](tox-molecule-travis.html] better.
 
@@ -40,7 +36,7 @@ An [example for the unit test for the Ansible role java](https://travis-ci.com/r
 
 ### [Time based unit tests](#time-based-unit-tests)
 
-Because distriutions, molecule, ansible and goss change over time, a monthly test is done to all roles using this schedule:
+Because distributions, molecule, and ansible change over time, a monthly test is done to all roles using this schedule:
 
 |------------|------------|
 |Day of month|Ansible Role|
@@ -56,7 +52,7 @@ Because distriutions, molecule, ansible and goss change over time, a monthly tes
 |1|[at](https://travis-ci.com/robertdebock/ansible-role-at/settings)|
 |1|[atom](https://travis-ci.com/robertdebock/ansible-role-atom/settings)|
 |1|[auditd](https://travis-ci.com/robertdebock/ansible-role-auditd/settings)|
-|1|[autofs](https://travis-ci.com/robertdebock/ansible-role-autofs/settings)|
+|1|*[autofs](https://travis-ci.com/robertdebock/ansible-role-autofs/settings)**|
 |1|[auto_update](https://travis-ci.com/robertdebock/ansible-role-auto_update/settings)|
 |1|[azure_cli](https://travis-ci.com/robertdebock/ansible-role-azure_cli/settings)|
 |2|[backup](https://travis-ci.com/robertdebock/ansible-role-backup/settings)|

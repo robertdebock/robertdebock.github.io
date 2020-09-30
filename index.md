@@ -180,11 +180,11 @@ Most roles have a "soft dependency" described in `requirements.yml`. You can cho
 [![Overview of dependencies](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/dependencies.png "Dependency overview")](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/dependencies.png)
 
 The dependencies are soft for these reasons:
-- Better reusability.
+- Better re-usability.
 - Easier to fork.
-- Let implementor assume a start-state of a machine.
+- Let system developer assume a start-state of a machine.
 
-Because these dependecies are loose, you have to include them in your playbook yourself:
+Because these dependencies are loose, you have to include them in your playbook yourself:
 
 ```yaml
 - name: make the best machine ever
@@ -197,7 +197,7 @@ Because these dependecies are loose, you have to include them in your playbook y
     - role: robertdebock.tomcat
 ```
 
-Some roles have a hard dependecies" on another role, mainy for a shared handler or variables set in the parent role, used in the child role. More details on [how to use these roles](how-to-use-these-roles.html). These hard dependencies are describe in `meta/main.yml` under `dependencies`.
+Some roles have a hard dependencies on another role, mainly for a shared handler or variables set in the parent role, used in the child role. More details on [how to use these roles](how-to-use-these-roles.html). These hard dependencies are describe in `meta/main.yml` under `dependencies`.
 
 | Role          | Depends on | Reason |
 |---------------|------------|--------|
