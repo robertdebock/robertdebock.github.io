@@ -83,7 +83,7 @@ That means you thought about the interface (`defaults/main.yml`).
 
 ### Is there a simple way to test your role?
 
-That means the role is focussed and can do just a few things.
+That means the role is focused and can do just a few things.
 
 ### Was it easy to think of the title?
 

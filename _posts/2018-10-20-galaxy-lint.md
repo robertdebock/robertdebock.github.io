@@ -4,7 +4,7 @@ title: Galaxy will score your roles
 
 # Ansible Galaxy Lint
 
-Galaxy currently is a dumping place for Ansible roles, anybody can submit any quality role there and it's kept indefinitly.
+Galaxy currently is a dumping place for Ansible roles, anybody can submit any quality role there and it's kept indefinitely.
 
 For example [Nginx is listed 1122 times](https://galaxy.ansible.com/search?keywords=nginx&order_by=-relevance&page_size=10). Happily [Jeff Geerling](https://github.com/geerlingguy)'s role shows up on top, probably because it has the most downloads.
 

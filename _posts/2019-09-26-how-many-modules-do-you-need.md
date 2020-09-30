@@ -10,13 +10,13 @@ Anyway, let's get some stats:
 
 # How many modules am I using?
 
-Thas was not so dificult to estimate: **97 modules**.
+That was not so difficult to estimate: **97 modules**.
 
 # What 'weird' modules?
 
 A bit more difficult to answer, I've taken two approaches:
 1. Take the bottom of the list of "most used modules".
-2. Walked throught the 97 modules and discover odd once.
+2. Walked through the 97 modules and discover odd once.
 
 - bigip_*: I've written a role for a workshop.
 - gem: Don't know, weird.

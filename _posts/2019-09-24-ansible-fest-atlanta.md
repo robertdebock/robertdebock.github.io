@@ -44,4 +44,4 @@ There are many more perspectives, [have a look](https://stats.eng.ansible.com/ap
 
 [Spain seems to be the largest contributor](https://stats.eng.ansible.com/apps/docs/newmap.html) of Ansible, but next Ansible Fest will be in San Diego.
 
-The Contributers Summit will be in europe though.
+The Contributors Summit will be in Europe though.

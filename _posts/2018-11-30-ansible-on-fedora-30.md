@@ -4,7 +4,7 @@ title: Ansible on Fedora 30
 
 # Ansible on Fedora 30.
 
-[Fedora 30](https://fedoraproject.org/wiki/Releases/30/Schedule) (currenly under development as [rawhide](https://fedoraproject.org/wiki/Releases/Rawhide)) does [not have python2-dnf](https://fedoraproject.org/wiki/Releases/30/ChangeSet#Mass_Python_2_Package_Removal) anymore.
+[Fedora 30](https://fedoraproject.org/wiki/Releases/30/Schedule) (currently under development as [rawhide](https://fedoraproject.org/wiki/Releases/Rawhide)) does [not have python2-dnf](https://fedoraproject.org/wiki/Releases/30/ChangeSet#Mass_Python_2_Package_Removal) anymore.
 
 The [Ansible module dnf](https://docs.ansible.com/ansible/latest/modules/dnf_module.html) tries to install python2-dnf if it running on a python2 environment. It took me quite some time to figure out why [this error](https://travis-ci.org/robertdebock/ansible-role-bootstrap/jobs/461449416) appeared:
 

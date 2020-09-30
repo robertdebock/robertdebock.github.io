@@ -4,7 +4,7 @@ title: How to write and maintain many Ansible roles
 
 # How to write and maintain many Ansible roles
 
-It's great to have many code nuggest around to help you setup an environment rapidly. Ansible roles are perfect to describe what you want to do on systems.
+It's great to have many code nuggets around to help you setup an environment rapidly. Ansible roles are perfect to describe what you want to do on systems.
 
 As soon as you start to write more roles, you start to develop a style and way of working. Here are the tings I've learned managing many roles.
 
@@ -22,7 +22,7 @@ To explain what happens:
 - `--role-skeleton=ansible-role-skeleton` refers to a skeleton ansible role. I use [his repository](https://github.com/robertdebock/ansible-role-skeleton).
 - `role_name` is the name of your new role. I use short names here, like `nginx` or `postfix`.
 
-## Use anible-lint for quick feedback
+## Use ansible-lint for quick feedback
 
 [Andrew](https://github.com/awcrosby) has written [a tool](https://github.com/ansible/ansible-lint) including [many rules](https://github.com/ansible/ansible-lint/tree/master/lib/ansiblelint/rules) that help you write readable and consistent code.
 

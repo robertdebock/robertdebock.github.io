@@ -4,7 +4,7 @@ title: A big thanks to ... many
 
 # A big thanks to ... many
 
-My parents, sister and family have been on a holiday to Lanzarote, Spain during christmast and new-year. 11 people in total, 6 adults, 5 children.
+My parents, sister and family have been on a holiday to Lanzarote, Spain during Christmas and new-year. 11 people in total, 6 adults, 5 children.
 
 During this holiday our oldest got sick. It started as a fever but did not get better, even afer some 2 weeks.
 
