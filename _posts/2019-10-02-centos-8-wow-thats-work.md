@@ -11,7 +11,7 @@ My statement are:
 - "Keep your code as simple as possible"
 - "Write roles for multiple distributions" (To improve logic.)
 
-These two contradict eachother: simplicity would mean 1 role for 1 (only my) distribution.
+These two contradict each other: simplicity would mean 1 role for 1 (only my) distribution.
 
 Hm, that's a very fair point. Still I think writing for multiple operating systems is a good thing, for these reasons:
 
