@@ -48,7 +48,7 @@ You can also use `[include_role](https://docs.ansible.com/ansible/latest/modules
 
 ## [Using variable](#using-variables)
 
-Most roles can be controled using [variables](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html). For example by using the `vars:` statement:
+Most roles can be controlled using [variables](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html). For example by using the `vars:` statement:
 
 ```yaml
 ---
