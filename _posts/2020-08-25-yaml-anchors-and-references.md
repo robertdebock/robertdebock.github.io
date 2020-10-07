@@ -17,7 +17,7 @@ In YAML you can make an Anchor:
 Now the Anchor `me` contains `Robert`. To refer to it, do something like this:
 
 ```yaml
-- first_name &me Robert
+- first_name: &me Robert
   give_name: *me
 ```
 
