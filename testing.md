@@ -180,6 +180,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |20|[travis](https://travis-ci.com/robertdebock/ansible-role-travis/settings)|
 |21|[types](https://travis-ci.com/robertdebock/ansible-role-types/settings)|
 |21|[ulimit](https://travis-ci.com/robertdebock/ansible-role-ulimit/settings)|
+|21|[umask](https://travis-ci.com/robertdebock/ansible-role-umask/settings)|
 |21|[update](https://travis-ci.com/robertdebock/ansible-role-update/settings)|
 |21|[update_package_cache](https://travis-ci.com/robertdebock/ansible-role-update_package_cache/settings)|
 |21|[upgrade](https://travis-ci.com/robertdebock/ansible-role-upgrade/settings)|
