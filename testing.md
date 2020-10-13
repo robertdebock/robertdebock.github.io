@@ -178,6 +178,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |20|[tlp](https://travis-ci.com/robertdebock/ansible-role-tlp/settings)|
 |20|[tomcat](https://travis-ci.com/robertdebock/ansible-role-tomcat/settings)|
 |20|[travis](https://travis-ci.com/robertdebock/ansible-role-travis/settings)|
+|21|[tune2fs](https://travis-ci.com/robertdebock/ansible-role-tune2fs/settings)|
 |21|[types](https://travis-ci.com/robertdebock/ansible-role-types/settings)|
 |21|[ulimit](https://travis-ci.com/robertdebock/ansible-role-ulimit/settings)|
 |21|[umask](https://travis-ci.com/robertdebock/ansible-role-umask/settings)|
