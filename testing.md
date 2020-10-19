@@ -52,7 +52,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |1|[at](https://travis-ci.com/robertdebock/ansible-role-at/settings)|
 |1|[atom](https://travis-ci.com/robertdebock/ansible-role-atom/settings)|
 |1|[auditd](https://travis-ci.com/robertdebock/ansible-role-auditd/settings)|
-|1|*[autofs](https://travis-ci.com/robertdebock/ansible-role-autofs/settings)**|
+|1|**[autofs](https://travis-ci.com/robertdebock/ansible-role-autofs/settings)**|
 |1|[auto_update](https://travis-ci.com/robertdebock/ansible-role-auto_update/settings)|
 |1|[azure_cli](https://travis-ci.com/robertdebock/ansible-role-azure_cli/settings)|
 |2|[backup](https://travis-ci.com/robertdebock/ansible-role-backup/settings)|
