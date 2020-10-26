@@ -123,6 +123,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |13|[modprobe](https://travis-ci.com/robertdebock/ansible-role-modprobe/settings)|
 |13|[minikube](https://travis-ci.com/robertdebock/ansible-role-minikube/settings)|
 |13|[molecule](https://travis-ci.com/robertdebock/ansible-role-molecule/settings)|
+|13|**[mount](https://travis-ci.com/robertdebock/ansible-role-mount/settings)**|
 |13|[mssql](https://travis-ci.com/robertdebock/ansible-role-mssql/settings)|
 |13|[mysql](https://travis-ci.com/robertdebock/ansible-role-mysql/settings)|
 |14|[natrouter](https://travis-ci.com/robertdebock/ansible-role-natrouter/settings)|
