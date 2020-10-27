@@ -24,8 +24,8 @@ Because these 3 relations can be confusing, here is a table that explains the re
 |Debian           |**buster**      |debian     |latest |master  |
 |Debian           |**not used**    |debian     |latest |testing |
 |Debian           |**not used**    |debian     |latest |unstable|
-|Fedora           |30              |fedora     |30     |30      |
-|Fedora           |31              |fedora     |latest |master  |
+|Fedora           |32              |fedora     |32     |32      |
+|Fedora           |33              |fedora     |latest |master  |
 |Fedora           |rawhide         |fedora     |rawhide|rawhide |
 |OpenSUSE         |all             |opensuse   |latest |master  |
 |Ubuntu           |**all**         |ubuntu     |latest |master  |
