@@ -98,6 +98,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |7|[go](https://travis-ci.com/robertdebock/ansible-role-go/settings)|
 |7|[gotop](https://travis-ci.com/robertdebock/ansible-role-gotop/settings)|
 |8|[haproxy](https://travis-ci.com/robertdebock/ansible-role-haproxy/settings)|
+|8|**[hashicorp](https://travis-ci.com/robertdebock/ansible-role-hashicorp/settings)**|
 |8|[haveged](https://travis-ci.com/robertdebock/ansible-role-haveged/settings)|
 |8|[httpd](https://travis-ci.com/robertdebock/ansible-role-httpd/settings)|
 |8|[hostname](https://travis-ci.com/robertdebock/ansible-role-hostname/settings)|
