@@ -20,7 +20,7 @@ galaxy_platform: Alpine
 |galaxy_version|docker_tag|ansible_distribution_major_version|
 |--------------|----------|----------------------------------|
 |all           |latest    |3                                 |
-|all           |edge      |?                                 |
+|all           |edge      |3                                 |
 
 ## AmazonLinux
 
@@ -35,19 +35,6 @@ galaxy_platform: Amazon
 |--------------|----------|----------------------------------|
 |Candidate     |latest    |2                                 |
 |2018.03       |1         |2018                              |
-
-## Archlinux
-
-```
-containername: archlinux
-ansible_os_family: Archlinux
-ansible_distribution: Archlinux
-galaxy_platform: ArchLinux
-```
-
-|galaxy_version|docker_tag|ansible_distribution_major_version|
-|--------------|----------|----------------------------------|
-|all           |latest    |?                                 |
 
 ## CentOS
 
@@ -74,9 +61,8 @@ galaxy_platform: Debian
 
 |galaxy_version|docker_tag|ansible_distribution_major_version|
 |--------------|----------|----------------------------------|
-|buster        |latest    |buster                            |
-|bullseye      |?         |?                                 |
-
+|buster        |latest    |10                                |
+|bullseye      |bullseye  |bullseye                          |
 
 ## Fedora
 
@@ -117,21 +103,6 @@ galaxy_platform: Ubuntu
 
 |galaxy_version|docker_tag|ansible_distribution_major_version|
 |--------------|----------|----------------------------------|
-|bionic        |latest    |18                                |
-
-|containername  |ansible_distribution|ansible_os_family|ansible_distribution_major_version|galaxy_platform|galaxy_version|
-|---------------|--------------------|-----------------|----------------------------------|---------------|--------------|
-|alpine         |Alpine              |Alpine           |3                                 |Alpine         |all           |
-|alpine:edge    |Alpine              |Alpine           |?                                 |Alpine         |all           |
-|amazonlinux:1  |Amazon              |RedHat           |2018                              |Amazon         |2018.03       |
-|amazonlinux    |Amazon              |RedHat           |2                                 |Amazon         |Candidate     |
-|archlinux      |Archlinux           |Archlinux        |?                                 |ArchLinux      |all           |
-|centos:7       |CentOS              |EL               |7                                 |EL             |7             |
-|centos         |CentOS              |EL               |8                                 |EL             |8             |
-|debian         |Debian              |Debian           |buster                            |Debian         |buster        |
-|debian:unstable|Debian              |Debian           |sid                               |Debian         |sid           |
-|fedora         |Fedora              |RedHat           |33                                |Fedora         |33            |
-|fedora:32      |Fedora              |RedHat           |32                                |Fedora         |32            |
-|fedora:rawhide |Fedora              |RedHat           |34                                |Fedora         |34            |
-|opensuse       |OpenSUSE            |Suse             |15                                |opensuse       |all           |
-|ubuntu         |Ubuntu              |Debian           |18                                |Ubuntu         |bionic        |
+|focal         |latest    |20                                |
+|bionic        |bionic    |18                                |
+|xenial        |xenial    |16                                |
