@@ -78,6 +78,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |4|**[dnsmasq](https://travis-ci.com/robertdebock/ansible-role-dnsmasq/settings)**|
 |4|[docker](https://travis-ci.com/robertdebock/ansible-role-docker/settings)|
 |4|[docker_ce](https://travis-ci.com/robertdebock/ansible-role-docker_ce/settings)|
+|4|**[docker_compose](https://travis-ci.com/robertdebock/ansible-role-docker_compose/settings)**|
 |4|[dovecot](https://travis-ci.com/robertdebock/ansible-role-dovecot/settings)|
 |4|[dsvpn](https://travis-ci.com/robertdebock/ansible-role-dsvpn/settings)|
 |5|[earlyoom](https://travis-ci.com/robertdebock/ansible-role-earlyoom/settings)|
