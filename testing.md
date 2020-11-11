@@ -108,7 +108,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |10|[java](https://travis-ci.com/robertdebock/ansible-role-java/settings)|
 |10|[jenkins](https://travis-ci.com/robertdebock/ansible-role-jenkins/settings)|
 |10|[jitsi](https://travis-ci.com/robertdebock/ansible-role-jitsi/settings)|
-|11|**[keepalived](https://travis-ci.com/robertdebock/ansible-role-keepalived/settings)**|
+|11|[keepalived](https://travis-ci.com/robertdebock/ansible-role-keepalived/settings)|
 |11|[kernel](https://travis-ci.com/robertdebock/ansible-role-kernel/settings)|
 |11|[kubectl](https://travis-ci.com/robertdebock/ansible-role-kubectl/settings)|
 |12|[libvirt](https://travis-ci.com/robertdebock/ansible-role-libvirt/settings)|
