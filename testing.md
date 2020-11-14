@@ -130,10 +130,10 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |13|[mysql](https://travis-ci.com/robertdebock/ansible-role-mysql/settings)|
 |14|[natrouter](https://travis-ci.com/robertdebock/ansible-role-natrouter/settings)|
 |14|[nextcloud](https://travis-ci.com/robertdebock/ansible-role-nextcloud/settings)|
-|14|**[nfsserver](https://travis-ci.com/robertdebock/ansible-role-nfsserver/settings)**|
+|14|[nfsserver](https://travis-ci.com/robertdebock/ansible-role-nfsserver/settings)|
 |14|[nginx](https://travis-ci.com/robertdebock/ansible-role-nginx/settings)|
 |14|[node_red](https://travis-ci.com/robertdebock/ansible-role-node_red/settings)|
-|14|**[nomad](https://travis-ci.com/robertdebock/ansible-role-nomad/settings)**|
+|14|[nomad](https://travis-ci.com/robertdebock/ansible-role-nomad/settings)|
 |14|[npm](https://travis-ci.com/robertdebock/ansible-role-npm/settings)|
 |14|[ntp](https://travis-ci.com/robertdebock/ansible-role-ntp/settings)|
 |15|[obsproject](https://travis-ci.com/robertdebock/ansible-role-obsproject/settings)|
