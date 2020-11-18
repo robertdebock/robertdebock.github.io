@@ -150,7 +150,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |16|[powertop](https://travis-ci.com/robertdebock/ansible-role-powertop/settings)|
 |16|[powertools](https://travis-ci.com/robertdebock/ansible-role-powertools/settings)|
 |16|[python_pip](https://travis-ci.com/robertdebock/ansible-role-python_pip/settings)|
-|18|**[qemu](https://travis-ci.com/robertdebock/ansible-role-qemu/settings)**|
+|18|[qemu](https://travis-ci.com/robertdebock/ansible-role-qemu/settings)|
 |18|[reboot](https://travis-ci.com/robertdebock/ansible-role-reboot/settings)|
 |18|[redis](https://travis-ci.com/robertdebock/ansible-role-redis/settings)|
 |18|[release](https://travis-ci.com/robertdebock/ansible-role-release/settings)|
