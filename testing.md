@@ -70,6 +70,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |3|[container_docs](https://travis-ci.com/robertdebock/ansible-role-container_docs/settings)|
 |3|[core_dependencies](https://travis-ci.com/robertdebock/ansible-role-core_dependencies/settings)|
 |3|[cron](https://travis-ci.com/robertdebock/ansible-role-cron/settings)|
+|3|**[cups](https://travis-ci.com/robertdebock/ansible-role-cups/settings)**|
 |3|[clamav](https://travis-ci.com/robertdebock/ansible-role-clamav/settings)|
 |4|[debug](https://travis-ci.com/robertdebock/ansible-role-debug/settings)|
 |4|[dhcpd](https://travis-ci.com/robertdebock/ansible-role-dhcpd/settings)|
