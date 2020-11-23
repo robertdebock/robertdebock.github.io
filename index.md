@@ -262,6 +262,7 @@ Ansible tests are being executed using the following components
 |[Github Action Molecule](https://github.com/marketplace/actions/test-ansible-roles-with-molecule)|Published|
 |[Github Action Galaxy](https://github.com/marketplace/actions/publish-ansible-role-to-galaxy)|Published|
 |[Github Action RPM build](https://github.com/marketplace/actions/build-an-rpm)|Published|
+|[Github Action Terraform](https://github.com/marketplace/actions/test-or-run-terraform-code)|Published|
 |[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-molecule/)|
 |[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-galaxy/)|
 
