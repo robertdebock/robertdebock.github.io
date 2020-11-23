@@ -259,10 +259,10 @@ Ansible tests are being executed using the following components
 
 |Component|Status|
 |---------|------|
-|[Github Action Molecule](https://github.com/marketplace/actions/test-ansible-roles-with-molecule)|![Yaml Lint](https://github.com/robertdebock/molecule-action/workflows/Yaml%20Lint/badge.svg)|
-|[Github Action Galaxy](https://github.com/marketplace/actions/publish-ansible-role-to-galaxy)|![Yaml Lint](https://github.com/robertdebock/galaxy-action/workflows/Yaml%20Lint/badge.svg)|
-|[Github Action RPM build](https://github.com/marketplace/actions/build-an-rpm)|![Yaml Lint](https://github.com/robertdebock/rpmbuild-action/workflows/Yaml%20Lint/badge.svg)|
-|[Github Action Terraform](https://github.com/marketplace/actions/test-or-run-terraform-code)|![Yaml Lint](https://github.com/robertdebock/terraform-action/workflows/Yaml%20Lint/badge.svg)|
+|[Github Action Molecule](https://github.com/marketplace/actions/test-ansible-roles-with-molecule)|[![Yaml Lint](https://github.com/robertdebock/molecule-action/workflows/Yaml%20Lint/badge.svg)](https://github.com/robertdebock/molecule-action)|
+|[Github Action Galaxy](https://github.com/marketplace/actions/publish-ansible-role-to-galaxy)|[![Yaml Lint](https://github.com/robertdebock/galaxy-action/workflows/Yaml%20Lint/badge.svg)](https://github.com/robertdebock/galaxy-action)|
+|[Github Action RPM build](https://github.com/marketplace/actions/build-an-rpm)|[![Yaml Lint](https://github.com/robertdebock/rpmbuild-action/workflows/Yaml%20Lint/badge.svg)](https://github.com/robertdebock/rpmbuild-action)|
+|[Github Action Terraform](https://github.com/marketplace/actions/test-or-run-terraform-code)|[![Yaml Lint](https://github.com/robertdebock/terraform-action/workflows/Yaml%20Lint/badge.svg)](https://github.com/robertdebock/terraform-action)|
 |[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-molecule/)|
 |[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-galaxy/)|
 
