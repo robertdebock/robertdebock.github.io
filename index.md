@@ -266,6 +266,15 @@ Ansible tests are being executed using the following components
 |[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-molecule/)|
 |[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-galaxy/)|
 
+### [Terraform modules](#terraform-modules)
+
+I maintain these Terraform modules
+
+|Module|State|
+|------|-----|
+|[digitalocean_ssh_key](https://registry.terraform.io/modules/robertdebock/ssh_key/digitalocean/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-digitalocean-ssh_key/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-digitalocean-ssh_key/actions)|
+|[digitalocean_droplet](https://registry.terraform.io/modules/robertdebock/droplet/digitalocean/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-digitalocean-droplet/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-digitalocean-droplet/actions)|
+
 ### [Other tools](#other-tools)
 
 I use a few tools to maintain the software I create.
