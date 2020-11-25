@@ -19,19 +19,19 @@ I use this pattern frequently:
   block:
     - name: start my_service
       service:
-        name: "{{ my_service_service }}"
+        name: "my_service"
         state: started
   rescue:
     - name: collect information
-      command: "{{ item }}"
+      command: "{% raw %}{{ item }}{% endraw %}"
       register: my_service_collect_information
       loop:
         - journalxtl -xe
-        - systemctl status {{ my_service_service }}
+        - systemctl status my_service
     - name: show information
       debug:
-        msg: "{{ item }}"
-      loop: "{{ my_service_collect_information.results }}"
+        msg: "{% raw %}{{ item }}{% endraw %}"
+      loop: "{% raw %}{{ my_service_collect_information.results }}{% endraw %}"
 ```
 
 What's happening here?
