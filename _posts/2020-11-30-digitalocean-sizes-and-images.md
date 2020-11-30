@@ -8,7 +8,7 @@ I tend to forget the output of `doctl compute size list -t ${DIGITALOCEAN_TOKEN}
 
 ## Sizes.
 
-|slug|memory|vcpu|disk|price (monthly)|price (hourly)|
+|slug|memory (mb)|vcpu|disk (gb)|price/month($)|price/hour($)|
 |----|------|----|----|---------------|--------------|
 |s-1vcpu-1gb|1024|1|25|5.00|0.007440|
 |512mb|512|1|20|5.00|0.007440|
@@ -95,8 +95,8 @@ I tend to forget the output of `doctl compute size list -t ${DIGITALOCEAN_TOKEN}
 
 ## images
 
-|Slug|Distribution|Min Disk|Name|
-|----|------------|--------|----|
+|slug|distribution|disk (gb)|name|
+|----|------------|---------|----|
 |centos-6-x32|CentOS|20|6.9 x32|
 |centos-6-x64|CentOS|20|6.9 x64|
 |ubuntu-16-04-x32|Ubuntu|20|16.04.6 (LTS) x32|
