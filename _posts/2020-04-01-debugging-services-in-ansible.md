@@ -26,7 +26,7 @@ I use this pattern frequently:
       command: "{% raw %}{{ item }}{% endraw %}"
       register: my_service_collect_information
       loop:
-        - journalxtl -xe
+        - journalctl -xe
         - systemctl status my_service
     - name: show information
       debug:
