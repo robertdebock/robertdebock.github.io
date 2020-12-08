@@ -25,7 +25,7 @@ You're now in the `dind` container that GitLab also uses.
 ## 3. Start the molecule container.
 
 ```shell
-docker run -ti -v /data:/github/workspace/ansible-role-example -v /run/docker.sock:/run/docker.sock robertdebock/github-action-molecule /bin/bash
+docker run -ti -v /data:/github/workspace/ansible-role-example -v /run/docker.sock:/run/docker.sock -v /sys/fs/cgroup:/sys/fs/cgroup:ro robertdebock/github-action-molecule /bin/bash
 ```
 
 ## 4. Run molecule.
