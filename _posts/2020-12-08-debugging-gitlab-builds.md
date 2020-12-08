@@ -6,34 +6,51 @@ title: Debugging GitLab builds
 
 Now that [Travis has become unusable](https://blog.travis-ci.com/2020-11-02-travis-ci-new-billing), I'm moving stuff to [GitLab](https://gitlab.com/robertdebock). Some builds are breaking, this is how to reproduce the errors.
 
-## 1. Start the Docker in Docker (dind) container.
-
-From the directory of your role, for example `/opt/ansible-role-example`, run:
+## Start the `dind` container
 
 ```shell
-docker run -ti --privileged --name dind -d -v $(pwd):/data docker:dind
+docker run --name gitlabci --volume $(pwd)/ansible-role-dns:/ansible-role-dns:z --privileged --tty --interactive docker:stable-dind
 ```
 
-## 2. Login to the dind container.
+## Login to the `dind` container
 
 ```shell
-docker exec -ti dind /bin/sh
+docker exec --tty --interactive gitlabci /bin/sh
 ```
 
-You're now in the `dind` container that GitLab also uses.
+## Install software
 
-## 3. Start the molecule container.
+The dind image is Alpine based and misses required software to run `molecule` or `tox`.
 
 ```shell
-docker run -ti -v /data:/github/workspace/ansible-role-example -v /run/docker.sock:/run/docker.sock -v /sys/fs/cgroup:/sys/fs/cgroup:ro robertdebock/github-action-molecule /bin/bash
+apk add --no-cache python3 python3-dev py3-pip gcc git curl build-base autoconf automake py3-cryptography linux-headers musl-dev libffi-dev openssl-dev openssh
 ```
 
-## 4. Run molecule.
+## Tox
+
+GitLab CI tries to run tox (if `tox.ini` is found). To emulate GitLab CI, run:
 
 ```shell
-cd ansible-role-example
+python3 -m pip install tox --ignore-installed
+```
+
+And simply run `tox` to see the results.
+
+```shell
+tox
+```
+
+## Molecule
+
+For more in-depth troubleshooting, try installing molecule:
+
+```
+python3 -m pip install ansible molecule[docker] docker ansible-lint
+```
+
+Now you can run `molecule`:
+
+```shell
 molecule test --destroy=never
 molecule login
 ```
-
-Now you're ready to run commands and troubleshoot.
