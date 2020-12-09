@@ -9,7 +9,9 @@ Now that [Travis has become unusable](https://blog.travis-ci.com/2020-11-02-trav
 ## Start the `dind` container
 
 ```shell
-docker run --name gitlabci --volume $(pwd)/ansible-role-dns:/ansible-role-dns:z --privileged --tty --interactive docker:stable-dind
+export role=ansible-role-dns
+cd Documents/github/robertdebock
+docker run --rm --name gitlabci --volume $(pwd)/${role}:/${role}:z --privileged --tty --interactive docker:stable-dind
 ```
 
 ## Login to the `dind` container
@@ -51,6 +53,7 @@ python3 -m pip install ansible molecule[docker] docker ansible-lint
 Now you can run `molecule`:
 
 ```shell
+cd ${role}
 molecule test --destroy=never
 molecule login
 ```
