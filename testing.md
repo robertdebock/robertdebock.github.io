@@ -47,6 +47,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |1|[ansible](https://travis-ci.com/robertdebock/ansible-role-ansible/settings)|
 |1|[ansible_lint](https://travis-ci.com/robertdebock/ansible-role-ansible_lint/settings)|
 |1|[apt_autostart](https://travis-ci.com/robertdebock/ansible-role-apt_autostart/settings)|
+|1|[apt_repository](https://travis-ci.com/robertdebock/ansible-role-apt_repository/settings)|
 |1|[ara](https://travis-ci.com/robertdebock/ansible-role-ara/settings)|
 |1|[artifactory](https://travis-ci.com/robertdebock/ansible-role-artifactory/settings)|
 |1|[at](https://travis-ci.com/robertdebock/ansible-role-at/settings)|
