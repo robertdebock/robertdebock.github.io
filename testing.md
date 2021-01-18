@@ -116,6 +116,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |12|[libvirt](https://travis-ci.com/robertdebock/ansible-role-libvirt/settings)|
 |12|[logrotate](https://travis-ci.com/robertdebock/ansible-role-logrotate/settings)|
 |12|[logwatch](https://travis-ci.com/robertdebock/ansible-role-logwatch/settings)|
+|12|[luks](https://travis-ci.com/robertdebock/ansible-role-luks/settings)|
 |12|[locale](https://travis-ci.com/robertdebock/ansible-role-locale/settings)|
 |12|[lynis](https://travis-ci.com/robertdebock/ansible-role-lynis/settings)|
 |13|[memcached](https://travis-ci.com/robertdebock/ansible-role-memcached/settings)|
