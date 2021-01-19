@@ -90,6 +90,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |5|[etherpad](https://travis-ci.com/robertdebock/ansible-role-etherpad/settings)|
 |6|[facts](https://travis-ci.com/robertdebock/ansible-role-facts/settings)|
 |6|[fail2ban](https://travis-ci.com/robertdebock/ansible-role-fail2ban/settings)|
+|6|[filesystem](https://travis-ci.com/robertdebock/ansible-role-filesystem/settings)|
 |6|[firewall](https://travis-ci.com/robertdebock/ansible-role-firewall/settings)|
 |6|[forensics](https://travis-ci.com/robertdebock/ansible-role-forensics/settings)|
 |6|[functions](https://travis-ci.com/robertdebock/ansible-role-functions/settings)|
