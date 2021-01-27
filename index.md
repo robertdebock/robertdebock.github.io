@@ -284,6 +284,7 @@ I maintain these Terraform modules
 |[digitalocean_ssh_key](https://registry.terraform.io/modules/robertdebock/ssh_key/digitalocean/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-digitalocean-ssh_key/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-digitalocean-ssh_key/actions)|
 |[digitalocean_droplet](https://registry.terraform.io/modules/robertdebock/droplet/digitalocean/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-digitalocean-droplet/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-digitalocean-droplet/actions)|
 |[cloudflare_record](https://registry.terraform.io/modules/robertdebock/record/cloudflare/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-cloudflare-record/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-cloudflare-record/actions)|
+|[azurerm_resource_group](https://registry.terraform.io/modules/robertdebock/azurerm_resource_group/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm_resource_group/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm_resource_group/actions)|
 
 ### [Other tools](#other-tools)
 
