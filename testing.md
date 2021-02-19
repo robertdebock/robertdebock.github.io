@@ -40,7 +40,6 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 
 |------------|------------|
 |Day of month|Ansible Role|
-|1|[ad_auth](https://travis-ci.com/robertdebock/ansible-role-ad_auth/settings)|
 |1|[aide](https://travis-ci.com/robertdebock/ansible-role-aide/settings)|
 |1|[alternatives](https://travis-ci.com/robertdebock/ansible-role-alternatives/settings)|
 |1|[anaconda](https://travis-ci.com/robertdebock/ansible-role-anaconda/settings)|
