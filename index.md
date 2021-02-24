@@ -286,6 +286,7 @@ I maintain these Terraform modules
 |[cloudflare_record](https://registry.terraform.io/modules/robertdebock/record/cloudflare/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-cloudflare-record/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-cloudflare-record/actions)|
 |[azurerm_resource_group](https://registry.terraform.io/modules/robertdebock/azurerm_resource_group/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm_resource_group/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm_resource_group/actions)|
 |[azurerm_virtual_network](https://registry.terraform.io/modules/robertdebock/azurerm_virtual_network/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm-azurerm_virtual_network/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm-azurerm_virtual_network/actions)|
+|[azurerm_subnet](https://registry.terraform.io/modules/robertdebock/azurerm_subnet/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm-azurerm_subnet/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm-azurerm_subnet/actions)|
 
 ### [Other tools](#other-tools)
 
