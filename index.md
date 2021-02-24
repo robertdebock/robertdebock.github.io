@@ -287,6 +287,7 @@ I maintain these Terraform modules
 |[azurerm_resource_group](https://registry.terraform.io/modules/robertdebock/azurerm_resource_group/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm_resource_group/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm_resource_group/actions)|
 |[azurerm_virtual_network](https://registry.terraform.io/modules/robertdebock/azurerm_virtual_network/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm-azurerm_virtual_network/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm-azurerm_virtual_network/actions)|
 |[azurerm_subnet](https://registry.terraform.io/modules/robertdebock/azurerm_subnet/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm-azurerm_subnet/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm-azurerm_subnet/actions)|
+|[azurerm_public_ip](https://registry.terraform.io/modules/robertdebock/azurerm_public_ip/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm-azurerm_public_ip/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm-azurerm_public_ip/actions)|
 
 ### [Other tools](#other-tools)
 
