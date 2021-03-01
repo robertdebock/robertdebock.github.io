@@ -21,3 +21,5 @@ If you want to request me to present on of the topics below, please let me know:
 - [Automation Journey](/presentations/automation-journey)
 - [Something Daily](/presentations/something-daily)
 - [Terraform and Ansible](/presentations/terraform-and-ansible)
+- [Cloud Native](/presentations/cloud-native)
+- [Rancher](/presentations/rancher)
