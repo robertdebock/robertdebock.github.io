@@ -189,22 +189,22 @@ A monthly test to see of the role still works on the current distributions. Some
 
 |playbook|
 |--------|
-|[ansible-playbook-bios_update](https://gitlab.com/robertdebock/ansible-playbook-bios_update)|
-|[ansible-playbook-cloudtop](https://gitlab.com/robertdebock/ansible-playbook-cloudtop)|
-|[ansible-playbook-gitlab_runner](https://gitlab.com/robertdebock/ansible-playbook-gitlab_runner)|
-|[ansible-playbook-haproxy](https://gitlab.com/robertdebock/ansible-playbook-haproxy)|
-|[ansible-playbook-jitsi](https://gitlab.com/robertdebock/ansible-playbook-jitsi)|
-|[ansible-playbook-keepalived](https://gitlab.com/robertdebock/ansible-playbook-keepalived)|
-|[ansible-playbook-libvirt](https://gitlab.com/robertdebock/ansible-playbook-libvirt)|
-|[ansible-playbook-mylucie](https://gitlab.com/robertdebock/ansible-playbook-mylucie)|
-|[ansible-playbook-nextcloud](https://gitlab.com/robertdebock/ansible-playbook-nextcloud)|
-|[ansible-playbook-nomad](https://gitlab.com/robertdebock/ansible-playbook-nomad)|
-|[ansible-playbook-rancher](https://gitlab.com/robertdebock/ansible-playbook-rancher)|
-|[ansible-playbook-saltstack](https://gitlab.com/robertdebock/ansible-playbook-saltstack)|
-|[ansible-playbook-terraform](https://gitlab.com/robertdebock/ansible-playbook-terraform)|
-|[ansible-playbook-tester](https://gitlab.com/robertdebock/ansible-playbook-tester)|
-|[ansible-playbook-vault](https://gitlab.com/robertdebock/ansible-playbook-vault)|
-|[ansible-playbook-zabbix](https://gitlab.com/robertdebock/ansible-playbook-zabbix)|
+|[ansible-playbook-bios_update](https://github.com/robertdebock/ansible-playbook-bios_update)|
+|[ansible-playbook-cloudtop](https://github.com/robertdebock/ansible-playbook-cloudtop)|
+|[ansible-playbook-gitlab_runner](https://github.com/robertdebock/ansible-playbook-gitlab_runner)|
+|[ansible-playbook-haproxy](https://github.com/robertdebock/ansible-playbook-haproxy)|
+|[ansible-playbook-jitsi](https://github.com/robertdebock/ansible-playbook-jitsi)|
+|[ansible-playbook-keepalived](https://github.com/robertdebock/ansible-playbook-keepalived)|
+|[ansible-playbook-libvirt](https://github.com/robertdebock/ansible-playbook-libvirt)|
+|[ansible-playbook-mylucie](https://github.com/robertdebock/ansible-playbook-mylucie)|
+|[ansible-playbook-nextcloud](https://github.com/robertdebock/ansible-playbook-nextcloud)|
+|[ansible-playbook-nomad](https://github.com/robertdebock/ansible-playbook-nomad)|
+|[ansible-playbook-rancher](https://github.com/robertdebock/ansible-playbook-rancher)|
+|[ansible-playbook-saltstack](https://github.com/robertdebock/ansible-playbook-saltstack)|
+|[ansible-playbook-terraform](https://github.com/robertdebock/ansible-playbook-terraform)|
+|[ansible-playbook-tester](https://github.com/robertdebock/ansible-playbook-tester)|
+|[ansible-playbook-vault](https://github.com/robertdebock/ansible-playbook-vault)|
+|[ansible-playbook-zabbix](https://github.com/robertdebock/ansible-playbook-zabbix)|
 
 |Dependencies
 ## [Dependencies](#dependencies)
