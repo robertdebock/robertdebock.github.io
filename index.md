@@ -185,10 +185,28 @@ A monthly test to see of the role still works on the current distributions. Some
 |[zabbix_server](https://galaxy.ansible.com/robertdebock/zabbix_server)|[![github](https://github.com/robertdebock/ansible-role-zabbix_server/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-zabbix_server/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-zabbix_server/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-zabbix_server)|[![version](https://img.shields.io/github/commits-since/robertdebock/ansible-role-zabbix_server/latest.svg)](https://github.com/robertdebock/ansible-role-zabbix_server/releases)|
 |[zabbix_web](https://galaxy.ansible.com/robertdebock/zabbix_web)|[![github](https://github.com/robertdebock/ansible-role-zabbix_web/workflows/Ansible%20Molecule/badge.svg)](https://github.com/robertdebock/ansible-role-zabbix_web/actions)|[![gitlab](https://gitlab.com/robertdebock/ansible-role-zabbix_web/badges/master/pipeline.svg)](https://gitlab.com/robertdebock/ansible-role-zabbix_web)|[![version](https://img.shields.io/github/commits-since/robertdebock/ansible-role-zabbix_web/latest.svg)](https://github.com/robertdebock/ansible-role-zabbix_web/releases)|
 
-# [Integration tests](#integration-tests)
+# [Integration](#integration)
 
-To verify that combined roles work, an [integration test](https://github.com/robertdebock/ansible-integration) [![Build Status](https://travis-ci.com/robertdebock/ansible-integration.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-integration) runs every week. A [report](https://robertdebock.nl/ansible-integration/) is available.
+|playbook|
+|--------|
+|[ansible-playbook-bios_update](https://gitlab.com/robertdebock/ansible-playbook-bios_update)|
+|[ansible-playbook-cloudtop](https://gitlab.com/robertdebock/ansible-playbook-cloudtop)|
+|[ansible-playbook-gitlab_runner](https://gitlab.com/robertdebock/ansible-playbook-gitlab_runner)|
+|[ansible-playbook-haproxy](https://gitlab.com/robertdebock/ansible-playbook-haproxy)|
+|[ansible-playbook-jitsi](https://gitlab.com/robertdebock/ansible-playbook-jitsi)|
+|[ansible-playbook-keepalived](https://gitlab.com/robertdebock/ansible-playbook-keepalived)|
+|[ansible-playbook-libvirt](https://gitlab.com/robertdebock/ansible-playbook-libvirt)|
+|[ansible-playbook-mylucie](https://gitlab.com/robertdebock/ansible-playbook-mylucie)|
+|[ansible-playbook-nextcloud](https://gitlab.com/robertdebock/ansible-playbook-nextcloud)|
+|[ansible-playbook-nomad](https://gitlab.com/robertdebock/ansible-playbook-nomad)|
+|[ansible-playbook-rancher](https://gitlab.com/robertdebock/ansible-playbook-rancher)|
+|[ansible-playbook-saltstack](https://gitlab.com/robertdebock/ansible-playbook-saltstack)|
+|[ansible-playbook-terraform](https://gitlab.com/robertdebock/ansible-playbook-terraform)|
+|[ansible-playbook-tester](https://gitlab.com/robertdebock/ansible-playbook-tester)|
+|[ansible-playbook-vault](https://gitlab.com/robertdebock/ansible-playbook-vault)|
+|[ansible-playbook-zabbix](https://gitlab.com/robertdebock/ansible-playbook-zabbix)|
 
+|Dependencies
 ## [Dependencies](#dependencies)
 
 Most roles have a "soft dependency" described in `requirements.yml`. You can choose to use those roles if you like them. Here is an overview of these soft dependencies.
