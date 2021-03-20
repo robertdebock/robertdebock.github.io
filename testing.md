@@ -196,6 +196,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |21|[umask](https://travis-ci.com/robertdebock/ansible-role-umask/settings)|
 |21|[update](https://travis-ci.com/robertdebock/ansible-role-update/settings)|
 |21|[update_package_cache](https://travis-ci.com/robertdebock/ansible-role-update_package_cache/settings)|
+|21|[update_pip_packages](https://travis-ci.com/robertdebock/ansible-role-update_pip_packages/settings)|
 |21|[upgrade](https://travis-ci.com/robertdebock/ansible-role-upgrade/settings)|
 |21|[unbound](https://travis-ci.com/robertdebock/ansible-role-unbound/settings)|
 |21|[unowned_files](https://travis-ci.com/robertdebock/ansible-role-unowned_files/settings)|
