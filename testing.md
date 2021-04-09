@@ -207,7 +207,6 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |22|[virtualbox](https://travis-ci.com/robertdebock/ansible-role-virtualbox/settings)|
 |24|[xinetd](https://travis-ci.com/robertdebock/ansible-role-xinetd/settings)|
 |24|[xrdp](https://travis-ci.com/robertdebock/ansible-role-xrdp/settings)|
-|25|[y](https://travis-ci.com/robertdebock/ansible-role-y/settings)|
 |26|[zabbix_agent](https://travis-ci.com/robertdebock/ansible-role-zabbix_agent/settings)|
 |26|[zabbix_proxy](https://travis-ci.com/robertdebock/ansible-role-zabbix_proxy/settings)|
 |26|[zabbix_repository](https://travis-ci.com/robertdebock/ansible-role-zabbix_repository/settings)|
