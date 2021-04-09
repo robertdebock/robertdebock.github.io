@@ -158,7 +158,6 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |18|[qemu](https://travis-ci.com/robertdebock/ansible-role-qemu/settings)|
 |18|[reboot](https://travis-ci.com/robertdebock/ansible-role-reboot/settings)|
 |18|[redis](https://travis-ci.com/robertdebock/ansible-role-redis/settings)|
-|18|[release](https://travis-ci.com/robertdebock/ansible-role-release/settings)|
 |18|[remi](https://travis-ci.com/robertdebock/ansible-role-remi/settings)|
 |18|[restore](https://travis-ci.com/robertdebock/ansible-role-restore/settings)|
 |18|[revealmd](https://travis-ci.com/robertdebock/ansible-role-revealmd/settings)|
