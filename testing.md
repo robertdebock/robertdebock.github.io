@@ -170,7 +170,6 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |19|[scl](https://travis-ci.com/robertdebock/ansible-role-scl/settings)|
 |19|[selinux](https://travis-ci.com/robertdebock/ansible-role-selinux/settings)|
 |19|[service](https://travis-ci.com/robertdebock/ansible-role-service/settings)|
-|19|[snort](https://travis-ci.com/robertdebock/ansible-role-snort/settings)|
 |19|[software](https://travis-ci.com/robertdebock/ansible-role-software/settings)|
 |19|[sosreport](https://travis-ci.com/robertdebock/ansible-role-sosreport/settings)|
 |19|[spamassassin](https://travis-ci.com/robertdebock/ansible-role-spamassassin/settings)|
