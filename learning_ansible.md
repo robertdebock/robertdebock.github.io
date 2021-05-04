@@ -223,8 +223,8 @@ galaxy_info:
   platforms:
     - name: Fedora
       versions:
-        - 32
         - 33
+        - 34
 
   galaxy_tags:
     - ntp
