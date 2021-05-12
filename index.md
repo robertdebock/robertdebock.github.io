@@ -190,11 +190,13 @@ A monthly test to see of the role still works on the current distributions. Some
 |--------|
 |[ansible-playbook-bios_update](https://github.com/robertdebock/ansible-playbook-bios_update)|
 |[ansible-playbook-cloudtop](https://github.com/robertdebock/ansible-playbook-cloudtop)|
+|[ansible-playbook-consul](https://github.com/robertdebock/ansible-playbook-consul)|
 |[ansible-playbook-gitlab_runner](https://github.com/robertdebock/ansible-playbook-gitlab_runner)|
 |[ansible-playbook-haproxy](https://github.com/robertdebock/ansible-playbook-haproxy)|
 |[ansible-playbook-jitsi](https://github.com/robertdebock/ansible-playbook-jitsi)|
 |[ansible-playbook-keepalived](https://github.com/robertdebock/ansible-playbook-keepalived)|
 |[ansible-playbook-libvirt](https://github.com/robertdebock/ansible-playbook-libvirt)|
+|[ansible-playbook-minikube](https://github.com/robertdebock/ansible-playbook-minikube)|
 |[ansible-playbook-mylucie](https://github.com/robertdebock/ansible-playbook-mylucie)|
 |[ansible-playbook-nextcloud](https://github.com/robertdebock/ansible-playbook-nextcloud)|
 |[ansible-playbook-nomad](https://github.com/robertdebock/ansible-playbook-nomad)|
