@@ -278,7 +278,7 @@ Ansible tests are being executed using the following components
 
 |Collection|Function|
 |----------|------|
-|[roles](https://galaxy.ansible.com/robertdebock/development_environment)|All roles from [robertdebock.nl](https://robertdebock.nl)|
+|[roles](https://galaxy.ansible.com/robertdebock/ansible-collection-roles)|All roles from [robertdebock.nl](https://robertdebock.nl)|
 |[development_environment](https://galaxy.ansible.com/robertdebock/development_environment)|A development environment.|
 |[rundeck_collection](https://galaxy.ansible.com/robertdebock/rundeck_collection)|Trying out a collection.|
 
