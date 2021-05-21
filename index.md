@@ -276,10 +276,11 @@ Ansible tests are being executed using the following components
 
 ### [Ansible collections](#ansible-collections)
 
-|Collection|Status|
+|Collection|Function|
 |----------|------|
-|[development_environment](https://galaxy.ansible.com/robertdebock/development_environment)|[![Build Status](https://travis-ci.com/robertdebock/ansible-development-environment.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-development-environment)|
-|[rundeck_collection](https://galaxy.ansible.com/robertdebock/rundeck_collection)|[![Build Status](https://travis-ci.com/robertdebock/ansible-colletion-rundeck.svg?branch=master)](https://travis-ci.com/robertdebock/ansible-colletion-rundeck)|
+|[roles](https://galaxy.ansible.com/robertdebock/development_environment)|All roles from [robertdebock.nl](https://robertdebock.nl)|
+|[development_environment](https://galaxy.ansible.com/robertdebock/development_environment)|A development environment.|
+|[rundeck_collection](https://galaxy.ansible.com/robertdebock/rundeck_collection)|Trying out a collection.|
 
 ### [Github Actions](#github-actions)
 
