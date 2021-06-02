@@ -12,7 +12,7 @@ So; I wrote a GitHub action to test an Ansible role with a single action.
 
 ## Using the GitHub Action.
 
-Have a look at the [Molecule action](https://github.com/marketplace/actions/molecule-action).
+Have a look at the [Molecule action](https://github.com/marketplace/actions/test-ansible-roles-with-molecule).
 
 It boils down to adding this snippet to `.github/workflows/molecule.yml`:
 
