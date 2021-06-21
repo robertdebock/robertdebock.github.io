@@ -294,7 +294,7 @@ I maintain these Terraform modules
 
 |Module|State|
 |------|-----|
-|[azurerm_virtual_machine](https://registry.terraform.io/modules/robertdebock/virtual_machine/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm-vitual_machine/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm-virtual_machine)|
+|[azurerm_virtual_machine](https://registry.terraform.io/modules/robertdebock/virtual_machine/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm-virtual_machine/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm-virtual_machine)|
 |[digitalocean_ssh_key](https://registry.terraform.io/modules/robertdebock/ssh_key/digitalocean/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-digitalocean-ssh_key/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-digitalocean-ssh_key/actions)|
 |[digitalocean_droplet](https://registry.terraform.io/modules/robertdebock/droplet/digitalocean/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-digitalocean-droplet/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-digitalocean-droplet/actions)|
 |[digitalocean_vpc](https://registry.terraform.io/modules/robertdebock/vpc/digitalocean/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-digitalocean-vpc/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-digitalocean-vpc/actions)|
