@@ -69,6 +69,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |3|[common](https://travis-ci.com/robertdebock/ansible-role-common/settings)|
 |3|[container_docs](https://travis-ci.com/robertdebock/ansible-role-container_docs/settings)|
 |3|[consul](https://travis-ci.com/robertdebock/ansible-role-consul/settings)|
+|3|[collabora_online](https://travis-ci.com/robertdebock/ansible-role-collabora_online/settings)|
 |3|[core_dependencies](https://travis-ci.com/robertdebock/ansible-role-core_dependencies/settings)|
 |3|[cron](https://travis-ci.com/robertdebock/ansible-role-cron/settings)|
 |3|**[cups](https://travis-ci.com/robertdebock/ansible-role-cups/settings)**|
