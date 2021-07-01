@@ -50,6 +50,19 @@ galaxy_platform: EL
 |8             |latest    |8                                 |
 |7             |7         |7                                 |
 
+## RockyLinux
+
+```
+containername: rockylinux
+ansible_os_family: RedHat
+ansible_distribution: Rocky
+galaxy_platform: EL
+```
+
+|galaxy_version|docker_tag|ansible_distribution_major_version|
+|--------------|----------|----------------------------------|
+|8             |latest    |8                                 |
+
 ## Debian
 
 ```
