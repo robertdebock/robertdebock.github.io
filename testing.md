@@ -77,6 +77,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |4|[debug](https://travis-ci.com/robertdebock/ansible-role-debug/settings)|
 |4|[dhcpd](https://travis-ci.com/robertdebock/ansible-role-dhcpd/settings)|
 |4|[digitalocean_agent](https://travis-ci.com/robertdebock/ansible-role-digitalocean-agent/settings)|
+|4|[diskspace](https://travis-ci.com/robertdebock/ansible-role-diskspace/settings)|
 |4|[dns](https://travis-ci.com/robertdebock/ansible-role-dns/settings)|
 |4|[dnsmasq](https://travis-ci.com/robertdebock/ansible-role-dnsmasq/settings)|
 |4|[docker](https://travis-ci.com/robertdebock/ansible-role-docker/settings)|
