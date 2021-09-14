@@ -74,8 +74,8 @@ galaxy_platform: Debian
 
 |galaxy_version|docker_tag|ansible_distribution_major_version|
 |--------------|----------|----------------------------------|
-|buster        |latest    |10                                |
-|bullseye      |bullseye  |testing                           |
+|bullseye      |latest    |11                                |
+|bookworm      |bookworm  |testing/12                        |
 
 ## Fedora
 

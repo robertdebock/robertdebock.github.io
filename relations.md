@@ -8,28 +8,30 @@ There is a relation between:
 
 Because these 3 relations can be confusing, here is a table that explains the relation.
 
-|Ansible Platform |Platform Version|Image      |Tag    |Branch  |
-|-----------------|----------------|-----------|-------|--------|
-|Amazon           |**not used**    |amazonlinux|1      |1       |
-|Amazon           |2018.30         |amazonlinux|latest |master  |
-|Alpine           |**all**         |alpine     |latest |master  |
-|Alpine           |**all**         |alpine     |edge   |edge    |
-|**EL**           |7               |centos     |7      |7       |
-|**EL**           |8               |centos     |latest |master  |
-|**EL**           |7               |oraclelinux|7      |7       |
-|**EL**           |8               |oraclelinux|latest |master  |
-|**EL**           |7               |redhat     |7      |7       |
-|**EL**           |8               |redhat     |latest |master  |
-|Debian           |**all**         |debian     |latest |master  |
-|Debian           |**buster**      |debian     |latest |master  |
-|Debian           |**not used**    |debian     |latest |testing |
-|Debian           |**not used**    |debian     |latest |unstable|
-|Fedora           |33              |fedora     |33     |33      |
-|Fedora           |34              |fedora     |latest |master  |
-|Fedora           |rawhide         |fedora     |rawhide|rawhide |
-|OpenSUSE         |all             |opensuse   |latest |master  |
-|Ubuntu           |**all**         |ubuntu     |latest |master  |
-|Ubuntu           |**bionic**      |ubuntu     |latest |master  |
+|Ansible Platform |Platform Version|Image      |Tag     |Branch  |
+|-----------------|----------------|-----------|--------|--------|
+|Amazon           |**not used**    |amazonlinux|1       |1       |
+|Amazon           |2018.30         |amazonlinux|latest  |master  |
+|Alpine           |**all**         |alpine     |latest  |master  |
+|Alpine           |**all**         |alpine     |edge    |edge    |
+|**EL**           |7               |centos     |7       |7       |
+|**EL**           |8               |centos     |latest  |master  |
+|**EL**           |7               |oraclelinux|7       |7       |
+|**EL**           |8               |oraclelinux|latest  |master  |
+|**EL**           |7               |redhat     |7       |7       |
+|**EL**           |8               |redhat     |latest  |master  |
+|Debian           |**all**         |debian     |latest  |master  |
+|Debian           |**buster**      |debian     |latest  |master  |
+|Debian           |**not used**    |debian     |latest  |testing |
+|Debian           |**not used**    |debian     |latest  |unstable|
+|Debian           |bulleye         |debian     |latest  |bullseye|
+|Debian           |**not used**    |debian     |bookworm|bookworm|
+|Fedora           |33              |fedora     |33      |33      |
+|Fedora           |34              |fedora     |latest  |master  |
+|Fedora           |rawhide         |fedora     |rawhide |rawhide |
+|OpenSUSE         |all             |opensuse   |latest  |master  |
+|Ubuntu           |**all**         |ubuntu     |latest  |master  |
+|Ubuntu           |**bionic**      |ubuntu     |latest  |master  |
 
 All **bold** printed items require some kind of attention. This could mean:
 
