@@ -153,6 +153,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |16|[php](https://travis-ci.com/robertdebock/ansible-role-php/settings)|
 |16|[php_fpm](https://travis-ci.com/robertdebock/ansible-role-php_fpm/settings)|
 |16|[phpmyadmin](https://travis-ci.com/robertdebock/ansible-role-phpmyadmin/settings)|
+|16|[podman](https://travis-ci.com/robertdebock/ansible-role-podman/settings)|
 |16|[postfix](https://travis-ci.com/robertdebock/ansible-role-postfix/settings)|
 |16|[postgres](https://travis-ci.com/robertdebock/ansible-role-postgres/settings)|
 |16|[powertop](https://travis-ci.com/robertdebock/ansible-role-powertop/settings)|
