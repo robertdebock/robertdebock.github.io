@@ -287,9 +287,6 @@ Ansible tests are being executed using the following components
 |[Github Action RPM build](https://github.com/marketplace/actions/build-an-rpm)|[![Yaml Lint](https://github.com/robertdebock/rpmbuild-action/workflows/Yaml%20Lint/badge.svg)](https://github.com/robertdebock/rpmbuild-action)|
 |[Github Action Terraform](https://github.com/marketplace/actions/test-or-run-terraform-code)|[![Yaml Lint](https://github.com/robertdebock/terraform-action/workflows/Yaml%20Lint/badge.svg)](https://github.com/robertdebock/terraform-action)|
 |[Github Action Graphviz](https://github.com/marketplace/actions/requirements2png)|[![Yaml Lint](https://github.com/robertdebock/graphviz-action/workflows/Yaml%20Lint/badge.svg)](https://github.com/robertdebock/graphviz-action)|
-|[docker-github-action-molecule](https://github.com/robertdebock/docker-github-action-molecule)|[![github action molecule build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-molecule.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-molecule/)|
-|[docker-github-action-galaxy](https://github.com/robertdebock/docker-github-action-galaxy)|[![github action galaxy build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-galaxy.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-galaxy/)|
-|[docker-github-action-graphviz](https://github.com/robertdebock/docker-github-action-graphviz)|[![github action graphviz build status](https://img.shields.io/docker/cloud/build/robertdebock/github-action-graphviz.svg)](https://hub.docker.com/repository/docker/robertdebock/github-action-graphviz/)|
 
 ### [Terraform modules](#terraform-modules)
 
