@@ -88,6 +88,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |5|[earlyoom](https://travis-ci.com/robertdebock/ansible-role-earlyoom/settings)|
 |5|[eclipse](https://travis-ci.com/robertdebock/ansible-role-eclipse/settings)|
 |5|[environment](https://travis-ci.com/robertdebock/ansible-role-environment/settings)|
+|5|[elastic_repo](https://travis-ci.com/robertdebock/ansible-role-elastic_repo/settings)|
 |5|[epel](https://travis-ci.com/robertdebock/ansible-role-epel/settings)|
 |5|[etherpad](https://travis-ci.com/robertdebock/ansible-role-etherpad/settings)|
 |6|[facts](https://travis-ci.com/robertdebock/ansible-role-facts/settings)|
