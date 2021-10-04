@@ -89,6 +89,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |5|[eclipse](https://travis-ci.com/robertdebock/ansible-role-eclipse/settings)|
 |5|[environment](https://travis-ci.com/robertdebock/ansible-role-environment/settings)|
 |5|[elastic_repo](https://travis-ci.com/robertdebock/ansible-role-elastic_repo/settings)|
+|5|[elasticsearch](https://travis-ci.com/robertdebock/ansible-role-elasticsearch/settings)|
 |5|[epel](https://travis-ci.com/robertdebock/ansible-role-epel/settings)|
 |5|[etherpad](https://travis-ci.com/robertdebock/ansible-role-etherpad/settings)|
 |6|[facts](https://travis-ci.com/robertdebock/ansible-role-facts/settings)|
@@ -116,9 +117,11 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |10|[jitsi](https://travis-ci.com/robertdebock/ansible-role-jitsi/settings)|
 |11|[keepalived](https://travis-ci.com/robertdebock/ansible-role-keepalived/settings)|
 |11|[kernel](https://travis-ci.com/robertdebock/ansible-role-kernel/settings)|
+|11|[kibana](https://travis-ci.com/robertdebock/ansible-role-kibana/settings)|
 |11|[kubectl](https://travis-ci.com/robertdebock/ansible-role-kubectl/settings)|
 |12|[libvirt](https://travis-ci.com/robertdebock/ansible-role-libvirt/settings)|
 |12|[logrotate](https://travis-ci.com/robertdebock/ansible-role-logrotate/settings)|
+|12|[logstash](https://travis-ci.com/robertdebock/ansible-role-logstash/settings)|
 |12|[logwatch](https://travis-ci.com/robertdebock/ansible-role-logwatch/settings)|
 |12|[luks](https://travis-ci.com/robertdebock/ansible-role-luks/settings)|
 |12|[lvm](https://travis-ci.com/robertdebock/ansible-role-lvm/settings)|
