@@ -208,6 +208,7 @@ A monthly test to see of the role still works on the current distributions. Some
 |[ansible-playbook-terraform](https://github.com/robertdebock/ansible-playbook-terraform)|
 |[ansible-playbook-vault](https://github.com/robertdebock/ansible-playbook-vault)|
 |[ansible-playbook-zabbix](https://github.com/robertdebock/ansible-playbook-zabbix)|
+|[ansible-playbook-elk](https://github.com/robertdebock/ansible-playbook-elk)|
 
 |Dependencies
 ## [Dependencies](#dependencies)
