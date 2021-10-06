@@ -128,6 +128,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |12|[locale](https://travis-ci.com/robertdebock/ansible-role-locale/settings)|
 |12|[lynis](https://travis-ci.com/robertdebock/ansible-role-lynis/settings)|
 |13|[memcached](https://travis-ci.com/robertdebock/ansible-role-memcached/settings)|
+|13|[metricbeat](https://travis-ci.com/robertdebock/ansible-role-metricbeat/settings)|
 |13|[maintenance](https://travis-ci.com/robertdebock/ansible-role-maintenance/settings)|
 |13|[mate](https://travis-ci.com/robertdebock/ansible-role-mate/settings)|
 |13|[mediawiki](https://travis-ci.com/robertdebock/ansible-role-mediawiki/settings)|
