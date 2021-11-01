@@ -301,6 +301,7 @@ I maintain these Terraform modules
 
 |Module|State|
 |------|-----|
+|[terraform-aws-vault](https://registry.terraform.io/modules/robertdebock/vault/aws/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-aws-vault/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-aws-vault)|
 |[github-deployment](https://registry.terraform.io/modules/robertdebock/deployment/github/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-github-deployment/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-github-deployment)|
 |[azurerm_virtual_machine](https://registry.terraform.io/modules/robertdebock/virtual_machine/azurerm/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-azurerm-virtual_machine/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-azurerm-virtual_machine)|
 |[digitalocean_ssh_key](https://registry.terraform.io/modules/robertdebock/ssh_key/digitalocean/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-digitalocean-ssh_key/workflows/.github/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-digitalocean-ssh_key/actions)|
