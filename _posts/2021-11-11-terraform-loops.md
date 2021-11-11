@@ -190,7 +190,7 @@ resource "fake_virtual_machine" "default" {
 Wow, that's a lot to explain:
 
 1. The `dynamic "disk" {` starts a dynamic block. The name ("disk") must reflect the parameter in the resource, not juts any name. Now a new object is available; `disk`.
-2. The `for_each = each.value.disks` loops the dynamic block. The loop runs over an already looped value; `var.virtual_machines`.
+2. The `for_each = each.value.disks` loops the dynamic block. The loop uses `disks` from an already looped value `var.virtual_machines`.
 3. The `content {` block will be rendered by Terraform.
 4. The `name = disk.value.name` uses the `disk` variable (created by the block `iterator` `disk`) to find the value from the `disks` map.
 
