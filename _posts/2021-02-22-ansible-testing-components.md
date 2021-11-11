@@ -1,8 +1,8 @@
 ---
-title: Ansible testing compnents
+title: Ansible testing components
 ---
 
-# Ansible testing compnents
+# Ansible testing components
 
 To test Ansible, I use quite some components. This page lists the components uses, their versions, and where they are used.
 
