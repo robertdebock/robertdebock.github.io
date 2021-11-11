@@ -108,7 +108,6 @@ And let's use `for_each` to loop over this structure.
 ```hcl
 resource "fake_virtual_machine" "default" {
   for_each = var.virtual_machines
-  }
   name = each.value.name
   size = each.value.size
 }
