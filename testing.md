@@ -74,6 +74,8 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |3|[cron](https://travis-ci.com/robertdebock/ansible-role-cron/settings)|
 |3|[cups](https://travis-ci.com/robertdebock/ansible-role-cups/settings)|
 |3|[clamav](https://travis-ci.com/robertdebock/ansible-role-clamav/settings)|
+|3|[cve_2018_19788](https://travis-ci.com/robertdebock/ansible-role-cve_2018_19788/settings)|
+|3|[cve_2021_44228](https://travis-ci.com/robertdebock/ansible-role-cve_2021_44228/settings)|
 |4|[debug](https://travis-ci.com/robertdebock/ansible-role-debug/settings)|
 |4|[dhcpd](https://travis-ci.com/robertdebock/ansible-role-dhcpd/settings)|
 |4|[digitalocean_agent](https://travis-ci.com/robertdebock/ansible-role-digitalocean-agent/settings)|
