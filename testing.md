@@ -101,6 +101,7 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |6|[forensics](https://travis-ci.com/robertdebock/ansible-role-forensics/settings)|
 |6|[functions](https://travis-ci.com/robertdebock/ansible-role-functions/settings)|
 |7|[git](https://travis-ci.com/robertdebock/ansible-role-git/settings)|
+|7|[gitlab](https://travis-ci.com/robertdebock/ansible-role-gitlab/settings)|
 |7|[gitlab_runner](https://travis-ci.com/robertdebock/ansible-role-gitlab_runner/settings)|
 |7|[glusterfs](https://travis-ci.com/robertdebock/ansible-role-glusterfs/settings)|
 |7|[gnome](https://travis-ci.com/robertdebock/ansible-role-gnome/settings)|
