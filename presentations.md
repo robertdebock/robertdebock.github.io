@@ -23,3 +23,4 @@ If you want to request me to present on of the topics below, please let me know:
 - [Cloud Native](/presentations/cloud-native)
 - [Rancher](/presentations/rancher)
 - [Test driven development with Molecule](/presentations/test-driven-development-with-molecule/)
+- [Transitioning to Cloud](/presentations/transition-to-cloud/)
