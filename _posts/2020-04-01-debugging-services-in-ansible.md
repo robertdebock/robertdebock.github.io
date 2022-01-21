@@ -41,4 +41,4 @@ What's happening here?
 - The task `collect information` runs a few commands, add extra is you know more and saves the results in `my_service_collect_information`.
 - The task `show information` displays the saved result. Because `collect information` has a loop, the variable has `.results` appended, which is a list to needs to be looped over.
 
-Hope this helps you troubleshoot services in Travis of Google Actions.
+Hope this helps you troubleshoot services in Travis of GitHub Actions.
