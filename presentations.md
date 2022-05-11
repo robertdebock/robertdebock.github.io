@@ -25,3 +25,4 @@ If you want to request me to present on of the topics below, please let me know:
 - [Test driven development with Molecule](/presentations/test-driven-development-with-molecule/)
 - [Transitioning to Cloud](/presentations/transition-to-cloud/)
 - [GitLab inception](/presentations/gitlab-inception/)
+- [Terraform cloud](/presentations/terraform-cloud/)
