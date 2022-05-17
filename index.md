@@ -301,6 +301,9 @@ I maintain these Terraform modules
 
 |Module|State|
 |------|-----|
+
+|[vault-aws](https://registry.terraform.io/modules/robertdebock/vault/aws/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-aws/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-aws)|
+|[vault-database](https://registry.terraform.io/modules/robertdebock/vault/database/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-database/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-database)|
 |[aws-consul](https://registry.terraform.io/modules/robertdebock/consul/aws/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-aws-consul/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-aws-consul)|
 |[aws-vault](https://registry.terraform.io/modules/robertdebock/vault/aws/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-aws-vault/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-aws-vault)|
 |[aws-cluster](https://registry.terraform.io/modules/robertdebock/cluster/aws/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-aws-cluster/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-aws-cluster)|
