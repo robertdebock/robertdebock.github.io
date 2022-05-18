@@ -301,6 +301,7 @@ I maintain these Terraform modules
 
 |Module|State|
 |------|-----|
+|[vault-audit](https://registry.terraform.io/modules/robertdebock/vault/audit/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-audit/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-audit)|
 |[vault-aws](https://registry.terraform.io/modules/robertdebock/vault/aws/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-aws/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-aws)|
 |[vault-database](https://registry.terraform.io/modules/robertdebock/vault/database/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-database/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-database)|
 |[aws-consul](https://registry.terraform.io/modules/robertdebock/consul/aws/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-aws-consul/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-aws-consul)|
