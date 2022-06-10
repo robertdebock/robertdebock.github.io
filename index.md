@@ -301,6 +301,10 @@ I maintain these Terraform modules
 
 |Module|State|
 |------|-----|
+|[vault-aws](https://registry.terraform.io/modules/robertdebock/vault/aws/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-aws/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-aws)|
+|[vault-snapshot](https://registry.terraform.io/modules/robertdebock/vault/snapshot/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-snapshot/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-snapshot)|
+|[vault-rabbitmq](https://registry.terraform.io/modules/robertdebock/vault/rabbitmq/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-rabbitmq/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-rabbitmq)|
+|[vault-pki](https://registry.terraform.io/modules/robertdebock/vault/pki/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-pki/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-pki)|
 |[vault-audit](https://registry.terraform.io/modules/robertdebock/vault/audit/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-audit/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-audit)|
 |[vault-aws](https://registry.terraform.io/modules/robertdebock/vault/aws/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-aws/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-aws)|
 |[vault-database](https://registry.terraform.io/modules/robertdebock/vault/database/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-database/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-database)|
