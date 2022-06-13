@@ -104,7 +104,6 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |7|[glusterfs](https://travis-ci.com/robertdebock/ansible-role-glusterfs/settings)|
 |7|[gnome](https://travis-ci.com/robertdebock/ansible-role-gnome/settings)|
 |7|[grub](https://travis-ci.com/robertdebock/ansible-role-grub/settings)|
-|7|[go](https://travis-ci.com/robertdebock/ansible-role-go/settings)|
 |7|[gotop](https://travis-ci.com/robertdebock/ansible-role-gotop/settings)|
 |8|[haproxy](https://travis-ci.com/robertdebock/ansible-role-haproxy/settings)|
 |8|[hashicorp](https://travis-ci.com/robertdebock/ansible-role-hashicorp/settings)|
