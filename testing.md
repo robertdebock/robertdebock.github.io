@@ -150,7 +150,6 @@ Because distributions, molecule, and ansible change over time, a monthly test is
 |14|[npm](https://travis-ci.com/robertdebock/ansible-role-npm/settings)|
 |14|[ntp](https://travis-ci.com/robertdebock/ansible-role-ntp/settings)|
 |15|[obsproject](https://travis-ci.com/robertdebock/ansible-role-obsproject/settings)|
-|15|[omsagent](https://travis-ci.com/robertdebock/ansible-role-omsagent/settings)|
 |15|[openssh](https://travis-ci.com/robertdebock/ansible-role-openssh/settings)|
 |15|[openssl](https://travis-ci.com/robertdebock/ansible-role-openssl/settings)|
 |15|[owncloud](https://travis-ci.com/robertdebock/ansible-role-owncloud/settings)|
