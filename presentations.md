@@ -27,3 +27,4 @@ If you want to request me to present on of the topics below, please let me know:
 - [GitLab inception](/presentations/gitlab-inception/)
 - [Terraform cloud](/presentations/terraform-cloud/)
 - [Drawing infrastructure](/presentations/drawing-infrastructure/)
+- [Vault versions](/presentations/vault-versions/)
