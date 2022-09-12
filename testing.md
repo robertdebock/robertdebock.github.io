@@ -22,7 +22,7 @@ The filosofy to test is:
 | Ubuntu latest       | yes         | yes          | yes           |
 | Ubuntu devel        | yes         | yes          | yes           |
 
-Read [this page to understand the tools (Travis, Molecule and Tox)](tox-molecule-travis.html] better.
+Read [this page to understand the tools (Travis, Molecule and Tox)](tox-molecule-travis.html) better.
 
 There are multiple tests configured, here is how they relate.
 
