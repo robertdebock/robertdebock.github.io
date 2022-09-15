@@ -1,4 +1,4 @@
-# [Infrastrure as code](#infrastructure-as-code)
+# [Infrastructure as code](#infrastructure-as-code)
 
 I use a couple of tools to automate my day-to-day work.
 
