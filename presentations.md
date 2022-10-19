@@ -28,3 +28,4 @@ If you want to request me to present on of the topics below, please let me know:
 - [Terraform cloud](/presentations/terraform-cloud/)
 - [Drawing infrastructure](/presentations/drawing-infrastructure/)
 - [Vault versions](/presentations/vault-versions/)
+- [Terraform new things](/presentations/terraform-new-things)
