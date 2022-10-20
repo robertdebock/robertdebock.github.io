@@ -29,3 +29,4 @@ If you want to request me to present on of the topics below, please let me know:
 - [Drawing infrastructure](/presentations/drawing-infrastructure/)
 - [Vault versions](/presentations/vault-versions/)
 - [Terraform new things](/presentations/terraform-new-things)
+- [Ansible use cases](/presentations/ansible-use-cases)
