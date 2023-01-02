@@ -251,22 +251,11 @@ Some roles have a hard dependencies on another role, mainly for a shared handler
 
 | Role          | Depends on | Reason |
 |---------------|------------|--------|
-| [ca](https://galaxy.ansible.com/robertdebock/ca/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | inherited variable |
-| [common](https://galaxy.ansible.com/robertdebock/common/) | [reboot](https://galaxy.ansible.com/robertdebock/reboot/) | A reboot is used in `tasks/main.yml` with `include_role`. |
-| [openvpn](https://galaxy.ansible.com/robertdebock/openvpn/) | [selinux](https://galaxy.ansible.com/robertdebock/selinux/) | SELinux is configured in `tasks/main.yml` with `include_role`. |
-| [openvpn](https://galaxy.ansible.com/robertdebock/openvpn/) | [ca](https://galaxy.ansible.com/robertdebock/ca/) | OpenSSL keys are created in `tasks/main.yml` with `include_role`. |
+| [mediawiki](https://galaxy.ansible.com/robertdebock/mediawiki/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | handler |
 | [php](https://galaxy.ansible.com/robertdebock/php/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | handler |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | handler |
-| [roundcubemail](https://galaxy.ansible.com/robertdebock/roundcubemail/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | handler |
-| [selinux](https://galaxy.ansible.com/robertdebock/selinux/) | [reboot](https://galaxy.ansible.com/robertdebock/reboot/) | A reboot is used in `tasks/main.yml` with `include_role`. |
-| [spamassassin](https://galaxy.ansible.com/robertdebock/spamassassin/) | [rsyslog](https://galaxy.ansible.com/robertdebock/rsyslog/) | handler |
-| [tftpd](https://galaxy.ansible.com/robertdebock/tftpd/) | [xinetd](https://galaxy.ansible.com/robertdebock/xinetd/) | handler |
-| [update](https://galaxy.ansible.com/robertdebock/update/) | [reboot](https://galaxy.ansible.com/robertdebock/reboot/) | A reboot is used in `tasks/main.yml` with `include_role`. |
-| [zabbix](https://galaxy.ansible.com/robertdebock/zabbix/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | handler & inherited variable |
-
-Here is an overview of the hard dependencies:
-
-[![Overview of hard dependencies](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/hard-dependencies.png "Hard dependency overview")](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/hard-dependencies.png)
+| [revealmd](https://galaxy.ansible.com/robertdebock/revealmd/) | [npm](https://galaxy.ansible.com/robertdebock/npm/) | required prerequisites |
+| [revealmd](https://galaxy.ansible.com/robertdebock/revealmd/) | [npm](https://galaxy.ansible.com/robertdebock/npm/) | required prerequisites |
 
 A page [describing how I release](dependencies.html) considering these dependencies.
 
