@@ -8,7 +8,7 @@ These containers are used to test [my Ansible roles](ansible.md).
 
 |Component|Build status|
 |---------|------------|
-|[docker-alpine-openrc](https://github.com/robertdebock/docker-alpine-openrc)|[![alpine build status](https://github.com/robertdebock/docker-alpine-systemd/actions/workflows/build-push-action.yml/badge.svg)](https://hub.docker.com/repository/docker/robertdebock/alpine)|
+|[docker-alpine-openrc](https://github.com/robertdebock/docker-alpine-openrc)|[![alpine build status](https://github.com/robertdebock/docker-alpine-openrc/actions/workflows/build-push-action.yml/badge.svg)](https://hub.docker.com/repository/docker/robertdebock/alpine)|
 |[docker-amazonlinux-systemd](https://github.com/robertdebock/docker-amazonlinux-systemd)|[![amazonlinux build status](https://github.com/robertdebock/docker-amazonlinux-systemd/actions/workflows/build-push-action.yml/badge.svg)](https://hub.docker.com/repository/docker/robertdebock/amazonlinux)|
 |[docker-enterpriselinux-systemd](https://github.com/robertdebock/docker-enterpriselinux-systemd)|[![enterpriselinux build status](https://github.com/robertdebock/docker-enterpriselinux-systemd/actions/workflows/build-push-action.yml/badge.svg)](https://hub.docker.com/repository/docker/robertdebock/enterpriselinux)|
 |[docker-debian-systemd](https://github.com/robertdebock/docker-debian-systemd)|[![debian build status](https://github.com/robertdebock/docker-debian-systemd/actions/workflows/build-push-action.yml/badge.svg)](https://hub.docker.com/repository/docker/robertdebock/debian)|
