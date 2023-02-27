@@ -56,6 +56,6 @@ By the way, I'm not sure how to call this mechanism, I guess "lookup" is pretty 
 
 ## Conclusion
 
-You can use either of the above examples; I prefer the [lookup](lookup) method, but I see others using the [conditional](conditional) method more often.
+You can use either of the above examples; I prefer the [lookup](#lookup) method, but I see others using the [conditional](#conditional) method more often.
 
 The best argument for me is ease of maintentance or readability.
