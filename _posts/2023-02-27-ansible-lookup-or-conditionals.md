@@ -6,7 +6,7 @@ title: Ansible lookup or conditionals
 
 There are multiple ways to how Ansible deals with differences in distributions. Take these 2 examples:
 
-## Conditional
+## [Conditional](#conditional)
 
 Here is an example that uses `when` to differentiate for different situations:
 
@@ -20,7 +20,7 @@ Here is an example that uses `when` to differentiate for different situations:
 
 The example above installs `python3-docker` if the managed node is "Debian". (`ansible_os_family` includes [Debian, Ubuntu and others](https://github.com/ansible/ansible/blob/devel/lib/ansible/module_utils/facts/system/distribution.py#L512).
 
-## Lookup
+## [Lookup](#lookup)
 
 Another method is to make a map of distributions and define the required packages:
 
@@ -52,6 +52,10 @@ my_packages: "{{ _my_packages[ansible_os_family] | default('default') }}"
 
 As a maintainer of the above code, you can focus on the `_my_packages` map/dict. In my experience, this is simpler; Think of the logic once (`tasks/main.yml` or `playbook.yml`) and focus on "data" later. (`vars/main.yml` or anywhere else you'd put variables.)
 
+By the way, I'm not sure how to call this mechanism, I guess "lookup" is pretty close.
+
 ## Conclusion
 
-You can use either of the above examples; I prefer the "lookup" method.
+You can use either of the above examples; I prefer the [lookup](lookup) method, but I see others using the [conditional](conditional) method more often.
+
+The best argument for me is ease of maintentance or readability.
