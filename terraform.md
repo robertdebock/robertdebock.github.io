@@ -4,6 +4,7 @@ I maintain these Terraform modules
 
 |Module|State|
 |------|-----|
+|[vault-cassandra](https://registry.terraform.io/modules/robertdebock/cassandra/vault/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-cassandra/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-cassandra)|
 |[vault-snapshot](https://registry.terraform.io/modules/robertdebock/snapshot/vault/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-snapshot/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-snapshot)|
 |[vault-rabbitmq](https://registry.terraform.io/modules/robertdebock/rabbitmq/vault/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-rabbitmq/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-rabbitmq)|
 |[vault-pki](https://registry.terraform.io/modules/robertdebock/pki/vault/latest)|[![.github/workflows/terraform.yml](https://github.com/robertdebock/terraform-vault-pki/actions/workflows/terraform.yml/badge.svg)](https://github.com/robertdebock/terraform-vault-pki)|
