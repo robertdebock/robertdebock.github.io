@@ -55,7 +55,7 @@ my_packages: "{% raw %}{{ _my_packages[ansible_os_family] | default('default') }
 # tasks/main.yml
 - name: Install packages
   ansible.builtin.package:
-    - name: "{% raw %}{{ my_packages }}{% endraw %}
+    - name: "{% raw %}{{ my_packages }}{% endraw %}"
 ```
 
 As a maintainer of the above code, you can focus on the `_my_packages` map/dict. In my experience, this is simpler; Think of the logic once (`tasks/main.yml` or `playbook.yml`) and focus on "data" later. (`vars/main.yml` or anywhere else you'd put variables.)
