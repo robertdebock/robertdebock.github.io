@@ -29,7 +29,7 @@ _my_packages:
   Debian:
     - python3-docker
 
-my_packages: "{{ _my_packages[ansible_os_family] | default([]) }}"
+my_packages: "{% raw %}{{ _my_packages[ansible_os_family] | default([]) }}{% endraw %}"
 ```
 
 Above you see the map `_my_packages`. It's basically a variable that is a dictionary or map. In this case the intent is to map different operating systems to a list of packages.
@@ -42,12 +42,20 @@ The `my_packages` variable looks up a value from the `_my_packages` map. The res
 And just to complete the example: I prefer this method:
 
 ```yaml
+# vars/main.yml
 _my_packages:
   default: []
   Debian:
     - python3-docker
 
-my_packages: "{{ _my_packages[ansible_os_family] | default('default') }}"
+my_packages: "{% raw %}{{ _my_packages[ansible_os_family] | default('default') }}{% endraw %}"
+```
+
+```yaml
+# tasks/main.yml
+- name: Install packages
+  ansible.builtin.package:
+    - name: "{% raw %}{{ my_packages }}{% endraw %}
 ```
 
 As a maintainer of the above code, you can focus on the `_my_packages` map/dict. In my experience, this is simpler; Think of the logic once (`tasks/main.yml` or `playbook.yml`) and focus on "data" later. (`vars/main.yml` or anywhere else you'd put variables.)
