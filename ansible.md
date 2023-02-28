@@ -12,7 +12,6 @@ These playbooks are mostly used to test roles, or prove an integration works.
 |[ansible-playbook-minikube](https://github.com/robertdebock/ansible-playbook-minikube)|
 |[ansible-playbook-mylucie](https://github.com/robertdebock/ansible-playbook-mylucie)|
 |[ansible-playbook-rancher](https://github.com/robertdebock/ansible-playbook-rancher)|
-|[ansible-playbook-saltstack](https://github.com/robertdebock/ansible-playbook-saltstack)|
 |[ansible-playbook-terraform](https://github.com/robertdebock/ansible-playbook-terraform)|
 |[ansible-playbook-vault](https://github.com/robertdebock/ansible-playbook-vault)|
 |[ansible-playbook-zabbix](https://github.com/robertdebock/ansible-playbook-zabbix)|
