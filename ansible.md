@@ -299,6 +299,6 @@ The goal is to let all Ansible roles work on as many distributions as possible, 
 
 The goal is to let all roles work on these Ansible version:
 
-- 4
-- 5
 - 6
+- 7
+- 8
