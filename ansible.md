@@ -21,6 +21,7 @@ These playbooks are mostly used to test roles, or prove an integration works.
 
 |Collection|Function|
 |----------|------|
+|[bareos](https://galaxy.ansible.com/robertdebock/ansible-collection-bareos)|All [Bareos](https://www.bareos.com) roles from [robertdebock.nl](https://robertdebock.nl)|
 |[roles](https://galaxy.ansible.com/robertdebock/ansible-collection-roles)|All roles from [robertdebock.nl](https://robertdebock.nl)|
 |[development_environment](https://galaxy.ansible.com/robertdebock/development_environment)|A development environment.|
 |[rundeck_collection](https://galaxy.ansible.com/robertdebock/rundeck_collection)|Trying out a collection.|
