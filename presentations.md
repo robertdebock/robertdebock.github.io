@@ -33,3 +33,5 @@ If you want to request me to present on of the topics below, please let me know:
 - [GitLab pipelines using Vault](/presentations/gitlab-vault)
 - [Production Grade Ansible](/presentations/production-grade-ansible)
 - [Ansible Speedy Code](/presentations/ansible-speedy-code)
+- [Developing Patterns](/presentations/developing-patterns)
+- [Terraform Modules](/presentations/terraform-modules)
