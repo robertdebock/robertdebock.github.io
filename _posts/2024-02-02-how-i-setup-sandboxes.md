@@ -17,7 +17,7 @@ I'll mostly know what the deliverable is up-front. Sometimes it's difficult to v
 
 Anyway, once I know **what** to do and know **where** to do it, I'll start drawing. Images like this, quite abstract:
 
-![Rough Architecture](../images/rough-architecture.png)
+![Rough Architecture](/images/rough-architecture.png)
 
 This imaging gives me a clue how to start coding. Coding I'll mostly use Terraform to deploy infrastructure. It nearly always ends up with some instances, a load-balancer and everything required to support the application.
 
