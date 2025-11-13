@@ -130,6 +130,8 @@ This is the simplest migration. You can (either):
 
 This migration proves more difficult. The structure that Vault Enterprise (actually Raft) stores data is incompatible with both Vault (Community/OSS) and OpenBao.
 
+Happily I work for [Adfinis](https://adfinis.com/) where we support many OpenBao/Vault/Vault Enterprise environments and have tooling available to migrate from Vault Enterprise to OpenBao.
+
 ## Conclusion
 
 OpenBao is pretty capable, in some areas more capable than Vault. I'm expecting OpenBoa to be developed further and cover missing functionality soon.
