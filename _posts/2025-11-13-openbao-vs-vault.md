@@ -11,13 +11,13 @@ There are differences between OpenBao and Vault (and Vault Enterprise). Let's co
 
 | Feature | OpenBao | Vault | Vault Enterprise |
 | --- | --- | --- | --- |
-| Namespaces | [x] | [ ] | [x] |
-| High Availability | [x] | [x] | [x] |
-| Auto unsealing | [x] | [x] | [x] |
-| Replication | [ ] | [ ] | [x] |
-| Performance standby | [ ] | [ ] | [x] |
-| Auto Snapshot | [ ] | [ ] | [x] |
-| Sentinel | [ ] | [ ] | [x] |
+| Namespaces | ✅ | ❌ | ✅ |
+| High Availability | ✅ | ✅ | ✅ |
+| Auto unsealing | ✅ | ✅ | ✅ |
+| Replication | ❌ | ❌ | ✅ |
+| Performance standby | ❌ | ❌ | ✅ |
+| Auto Snapshot | ❌ | ❌ | ✅ |
+| Sentinel | ❌ | ❌ | ✅ |
 
 
 > In general, you can clearly see that OpenBao is a fork of Vault (Community/Open Source) and lacks some "enterprise" features.
@@ -38,11 +38,11 @@ OpenBao/Vault will start up in a sealed state. That means the backend where data
 
 | Method | OpenBao | Vault | Vault Enterprise |
 | --- | --- | --- | --- |
-| Shamir | [x] | [x] | [x] |
-| Cloud key | [x] | [x] | [x] |
-| HSM | [x] | [ ] | [x] |
-| Transit | [x] | [x] | [x] |
-| Static | [x] | [ ] | [ ] |
+| Shamir | ✅ | ✅ | ✅ |
+| Cloud key | ✅ | ✅ | ✅ |
+| HSM | ✅ | ❌ | ✅ |
+| Transit | ✅ | ✅ | ✅ |
+| Static | ✅ | ❌ | ❌ |
 
 > Note: The ["Static"](https://openbao.org/docs/configuration/seal/static/) unseal method is nice for development purposes, but not for production use; the unseal key is stored on the node that runs OpenBao, which makes it quite insecure. Great for development though!
 
@@ -90,10 +90,10 @@ All versions of Vault support "audit-devices". These are destinations to store a
 
 | Device type | OpenBao | Vault | Vault **Enterprise** |
 | --- | --- | --- | --- |
-| file | [x] | [x] | [x] |
-| syslog | [x] | [x] | [x] |
-| socket | [x] | [x] | [x] |
-| http | [x] | [ ] | [ ] |
+| file | ✅ | ✅ | ✅ |
+| syslog | ✅ | ✅ | ✅ |
+| socket | ✅ | ✅ | ✅ |
+| http | ✅ | ❌ | ❌ |
 
 Besides the extra "http" type, OpenBao has an extra method to configure the audit device: in the configuration file. This sounds trivial, but **it's** quite important. It means all requests, from the very first request, **are** audited. With Vault, any request done before the audit device is configured is not logged.
 
