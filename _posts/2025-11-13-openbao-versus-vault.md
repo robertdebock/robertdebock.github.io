@@ -1,3 +1,4 @@
+---
 title: OpenBao versus Vault (Enterprise)
 ---
 
