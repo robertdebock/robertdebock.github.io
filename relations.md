@@ -17,9 +17,8 @@ Because these 3 relations can be confusing, here is a table that explains the re
 |Debian           |**all**         |debian         |latest  |master  |
 |Debian           |trixie (13)     |debian         |latest  |master  |
 |Debian           |bookworm (12)   |debian         |bookworm|bookworm|
-|Fedora           |44              |fedora         |latest  |master  |
 |Fedora           |44              |fedora         |44      |44      |
-|Fedora           |45              |fedora         |45      |45      |
+|Fedora           |45              |fedora         |latest  |master  |
 |Fedora           |rawhide         |fedora         |rawhide |rawhide |
 |Ubuntu           |**all**         |ubuntu         |latest  |master  |
 |Ubuntu           |noble (24.04)   |ubuntu         |latest  |master  |
