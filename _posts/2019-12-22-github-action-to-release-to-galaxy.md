@@ -10,7 +10,7 @@ I'm using 2 actions to:
 1. test the role using Molecule
 2. release the role to Galaxy
 
-GitHub is offering [20 concurrent builds](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-github-actions#usage-limits) which is quite a lot, more than [Travis](https://travis-ci.org/)'s limit of 5. The build could be 4 times faster. Faster CI, happier developers. ;-)
+GitHub is offering [20 concurrent builds](https://docs.github.com/en/actions/administering-github-actions/usage-limits-billing-and-administration) which is quite a lot, more than [Travis](https://travis-ci.org/)'s limit of 5. The build could be 4 times faster. Faster CI, happier developers. ;-)
 
 Here are a few examples. First; just release to Galaxy, no testing includes. (Not a smart idea)
 

@@ -9,7 +9,7 @@ I specialize in infrastructural development practices, which include:
 1. Ansible
 2. Docker
 3. Kubernetes
-4. CI/CD Travis, GitLab, GitHub.
+4. CI/CD GitHub Actions, GitLab CI.
 5. SUSE Rancher
 6. Hashicorp Vagrant, Terraform, Vault
 

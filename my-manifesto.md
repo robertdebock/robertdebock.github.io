@@ -60,7 +60,7 @@ There are multiple types of code:
 - The code for the application - Typically Python, C, PHP, etc.
 - Code packaging - Typically RPM, NPM, or PIP.
 - Code for configuration - Typically Ansible or Puppet.
-- The pipeline - Typically Travis-CI or GitLab-CI.
+- The pipeline - Typically GitHub Actions or GitLab CI.
 - Test code - Typically Ansible playbooks, bats, goss or bash.
 
 ## [Integration](#integration)

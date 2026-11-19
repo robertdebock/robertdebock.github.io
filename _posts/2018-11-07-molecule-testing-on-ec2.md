@@ -4,7 +4,7 @@ title: Ansible Molecule testing on EC2
 
 # Ansible Molecule testing on EC2
 
-[Molecule](https://molecule.readthedocs.io/en/latest/) is great to test [Ansible](https://www.ansible.com/) roles, but testing locally with has it's limitations:
+[Molecule](https://ansible.readthedocs.io/projects/molecule/) is great to test [Ansible](https://www.ansible.com/) roles, but testing locally with has it's limitations:
 
 - [Docker](https://www.docker.com/) - Not everything is possible in Docker, like starting services, rebooting of working with block devices.
 - [Vagrant](https://www.vagrantup.com/) - Nearly everything is possible, but it's resource intensive, making testing slow.

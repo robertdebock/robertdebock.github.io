@@ -24,7 +24,7 @@ To explain what happens:
 
 ## Use ansible-lint for quick feedback
 
-[Andrew](https://github.com/awcrosby) has written [a tool](https://github.com/ansible/ansible-lint) including [many rules](https://github.com/ansible/ansible-lint/tree/master/lib/ansiblelint/rules) that help you write readable and consistent code.
+[Andrew](https://github.com/awcrosby) has written [a tool](https://github.com/ansible/ansible-lint) including [many rules](https://github.com/ansible/ansible-lint/tree/main/src/ansiblelint/rules) that help you write readable and consistent code.
 
 There are times where [I don't agree](https://github.com/ansible/ansible-lint/pull/409) to the rules, but the feedback is quickly processed.A
 

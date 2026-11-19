@@ -3,13 +3,13 @@
 The filosofy to test is:
 - Test multiple distributions. (see `.gitlab-ci.yml` and `.github/workflows/molecule.yml`)
 
-- Alpine
-- Amazonlinux
-- CentOS
-- Debian
-- Fedora
-- OpenSuse
-- Ubuntu
+- Alpine (`alpine`, `latest`)
+- Enterprise Linux (`enterpriselinux`, `latest`)
+- Debian (`debian`, `latest` and `bookworm`)
+- Fedora (`fedora`, `latest`)
+- Ubuntu (`ubuntu`, `latest` and `jammy`)
+
+Roles trim this list to the platforms they support, the matrix is generated from `meta/main.yml`. See [distribution relations](relations.html) for the images and tags.
 
 There are multiple tests configured, here is how they relate.
 

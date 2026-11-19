@@ -4,7 +4,7 @@ title: Ansible Fest Atlanta 2019
 
 # Ansible Fest Atlanta 2019
 
-Announcements on [Ansible](https://www.ansible.com/), [AWX](https://www.ansible.com/products/awx-project/faq), [Molecule](https://molecule.readthedocs.io/en/stable/), [Galaxy](https://galaxy.ansible.com/), [Ansible-lint](https://docs.ansible.com/ansible-lint/) and many other produts are always done on Ansible Fest.
+Announcements on [Ansible](https://www.ansible.com/), [AWX](https://www.ansible.com/products/awx-project/faq), [Molecule](https://ansible.readthedocs.io/projects/molecule/), [Galaxy](https://galaxy.ansible.com/), [Ansible-lint](https://docs.ansible.com/ansible-lint/) and many other produts are always done on Ansible Fest.
 
 Here is what I picked up on [Ansible Fest 2019 in Atlanta, Georgia](https://www.ansible.com/ansiblefest).
 
@@ -34,14 +34,10 @@ Here is how to [develop Ansible Collections](https://docs.ansible.com/ansible/de
 
 There are a few applications to analyse data and give insights on development and usage of Ansible:
 
-- [Roles analysis](https://stats.eng.ansible.com/apps/galaxy/RolesStats.html)
-- [Modules details](https://stats.eng.ansible.com/apps/docs/ModuleMomentum.html)
-- [Pull requests per country](https://stats.eng.ansible.com/apps/docs/newmap.html)
 
-There are many more perspectives, [have a look](https://stats.eng.ansible.com/apps/).
 
 # Next Ansible Fest not in Europe
 
-[Spain seems to be the largest contributor](https://stats.eng.ansible.com/apps/docs/newmap.html) of Ansible, but next Ansible Fest will be in San Diego.
+Spain seems to be the largest contributor of Ansible, but next Ansible Fest will be in San Diego.
 
 The Contributors Summit will be in Europe though.

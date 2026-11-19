@@ -4,7 +4,7 @@ title: Looping in Terraform, Ansible and Bash
 
 # Looping in Terraform, Ansible and Bash
 
-Looping is quite an important mechanism in coding. (Thanks [@Andreas](https://in0rdr.github.io/) for the word `coding`, a mix of scripting and programming.)
+Looping is quite an important mechanism in coding. (Thanks @Andreas for the word `coding`, a mix of scripting and programming.)
 
 Looping allows you to write a piece of logic once, and reuse it as many times are required.
 

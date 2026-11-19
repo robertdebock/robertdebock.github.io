@@ -4,7 +4,7 @@ Testing uses a few tools to reduce the amount of code/lines and thus reduces the
 
 # [Molecule](#molecule)
 
-[Molecule](https://molecule.readthedocs.io/en/stable/) is used to test an Ansible role. Molecule know "scenarios". I use one called `default`. That default scenario optionally listens to an environment variable to determine what distribution to test: `distribution`.
+[Molecule](https://ansible.readthedocs.io/projects/molecule/) is used to test an Ansible role. Molecule know "scenarios". I use one called `default`. That default scenario optionally listens to an environment variable to determine what distribution to test: `distribution`.
 
 This is how you can use it:
 

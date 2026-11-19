@@ -34,7 +34,7 @@ Be sure to escape weird characters. My username contains a `|`, for example: `fo
 
 ## Change molecule.yml
 
-[Molecule](https://molecule.readthedocs.io/) can pickup environment variables as [documented](https://molecule.readthedocs.io/en/stable/configuration.html#variable-substitution).
+[Molecule](https://ansible.readthedocs.io/projects/molecule/) can pickup environment variables as [documented](https://ansible.readthedocs.io/projects/molecule/configuration/#variable-substitution).
 
 So, your `molecule.yml` may end up something like this:
 
