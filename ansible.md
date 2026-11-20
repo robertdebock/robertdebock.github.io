@@ -25,7 +25,7 @@ These playbooks are mostly used to test roles, or prove an integration works.
 
 ## [Roles](#roles)
 
-A monthly test to see of the role still works on the current distributions. Some roles contain a version that requires frequent changes and tests. To better understand what distributions and their versions are tested, have a look at the [relations](relations.html) page.
+A monthly test to see if the role still works on the current distributions. Some roles contain a version that requires frequent changes and tests. To better understand what distributions and their versions are tested, have a look at the [relations](relations.html) page.
 
 |Role name|GitHub Action|GitLab CI|Version|
 |---------|-------------|---------|-------|
@@ -202,13 +202,11 @@ A monthly test to see of the role still works on the current distributions. Some
 |[zabbix_server](https://galaxy.ansible.com/robertdebock/zabbix_server)|[![github](https://github.com/robertdebock/ansible-role-zabbix_server/actions/workflows/molecule.yml/badge.svg)](https://github.com/robertdebock/ansible-role-zabbix_server/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-zabbix_server/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-zabbix_server/-/pipelines)|[![version](https://img.shields.io/github/commits-since/robertdebock/ansible-role-zabbix_server/latest.svg)](https://github.com/robertdebock/ansible-role-zabbix_server/releases)|
 |[zabbix_web](https://galaxy.ansible.com/robertdebock/zabbix_web)|[![github](https://github.com/robertdebock/ansible-role-zabbix_web/actions/workflows/molecule.yml/badge.svg)](https://github.com/robertdebock/ansible-role-zabbix_web/actions)|[![gitlab](https://gitlab.com/robertdebock-iac/ansible-role-zabbix_web/badges/master/pipeline.svg)](https://gitlab.com/robertdebock-iac/ansible-role-zabbix_web/-/pipelines)|[![version](https://img.shields.io/github/commits-since/robertdebock/ansible-role-zabbix_web/latest.svg)](https://github.com/robertdebock/ansible-role-zabbix_web/releases)|
 
-Unit tests and integration tests are use to verify the quality of the roles, read [more about testing](testing.html)
+Unit tests are used to verify the quality of the roles, read [more about testing](testing.html)
 
 ## [Dependencies](#dependencies)
 
-Most roles have a "soft dependency" described in `requirements.yml`. You can choose to use those roles if you like them. Here is an overview of these soft dependencies.
-
-[![Overview of dependencies](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/dependencies.png "Dependency overview")](https://raw.githubusercontent.com/robertdebock/drawings/artifacts/dependencies.png)
+Most roles have a "soft dependency": roles that should run before them, described in `molecule/default/prepare.yml` and `requirements.yml`. You can choose to use those roles if you like them. All roles ordered by these soft dependencies are listed on the [dependencies](dependencies.html) page, the longest chain has 7 levels.
 
 The dependencies are soft for these reasons:
 
@@ -221,7 +219,7 @@ Because these dependencies are loose, you have to include them in your playbook 
 ```yaml
 - name: make the best machine ever
   hosts: all
-  become: yes
+  become: true
 
   roles:
     - role: robertdebock.bootstrap
@@ -229,14 +227,13 @@ Because these dependencies are loose, you have to include them in your playbook 
     - role: robertdebock.tomcat
 ```
 
-Some roles have a hard dependencies on another role, mainly for a shared handler or variables set in the parent role, used in the child role. More details on [how to use these roles](how-to-use-these-roles.html). These hard dependencies are describe in `meta/main.yml` under `dependencies`.
+A hard dependency is only used if it is really required, mainly for a shared handler or variables set in the parent role, used in the child role. More details on [how to use these roles](how-to-use-these-roles.html). These hard dependencies are described in `meta/main.yml` under `dependencies`.
 
 | Role          | Depends on | Reason |
 |---------------|------------|--------|
 | [mediawiki](https://galaxy.ansible.com/robertdebock/mediawiki/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | handler |
 | [php](https://galaxy.ansible.com/robertdebock/php/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | handler |
 | [phpmyadmin](https://galaxy.ansible.com/robertdebock/phpmyadmin/) | [httpd](https://galaxy.ansible.com/robertdebock/httpd/) | handler |
-| [revealmd](https://galaxy.ansible.com/robertdebock/revealmd/) | [npm](https://galaxy.ansible.com/robertdebock/npm/) | required prerequisites |
 | [revealmd](https://galaxy.ansible.com/robertdebock/revealmd/) | [npm](https://galaxy.ansible.com/robertdebock/npm/) | required prerequisites |
 
 A page [describing how I release](dependencies.html) considering these dependencies.
@@ -247,24 +244,19 @@ See the [overview of issues and pull requests](contributions.html).
 
 ## [Distributions](#distributions)
 
-The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. For each distribution, the current and previous release is tested. A role may work on diferent distributions, like Red Hat Enterprise Linux (RHEL), but it's not tested against it. By default these Linux distributions are included in the tests:
+The goal is to let all Ansible roles work on as many distributions as possible, but this is sometimes not possible. For each distribution, the current and previous release is tested. A role may work on different distributions, like Red Hat Enterprise Linux (RHEL), but it's not tested against it. A role lists the distributions it supports in `meta/main.yml`, these are the distributions that can be tested:
 
-| Distribution | Version(s)               |
-|--------------|--------------------------|
-| Archlinux    | latest                   |
-| Alpine       | latest & edge*           |
-| CentOS       | 7 & latest               |
-| Debian       | stable & unstable*       |
-| Fedora       | latest & rawhide*        |
-| OpenSUSE     | leap & tumbleweed        |
-| Ubuntu       | latest, devel* & rolling |
+| Distribution | Version(s)                          |
+|--------------|-------------------------------------|
+| Alpine       | latest                              |
+| Amazon Linux | latest (a few roles)                |
+| Debian       | 13 (trixie) & 12 (bookworm)         |
+| Enterprise Linux | 9                               |
+| Fedora       | 45 (latest) & 44                    |
+| Ubuntu       | 24.04 (noble) & 22.04 (jammy)       |
 
-`*` = These are experimental, builds are done for informative purposes and may fail.
+Not every role supports every distribution, for example when a vendor does not publish packages. See [distribution relations](relations.html) for the container images and [testing](testing.html) for how roles are tested.
 
 ## [Ansible versions](#ansible-versions)
 
-The goal is to let all roles work on these Ansible version:
-
-- 6
-- 7
-- 8
+The roles are tested with one version of Ansible: the latest release of `ansible-core` (currently 2.22, part of Ansible 15). The minimum version of `ansible-core` required is 2.20, which is set in `meta/main.yml` of each role. `ansible-core` 2.22 needs Python 3.13 on the machine that runs Ansible, the managed machines need a Python version that your `ansible-core` release supports.

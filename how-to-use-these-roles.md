@@ -1,19 +1,19 @@
 ## [How to use these roles](#how-to-use-these-roles)
 
-There is [quite](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html) [some](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html) [documentation](https://docs.ansible.com/ansible/latest/user_guide/playbooks_intro.html) available already, but it can't hurt to briefly explain how to use these roles.
+There is [quite](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html) [some](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html) [documentation](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html) available already, but it can't hurt to briefly explain how to use these roles.
 
 ## [My promise](#my-promise)
 
-- The roles work on as many distribution as possible. The intent is that you can switch the operating system, without changing your playbook or variables. There are exceptions, for example Zabbix is only provided for a few operating systems.
+- The roles work on as many distribution as possible. The intent is that you can switch the operating system, without changing your playbook or variables. There are exceptions, for example the Zabbix roles, as Zabbix is only provided for a few operating systems.
 - These roles are as simple as possible. There can be cases where complicated stuff happens, but that's required from time to time.
-- These roles are thoroughly tested. On each commit, pull request and release and also on full virtual machines.
+- These roles are thoroughly tested. On each commit and every month, in containers on GitHub Actions and GitLab CI, see [testing](testing.html).
 
-## [Installing the roles](#installing the roles)
+## [Installing the roles](#installing-the-roles)
 
 Before using any role, they need to be installed. There are a few ways to do that:
 
-1. Install them one-by-one using `ansible-galaxy install robertdebock.bootstrap` for example.
-2. Install them using a `requirements.yml` file (see below) using `ansible-galaxy install --role-file requirements.yml`.
+1. Install them one-by-one using `ansible-galaxy role install robertdebock.bootstrap` for example.
+2. Install them using a `requirements.yml` file (see below) using `ansible-galaxy role install --role-file requirements.yml`.
 
 The `requirements.yml` file is a list of roles, for example:
 
@@ -25,7 +25,7 @@ The `requirements.yml` file is a list of roles, for example:
 These roles are typically installed in `~/.ansible/roles/`. You can configure Ansible to look somewhere else though, for example this `ansible.cfg` stores the roles "locally", in the same directory where the ansible.cfg is found:
 
 ```ini
-[default]
+[defaults]
 roles_path = roles
 ```
 
@@ -37,37 +37,37 @@ Once the roles are downloaded, you can integrate them into a playbook, for examp
 ---
 - name: bootstrap all hosts
   hosts: all
-  become: yes
-  gather_facts: no
+  become: true
+  gather_facts: false
 
   roles:
     - role: robertdebock.bootstrap
 ```
 
-You can also use `[include_role](https://docs.ansible.com/ansible/latest/modules/include_role_module.html)`.
+You can also use [`include_role`](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/include_role_module.html).
 
-## [Using variable](#using-variables)
+## [Using variables](#using-variables)
 
-Most roles can be controlled using [variables](https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html). For example by using the `vars:` statement:
+Most roles can be controlled using [variables](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_variables.html). For example by using the `vars:` statement:
 
 ```yaml
 ---
 - name: bootstrap all hosts
   hosts: all
-  become: yes
-  gather_facts: no
+  become: true
+  gather_facts: false
 
 
   roles:
     - role: robertdebock.bootstrap
-      bootstrap_user: root
+      bootstrap_wait_for_host: true
 ```
 
-Most roles have quite a few variables and the playbook can get long using the example above. Another way to use variables in in the [inventory](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html), specifically in the [group variables](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#group-variables). For example the file `group_vars/all.yml` can contain:
+Most roles have quite a few variables and the playbook can get long using the example above. Another way to use variables in in the [inventory](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html), specifically in the [group variables](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html). For example the file `group_vars/all.yml` can contain:
 
 ```yaml
 ---
-bootstrap_user: root
+bootstrap_wait_for_host: true
 ```
 
 ## [Full example](#full-example)
@@ -86,7 +86,7 @@ This is a layout of the file and directory structure that I tend to use:
     └── robertdebock.bootstrap
 ```
 
-Also see [best practices](https://docs.ansible.com/ansible/latest/user_guide/playbooks_best_practices.html#directory-layout).
+Also see [best practices](https://docs.ansible.com/ansible/latest/tips_tricks/sample_setup.html).
 
 ### [ansible.cfg](#ansible-cfg)
 
@@ -97,24 +97,24 @@ retry_files_enabled=no
 inventory=inventory
 ```
 
-Also see [Ansible configuration](https://docs.ansible.com/ansible/latest/installation_guide/intro_configuration.html).
+Also see [Ansible configuration](https://docs.ansible.com/ansible/latest/reference_appendices/config.html).
 
 ### [inventory/hosts](#inventory-hosts)
 
 ```text
-fedora-s-1vcpu-2gb-fra1-01 ansible_host=167.99.141.134
+server-01 ansible_host=192.0.2.10
 ```
 
-Also see [working with inventories](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html).
+Also see [working with inventories](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html).
 
 ### [inventory/group_vars/all.yml](#inventory-group-vars-all-yml)
 
 ```yaml
 ---
-bootstrap_wait_for_host: yes
+bootstrap_wait_for_host: true
 ```
 
-Also see [group variables](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html#group-variables)
+Also see [group variables](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html)
 
 ### [playbook.yml](#playbook-yml)
 
@@ -122,14 +122,14 @@ Also see [group variables](https://docs.ansible.com/ansible/latest/user_guide/in
 ---
 - name: bootstrap all hosts
   hosts: all
-  become: yes
-  gather_facts: no
+  become: true
+  gather_facts: false
 
   roles:
     - robertdebock.bootstrap
 ```
 
-Also see [working with playbooks](https://docs.ansible.com/ansible/latest/user_guide/playbooks.html).
+Also see [working with playbooks](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_intro.html).
 
 ### [roles/requirements.yml](#roles-requirements-yml)
 
@@ -138,7 +138,7 @@ Also see [working with playbooks](https://docs.ansible.com/ansible/latest/user_g
 - robertdebock.bootstrap
 ```
 
-Also see [installing roles from a file](https://docs.ansible.com/ansible/latest/reference_appendices/galaxy.html#installing-multiple-roles-from-a-file).
+Also see [installing roles from a file](https://docs.ansible.com/ansible/latest/galaxy/user_guide.html#installing-multiple-roles-from-a-file).
 
 ### [roles/robertdebock.bootstrap](#roles-robertdebock-bootstrap)
 
@@ -154,4 +154,4 @@ Although a consumer of the role does not need to look into the role and `ansible
 - `meta/main.yml` - Descriptive information about the role.
 - `README.md` - Documentation how to use the role.
 
-Also see [Ansible roles](https://docs.ansible.com/ansible/latest/user_guide/playbooks_reuse_roles.html).
+Also see [Ansible roles](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_reuse_roles.html).
